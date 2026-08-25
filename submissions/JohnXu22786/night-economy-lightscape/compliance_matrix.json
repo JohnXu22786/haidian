@@ -20,11 +20,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -40,7 +45,11 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -48,7 +57,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -56,7 +69,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "以「夜光智环（NIGHT·JZ）」构建沿京张AI创新带的夜景经济专项概念：以夜间活力为内容、光影为媒介、分时运营为方式，形成「夜光客厅—夜演舞台—夜集市场」三节点夜间活力网络（对应任务书夜间活力维度与 agent.6 活动体系维度）。"
+   "evidence_summary_zh": "以「夜光智环（NIGHT·JZ）」构建沿京张AI创新带的夜景经济专项概念：以夜间活力为内容、光影为媒介、分时运营为方式，形成「夜光客厅—夜演舞台—夜集市场」三节点夜间活力网络，并给出五项运营要素机制与三项产业测试协议（对应任务书夜间活力维度与 agent.6 活动体系维度）。"
   },
   {
    "requirement_id": "1.3.2",
@@ -76,27 +89,35 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
     "drawings/a0-boards.pdf"
    ],
    "visual_sections": [
-    "总览地图",
-    "核心指标",
-    "任务覆盖"
+    "重点区域",
+    "总览地图"
    ],
    "source_ids": [
     "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -104,7 +125,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -112,7 +137,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "重点区域与夜间节点对应：夜光客厅（众智园侧，夜景照明与信息界面中枢）、夜演舞台（AI原点社区侧，分时演出与声景设计）、夜集市场（大钟寺侧，夜间市集与轻餐饮运营场）的概念级空间布局。"
+   "evidence_summary_zh": "重点区域与夜间节点对应：夜光客厅（众智园侧，夜景照明与信息界面中枢）、夜演舞台（AI原点社区侧，分时演出与声景设计）、夜集市场（大钟寺侧，夜间市集与轻餐饮运营场）的概念级空间布局；AI 场景卡十张全部以匿名聚合与人工复核为边界。"
   },
   {
    "requirement_id": "1.3.3",
@@ -132,11 +157,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -152,7 +182,11 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -160,7 +194,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -168,7 +206,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "概念愿景：夜光智环——让一带的夜晚可漫步、可欣赏、可经营。"
+   "evidence_summary_zh": "概念愿景：夜光智环——让一带的夜晚可漫步、可欣赏、可经营；六类人才画像覆盖夜归通勤、青年社交、游客导览、摊主经营、老年安宁与夜班运维，并为每类保留非数字等价路径。"
   },
   {
    "requirement_id": "1.4.1",
@@ -188,11 +226,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -208,7 +251,11 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -216,7 +263,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -224,7 +275,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "严格按任务书文本口径划分三层范围，边界为 provisional，待官方几何发布后复算。"
+   "evidence_summary_zh": "严格按任务书与公告文本口径划分三层范围（统筹约43.6 km2、总体约11.4 km2、重点区域约368.4公顷），本包 sub-scope 为总体设计范围内的夜景经济概念；边界为 provisional，待官方几何发布后复算。"
   },
   {
    "requirement_id": "1.4.2",
@@ -244,11 +295,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -264,7 +320,17 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY",
+    "CASE-SRC-BUND-YUYUAN",
+    "CASE-SRC-JINJIANG",
+    "CASE-SRC-NIGHT-SAFARI",
+    "CASE-SRC-AMS-NIGHTMAYOR",
+    "CASE-SRC-YUYUAN-FAIR",
+    "CASE-SRC-SEOUL-NIGHT"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -272,7 +338,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -280,7 +350,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "统筹研究聚焦「产业与未来城市」：夜间经济与轨道站点末班客流、住区生活与科创园区夜间加班人群的协同关系判断（概念级）。"
+   "evidence_summary_zh": "统筹研究聚焦「产业与未来城市」：夜间经济与轨道站点末班客流、住区生活与科创园区夜间加班人群的协同关系判断（概念级）；对标案例六项逐案登记公开来源并标注待独立核验。"
   },
   {
    "requirement_id": "1.4.3",
@@ -300,11 +370,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -320,7 +395,11 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -328,7 +407,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -336,7 +419,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "总体设计以绿带为骨架组织夜间节点与夜游动线概念布局，以控规深度方法校核夜间设施落位与光环境导则。"
+   "evidence_summary_zh": "总体设计以绿带为骨架组织「一环三节点」夜间节点与夜游动线概念布局，以控规深度方法校核夜间设施落位与光环境导则；照明按门户—路径—节点—暗区分级并预留暗天空友好区。"
   },
   {
    "requirement_id": "1.5.1.1",
@@ -356,11 +439,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -375,7 +463,11 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -383,7 +475,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -391,7 +487,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "节点一：夜光客厅——夜景照明分级管控中枢与夜间导览信息服务，匿名聚合、人工复核兜底。"
+   "evidence_summary_zh": "节点一：夜光客厅——夜景照明分级管控中枢与夜间导览信息服务，匿名聚合、人工复核兜底；站点级门户高亮向低亮度区有序过渡，不新增大型建筑。"
   },
   {
    "requirement_id": "1.5.1.2",
@@ -411,11 +507,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -430,7 +531,11 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -438,7 +543,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -446,7 +555,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "节点二：夜演舞台——分时管控的开放演出与活动舞台；节点三：夜集市场——低干扰可逆摊位与轻餐饮运营场，串联慢行与蓝绿空间。"
+   "evidence_summary_zh": "节点二：夜演舞台——分时管控的开放演出与活动舞台，声景设计、音量上限与居民事前知情/事中反馈/事后评估闭环；节点三：夜集市场——低干扰可逆摊位与轻餐饮运营场，摊位撮合与分时许可在此试点。"
   },
   {
    "requirement_id": "1.5.2.1",
@@ -466,11 +575,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -485,7 +599,11 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -493,7 +611,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -501,7 +623,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "画像（夜归通勤者、青年居民、访客游客、市集摊主、周边老年居民）与五类AI+场景（夜景能耗优化AI、人流密度感知AI、夜间导览AI、摊位撮合AI、光污染监测AI），禁止过度监控（不进行个体识别式追踪）。"
+   "evidence_summary_zh": "六类人才画像（夜归通勤者、青年居民、访客游客、市集摊主、周边老年居民、夜间运营维护人员）与十张 AI 场景卡（含五类核心场景），全部数据匿名聚合、关键决策人工复核、禁止个体识别式追踪；三项产业测试协议明确沙盒边界与退出条件。"
   },
   {
    "requirement_id": "1.5.2.2",
@@ -521,11 +643,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -541,7 +668,11 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -549,7 +680,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -557,7 +692,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "留改拆并举：以留为主保留遗址公园肌理与历史遗存，存量建筑功能置换植入轻量可逆夜间设施（预留接口），拆除仅限局部个案论证（概念口径）。"
+   "evidence_summary_zh": "留改拆并举：以留为主保留遗址公园肌理与历史遗存，存量建筑功能置换植入轻量可逆夜间设施（预留接口），拆除仅限局部个案论证（概念口径）；用地分类采用唯一口径并说明与 green_ratio 的分层区别。"
   },
   {
    "requirement_id": "1.5.2.3",
@@ -577,11 +712,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -597,7 +737,11 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -605,7 +749,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -613,7 +761,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "交通慢行优先的交通概念：夜归慢行照明与安全路径一体化设计，末班轨交接驳与夜游动线衔接；市政以集约共享为原则，照明与供电均为概念接口示意，不给出能耗或工程量结论。"
+   "evidence_summary_zh": "交通慢行优先的交通概念：夜归慢行照明与安全路径一体化设计，末班轨交接驳与夜游动线衔接（概念机制，非时刻承诺）；市政以可逆点位化组件为主，不给出能耗或工程量结论。"
   },
   {
    "requirement_id": "1.5.2.4",
@@ -633,27 +781,35 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
     "drawings/a0-boards.pdf"
    ],
    "visual_sections": [
-    "总览地图",
-    "核心指标",
-    "任务覆盖"
+    "蓝绿公共空间",
+    "交通慢行"
    ],
    "source_ids": [
     "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -661,7 +817,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -669,7 +829,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "「夜光客厅—夜演舞台—夜集市场」沿绿带连续开敞序列：夜间设施低干预、宜轻宜透宜可逆布置，照明分级管控兼顾生态与居民休息，不遮挡历史遗迹与绿带视线。"
+   "evidence_summary_zh": "「夜光客厅—夜演舞台—夜集市场」沿绿带连续开敞序列：夜间设施低干预、宜轻宜透宜可逆布置，照明分级管控兼顾生态与居民休息，暗天空友好区与绿地核心敏感区避让明确，不遮挡历史遗迹与绿带视线。"
   },
   {
    "requirement_id": "1.5.2.5",
@@ -689,11 +849,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -709,7 +874,11 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -717,7 +886,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -725,7 +898,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "风貌整体克制统一：延续京张铁路工业记忆语汇，夜景表达克制统一、避免过度亮化与符号堆砌。"
+   "evidence_summary_zh": "风貌整体克制统一：延续京张铁路工业记忆语汇，夜景表达以低眩光、暖色基调与克制的光艺术为方向，避免过度亮化与符号堆砌；光艺术装置为可替换内容节点，不建永久地标构筑物。"
   },
   {
    "requirement_id": "1.5.3.required",
@@ -745,11 +918,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -765,7 +943,11 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -773,7 +955,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -781,7 +967,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "夜间项目按「照明环境—演艺市集—运营治理」三类滚动推进，配套分时运营许可、摊位准入、活动报备协作与光环境年度公示等政策建议（概念）。"
+   "evidence_summary_zh": "夜间项目按「照明环境—演艺市集—运营治理」三类滚动推进，配套分时运营许可、摊位准入、活动报备协作与光环境年度公示等政策建议（概念）；试点实施与长期运营给出概念 RACI 责任矩阵与监测/退出阈值。"
   },
   {
    "requirement_id": "1.5.3.1",
@@ -801,11 +987,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -821,7 +1012,11 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -829,7 +1024,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -837,7 +1036,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "分期实施：近期1-3年样板节点与基础照明分级，中期3-5年三节点建成+夜间运营机制成型，远期5-10年全域夜景品牌与运营资产沉淀（概念节奏）。"
+   "evidence_summary_zh": "众智园侧分期实施：近期1-3年样板节点与基础照明分级，中期3-5年三节点成型+夜间运营机制试行，远期5-10年全域夜景品牌与运营资产沉淀（概念节奏，每期设评估与停项条件）。"
   },
   {
    "requirement_id": "1.5.3.2",
@@ -857,11 +1056,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -877,7 +1081,11 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -885,7 +1093,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -893,7 +1105,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "目标—指标—校验概念指标体系（夜间开放时长/夜游动线贯通率/摊位利用率/光环境达标率/夜归安全感知）；三项formal核心指标以本包几何复算，面积复算以官方文本口径为底，官方数据到位后复算。"
+   "evidence_summary_zh": "AI原点社区侧目标—指标—校验概念指标体系（照明分级覆盖/夜游动线长度/场景试点数/机制条目数/公示次数）；三项formal核心指标以本包几何复算，provisional 数值显示就近取整，官方数据到位后复算。"
   },
   {
    "requirement_id": "1.5.3.3",
@@ -913,11 +1125,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -933,7 +1150,11 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -941,7 +1162,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -949,7 +1174,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "合规矩阵覆盖公告、任务书与法规参照（用地、文保、绿线蓝线、灯光照明与光环境规范、噪声与大型群众性活动管理、食品安全与市集管理、个人信息保护与数据合规、品牌IP与版权通则等）；标准矩阵与设计深度矩阵见对应 JSON。"
+   "evidence_summary_zh": "大钟寺侧合规与资料缺口管理：合规矩阵覆盖公告、任务书与法规参照（用地分类、控规办法、城市设计管理办法、生成式AI暂行办法），标准矩阵与设计深度矩阵见对应 JSON；成本仅定性分级、不给出未核验金额。"
   },
   {
    "requirement_id": "agent.1",
@@ -957,7 +1182,7 @@
    "mandatory": true,
    "report_sections": [
     "三层范围工作框架",
-    "总体设计范围城市更新与控规深度城市设计"
+    "品牌与视觉识别（NIGHT·JZ 标识与 Logo）"
    ],
    "geojson_layers": [
     "geometry/site_boundary.geojson",
@@ -970,11 +1195,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -990,7 +1220,11 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -998,7 +1232,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -1006,14 +1244,14 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "一带总体概念：夜光智环——夜景经济与光影运营带的总体统筹（含主名称、英文名称与命名体系）。"
+   "evidence_summary_zh": "一带总体概念：夜光智环——夜景经济与光影运营带的总体统筹（含主名称、英文名称 NIGHT·JZ 与命名体系）；Logo 方向、标准字、色彩、图形语法与子品牌系统见品牌章节与品牌图板，命名按内部工作代号处理。"
   },
   {
    "requirement_id": "agent.2",
    "title_zh": "AI全栈自主创新体系与世界级AI创新生态设计",
    "mandatory": true,
    "report_sections": [
-    "AI 创新生态、人才画像与 AI+ 场景",
+    "统筹研究范围产业与未来城市研究",
     "重点区域详细设计"
    ],
    "geojson_layers": [
@@ -1027,11 +1265,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -1047,7 +1290,17 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY",
+    "CASE-SRC-BUND-YUYUAN",
+    "CASE-SRC-JINJIANG",
+    "CASE-SRC-NIGHT-SAFARI",
+    "CASE-SRC-AMS-NIGHTMAYOR",
+    "CASE-SRC-YUYUAN-FAIR",
+    "CASE-SRC-SEOUL-NIGHT"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -1055,7 +1308,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -1063,7 +1320,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "夜间经济作为活力要素一环：夜光客厅、夜演舞台与夜集市场构建「照明-演艺-市集」协同回路；对标案例（上海外滩豫园夜游、成都夜游锦江、新加坡夜间动物园、阿姆斯特丹夜间市长制度）仅按公开渠道信息概述。"
+   "evidence_summary_zh": "夜间经济作为活力要素一环：夜光客厅、夜演舞台与夜集市场构建「照明-演艺-市集」协同回路；对标案例六项（上海外滩与豫园/成都夜游锦江/新加坡夜间野生动物园/阿姆斯特丹夜间市长/豫园灯会/首尔夜猫子市场）逐案登记公开来源、仅按公开渠道信息概述。"
   },
   {
    "requirement_id": "agent.3",
@@ -1083,27 +1340,35 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
     "drawings/a0-boards.pdf"
    ],
    "visual_sections": [
-    "总览地图",
-    "核心指标",
-    "任务覆盖"
+    "AI 场景",
+    "核心指标"
    ],
    "source_ids": [
     "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -1111,7 +1376,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -1119,7 +1388,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "五类AI+场景：夜景能耗优化AI、人流密度感知AI、夜间导览AI、摊位撮合AI、光污染监测AI，全部数据匿名聚合+人工复核。"
+   "evidence_summary_zh": "十张 AI+ 场景卡（夜景能耗优化、人流密度感知、夜间导览、摊位撮合、光污染监测、夜归安全指引、活动报备协作、市集积分信用、环境公示文案、运维工单）全部数据匿名聚合+人工复核；三项产业测试协议明确测试假设、沙盒边界与退出条件。"
   },
   {
    "requirement_id": "agent.4",
@@ -1140,27 +1409,35 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
     "drawings/a0-boards.pdf"
    ],
    "visual_sections": [
-    "总览地图",
-    "核心指标",
-    "任务覆盖"
+    "重点区域",
+    "总览地图"
    ],
    "source_ids": [
     "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -1168,7 +1445,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -1176,7 +1457,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "夜间公共空间：夜光客厅信息轴、夜演舞台开放舞台、夜集市场弹性摊位区，含人工服务兜底与意见复核机制。"
+   "evidence_summary_zh": "夜间公共空间：夜光客厅信息轴、夜演舞台开放舞台、夜集市场弹性摊位区，含人工服务兜底与意见复核机制；三个 AI 地标节点（landmark_count=3）与六个 AI 场景节点落地公共空间几何，配置向公众开放的科普与体验界面。"
   },
   {
    "requirement_id": "agent.5",
@@ -1197,11 +1478,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -1217,7 +1503,11 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -1225,7 +1515,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -1233,7 +1527,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "「夜光智环」叙事：铁路夜班记忆与当代夜间城市生活的叙事对话——京张铁路曾承载日夜不息的动力，一带的夜晚如今承载新的活力（概念叙事）。"
+   "evidence_summary_zh": "「夜光智环」叙事：铁路夜班记忆与当代夜间城市生活的叙事对话——京张铁路曾承载日夜不息的动力，一带的夜晚如今承载新的活力（概念叙事）；Logo 以反光弧＋三圆点表达一环三节点，平行轨道线延续京张铁路工业记忆。"
   },
   {
    "requirement_id": "agent.6",
@@ -1253,11 +1547,16 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
     "global_case_count",
-    "green_ratio"
+    "annual_program_count",
+    "phase_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -1273,7 +1572,11 @@
     "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "PACKAGE-GEOMETRY",
+    "BRAND-PRIOR-RIGHTS-POLICY"
    ],
    "assumption_ids": [
     "A-BOUNDARY-001",
@@ -1281,7 +1584,11 @@
     "A-DATA-001",
     "A-PRIVACY-001",
     "A-CONTENT-001",
-    "A-LIGHT-001"
+    "A-LIGHT-001",
+    "A-BRAND-001",
+    "A-MONITOR-001",
+    "A-COOP-001",
+    "A-LANDUSE-001"
    ],
    "self_check_ids": [
     "DETERMINISTIC_VALIDATION",
@@ -1289,7 +1596,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "夜间运营体系：分时运营许可与活动报备协作、夜经济服务积分、年度活动体系（夜光市集季、夏夜开放舞台、冬日灯光节等概念活动），机制为概念建议。"
+   "evidence_summary_zh": "夜间运营体系：分时运营许可与活动报备协作、夜经济服务积分、年度活动品牌体系（夜光市集季、夏夜开放舞台、冬日灯光节，均概念并设退出条件）；试点实施与长期运营给出概念 RACI、准入前置条件、成本定性分级、监测基线与停用撤收流程。"
   }
  ]
 }

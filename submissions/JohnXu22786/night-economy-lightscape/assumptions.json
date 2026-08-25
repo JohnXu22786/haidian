@@ -3,8 +3,8 @@
   "assumptions": [
     {
       "assumption_id": "A-BOUNDARY-001",
-      "statement_zh": "组织方尚未发布官方总体边界与重点区域 polygon，本方案全部几何为 provisional 临时粗略约束，仅用于内容组织、讨论与返修，官方几何发布后整体复算。",
-      "statement_en": "No official boundary or key-area polygons are published yet; all geometry is provisional.",
+      "statement_zh": "组织方尚未发布官方总体边界与重点区域 polygon，本方案全部几何为 provisional 临时粗略约束，仅用于内容组织、讨论与返修，官方几何发布后整体复算；任何展示均就近取整，不呈现伪测绘精度。",
+      "statement_en": "No official boundary or key-area polygons are published yet; all geometry is provisional and displayed rounded.",
       "category": "boundary",
       "status": "accepted_limitation"
     },
@@ -17,15 +17,15 @@
     },
     {
       "assumption_id": "A-DATA-001",
-      "statement_zh": "夜间客流、摊位与消费数据仅有公开报道口径，本方案不引用未核实数值，不编造客流、营收或摊位数据。",
-      "statement_en": "No unverified night-time visitor or revenue figures are cited.",
+      "statement_zh": "夜间客流、摊位与消费数据仅有公开报道口径，本方案不引用未核实数值，不编造客流、营收或摊位数据；案例断言均按公开渠道口径登记并注明待独立核验。",
+      "statement_en": "No unverified night-time visitor or revenue figures are cited; case assertions are public-channel calibers pending verification.",
       "category": "data_boundary",
       "status": "accepted_limitation"
     },
     {
       "assumption_id": "A-PRIVACY-001",
-      "statement_zh": "人流密度感知与夜间导览均以匿名聚合为边界，不进行个体识别式追踪、不建立大规模行为画像，关键决策人工复核。",
-      "statement_en": "Anonymized aggregation only; no individual-identifying tracking; human review for key decisions.",
+      "statement_zh": "人流密度感知与夜间导览均以匿名聚合为边界，不进行个体识别式追踪、不建立大规模行为画像，关键决策人工复核；隐私事件即触发 AI 停用与数据处置流程。",
+      "statement_en": "Anonymized aggregation only; no individual-identifying tracking; human review for key decisions; privacy events trigger AI stop and data disposal.",
       "category": "privacy",
       "status": "accepted_limitation"
     },
@@ -38,9 +38,37 @@
     },
     {
       "assumption_id": "A-LIGHT-001",
-      "statement_zh": "夜景照明涉及光环境与生态影响（鸟类、昆虫与居民），本方案仅作分级管控概念建议，不承诺照明参数。",
-      "statement_en": "Night lighting is a concept-level tiered-control suggestion; no lighting parameters promised.",
+      "statement_zh": "夜景照明涉及光环境与生态影响（鸟类、昆虫与居民），本方案仅作分级管控概念建议，不承诺照明参数；照明、噪声、垃圾与客流基线待实测建档。",
+      "statement_en": "Night lighting is a concept-level tiered-control suggestion; no lighting parameters promised; baselines to be measured.",
       "category": "environment",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-BRAND-001",
+      "statement_zh": "概念阶段未完成官方商标检索，NIGHT·JZ、夜光智环及子品牌名称现阶段一律按内部工作代号处理；官方检索与清障完成前，不与任何外部主体签署品牌使用、授权或注册安排，不用于商业推广；若与在先权利冲突将整体换名。",
+      "statement_en": "No official trademark search completed at concept stage; all brand names are internal working codenames pending clearance and may be renamed on conflict.",
+      "category": "brand_prior_rights",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-MONITOR-001",
+      "statement_zh": "照明、噪声、活动安全、食品、垃圾、隐私与居民协商的监测基线多数缺实测值，本方案以「待建」标注并给出概念阈值，不编造基线数值；正式基线建成后触发阈值复算。",
+      "statement_en": "Monitoring baselines for light, noise, safety, food, waste, privacy and consultation are mostly unmeasured; marked 'to be established' with concept thresholds only.",
+      "category": "monitoring",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-COOP-001",
+      "statement_zh": "与北纬社区、未来科学城、怀柔科学城、经开区及京津冀的协作关系全部为概念接口、待核验，不暗示已有政府或机构承诺；统筹协调按「未来数据与算力统筹协调机制（概念）」表述，不拟设行政机构。",
+      "statement_en": "Cooperation relations with Beiwei Community, Future Science City, Huairou Science City, ETDZ and Beijing-Tianjin-Hebei are concept interfaces pending verification, implying no existing commitments or new administrative bodies.",
+      "category": "regional_cooperation",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-LANDUSE-001",
+      "statement_zh": "本包用地分类使用唯一口径（国标公开子集，聚合规则＝类目面积÷场地面积）；green_ratio 为绿线概念绿地率口径，二者分层不同、互不替代；官方用地数据发布后整体复算。",
+      "statement_en": "Single land-use caliber used package-wide; green_ratio uses the greenline layer caliber; all recomputed after official release.",
+      "category": "land_use_caliber",
       "status": "accepted_limitation"
     }
   ]

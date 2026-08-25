@@ -1,5 +1,10 @@
 {
   "schema_version": "0.1.0",
+  "notes_zh": "全部面积类指标来自本包 provisional 概念几何，属参与者临时模型数据：机器可校验的完整数值仅保留在此文件与 visual 页面的 data-value 中，人类可读展示一律就近取整。官方数据发布后按同口径整体复算。",
+  "display_precision": {
+    "rule": "provisional values are displayed rounded (site area in ha with 0-1 decimals, ratios in percent with 1 decimal); full machine values kept for validation only",
+    "example_display": "site_area_sqm -> 约1141公顷; green_ratio -> 约11.0%; public_space_ratio -> 约0.45%"
+  },
   "units": {
     "length": "m",
     "area": "sqm"
@@ -13,9 +18,9 @@
         "geometry/site_boundary.geojson"
       ],
       "formula": "polygon_area(provisional_site_boundary, EPSG:4548)",
-      "confidence": "medium",
+      "confidence": "low",
       "assumptions": [
-        "Provisional boundary, not an official redline."
+        "Provisional boundary, not an official redline; display rounded to ~1,141 ha (~11.4 km2, consistent with official announcement text caliber)."
       ]
     },
     "green_space_area_sqm": {
@@ -27,7 +32,9 @@
       ],
       "formula": "union(conceptual green polygons, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Concept greenline caliber; display rounded to ~126 ha; not the land-use-class park-green share (22.7%) which uses a different layer. See proposal land-use caliber statement."
+      ]
     },
     "public_space_area_sqm": {
       "status": "known",
@@ -38,7 +45,9 @@
       ],
       "formula": "union(conceptual public-space polygons, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Concept public-space caliber; display rounded to ~5.2 ha."
+      ]
     },
     "building_footprint_area_sqm": {
       "status": "known",
@@ -49,7 +58,9 @@
       ],
       "formula": "union(conceptual reuse-first envelopes, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Concept reuse-first envelopes; display rounded to ~11.2 ha."
+      ]
     },
     "green_ratio": {
       "status": "known",
@@ -61,7 +72,9 @@
       ],
       "formula": "green_space_area_sqm / site_area_sqm",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Concept greenline caliber (green_space layer / site). The land-use-class park-green share 22.7% (land_use 1401) is a different layer; both are explained in proposal.md. Display ~11.0%."
+      ]
     },
     "public_space_ratio": {
       "status": "known",
@@ -73,7 +86,9 @@
       ],
       "formula": "public_space_area_sqm / site_area_sqm",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Concept public-space caliber; display ~0.45%."
+      ]
     },
     "road_network_length_m": {
       "status": "known",
@@ -84,7 +99,9 @@
       ],
       "formula": "sum(conceptual paths, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Concept network length; display ~10.2 km."
+      ]
     },
     "key_area_count": {
       "status": "known",
@@ -95,11 +112,13 @@
       ],
       "formula": "count(area_id in key_areas.geojson)",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [
+        "Three key areas per official announcement text; polygons provisional."
+      ]
     },
     "land_use_zone_count": {
       "status": "known",
-      "value": 24,
+      "value": 27,
       "unit": "count",
       "source_files": [
         "geometry/land_use.geojson"
@@ -146,34 +165,43 @@
       "value": 3,
       "unit": "count",
       "source_files": [
-        "proposal.md"
+        "proposal.md",
+        "proposal.en.md"
       ],
-      "formula": "count(industry_validation scenario cards)",
+      "formula": "count(industry_validation scenario test protocols table rows)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Three industry test protocols are explicitly listed in the proposal (产业测试场景（测试协议）table)."
+      ]
     },
     "persona_count": {
       "status": "known",
-      "value": 5,
-      "unit": "count",
-      "source_files": [
-        "proposal.md"
-      ],
-      "formula": "count(representative user groups)",
-      "confidence": "high",
-      "assumptions": []
-    },
-    "global_case_count": {
-      "status": "known",
-      "value": 4,
+      "value": 6,
       "unit": "count",
       "source_files": [
         "proposal.md",
+        "proposal.en.md"
+      ],
+      "formula": "count(representative user groups in persona table)",
+      "confidence": "high",
+      "assumptions": [
+        "Six persona types: night commuter, young resident, visitor/tourist, stallholder, elderly nearby resident, night operation staff."
+      ]
+    },
+    "global_case_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "proposal.en.md",
         "sources.json"
       ],
-      "formula": "count(global ecosystem mechanism cases)",
+      "formula": "count(benchmark case table rows)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Six cases registered case-by-case in sources.json (CASE-SRC-* entries); claims are public-channel caliber only."
+      ]
     },
     "phase_count": {
       "status": "known",
@@ -191,11 +219,14 @@
       "value": 3,
       "unit": "count",
       "source_files": [
-        "proposal.md"
+        "proposal.md",
+        "proposal.en.md"
       ],
-      "formula": "count(annual event system)",
+      "formula": "count(annual programme table rows)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Three annual programme brands: Night Market Season, Summer Open Stage, Winter Light Festival (concepts)."
+      ]
     }
   }
 }
