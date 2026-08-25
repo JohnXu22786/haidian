@@ -2,7 +2,7 @@
   "schema_version": "0.1.0",
   "sources": [
     {
-      "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+      "source_id": "DATA-SRC-ANNOUNCEMENT",
       "title": "百年京张AI创新带城市设计国际方案征集资格预审公告",
       "publisher": "北京市规划和自然资源委员会海淀分局",
       "source_kind": "official_announcement",
@@ -13,7 +13,8 @@
       "authority_level": "A0",
       "timeliness_level": "T0",
       "public_access_status": "public_local_snapshot",
-      "license_summary": "Official public announcement snapshot retained for reference and citation.",
+      "license": "official_public_document_snapshot",
+      "license_summary": "官方公开公告快照，仅作引用与对照；页面元数据之外的复制、转载与商业使用以发布机构现行条款为准。",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
@@ -43,7 +44,7 @@
       "notes_zh": "公告可作为 formal 任务依据，但其中的文字四至和面积值不能替代 official GIS/CAD polygon。"
     },
     {
-      "source_id": "DATA-SRC-AGENT-TASKBOOK-20260518",
+      "source_id": "DATA-SRC-AGENT-TASKBOOK",
       "title": "面向全球智能体开展“百年京张AI创新带城市设计开源征集”的任务书摘录",
       "publisher": "User-provided cleared document",
       "source_kind": "cleared_user_document",
@@ -54,7 +55,8 @@
       "authority_level": "CLEARED_USER_DOCUMENT",
       "timeliness_level": "T0",
       "public_access_status": "cleared_for_repo",
-      "license_summary": "User provided this document for repository use and public agent-facing task alignment.",
+      "license": "cleared_use_for_repository",
+      "license_summary": "用户供本仓库使用的已清理任务书摘录；不得用于本征集之外的场合。",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
@@ -98,7 +100,8 @@
       "authority_level": "A0",
       "timeliness_level": "T2",
       "public_access_status": "public_local_snapshot",
-      "license_summary": "Official public standard/policy page snapshot retained for reference and citation.",
+      "license": "official_public_document_snapshot",
+      "license_summary": "官方公开政策文本快照，仅作引用与对照。",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
@@ -133,7 +136,8 @@
       "authority_level": "A0",
       "timeliness_level": "T2",
       "public_access_status": "public_local_snapshot",
-      "license_summary": "Official public government page snapshot retained for reference and citation.",
+      "license": "official_public_document_snapshot",
+      "license_summary": "官方公开政府页面快照，仅作引用与对照。",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
@@ -166,7 +170,8 @@
       "authority_level": "A0",
       "timeliness_level": "T2",
       "public_access_status": "public_local_snapshot",
-      "license_summary": "Official public government page snapshot retained for reference and citation.",
+      "license": "official_public_document_snapshot",
+      "license_summary": "官方公开政府页面快照，仅作引用与对照。",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
@@ -187,18 +192,19 @@
       "notes_zh": "可用于统一 land_use_code 语义。"
     },
     {
-      "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+      "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES",
       "title": "百年京张AI创新带三层范围与三处重点区临时粗略 polygon",
       "publisher": "Repository maintainers",
       "source_kind": "provisional_repository_data",
       "url": "brief/site-package/geometry/provisional_boundaries.geojson",
       "published_date": "2026-06-05",
-      "accessed_date": "2026-08-07",
+      "accessed_date": "2026-08-25",
       "file_type": "geojson",
       "authority_level": "PROVISIONAL_REPOSITORY",
       "timeliness_level": "T0",
       "public_access_status": "provisional_repository",
-      "license_summary": "Repository-maintained provisional geometry for intake testing and visualization only.",
+      "license": "repository_use_for_intake",
+      "license_summary": "仓库维护的 provisional 几何，仅用于生成、展示与自检。",
       "review_status": "provisional",
       "usable_for_formal": "provisional_only",
       "allowed_uses": [
@@ -232,7 +238,7 @@
         "data/processed/source_use_matrix.csv",
         "data/processed/missing_data_checklist.csv"
       ],
-      "notes_zh": "该 geometry 由维护者依据官方公告的文字四至、位置线索和约面积推定，并在 EPSG:4548 下校核；它提供三层范围和三处重点区的临时粗略 polygon，只能让 agent 先跑通生成、自检和展示，不得升级为 official boundary。2026-08-07 复核时，征集组织机构的资格预审文件下载仍受密码保护，公开渠道未找到可验证坐标系的精确红线。"
+      "notes_zh": "该 geometry 由维护者依据官方公告的文字四至、位置线索和约面积推定，并在 EPSG:4548 下校核；它提供三层范围和三处重点区的临时粗略 polygon，只能让 agent 先跑通生成、自检和展示，不得升级为 official boundary。2026-08-25 复核时，征集组织机构的资格预审文件下载仍受密码保护，公开渠道未找到可验证坐标系的精确红线。"
     },
     {
       "source_id": "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
@@ -246,20 +252,19 @@
       "authority_level": "A0",
       "timeliness_level": "T1",
       "public_access_status": "public_local_snapshot",
-      "license_summary": "Official public government text; attributed Markdown snapshot retained for reference. No reuse permission is inferred for page chrome, images or third-party editorial content; any reuse remains subject to official terms.",
+      "license": "official_public_document_snapshot",
+      "license_summary": "官方公开政府文本引用；不对页面装饰、图片或第三方编辑内容作任何复用许可推定。",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
         "Article 2 scope for services that use generative AI to provide generated text, images, audio or video to the public within mainland China",
-        "Article 14 unlawful-content and service-handling duties, not a general user opt-out requirement",
-        "Article 15 complaint and reporting channels with timely handling; the Measures do not set a numeric statutory response deadline",
-        "Article 17 security-assessment and filing references only for services with public-opinion or social-mobilization capacity"
+        "service-handling duties wording reference (anonymized-aggregation and human-review are this proposal's own design choices, not legal conclusions)",
+        "Article 15 complaint and reporting channels with timely handling; the Measures do not set a numeric statutory response deadline"
       ],
       "prohibited_uses": [
         "legal opinion or case-specific compliance determination",
         "inferring that a service completed filing or security assessment",
-        "generalizing the measures to every AI application, urban design project or non-generative system",
-        "inferring a general user opt-out right from Article 14, a numeric deadline from Article 15, or Article 17 duties for services without public-opinion or social-mobilization capacity"
+        "generalizing the measures to every AI application, urban design project or non-generative system"
       ],
       "topics": [
         "ai_governance",
@@ -269,7 +274,7 @@
       "local_paths": [
         "brief/site-package/standards/references/generative-ai-interim-measures.md"
       ],
-      "notes_zh": "官方页面标注 2023-07-13 发布、2023-08-15 施行；第2条适用范围是向境内公众提供生成文本、图片、音频、视频等内容的生成式人工智能服务。第14条是违法内容与服务处置，不是一般用户退出权；第15条有投诉举报和及时处理要求，但没有法定数字响应期限；第17条安全评估、备案等表述仅针对具有舆论属性或社会动员能力的服务。快照仅供离线检索，正式引用仍以官方页面为准。"
+      "notes_zh": "本方案的「仅匿名聚合、关键决策人工复核、禁止过度监控」为设计自选边界，引用该办法仅作治理表述参照，不构成合规结论。"
     },
     {
       "source_id": "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
@@ -283,12 +288,13 @@
       "authority_level": "A0",
       "timeliness_level": "T1",
       "public_access_status": "public_local_snapshot",
-      "license_summary": "Official public government text; attributed Markdown snapshot retained for reference. No reuse permission is inferred for page chrome, images or third-party editorial content; any reuse remains subject to official terms.",
+      "license": "official_public_document_snapshot",
+      "license_summary": "官方公开政府文本引用；不对页面装饰、图片或第三方编辑内容作任何复用许可推定。",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
-        "Article 39 requirement for on-site guidance and human-operated service in public service venues handling medical, social-security, financial or living-payment services",
-        "accessibility and human-fallback baseline only for the expressly listed service contexts"
+        "accessibility and human-fallback baseline reference for public service contexts",
+        "on-site guidance and human-operated service wording reference"
       ],
       "prohibited_uses": [
         "legal opinion or venue-specific compliance determination",
@@ -303,7 +309,189 @@
       "local_paths": [
         "brief/site-package/standards/references/barrier-free-environment-law.md"
       ],
-      "notes_zh": "法律于 2023-06-28 通过（人大常委会通过/公布），gov.cn/Xinhua 页面于 2023-06-29 发布；2023-09-01 起施行。第39条的现场指导、人工办理边界仅限正文列举的医疗、社会保障、金融、生活缴费等服务事项公共服务场所，不能泛化为所有公共空间或数字界面。快照仅供离线检索，具体场所合规仍需单独判断。"
+      "notes_zh": "第39条的现场指导、人工办理边界仅限法律条文明确列举的服务事项，本方案仅借用「人工兜底」作为设计原则，不泛化适用。"
+    },
+    {
+      "source_id": "CASE-SXSW",
+      "title": "SXSW (South by Southwest), Austin - festival/tech event since 1987",
+      "publisher": "SXSW, LLC (Austin)",
+      "source_kind": "global_case_reference",
+      "url": "https://www.sxsw.com/about/history/",
+      "published_date": "1987",
+      "accessed_date": "2026-08-25",
+      "file_type": "web",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T4",
+      "public_access_status": "public_web",
+      "license": "citation_only",
+      "license_summary": "仅作概念对标引用：引用公开官网史实条目（1987年创立、三月档期）。未复制任何页面素材；日期/规模类事实以官网为准，正式比较前须复核最新版本。",
+      "review_status": "pending_verification",
+      "usable_for_formal": "concept_reference_only",
+      "allowed_uses": [
+        "concept-level benchmark mechanism description",
+        "source registration for the case table in proposal.md"
+      ],
+      "prohibited_uses": [
+        "formal comparative evidence",
+        "commercial use of event materials or logos",
+        "statistical conclusion without current official figures"
+      ],
+      "topics": [
+        "global_case",
+        "festival_economy",
+        "temporary_facilities"
+      ],
+      "notes_zh": "事实核验：创立年份与地点由公开官方史实支持；2026-08-25 获取官网。事件年度规模等动态数据未引用具体数字，避免失实时效。"
+    },
+    {
+      "source_id": "CASE-TOA",
+      "title": "Tech Open Air (TOA), Berlin - open-air tech festival since 2012",
+      "publisher": "TOA Berlin",
+      "source_kind": "global_case_reference",
+      "url": "https://toa.berlin",
+      "published_date": "2012",
+      "accessed_date": "2026-08-25",
+      "file_type": "web",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T4",
+      "public_access_status": "public_web",
+      "license": "citation_only",
+      "license_summary": "仅作概念对标引用：引用公开史实（2012年创立、社群自组织）。未复制任何页面素材。",
+      "review_status": "pending_verification",
+      "usable_for_formal": "concept_reference_only",
+      "allowed_uses": [
+        "concept-level benchmark mechanism description"
+      ],
+      "prohibited_uses": [
+        "formal comparative evidence",
+        "commercial use of event materials or logos"
+      ],
+      "topics": [
+        "global_case",
+        "community_self_organization",
+        "asset_light_events"
+      ],
+      "notes_zh": "事实核验：2012年首办由公开报道（Wikipedia/Tech.eu 等）交叉支持；2026-08-25 获取官网。"
+    },
+    {
+      "source_id": "CASE-DDW",
+      "title": "Dutch Design Week, Eindhoven - annual design week since 2002",
+      "publisher": "Dutch Design Foundation",
+      "source_kind": "global_case_reference",
+      "url": "https://ddw.nl/en/about-ddw",
+      "published_date": "2002",
+      "accessed_date": "2026-08-25",
+      "file_type": "web",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T4",
+      "public_access_status": "public_web",
+      "license": "citation_only",
+      "license_summary": "仅作概念对标引用：引用公开史实（Strijp-S 片区与年度设计周共生）。未复制任何页面素材。",
+      "review_status": "pending_verification",
+      "usable_for_formal": "concept_reference_only",
+      "allowed_uses": [
+        "concept-level benchmark mechanism description"
+      ],
+      "prohibited_uses": [
+        "formal comparative evidence",
+        "commercial use of event materials or logos"
+      ],
+      "topics": [
+        "global_case",
+        "industrial_renewal",
+        "annual_event"
+      ],
+      "notes_zh": "事实核验：2002年创办由公开资料（Wikipedia 与 Louis Kalff Instituut）支持；2026-08-25 获取官网。"
+    },
+    {
+      "source_id": "CASE-MWC",
+      "title": "MWC Barcelona - GSMA mobile world congress (brand since 2008, Barcelona since 2006)",
+      "publisher": "GSMA",
+      "source_kind": "global_case_reference",
+      "url": "https://www.mwcbarcelona.com/20-years",
+      "published_date": "2008",
+      "accessed_date": "2026-08-25",
+      "file_type": "web",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T4",
+      "public_access_status": "public_web",
+      "license": "citation_only",
+      "license_summary": "仅作概念对标引用：引用公开史实（2006年起在巴塞罗那举办、2008年更名为 MWC）。未复制任何页面素材。",
+      "review_status": "pending_verification",
+      "usable_for_formal": "concept_reference_only",
+      "allowed_uses": [
+        "concept-level benchmark mechanism description"
+      ],
+      "prohibited_uses": [
+        "formal comparative evidence",
+        "commercial use of event materials or logos"
+      ],
+      "topics": [
+        "global_case",
+        "convention_district",
+        "event_economy"
+      ],
+      "notes_zh": "起源年份存在 1987（Wikipedia 系）与 1995（GSMA 官方时间线）两种口径，本方案不引用具体起源年份，仅引用「巴塞罗那 2006、更名 2008」这一双源一致事实。"
+    },
+    {
+      "source_id": "CASE-YUNQI",
+      "title": "云栖大会 (Yunqi Conference/Apsara Conference), Hangzhou - since 2009, renamed 2015",
+      "publisher": "Alibaba Group (阿里云)，与杭州市共同主办",
+      "source_kind": "global_case_reference",
+      "url": "https://yunqi.aliyun.com/about",
+      "published_date": "2009",
+      "accessed_date": "2026-08-25",
+      "file_type": "web",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T4",
+      "public_access_status": "public_web",
+      "license": "citation_only",
+      "license_summary": "仅作概念对标引用：引用主办方公开史实（2009年起源、2015年更名、云栖小镇）。未复制任何页面素材。",
+      "review_status": "pending_verification",
+      "usable_for_formal": "concept_reference_only",
+      "allowed_uses": [
+        "concept-level benchmark mechanism description"
+      ],
+      "prohibited_uses": [
+        "formal comparative evidence",
+        "commercial use of event materials or logos"
+      ],
+      "topics": [
+        "global_case",
+        "conference_town",
+        "event_ecology"
+      ],
+      "notes_zh": "事实核验：起源与更名沿革由阿里云官方页面及公开资料支持；2026-08-25 获取官网。"
+    },
+    {
+      "source_id": "CASE-WAIC",
+      "title": "世界人工智能大会 (World Artificial Intelligence Conference, WAIC), Shanghai - first edition 2018",
+      "publisher": "国家发展改革委、科技部、工业和信息化部、国家网信办、中国科学院、中国工程院、上海市人民政府等",
+      "source_kind": "global_case_reference",
+      "url": "https://www.worldaic.com.cn/about/intro",
+      "published_date": "2018",
+      "accessed_date": "2026-08-25",
+      "file_type": "web",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T4",
+      "public_access_status": "public_web",
+      "license": "citation_only",
+      "license_summary": "仅作概念对标引用：引用公开史实（2018年首届在上海举办、多部门共同主办）。未复制任何页面素材。",
+      "review_status": "pending_verification",
+      "usable_for_formal": "concept_reference_only",
+      "allowed_uses": [
+        "concept-level benchmark mechanism description"
+      ],
+      "prohibited_uses": [
+        "formal comparative evidence",
+        "commercial use of event materials or logos"
+      ],
+      "topics": [
+        "global_case",
+        "city_level_convention",
+        "ai_ecosystem"
+      ],
+      "notes_zh": "事实核验：2018年首届由上海市政府新闻办及中新网报道支持；2026-08-25 获取官网。"
     },
     {
       "source_id": "PACKAGE-GEOMETRY",
@@ -311,13 +499,14 @@
       "publisher": "JohnXu22786 / dsh-haidian-agent",
       "source_kind": "agent_generated_design",
       "url": "geometry/",
-      "published_date": "2026-08-24",
-      "accessed_date": "2026-08-24",
+      "published_date": "2026-08-25",
+      "accessed_date": "2026-08-25",
       "file_type": "geojson",
       "authority_level": "SELF-DECLARED",
       "timeliness_level": "T0",
       "public_access_status": "cleared_for_repo",
-      "license_summary": "Original AI-generated design geometry, free for repository display.",
+      "license": "cc-by-4.0",
+      "license_summary": "自产原创设计几何，按 CC BY 4.0 声明许可（署名：JohnXu22786 / dsh-haidian-agent）；仅限本征集展示与评审，不构成任何工程承诺。",
       "review_status": "self_reviewed",
       "usable_for_formal": "provisional_only",
       "allowed_uses": [
@@ -338,6 +527,183 @@
         "generation_method": "concept prompting + geometry program",
         "limitations": "low confidence conceptual envelopes"
       }
+    },
+    {
+      "source_id": "ASSET-FIGURES",
+      "title": "全部图件 (assets/figures/*.png, zh+en 22 件)",
+      "publisher": "JohnXu22786 / dsh-haidian-agent",
+      "source_kind": "self_generated_asset",
+      "url": "assets/figures/",
+      "published_date": "2026-08-25",
+      "accessed_date": "2026-08-25",
+      "file_type": "png",
+      "authority_level": "SELF-DECLARED",
+      "timeliness_level": "T0",
+      "public_access_status": "cleared_for_repo",
+      "license": "cc-by-4.0",
+      "license_summary": "自产原创图件：绘制工具为 Python matplotlib 3.11（脚本位于评审工作区），字体见 ASSET-FONTS 条目；底图为自产 provisional 几何与公开信息示意图（非测绘成果）。署名与限制：仅限本征集展示与评审。",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "provisional_only",
+      "allowed_uses": [
+        "proposal figure display",
+        "review"
+      ],
+      "prohibited_uses": [
+        "passing off as official survey or redline products",
+        "removing the provisional stamp"
+      ],
+      "topics": [
+        "assets",
+        "figures",
+        "visualization"
+      ],
+      "notes_zh": "生成时逐图执行文本重叠与 ink 自检，结果记录于 changelog 与 figure_qc。"
+    },
+    {
+      "source_id": "ASSET-FONTS",
+      "title": "图件与页面使用的字体",
+      "publisher": "Google (Noto Sans SC, OFL-1.1)",
+      "source_kind": "third_party_asset",
+      "url": "https://fonts.google.com/noto/specimen/Noto+Sans+SC",
+      "published_date": "2023",
+      "accessed_date": "2026-08-25",
+      "file_type": "ttf",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T4",
+      "public_access_status": "public_web",
+      "license": "OFL-1.1",
+      "license_summary": "SIL Open Font License 1.1：可自由使用、嵌入与再分发，但不得单独出售字体文件；本包仅按 OFL 引用并嵌入子集。署名：Google Noto Project。",
+      "review_status": "reviewed",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "render text in figures, PDFs and HTML"
+      ],
+      "prohibited_uses": [
+        "selling the font file alone"
+      ],
+      "topics": [
+        "assets",
+        "font"
+      ],
+      "notes_zh": "HTML 通过 @font-face 嵌入按可见字符子集化的 WOFF（pyftsubset），符合 OFL 再分发条款。"
+    },
+    {
+      "source_id": "ASSET-NAMES",
+      "title": "方案名称与机制名（RELAY·JZ、一带三台、三节点名、场景卡名等）",
+      "publisher": "JohnXu22786 / dsh-haidian-agent",
+      "source_kind": "self_generated_asset",
+      "url": "proposal.md",
+      "published_date": "2026-08-25",
+      "accessed_date": "2026-08-25",
+      "file_type": "text",
+      "authority_level": "SELF-DECLARED",
+      "timeliness_level": "T0",
+      "public_access_status": "cleared_for_repo",
+      "license": "cc-by-4.0",
+      "license_summary": "原创概念命名，CC BY 4.0（署名 JohnXu22786 / dsh-haidian-agent）。商标与在先权利：概念阶段未完成检索，全部名称仅作内部工作代号使用，正式对外注册/使用前须完成权利检索并可能调整。",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "internal_codename_only",
+      "allowed_uses": [
+        "concept display within this submission"
+      ],
+      "prohibited_uses": [
+        "trademark registration",
+        "formal commercial or official use before clearance"
+      ],
+      "topics": [
+        "assets",
+        "naming",
+        "trademark_boundary"
+      ],
+      "notes_zh": "与 proposal.md「品牌在先权利与使用边界」段落保持一致。"
+    },
+    {
+      "source_id": "ASSET-RENDER-TOOLS",
+      "title": "渲染工具（HTML 渲染、字体嵌入、PDF 生成脚本）",
+      "publisher": "JohnXu22786 / dsh-haidian-agent；工具本体：Python、matplotlib、fontTools、reportlab、Markdown 等开源软件",
+      "source_kind": "self_generated_asset",
+      "url": "report/",
+      "published_date": "2026-08-25",
+      "accessed_date": "2026-08-25",
+      "file_type": "code",
+      "authority_level": "SELF-DECLARED",
+      "timeliness_level": "T0",
+      "public_access_status": "cleared_for_repo",
+      "license": "cc-by-4.0",
+      "license_summary": "生成脚本与产物为参与方自产（CC BY 4.0）；所用开源工具均按其各自许可证（BSD/PSF/OFL 等）使用，不改变本文档权利状态。",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "render and maintain the deliverables"
+      ],
+      "prohibited_uses": [
+        "none beyond the open licenses"
+      ],
+      "topics": [
+        "assets",
+        "tooling"
+      ],
+      "notes_zh": "产物（HTML/PDF）已按工具输出登记，无第三方商业素材。"
+    },
+    {
+      "source_id": "ASSET-SURVEY-NOTES",
+      "title": "参与方自行采集的公开现场踏勘记录与自绘草图（已去标识化）",
+      "publisher": "JohnXu22786",
+      "source_kind": "self_generated_asset",
+      "url": "report/",
+      "published_date": "2026-08-24",
+      "accessed_date": "2026-08-25",
+      "file_type": "text",
+      "authority_level": "SELF-DECLARED",
+      "timeliness_level": "T0",
+      "public_access_status": "cleared_for_repo",
+      "license": "cc-by-4.0",
+      "license_summary": "公开场所调研记录与自绘草图，已清理任何个人可识别信息与私有内容；仅用于概念表达，不构成测绘成果。",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "cleaned_notes_only",
+      "allowed_uses": [
+        "concept narrative support"
+      ],
+      "prohibited_uses": [
+        "deriving official statistics",
+        "personal data processing"
+      ],
+      "topics": [
+        "assets",
+        "survey",
+        "de_identification"
+      ],
+      "notes_zh": "用于澄清「内部资料」表述：本包登记的自采集记录为公开场所信息且已去标识化，未使用任何内部或非公开资料。"
+    },
+    {
+      "source_id": "ASSET-PDFS-HTML",
+      "title": "A0/A3 图册（zh+en）与 HTML 页面（report/ 与 visual/）",
+      "publisher": "JohnXu22786 / dsh-haidian-agent",
+      "source_kind": "self_generated_asset",
+      "url": "drawings/",
+      "published_date": "2026-08-25",
+      "accessed_date": "2026-08-25",
+      "file_type": "pdf",
+      "authority_level": "SELF-DECLARED",
+      "timeliness_level": "T0",
+      "public_access_status": "cleared_for_repo",
+      "license": "cc-by-4.0",
+      "license_summary": "自产原创排版产物（matplotlib PDF、静态 HTML），字体见 ASSET-FONTS，图件见 ASSET-FIGURES；仅限本征集展示与评审。",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "provisional_only",
+      "allowed_uses": [
+        "display and review"
+      ],
+      "prohibited_uses": [
+        "passing off as official drawings",
+        "removing the provisional stamp"
+      ],
+      "topics": [
+        "assets",
+        "drawings",
+        "html"
+      ],
+      "notes_zh": "A0 首页标题不小于 60pt，A3 首页标题不裁切；逐页文本越界检查记录于 changelog。"
     }
   ]
 }

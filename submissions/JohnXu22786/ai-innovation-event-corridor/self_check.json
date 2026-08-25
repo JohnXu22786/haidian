@@ -10,21 +10,7 @@
       "ok": true,
       "errors": [],
       "warnings": [
-        "submissions/JohnXu22786/ai-innovation-event-corridor/proposal.md: 可能涉及非公开或敏感资料; maintainer review required",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/drawings/a3-booklet.pdf: bilingual contract requires en display counterpart `drawings/a3-booklet.en.pdf`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/manifest.json: `proposal.en.md` should declare translation_of=proposal.md; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/report/proposal.html: bilingual contract requires en display counterpart `report/proposal.en.html`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/visual/index.html: bilingual contract requires en display counterpart `visual/index.en.html`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/proposal.en.md: front matter should set language=en; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/proposal.en.md: front matter should set translation_of=proposal.md; legacy v1 package remains compatible"
+        "submissions/JohnXu22786/ai-innovation-event-corridor/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
       ],
       "proposal_files": [
         "submissions/JohnXu22786/ai-innovation-event-corridor/proposal.md"
@@ -34,16 +20,35 @@
       ],
       "changed_files": [
         "submissions/JohnXu22786/ai-innovation-event-corridor/agent.json",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/ecosystem-atlas.en.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/ecosystem-atlas.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/key-areas.en.png",
         "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/key-areas.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/land-use-structure.en.png",
         "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/land-use-structure.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/logo-vi.en.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/logo-vi.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/metrics-evidence.en.png",
         "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/metrics-evidence.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/mobility-bluegreen.en.png",
         "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/mobility-bluegreen.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/node-daily-event.en.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/node-daily-event.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/phasing.en.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/phasing.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/positioning-function-synergy.en.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/positioning-function-synergy.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/section-circulation.en.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/section-circulation.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/site-overview.en.png",
         "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/site-overview.png",
         "submissions/JohnXu22786/ai-innovation-event-corridor/assumptions.json",
         "submissions/JohnXu22786/ai-innovation-event-corridor/changelog.md",
         "submissions/JohnXu22786/ai-innovation-event-corridor/compliance_matrix.json",
         "submissions/JohnXu22786/ai-innovation-event-corridor/design_depth_matrix.json",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/drawings/a0-boards.en.pdf",
         "submissions/JohnXu22786/ai-innovation-event-corridor/drawings/a0-boards.pdf",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/drawings/a3-booklet.en.pdf",
         "submissions/JohnXu22786/ai-innovation-event-corridor/drawings/a3-booklet.pdf",
         "submissions/JohnXu22786/ai-innovation-event-corridor/geometry/buildings.geojson",
         "submissions/JohnXu22786/ai-innovation-event-corridor/geometry/constraints.geojson",
@@ -60,17 +65,19 @@
         "submissions/JohnXu22786/ai-innovation-event-corridor/proposal.md",
         "submissions/JohnXu22786/ai-innovation-event-corridor/report/copyright_statement.md",
         "submissions/JohnXu22786/ai-innovation-event-corridor/report/narrative.md",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/report/proposal.en.html",
         "submissions/JohnXu22786/ai-innovation-event-corridor/report/proposal.html",
         "submissions/JohnXu22786/ai-innovation-event-corridor/risk.json",
         "submissions/JohnXu22786/ai-innovation-event-corridor/self_check.json",
         "submissions/JohnXu22786/ai-innovation-event-corridor/sources.json",
         "submissions/JohnXu22786/ai-innovation-event-corridor/standard_matrix.json",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/visual/index.en.html",
         "submissions/JohnXu22786/ai-innovation-event-corridor/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/JohnXu22786/ai-innovation-event-corridor": "formal"
       },
-      "total_bytes": 1051183,
+      "total_bytes": 14355557,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -108,6 +115,42 @@
           "target_feature_id": "KEY-DAZH",
           "expected": null,
           "actual": null
+        },
+        {
+          "check_id": "METRIC_RECALC_DRIFT",
+          "severity": "minor",
+          "target_file": "metrics.json",
+          "message": "site_area_sqm is within the legacy tolerance but drifts beyond ordinary reporting precision; reconcile before publication.",
+          "target_feature_id": null,
+          "expected": 11412825.385554,
+          "actual": 11410000.0
+        },
+        {
+          "check_id": "METRIC_RECALC_DRIFT",
+          "severity": "minor",
+          "target_file": "metrics.json",
+          "message": "green_space_area_sqm is within the legacy tolerance but drifts beyond ordinary reporting precision; reconcile before publication.",
+          "target_feature_id": null,
+          "expected": 1393756.158692,
+          "actual": 1390000.0
+        },
+        {
+          "check_id": "METRIC_RECALC_DRIFT",
+          "severity": "minor",
+          "target_file": "metrics.json",
+          "message": "public_space_area_sqm is within the legacy tolerance but drifts beyond ordinary reporting precision; reconcile before publication.",
+          "target_feature_id": null,
+          "expected": 36150.0,
+          "actual": 36000.0
+        },
+        {
+          "check_id": "METRIC_RECALC_DRIFT",
+          "severity": "minor",
+          "target_file": "metrics.json",
+          "message": "building_footprint_area_sqm is within the legacy tolerance but drifts beyond ordinary reporting precision; reconcile before publication.",
+          "target_feature_id": null,
+          "expected": 111600.0,
+          "actual": 112000.0
         }
       ],
       "metrics": {
@@ -128,9 +171,9 @@
       "ok": true,
       "issues": [],
       "metrics_seen": {
-        "site_area_sqm": 11412825.386,
-        "green_ratio": 0.122122,
-        "public_space_ratio": 0.003167
+        "site_area_sqm": 11410000.0,
+        "green_ratio": 0.12,
+        "public_space_ratio": 0.003
       }
     },
     "stderr": ""
@@ -144,7 +187,7 @@
       "summary": {
         "standard_matrix_items": 5,
         "design_depth_items": 15,
-        "known_metric_refs_required": 17,
+        "known_metric_refs_required": 18,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
@@ -152,7 +195,7 @@
           "standard": 0,
           "depth": 0,
           "data": 1,
-          "metric": 2
+          "metric": 5
         }
       }
     },
@@ -161,7 +204,11 @@
   "spatial_issue_ids": [
     "KEY_AREA_PROVISIONAL",
     "KEY_AREA_PROVISIONAL",
-    "KEY_AREA_PROVISIONAL"
+    "KEY_AREA_PROVISIONAL",
+    "METRIC_RECALC_DRIFT",
+    "METRIC_RECALC_DRIFT",
+    "METRIC_RECALC_DRIFT",
+    "METRIC_RECALC_DRIFT"
   ],
   "visual_issue_ids": [],
   "professional_issue_ids": [],
@@ -169,21 +216,7 @@
   "can_enter_formal_review": true,
   "package_type": "professional_design_package",
   "review_status": "formal-review-ready",
-  "next_actions": [
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-innovation-event-corridor/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-innovation-event-corridor/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-innovation-event-corridor/drawings/a3-booklet.pdf: bilingual contract requires en display counterpart `drawings/a3-booklet.en.pdf`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-innovation-event-corridor/manifest.json: `proposal.en.md` should declare translation_of=proposal.md; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-innovation-event-corridor/report/proposal.html: bilingual contract requires en display counterpart `report/proposal.en.html`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-innovation-event-corridor/visual/index.html: bilingual contract requires en display counterpart `visual/index.en.html`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-innovation-event-corridor/proposal.en.md: front matter should set language=en; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-innovation-event-corridor/proposal.en.md: front matter should set translation_of=proposal.md; legacy v1 package remains compatible"
-  ],
+  "next_actions": [],
   "schema_version": "0.1.0",
   "checks": [
     {
@@ -214,5 +247,368 @@
       "target": "professional_review.py",
       "message": "professional_review: PASS"
     }
-  ]
+  ],
+  "figure_qc": {
+    "ok": true,
+    "ink_ok": true,
+    "clip_clear": true,
+    "overlap_clear": "not_verified",
+    "title_ok": true,
+    "summary": "machine ink+edge-clip+title checks over 22 PNGs and 4 PDFs; text-text overlap not machine-verifiable post-hoc (no OCR) -> not_verified; generation-time text-bbox overlap checks recorded in changelog",
+    "checks": {
+      "ecosystem-atlas.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1495,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0109,
+        "edge_clip_clear": true,
+        "content_spread": 0.69
+      },
+      "ecosystem-atlas.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1472,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0097,
+        "edge_clip_clear": true,
+        "content_spread": 0.63
+      },
+      "key-areas.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1606,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0109,
+        "edge_clip_clear": true,
+        "content_spread": 0.639
+      },
+      "key-areas.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1422,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0097,
+        "edge_clip_clear": true,
+        "content_spread": 0.407
+      },
+      "land-use-structure.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.2177,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0109,
+        "edge_clip_clear": true,
+        "content_spread": 0.505
+      },
+      "land-use-structure.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.213,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0097,
+        "edge_clip_clear": true,
+        "content_spread": 0.468
+      },
+      "logo-vi.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.0945,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0065,
+        "edge_clip_clear": true,
+        "content_spread": 0.384
+      },
+      "logo-vi.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.0883,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0058,
+        "edge_clip_clear": true,
+        "content_spread": 0.301
+      },
+      "metrics-evidence.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.0936,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0109,
+        "edge_clip_clear": true,
+        "content_spread": 0.472
+      },
+      "metrics-evidence.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.0903,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0097,
+        "edge_clip_clear": true,
+        "content_spread": 0.389
+      },
+      "mobility-bluegreen.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.0726,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0109,
+        "edge_clip_clear": true,
+        "content_spread": 0.37
+      },
+      "mobility-bluegreen.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.0658,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0097,
+        "edge_clip_clear": true,
+        "content_spread": 0.315
+      },
+      "node-daily-event.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.2854,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0109,
+        "edge_clip_clear": true,
+        "content_spread": 0.838
+      },
+      "node-daily-event.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.2768,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0097,
+        "edge_clip_clear": true,
+        "content_spread": 0.764
+      },
+      "phasing.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.0972,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0149,
+        "edge_clip_clear": true,
+        "content_spread": 0.588
+      },
+      "phasing.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.0874,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0097,
+        "edge_clip_clear": true,
+        "content_spread": 0.495
+      },
+      "positioning-function-synergy.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1493,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0182,
+        "edge_clip_clear": true,
+        "content_spread": 0.574
+      },
+      "positioning-function-synergy.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.143,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0097,
+        "edge_clip_clear": true,
+        "content_spread": 0.5
+      },
+      "section-circulation.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.0997,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0109,
+        "edge_clip_clear": true,
+        "content_spread": 0.407
+      },
+      "section-circulation.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.0946,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0097,
+        "edge_clip_clear": true,
+        "content_spread": 0.375
+      },
+      "site-overview.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.0835,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0154,
+        "edge_clip_clear": true,
+        "content_spread": 0.444
+      },
+      "site-overview.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.0784,
+        "ink_ok": true,
+        "edge_clip_ratio": 0.0097,
+        "edge_clip_clear": true,
+        "content_spread": 0.366
+      },
+      "a0-boards.pdf": {
+        "pages": 2,
+        "first_page_max_font": 60.0,
+        "title_ok": true,
+        "title_bar": ">=60pt (A0) / >=40pt (A3)",
+        "clip_clear": true,
+        "pages_detail": [
+          {
+            "page": 1,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0621
+          },
+          {
+            "page": 2,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0388
+          }
+        ]
+      },
+      "a0-boards.en.pdf": {
+        "pages": 2,
+        "first_page_max_font": 60.0,
+        "title_ok": true,
+        "title_bar": ">=60pt (A0) / >=40pt (A3)",
+        "clip_clear": true,
+        "pages_detail": [
+          {
+            "page": 1,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0677
+          },
+          {
+            "page": 2,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0428
+          }
+        ]
+      },
+      "a3-booklet.pdf": {
+        "pages": 9,
+        "first_page_max_font": 42.0,
+        "title_ok": true,
+        "title_bar": ">=60pt (A0) / >=40pt (A3)",
+        "clip_clear": true,
+        "pages_detail": [
+          {
+            "page": 1,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0368
+          },
+          {
+            "page": 2,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0335
+          },
+          {
+            "page": 3,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0549
+          },
+          {
+            "page": 4,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0494
+          },
+          {
+            "page": 5,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0701
+          },
+          {
+            "page": 6,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0401
+          },
+          {
+            "page": 7,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0287
+          },
+          {
+            "page": 8,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0498
+          },
+          {
+            "page": 9,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0411
+          }
+        ]
+      },
+      "a3-booklet.en.pdf": {
+        "pages": 9,
+        "first_page_max_font": 42.0,
+        "title_ok": true,
+        "title_bar": ">=60pt (A0) / >=40pt (A3)",
+        "clip_clear": true,
+        "pages_detail": [
+          {
+            "page": 1,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0443
+          },
+          {
+            "page": 2,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0363
+          },
+          {
+            "page": 3,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0611
+          },
+          {
+            "page": 4,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0573
+          },
+          {
+            "page": 5,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0762
+          },
+          {
+            "page": 6,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0434
+          },
+          {
+            "page": 7,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0332
+          },
+          {
+            "page": 8,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0533
+          },
+          {
+            "page": 9,
+            "out_of_page_spans": 0,
+            "ink_60dpi": 0.0438
+          }
+        ]
+      }
+    },
+    "notes": {
+      "ink_guard": 0.05,
+      "standing_bars": {
+        "maps_diagrams": 0.08,
+        "charts": 0.1
+      },
+      "edge_clip_limit": 0.02,
+      "probe": "PNG: PIL/numpy, per-side 10px edge band, max band drives clip verdict; PDF: PyMuPDF 60 dpi raster + text-span out-of-page count"
+    }
+  }
 }

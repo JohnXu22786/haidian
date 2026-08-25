@@ -7,194 +7,266 @@
   "metrics": {
     "site_area_sqm": {
       "status": "known",
-      "value": 11412825.386,
+      "value": 11410000,
       "unit": "sqm",
+      "display_precision": "约11.4平方公里（2-3位有效数字）",
+      "data_source": "geometry/site_boundary.geojson (provisional, EPSG:4548)",
       "source_files": [
         "geometry/site_boundary.geojson"
       ],
       "formula": "polygon_area(provisional_site_boundary, EPSG:4548)",
-      "confidence": "medium",
+      "confidence": "low",
+      "recompute_trigger": "官方总体边界数据发布后整体复算（含几何、图件、visual 页与矩阵）",
+      "usage_limit": "仅作概念模型值，不构成审批或精确面积依据",
       "assumptions": [
         "Provisional boundary, not an official redline."
       ]
     },
     "green_space_area_sqm": {
       "status": "known",
-      "value": 1393756.159,
+      "value": 1390000,
       "unit": "sqm",
+      "display_precision": "约139公顷（2-3位有效数字）",
+      "data_source": "geometry/green_space.geojson (provisional, EPSG:4548)",
       "source_files": [
         "geometry/green_space.geojson"
       ],
       "formula": "union(conceptual green polygons, EPSG:4548)",
       "confidence": "low",
+      "recompute_trigger": "官方边界与绿地质控数据发布后整体复算",
+      "usage_limit": "概念设计模型值，仅作参考",
       "assumptions": []
     },
     "public_space_area_sqm": {
       "status": "known",
-      "value": 36150.0,
+      "value": 36000,
       "unit": "sqm",
+      "display_precision": "约3.6公顷（2-3位有效数字）",
+      "data_source": "geometry/public_space.geojson (provisional, EPSG:4548)",
       "source_files": [
         "geometry/public_space.geojson"
       ],
       "formula": "union(conceptual public-space polygons, EPSG:4548)",
       "confidence": "low",
+      "recompute_trigger": "官方几何发布后整体复算",
+      "usage_limit": "概念设计模型值，仅作参考",
       "assumptions": []
     },
     "building_footprint_area_sqm": {
       "status": "known",
-      "value": 111600.0,
+      "value": 112000,
       "unit": "sqm",
+      "display_precision": "约11.2公顷（概念体量）",
+      "data_source": "geometry/buildings.geojson (provisional, EPSG:4548)",
       "source_files": [
         "geometry/buildings.geojson"
       ],
       "formula": "union(conceptual reuse-first envelopes, EPSG:4548)",
       "confidence": "low",
+      "recompute_trigger": "官方建筑/现状数据发布后复算",
+      "usage_limit": "概念体量示意，不构成建筑规模结论",
       "assumptions": []
     },
     "green_ratio": {
       "status": "known",
-      "value": 0.122122,
+      "value": 0.12,
       "unit": "ratio",
+      "display_precision": "取整至 0.01",
+      "data_source": "green_space_area_sqm 与 site_area_sqm（同源同口径，provisional）",
       "source_files": [
         "geometry/green_space.geojson",
         "geometry/site_boundary.geojson"
       ],
       "formula": "green_space_area_sqm / site_area_sqm",
       "confidence": "low",
+      "recompute_trigger": "官方边界/绿地数据发布后整体复算",
+      "usage_limit": "概念模型比率，不写成现状或规划绿地率",
       "assumptions": []
     },
     "public_space_ratio": {
       "status": "known",
-      "value": 0.003167,
+      "value": 0.003,
       "unit": "ratio",
+      "display_precision": "约0.3%（0.003，千分之三，取整展示）",
+      "data_source": "public_space_area_sqm 与 site_area_sqm（同源同口径，provisional）",
       "source_files": [
         "geometry/public_space.geojson",
         "geometry/site_boundary.geojson"
       ],
       "formula": "public_space_area_sqm / site_area_sqm",
       "confidence": "low",
+      "recompute_trigger": "官方几何发布后整体复算",
+      "usage_limit": "概念模型比率，仅作参考",
       "assumptions": []
     },
     "road_network_length_m": {
       "status": "known",
-      "value": 10154.351,
+      "value": 10200,
       "unit": "m",
+      "display_precision": "约10.2公里（2-3位有效数字）",
+      "data_source": "geometry/roads.geojson (provisional, EPSG:4548)",
       "source_files": [
         "geometry/roads.geojson"
       ],
       "formula": "sum(conceptual paths, EPSG:4548)",
       "confidence": "low",
+      "recompute_trigger": "官方路网/慢行体系数据发布后复算",
+      "usage_limit": "概念路径长度，仅作参考",
       "assumptions": []
     },
     "key_area_count": {
       "status": "known",
       "value": 3,
       "unit": "count",
+      "data_source": "geometry/key_areas.geojson",
       "source_files": [
         "geometry/key_areas.geojson"
       ],
       "formula": "count(area_id in key_areas.geojson)",
       "confidence": "medium",
+      "recompute_trigger": "官方重点区几何发布后复算",
+      "usage_limit": "与官方公告三处重点区名称对应（概念落位）",
       "assumptions": []
     },
     "land_use_zone_count": {
       "status": "known",
-      "value": 24,
+      "value": 27,
       "unit": "count",
+      "data_source": "geometry/land_use.geojson（全部要素）",
       "source_files": [
         "geometry/land_use.geojson"
       ],
       "formula": "count(land_use.geojson features)",
-      "confidence": "high",
+      "confidence": "medium",
+      "recompute_trigger": "官方用地数据发布后复算",
+      "usage_limit": "概念用地地块数，仅作参考",
       "assumptions": []
     },
     "building_unit_count": {
       "status": "known",
       "value": 12,
       "unit": "count",
+      "data_source": "geometry/buildings.geojson",
       "source_files": [
         "geometry/buildings.geojson"
       ],
       "formula": "count(buildings.geojson features)",
-      "confidence": "high",
+      "confidence": "medium",
+      "recompute_trigger": "官方建筑现状发布后复算",
+      "usage_limit": "概念体量单元数，仅作参考",
       "assumptions": []
     },
     "landmark_count": {
       "status": "known",
       "value": 3,
       "unit": "count",
+      "data_source": "geometry/public_space.geojson（ai_landmark）",
       "source_files": [
         "geometry/public_space.geojson"
       ],
       "formula": "count(scenario_type == ai_landmark)",
-      "confidence": "high",
+      "confidence": "medium",
+      "recompute_trigger": "节点方案调整时更新",
+      "usage_limit": "三处原创节点（概念）",
       "assumptions": []
     },
     "scenario_node_count": {
       "status": "known",
       "value": 8,
       "unit": "count",
+      "data_source": "geometry/public_space.geojson（3 地标 + 5 场景节点）",
       "source_files": [
         "geometry/public_space.geojson"
       ],
       "formula": "count(public_space scenario nodes + landmarks)",
-      "confidence": "high",
+      "confidence": "medium",
+      "recompute_trigger": "节点方案调整时更新",
+      "usage_limit": "空间节点计数，与场景卡数量为不同口径",
+      "assumptions": []
+    },
+    "scenario_card_count": {
+      "status": "known",
+      "value": 12,
+      "unit": "count",
+      "data_source": "proposal.md「场景—空间—运营」矩阵表（12 张）",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(scenario card table rows)",
+      "confidence": "medium",
+      "recompute_trigger": "场景清单迭代时更新",
+      "usage_limit": "运营索引卡数，与空间节点数为不同口径",
       "assumptions": []
     },
     "industry_test_scenario_count": {
       "status": "known",
       "value": 3,
       "unit": "count",
+      "data_source": "proposal.md「测试协议」表（3 项）",
       "source_files": [
         "proposal.md"
       ],
       "formula": "count(industry_validation scenario cards)",
-      "confidence": "high",
+      "confidence": "medium",
+      "recompute_trigger": "测试方案迭代时更新",
+      "usage_limit": "概念测试协议数，非已实施测试",
       "assumptions": []
     },
     "persona_count": {
       "status": "known",
       "value": 5,
       "unit": "count",
+      "data_source": "proposal.md「五类人才画像」",
       "source_files": [
         "proposal.md"
       ],
       "formula": "count(representative user groups)",
-      "confidence": "high",
+      "confidence": "medium",
+      "recompute_trigger": "画像迭代时更新",
+      "usage_limit": "概念画像分组数",
       "assumptions": []
     },
     "global_case_count": {
       "status": "known",
-      "value": 4,
+      "value": 6,
       "unit": "count",
+      "data_source": "proposal.md 国际对标案例表（6 项，CASE-* 来源登记）",
       "source_files": [
         "proposal.md",
         "sources.json"
       ],
       "formula": "count(global ecosystem mechanism cases)",
-      "confidence": "high",
+      "confidence": "medium",
+      "recompute_trigger": "案例来源核验或清单调整时更新",
+      "usage_limit": "概念对标案例数；事实核验与时效以 sources.json 登记为准",
       "assumptions": []
     },
     "phase_count": {
       "status": "known",
       "value": 3,
       "unit": "count",
+      "data_source": "geometry/phasing.geojson（3 期）",
       "source_files": [
         "geometry/phasing.geojson"
       ],
       "formula": "count(phasing polygons)",
-      "confidence": "high",
+      "confidence": "medium",
+      "recompute_trigger": "分期方案调整时更新",
+      "usage_limit": "概念分期（1-3/3-5/5-10 年）",
       "assumptions": []
     },
     "annual_program_count": {
       "status": "known",
       "value": 3,
       "unit": "count",
+      "data_source": "proposal.md「年度活动品牌」表（3 项）",
       "source_files": [
         "proposal.md"
       ],
       "formula": "count(annual event system)",
-      "confidence": "high",
+      "confidence": "medium",
+      "recompute_trigger": "年度活动体系调整时更新",
+      "usage_limit": "概念年度品牌数，不构成已确认活动安排",
       "assumptions": []
     }
   }

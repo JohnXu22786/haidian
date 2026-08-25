@@ -1,3 +1,3 @@
 # Formal Narrative
 
-This narrative is derived from the structured AI package. Geometry, metrics, compliance matrix, drawings, and visual/index.html remain cross-checked deliverables.
+This narrative is derived from the structured AI package (round-1 repair, PR #3871). Geometry, metrics, compliance/standard/design-depth matrices, drawings (A0/A3, zh+en), proposal.proposal pages (report/ and visual/, zh+en) remain cross-checked deliverables. All geometry is provisional; area and ratio values are rounded conceptual model outputs with source, formula, confidence and recompute trigger stated per metric; the per-asset rights ledger lives in sources.json (ASSET-*); names/marks are internal working codenames until trademark and prior-rights clearance is completed.
