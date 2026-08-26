@@ -1,201 +1,228 @@
 {
-  "schema_version": "0.1.0",
-  "units": {
-    "length": "m",
-    "area": "sqm"
+ "schema_version": "0.1.0",
+ "units": {
+  "length": "m",
+  "area": "sqm"
+ },
+ "metrics": {
+  "site_area_sqm": {
+   "status": "known",
+   "value": 11412825.386,
+   "unit": "sqm",
+   "source_files": [
+    "geometry/site_boundary.geojson"
+   ],
+   "formula": "polygon_area(provisional_site_boundary, EPSG:4548)",
+   "confidence": "medium",
+   "usage_limits": "concept indication only, not official redline",
+   "recompute_trigger": "official geometry release"
   },
-  "metrics": {
-    "site_area_sqm": {
-      "status": "known",
-      "value": 11412825.386,
-      "unit": "sqm",
-      "source_files": [
-        "geometry/site_boundary.geojson"
-      ],
-      "formula": "polygon_area(provisional_site_boundary, EPSG:4548)",
-      "confidence": "medium",
-      "assumptions": [
-        "Provisional boundary, not an official redline."
-      ]
-    },
-    "green_space_area_sqm": {
-      "status": "known",
-      "value": 1324403.208,
-      "unit": "sqm",
-      "source_files": [
-        "geometry/green_space.geojson"
-      ],
-      "formula": "union(conceptual green polygons, EPSG:4548)",
-      "confidence": "low",
-      "assumptions": []
-    },
-    "public_space_area_sqm": {
-      "status": "known",
-      "value": 36150.0,
-      "unit": "sqm",
-      "source_files": [
-        "geometry/public_space.geojson"
-      ],
-      "formula": "union(conceptual public-space polygons, EPSG:4548)",
-      "confidence": "low",
-      "assumptions": []
-    },
-    "building_footprint_area_sqm": {
-      "status": "known",
-      "value": 111600.0,
-      "unit": "sqm",
-      "source_files": [
-        "geometry/buildings.geojson"
-      ],
-      "formula": "union(conceptual reuse-first envelopes, EPSG:4548)",
-      "confidence": "low",
-      "assumptions": []
-    },
-    "green_ratio": {
-      "status": "known",
-      "value": 0.116045,
-      "unit": "ratio",
-      "source_files": [
-        "geometry/green_space.geojson",
-        "geometry/site_boundary.geojson"
-      ],
-      "formula": "green_space_area_sqm / site_area_sqm",
-      "confidence": "low",
-      "assumptions": []
-    },
-    "public_space_ratio": {
-      "status": "known",
-      "value": 0.003167,
-      "unit": "ratio",
-      "source_files": [
-        "geometry/public_space.geojson",
-        "geometry/site_boundary.geojson"
-      ],
-      "formula": "public_space_area_sqm / site_area_sqm",
-      "confidence": "low",
-      "assumptions": []
-    },
-    "road_network_length_m": {
-      "status": "known",
-      "value": 10154.351,
-      "unit": "m",
-      "source_files": [
-        "geometry/roads.geojson"
-      ],
-      "formula": "sum(conceptual paths, EPSG:4548)",
-      "confidence": "low",
-      "assumptions": []
-    },
-    "key_area_count": {
-      "status": "known",
-      "value": 3,
-      "unit": "count",
-      "source_files": [
-        "geometry/key_areas.geojson"
-      ],
-      "formula": "count(area_id in key_areas.geojson)",
-      "confidence": "medium",
-      "assumptions": []
-    },
-    "land_use_zone_count": {
-      "status": "known",
-      "value": 24,
-      "unit": "count",
-      "source_files": [
-        "geometry/land_use.geojson"
-      ],
-      "formula": "count(land_use.geojson features)",
-      "confidence": "high",
-      "assumptions": []
-    },
-    "building_unit_count": {
-      "status": "known",
-      "value": 12,
-      "unit": "count",
-      "source_files": [
-        "geometry/buildings.geojson"
-      ],
-      "formula": "count(buildings.geojson features)",
-      "confidence": "high",
-      "assumptions": []
-    },
-    "landmark_count": {
-      "status": "known",
-      "value": 3,
-      "unit": "count",
-      "source_files": [
-        "geometry/public_space.geojson"
-      ],
-      "formula": "count(scenario_type == ai_landmark)",
-      "confidence": "high",
-      "assumptions": []
-    },
-    "scenario_node_count": {
-      "status": "known",
-      "value": 8,
-      "unit": "count",
-      "source_files": [
-        "geometry/public_space.geojson"
-      ],
-      "formula": "count(public_space scenario nodes + landmarks)",
-      "confidence": "high",
-      "assumptions": []
-    },
-    "industry_test_scenario_count": {
-      "status": "known",
-      "value": 3,
-      "unit": "count",
-      "source_files": [
-        "proposal.md"
-      ],
-      "formula": "count(industry_validation scenario cards)",
-      "confidence": "high",
-      "assumptions": []
-    },
-    "persona_count": {
-      "status": "known",
-      "value": 5,
-      "unit": "count",
-      "source_files": [
-        "proposal.md"
-      ],
-      "formula": "count(representative user groups)",
-      "confidence": "high",
-      "assumptions": []
-    },
-    "global_case_count": {
-      "status": "known",
-      "value": 4,
-      "unit": "count",
-      "source_files": [
-        "proposal.md",
-        "sources.json"
-      ],
-      "formula": "count(global ecosystem mechanism cases)",
-      "confidence": "high",
-      "assumptions": []
-    },
-    "phase_count": {
-      "status": "known",
-      "value": 3,
-      "unit": "count",
-      "source_files": [
-        "geometry/phasing.geojson"
-      ],
-      "formula": "count(phasing polygons)",
-      "confidence": "high",
-      "assumptions": []
-    },
-    "annual_program_count": {
-      "status": "known",
-      "value": 3,
-      "unit": "count",
-      "source_files": [
-        "proposal.md"
-      ],
-      "formula": "count(annual event system)",
-      "confidence": "high",
-      "assumptions": []
-    }
+  "green_space_area_sqm": {
+   "status": "known",
+   "value": 1324403.208,
+   "unit": "sqm",
+   "source_files": [
+    "geometry/green_space.geojson"
+   ],
+   "formula": "union(conceptual green polygons, EPSG:4548)",
+   "confidence": "low",
+   "usage_limits": "provisional aggregate",
+   "recompute_trigger": "official area release"
+  },
+  "public_space_area_sqm": {
+   "status": "known",
+   "value": 36150.0,
+   "unit": "sqm",
+   "source_files": [
+    "geometry/public_space.geojson"
+   ],
+   "formula": "union(conceptual public-space polygons, EPSG:4548)",
+   "confidence": "low",
+   "usage_limits": "provisional aggregate",
+   "recompute_trigger": "official baseline release"
+  },
+  "building_footprint_area_sqm": {
+   "status": "known",
+   "value": 111600.0,
+   "unit": "sqm",
+   "source_files": [
+    "geometry/buildings.geojson"
+   ],
+   "formula": "union(conceptual reuse-first envelopes, EPSG:4548)",
+   "confidence": "low",
+   "usage_limits": "provisional aggregate",
+   "recompute_trigger": "official baseline release"
+  },
+  "green_ratio": {
+   "status": "known",
+   "value": 0.116045,
+   "unit": "ratio",
+   "source_files": [
+    "geometry/green_space.geojson",
+    "geometry/site_boundary.geojson"
+   ],
+   "formula": "green_space_area_sqm / site_area_sqm",
+   "confidence": "low",
+   "usage_limits": "caliber: green polygons over overall-design scope; NOT comparable to 33% concept parkland share",
+   "recompute_trigger": "official area release"
+  },
+  "public_space_ratio": {
+   "status": "known",
+   "value": 0.003167,
+   "unit": "ratio",
+   "source_files": [
+    "geometry/public_space.geojson",
+    "geometry/site_boundary.geojson"
+   ],
+   "formula": "public_space_area_sqm / site_area_sqm",
+   "confidence": "low",
+   "usage_limits": "provisional aggregate",
+   "recompute_trigger": "official baseline release"
+  },
+  "road_network_length_m": {
+   "status": "known",
+   "value": 10154.351,
+   "unit": "m",
+   "source_files": [
+    "geometry/roads.geojson"
+   ],
+   "formula": "sum(conceptual paths, EPSG:4548)",
+   "confidence": "low",
+   "usage_limits": "provisional aggregate",
+   "recompute_trigger": "official baseline release"
+  },
+  "key_area_count": {
+   "status": "known",
+   "value": 3,
+   "unit": "count",
+   "source_files": [
+    "geometry/key_areas.geojson"
+   ],
+   "formula": "count(area_id in key_areas.geojson)",
+   "confidence": "medium",
+   "usage_limits": "concept node count",
+   "recompute_trigger": "siting approval updates"
+  },
+  "land_use_zone_count": {
+   "status": "known",
+   "value": 24,
+   "unit": "count",
+   "source_files": [
+    "geometry/land_use.geojson"
+   ],
+   "formula": "count(land_use.geojson features)",
+   "confidence": "high",
+   "usage_limits": "concept zone count",
+   "recompute_trigger": "land-use baseline release"
+  },
+  "building_unit_count": {
+   "status": "known",
+   "value": 12,
+   "unit": "count",
+   "source_files": [
+    "geometry/buildings.geojson"
+   ],
+   "formula": "count(buildings.geojson features)",
+   "confidence": "high",
+   "usage_limits": "concept reuse envelopes count",
+   "recompute_trigger": "baseline release"
+  },
+  "landmark_count": {
+   "status": "known",
+   "value": 3,
+   "unit": "count",
+   "source_files": [
+    "geometry/public_space.geojson"
+   ],
+   "formula": "count(scenario_type == ai_landmark)",
+   "confidence": "high",
+   "usage_limits": "three AI landmarks (Digital Memory Screen, JZ Cloud Bridge, Blue-Green Sensing Ring)",
+   "recompute_trigger": "siting approval updates"
+  },
+  "scenario_node_count": {
+   "status": "known",
+   "value": 8,
+   "unit": "count",
+   "source_files": [
+    "geometry/public_space.geojson"
+   ],
+   "formula": "count(public_space scenario nodes + landmarks)",
+   "confidence": "high",
+   "usage_limits": "concept scenario nodes",
+   "recompute_trigger": "scenario list adjustments"
+  },
+  "industry_test_scenario_count": {
+   "status": "known",
+   "value": 3,
+   "unit": "count",
+   "source_files": [
+    "proposal.md"
+   ],
+   "formula": "count(industry test-validation scenario cards T-01..T-03)",
+   "confidence": "high",
+   "usage_limits": "trial protocols only, no commitment",
+   "recompute_trigger": "official ridership/baseline calibers release"
+  },
+  "scenario_card_count": {
+   "status": "known",
+   "value": 10,
+   "unit": "count",
+   "source_files": [
+    "proposal.md"
+   ],
+   "formula": "count(AI+ scenario cards S-01..S-10)",
+   "confidence": "high",
+   "usage_limits": "concept deliverable count",
+   "recompute_trigger": "scenario list adjustments"
+  },
+  "persona_count": {
+   "status": "known",
+   "value": 5,
+   "unit": "count",
+   "source_files": [
+    "proposal.md"
+   ],
+   "formula": "count(representative user groups, Appendix A)",
+   "confidence": "high",
+   "usage_limits": "five personas with dedicated test paths",
+   "recompute_trigger": "user baseline release"
+  },
+  "global_case_count": {
+   "status": "known",
+   "value": 8,
+   "unit": "count",
+   "source_files": [
+    "proposal.md",
+    "sources.json"
+   ],
+   "formula": "count(case-table rows with source entries)",
+   "confidence": "high",
+   "usage_limits": "reference cases, reuse boundaries in sources.json",
+   "recompute_trigger": "case ledger updates"
+  },
+  "phase_count": {
+   "status": "known",
+   "value": 3,
+   "unit": "count",
+   "source_files": [
+    "geometry/phasing.geojson"
+   ],
+   "formula": "count(phasing polygons)",
+   "confidence": "high",
+   "usage_limits": "near/mid/far phases",
+   "recompute_trigger": "official calendar updates"
+  },
+  "annual_program_count": {
+   "status": "known",
+   "value": 4,
+   "unit": "count",
+   "source_files": [
+    "proposal.md"
+   ],
+   "formula": "count(annual programme brands under JINGZHANG+)",
+   "confidence": "high",
+   "usage_limits": "concept programme brands",
+   "recompute_trigger": "operation baseline release"
   }
+ }
 }
