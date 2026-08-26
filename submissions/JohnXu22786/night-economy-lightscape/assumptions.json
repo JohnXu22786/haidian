@@ -70,6 +70,41 @@
       "statement_en": "Single land-use caliber used package-wide; green_ratio uses the greenline layer caliber; all recomputed after official release.",
       "category": "land_use_caliber",
       "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-ECOSYS-001",
+      "statement_zh": "全球AI创新生态对标仅借用公开渠道可概述的机制，不复制任何机构的组织模式与承诺；案例断言均为公开渠道口径、待独立核验，必要时按待研究假设处理。",
+      "statement_en": "Global AI ecosystem benchmarks borrow only publicly-overviewable mechanisms; no organisation model or commitment is copied; case claims are public-channel calibers pending verification.",
+      "category": "benchmark_boundary",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-HONOR-001",
+      "statement_zh": "荣誉展示体系不设现金奖励、不构成许可特权或优先摆位，荣誉点仅做匿名聚合展示、不形成个人画像；隐私或异议事件即触发停用。",
+      "statement_en": "The honor display system has no cash rewards, permit privileges or priority stalls; honor points are anonymised aggregates only; privacy or objection events trigger removal.",
+      "category": "governance",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-COMPONENT-001",
+      "statement_zh": "可逆公共空间组件库为概念目录，仅含空间与运营映射，不给工程规模与造价结论；组件撤收后不残留固定建设。",
+      "statement_en": "The reversible component library is a concept catalogue with spatial and operational mappings only; no engineering or cost conclusions; no fixed construction remains after withdrawal.",
+      "category": "design_boundary",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-COMMUNITY-001",
+      "statement_zh": "开发者社区、开放运营规则与转化路径均为概念机制：不拟设机构、不承诺运营资源，任何参与不构成录用、入驻、采购、投资或政策承诺。",
+      "statement_en": "The developer community, open operation rules and conversion pathway are concept mechanisms: no institutions proposed, no operational resources promised, and participation creates no employment, incubation, procurement, investment or policy commitment.",
+      "category": "operation_boundary",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-THRESHOLD-001",
+      "statement_zh": "AI场景开放运营规则中的全部阈值均为试点校准预设值，未完成实测校准前不投产、不对外声称任何性能；校准结果随年度公示公开。",
+      "statement_en": "All thresholds in the AI-scenario open operation rules are pilot-calibrated presets; nothing goes live and no performance is claimed before actual calibration; calibration results are published with the annual disclosure.",
+      "category": "data_boundary",
+      "status": "accepted_limitation"
     }
   ]
 }

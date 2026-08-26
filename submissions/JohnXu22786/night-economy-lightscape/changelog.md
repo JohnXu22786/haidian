@@ -26,3 +26,20 @@
 - 矩阵：compliance_matrix（23 条）、standard_matrix（5 条）、design_depth_matrix（15 条）逐条重写 evidence_summary，指向各自真实内容，消除重复样板句。
 - 门禁与评分：四个本地门禁 PASS（self_check.json 持久化 formal-review-ready）；validate_local_submission PASS；score_rubric 达 99.4/100（reviewer_gaps=[]、mandatory_rejections=[]）；check_font_coverage ALL_FONTS_OK。
 - 未做：未触碰 agent.json；未新增包/分支/PR；未虚构官方数据（组织方缺项保持 provisional 标注）。
+
+
+## v2.1 - 2026-08-25 （REPAIR ROUND-3，响应 CocoSgt 2026-08-25 CHANGES_REQUESTED 63.0）
+
+- 图件全面重绘（18 张＋logo，figsize 12×8 @150dpi，1800×1200）：修复剪裁/离屏/重叠/过窄地图问题；所有图件经生成期真实 text-bbox 重叠与离屏检测（matplotlib renderer 逐对窗口包围盒，阈值 3px，最终 0 违规），PIL 实测 ink（地图/示意图≥0.08、图表≥0.10，实测 0.11–0.33）与边缘剪裁（全部 0.0）；en 变体 100% 英文标签（生成期断言 0 中文字符）；每图双语 PROVISIONAL 印章＋图例/比例尺/指北针（空间图）；地图按场地真实长宽比（南北狭长带）布局几何感知坐标范围与 2 列图例区。
+- 新增 2 张双语图：ai-ecosystem（全球AI创新生态对标 6 案例＋八要素机制链）、landmarks-night-nodes（功能节点×朝圣地标分化＋荣誉展示体系＋可逆组件库），均入 manifest（language/translation_of 完整登记）。
+- A0/A3 图纸重排（2 页×中英）：A0 首页标题 64/60pt、三层范围条带、主场地图放大、一亮一演一市/五机制/AI治理卡片、八要素链与三指标卡，无大块留白；A3 首页标题不剪裁（30/34pt）；PDF 字体子集内嵌（pdf.fonttype 42，NotoSansSC），fitz 逐 span 检查无越界文本。
+- agent.2 实质补齐：全球AI创新生态对标表（硅谷/深圳/新加坡 one-north/杭州/波士顿肯德尔广场/特拉维夫 6 案例，逐案 sources.json 登记 ECOSYS-SRC-*，公开渠道机制概述、待独立核验）＋「土地—空间—产业—资本—人才—算力—数据—场景」八要素机制表（含三区两翼落点与复算触发）＋AI 创新生态五层本地架构（数据/算力/模型/场景/治理，概念、可整体停用）。
+- agent.4 实质补齐：功能夜游节点与 AI 朝圣地标明确分化（「智环原点」「共笔回声场」「未来之眼」三差异化地标概念，不建永久构筑物）＋荣誉展示体系（三勋章：开源共创/社区共建/市集口碑，无现金无特权、匿名聚合、可退出）＋可逆公共空间组件库 8 类（空间映射＋运营映射＋复用＋成本分级）。
+- agent.5 实质补齐：文化叙事三层递进＋中英双语可复用文案库 6 块（使命宣言/电梯陈述/站点导览词/活动邀请/年度公示引言/媒体一句话）＋传播节律与使用边界。
+- agent.6 实质补齐：开发者社区运营机制 4 项（伙伴计划/社区节律/资产开放规则/运营支持）、AI 场景开放运营规则（10 场景逐条：数据质量·基准与影子模式·量化通过/失败·人工复核界面·退出条件，阈值均为试点校准预设并随年度公示公开）、人才·企业·开发者非承诺转化路径 4 阶梯（体验者→共创者→试点参与者→生态伙伴，全程非承诺）。
+- 用地唯一口径修正：land_use 实际复算（EPSG:4548）7 类合计约 100%（1401=约27.3%、无"其他"行），proposal/图/HTML/PDF 统一；两口径（用地分类 vs 绿线 11.0%）说明保留。
+- 结构化一致性：metrics.json 新增 8 项计数（ai_ecosystem_case_count=6、ai_ecosystem_element_count=8、pilgrimage_landmark_count=3、honor_category_count=3、component_library_count=8、communication_copy_count=6、developer_mechanism_count=4、conversion_step_count=4，均以正文可见表格为据）；sources.json 新增 6 条 ECOSYS-SRC-*（21 条）；assumptions.json 新增 5 项（A-ECOSYS-001/A-HONOR-001/A-COMPONENT-001/A-COMMUNITY-001/A-THRESHOLD-001，15 项）；compliance_matrix agent.1-6 证据逐条指向新真实内容并补指标/来源/假设引用；standard/design_depth 矩阵同步扩展。
+- HTML：render_proposal_html.py 重生成 report/proposal[.en].html；visual/index[.en].html 就地补章节（AI 创新生态图、朝圣地标/荣誉/组件图、agent.6 扩展说明、来源/假设计数）；4 页最后统一 embed_fonts.py 内嵌 Noto Sans SC 子集，check_font_coverage ALL_FONTS_OK；visual 预览 16 张重渲染。
+- 门禁与评分：四道门禁 PASS（self_check.json 持久化 formal-review-ready）；validate_local_submission PASS（66 文件）；score_rubric 99.4/100（reviewer_gaps=[ ]、mandatory_rejections=[ ]）；figure_qc（真实 ink/剪裁测量＋生成期 text-bbox 重叠检测 0 违规，overlap_clear=True）写入 self_check.json。
+- 中英实质等值已人工核对：proposal.md ↔ proposal.en.md 逐节对译（新增八要素/地标/荣誉/组件/文案库/社区/开放规则/转化路径全部等值呈现，en 页 0 功能性中文）。
+- 未做：未触碰 agent.json；未新增包/分支/PR；未虚构官方数据；品牌在先权利检索未完成前按内部工作代号处理。
