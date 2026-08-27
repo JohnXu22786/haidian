@@ -68,7 +68,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/jingzhang-belt-master-concept": "formal"
       },
-      "total_bytes": 13043851,
+      "total_bytes": 13175973,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -210,57 +210,149 @@
     "ok": true,
     "ink_ok": true,
     "clip_clear": true,
-    "overlap_clear": "not_verified",
-    "summary": "ink+edge-clip machine check only; text-overlap not machine-verified post-hoc (figure generation text-bbox checks recorded in changelog)",
-    "figures": {
+    "overlap_clear": true,
+    "summary": "machine ink/edge-clip measured on final 150dpi PNGs; text overlap/clip measured at generation time with the matplotlib Agg renderer (zero text-text intersections, all text boxes inside canvas); font floors: annotations>=11pt, labels/legends>=13pt, titles>=19pt; en variants CJK-free; A0/A3 PDFs pass the same per-page audit; HTML pages verified with Playwright (fonts loaded, no overflow, all images ok)",
+    "checks": {
+      "ecosystem-map.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.4075,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true,
+        "text_overlap_count": 0,
+        "text_clip_count": 0,
+        "min_fontsize_pt": 11.0,
+        "audit_clean": true
+      },
       "ecosystem-map.png": {
         "width": 1800,
         "height": 1200,
-        "ink": 0.4356,
+        "ink": 0.4252,
         "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
+        "edge_clip_clear": true,
+        "text_overlap_count": 0,
+        "text_clip_count": 0,
+        "min_fontsize_pt": 11.0,
+        "audit_clean": true
+      },
+      "key-areas.en.png": {
+        "width": 1890,
+        "height": 1710,
+        "ink": 0.3392,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true,
+        "text_overlap_count": 0,
+        "text_clip_count": 0,
+        "min_fontsize_pt": 11.0,
+        "audit_clean": true
       },
       "key-areas.png": {
-        "width": 1800,
-        "height": 1440,
-        "ink": 0.0849,
+        "width": 1890,
+        "height": 1710,
+        "ink": 0.3593,
         "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
+        "edge_clip_clear": true,
+        "text_overlap_count": 0,
+        "text_clip_count": 0,
+        "min_fontsize_pt": 11.0,
+        "audit_clean": true
+      },
+      "land-use-structure.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.0866,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true,
+        "text_overlap_count": 0,
+        "text_clip_count": 0,
+        "min_fontsize_pt": 11.0,
+        "audit_clean": true
       },
       "land-use-structure.png": {
         "width": 1800,
         "height": 1200,
-        "ink": 0.0865,
-        "edge_clip_ratio": 0.0068,
-        "edge_clip_clear": true
+        "ink": 0.0835,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true,
+        "text_overlap_count": 0,
+        "text_clip_count": 0,
+        "min_fontsize_pt": 11.0,
+        "audit_clean": true
       },
       "logo-concept.png": {
         "width": 1800,
         "height": 1200,
         "ink": 0.3171,
         "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
+        "edge_clip_clear": true,
+        "text_overlap_count": "not_applicable_asset",
+        "text_clip_count": "not_applicable_asset"
+      },
+      "metrics-evidence.en.png": {
+        "width": 1950,
+        "height": 1320,
+        "ink": 0.1454,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true,
+        "text_overlap_count": 0,
+        "text_clip_count": 0,
+        "min_fontsize_pt": 11.0,
+        "audit_clean": true
       },
       "metrics-evidence.png": {
+        "width": 1950,
+        "height": 1320,
+        "ink": 0.1412,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true,
+        "text_overlap_count": 0,
+        "text_clip_count": 0,
+        "min_fontsize_pt": 11.0,
+        "audit_clean": true
+      },
+      "mobility-bluegreen.en.png": {
         "width": 1800,
         "height": 1200,
-        "ink": 0.1626,
-        "edge_clip_ratio": 0.0132,
-        "edge_clip_clear": true
+        "ink": 0.2751,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true,
+        "text_overlap_count": 0,
+        "text_clip_count": 0,
+        "min_fontsize_pt": 11.0,
+        "audit_clean": true
       },
       "mobility-bluegreen.png": {
         "width": 1800,
         "height": 1200,
-        "ink": 0.2914,
+        "ink": 0.2996,
         "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
+        "edge_clip_clear": true,
+        "text_overlap_count": 0,
+        "text_clip_count": 0,
+        "min_fontsize_pt": 11.0,
+        "audit_clean": true
+      },
+      "site-overview.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.2503,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true,
+        "text_overlap_count": 0,
+        "text_clip_count": 0,
+        "min_fontsize_pt": 11.0,
+        "audit_clean": true
       },
       "site-overview.png": {
         "width": 1800,
         "height": 1200,
-        "ink": 0.0899,
+        "ink": 0.2636,
         "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
+        "edge_clip_clear": true,
+        "text_overlap_count": 0,
+        "text_clip_count": 0,
+        "min_fontsize_pt": 11.0,
+        "audit_clean": true
       }
     }
   }
