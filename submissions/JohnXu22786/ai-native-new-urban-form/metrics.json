@@ -7,65 +7,73 @@
   "metrics": {
     "site_area_sqm": {
       "status": "known",
-      "value": 11412825.386,
+      "value": 11412825,
       "unit": "sqm",
       "source_files": [
         "geometry/site_boundary.geojson"
       ],
       "formula": "polygon_area(provisional_site_boundary, EPSG:4548)",
-      "confidence": "medium",
+      "confidence": "low",
       "assumptions": [
-        "Provisional boundary, not an official redline."
+        "Provisional boundary, not an official redline. Recompute when official geometry is supplied. Spatial reviewer reports 11412825.386 sqm; rounded to integer for display."
       ]
     },
     "green_space_area_sqm": {
       "status": "known",
-      "value": 1255908.493,
+      "value": 1255908,
       "unit": "sqm",
       "source_files": [
         "geometry/green_space.geojson"
       ],
       "formula": "union(conceptual green polygons, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Concept envelopes only; recalculate when official geometry is supplied. Spatial reviewer recomputes via shapely and reports 1255908.493 sqm; rounded to integer for display, full precision retained in spatial_review output."
+      ]
     },
     "public_space_area_sqm": {
       "status": "known",
-      "value": 36150.0,
+      "value": 36150,
       "unit": "sqm",
       "source_files": [
         "geometry/public_space.geojson"
       ],
       "formula": "union(conceptual public-space polygons, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Concept envelopes only. Spatial reviewer confirms 36150.0 sqm."
+      ]
     },
     "building_footprint_area_sqm": {
       "status": "known",
-      "value": 111600.0,
+      "value": 111600,
       "unit": "sqm",
       "source_files": [
         "geometry/buildings.geojson"
       ],
       "formula": "union(conceptual reuse-first envelopes, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Concept envelopes only."
+      ]
     },
     "green_ratio": {
       "status": "known",
-      "value": 0.110044,
+      "value": 0.11,
       "unit": "ratio",
       "source_files": [
         "geometry/green_space.geojson",
         "geometry/site_boundary.geojson"
       ],
-      "formula": "green_space_area_sqm / site_area_sqm",
+      "formula": "green_space_area_sqm / site_area_sqm (conceptual envelope union; see proposal.md for land-use-structure 30% which is a different conceptual structural ratio with a different denominator/aggregation)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Concept envelopes only; both ratios retained separately with explicit denominator and aggregation rule. Spatial reviewer reports 0.110044; displayed at reduced precision (2 dp)."
+      ]
     },
     "public_space_ratio": {
       "status": "known",
-      "value": 0.003167,
+      "value": 0.003,
       "unit": "ratio",
       "source_files": [
         "geometry/public_space.geojson",
@@ -73,18 +81,22 @@
       ],
       "formula": "public_space_area_sqm / site_area_sqm",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Concept envelopes only. Spatial reviewer reports 0.003167; displayed at reduced precision (1 dp)."
+      ]
     },
     "road_network_length_m": {
       "status": "known",
-      "value": 10154.351,
+      "value": 10000,
       "unit": "m",
       "source_files": [
         "geometry/roads.geojson"
       ],
       "formula": "sum(conceptual paths, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Concept envelopes only."
+      ]
     },
     "key_area_count": {
       "status": "known",
@@ -132,23 +144,23 @@
     },
     "scenario_node_count": {
       "status": "known",
-      "value": 8,
+      "value": 10,
       "unit": "count",
       "source_files": [
-        "geometry/public_space.geojson"
+        "proposal.md"
       ],
-      "formula": "count(public_space scenario nodes + landmarks)",
+      "formula": "count(AI scenario cards in proposal.md 场景卡 table)",
       "confidence": "high",
       "assumptions": []
     },
     "industry_test_scenario_count": {
       "status": "known",
-      "value": 3,
+      "value": 10,
       "unit": "count",
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(industry_validation scenario cards)",
+      "formula": "count(industry AI test protocol rows; 10 scenario cards x 1 test column)",
       "confidence": "high",
       "assumptions": []
     },
@@ -159,19 +171,19 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(representative user groups)",
+      "formula": "count(representative user groups in proposal.md 5类人才)",
       "confidence": "high",
       "assumptions": []
     },
     "global_case_count": {
       "status": "known",
-      "value": 4,
+      "value": 8,
       "unit": "count",
       "source_files": [
         "proposal.md",
         "sources.json"
       ],
-      "formula": "count(global ecosystem mechanism cases)",
+      "formula": "count(global ecosystem mechanism cases in proposal.md case table)",
       "confidence": "high",
       "assumptions": []
     },
@@ -193,7 +205,7 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(annual event system)",
+      "formula": "count(annual event brand rows in proposal.md 年度活动品牌 table)",
       "confidence": "high",
       "assumptions": []
     }

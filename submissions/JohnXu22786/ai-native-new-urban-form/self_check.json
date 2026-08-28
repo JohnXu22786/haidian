@@ -10,20 +10,7 @@
       "ok": true,
       "errors": [],
       "warnings": [
-        "submissions/JohnXu22786/ai-native-new-urban-form/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
-        "submissions/JohnXu22786/ai-native-new-urban-form/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-native-new-urban-form/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-native-new-urban-form/drawings/a3-booklet.pdf: bilingual contract requires en display counterpart `drawings/a3-booklet.en.pdf`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-native-new-urban-form/manifest.json: `proposal.en.md` should declare translation_of=proposal.md; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-native-new-urban-form/report/proposal.html: bilingual contract requires en display counterpart `report/proposal.en.html`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-native-new-urban-form/visual/index.html: bilingual contract requires en display counterpart `visual/index.en.html`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-native-new-urban-form/proposal.en.md: front matter should set language=en; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-native-new-urban-form/proposal.en.md: front matter should set translation_of=proposal.md; legacy v1 package remains compatible"
+        "submissions/JohnXu22786/ai-native-new-urban-form/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
       ],
       "proposal_files": [
         "submissions/JohnXu22786/ai-native-new-urban-form/proposal.md"
@@ -33,17 +20,30 @@
       ],
       "changed_files": [
         "submissions/JohnXu22786/ai-native-new-urban-form/agent.json",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/ai-ecosystem.en.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/ai-ecosystem.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/key-areas.en.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/key-areas.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/land-use-structure.en.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/land-use-structure.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/logo-celljz.en.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/logo-celljz.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/metrics-evidence.en.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/metrics-evidence.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/mobility-bluegreen.en.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/mobility-bluegreen.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/site-overview.en.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/site-overview.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assumptions.json",
         "submissions/JohnXu22786/ai-native-new-urban-form/changelog.md",
         "submissions/JohnXu22786/ai-native-new-urban-form/compliance_matrix.json",
         "submissions/JohnXu22786/ai-native-new-urban-form/design_depth_matrix.json",
+        "submissions/JohnXu22786/ai-native-new-urban-form/drawings/a0-boards.en.pdf",
         "submissions/JohnXu22786/ai-native-new-urban-form/drawings/a0-boards.pdf",
+        "submissions/JohnXu22786/ai-native-new-urban-form/drawings/a0-boards.zh.pdf",
+        "submissions/JohnXu22786/ai-native-new-urban-form/drawings/a3-booklet.en.pdf",
         "submissions/JohnXu22786/ai-native-new-urban-form/drawings/a3-booklet.pdf",
+        "submissions/JohnXu22786/ai-native-new-urban-form/drawings/a3-booklet.zh.pdf",
         "submissions/JohnXu22786/ai-native-new-urban-form/geometry/buildings.geojson",
         "submissions/JohnXu22786/ai-native-new-urban-form/geometry/constraints.geojson",
         "submissions/JohnXu22786/ai-native-new-urban-form/geometry/green_space.geojson",
@@ -59,17 +59,19 @@
         "submissions/JohnXu22786/ai-native-new-urban-form/proposal.md",
         "submissions/JohnXu22786/ai-native-new-urban-form/report/copyright_statement.md",
         "submissions/JohnXu22786/ai-native-new-urban-form/report/narrative.md",
+        "submissions/JohnXu22786/ai-native-new-urban-form/report/proposal.en.html",
         "submissions/JohnXu22786/ai-native-new-urban-form/report/proposal.html",
         "submissions/JohnXu22786/ai-native-new-urban-form/risk.json",
         "submissions/JohnXu22786/ai-native-new-urban-form/self_check.json",
         "submissions/JohnXu22786/ai-native-new-urban-form/sources.json",
         "submissions/JohnXu22786/ai-native-new-urban-form/standard_matrix.json",
+        "submissions/JohnXu22786/ai-native-new-urban-form/visual/index.en.html",
         "submissions/JohnXu22786/ai-native-new-urban-form/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/JohnXu22786/ai-native-new-urban-form": "formal"
       },
-      "total_bytes": 1045103,
+      "total_bytes": 4958324,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -127,9 +129,16 @@
       "ok": true,
       "issues": [],
       "metrics_seen": {
-        "site_area_sqm": 11412825.386,
-        "green_ratio": 0.110044,
-        "public_space_ratio": 0.003167
+        "site_area_sqm": 11412825.0,
+        "green_ratio": 0.11,
+        "public_space_ratio": 0.003,
+        "key_area_count": 3.0,
+        "scenario_node_count": 10.0,
+        "industry_test_scenario_count": 10.0,
+        "persona_count": 5.0,
+        "global_case_count": 8.0,
+        "phase_count": 3.0,
+        "annual_program_count": 3.0
       }
     },
     "stderr": ""
@@ -168,21 +177,7 @@
   "can_enter_formal_review": true,
   "package_type": "professional_design_package",
   "review_status": "formal-review-ready",
-  "next_actions": [
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-native-new-urban-form/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-native-new-urban-form/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-native-new-urban-form/drawings/a3-booklet.pdf: bilingual contract requires en display counterpart `drawings/a3-booklet.en.pdf`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-native-new-urban-form/manifest.json: `proposal.en.md` should declare translation_of=proposal.md; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-native-new-urban-form/report/proposal.html: bilingual contract requires en display counterpart `report/proposal.en.html`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-native-new-urban-form/visual/index.html: bilingual contract requires en display counterpart `visual/index.en.html`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-native-new-urban-form/proposal.en.md: front matter should set language=en; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-native-new-urban-form/proposal.en.md: front matter should set translation_of=proposal.md; legacy v1 package remains compatible"
-  ],
+  "next_actions": [],
   "schema_version": "0.1.0",
   "checks": [
     {
@@ -213,5 +208,168 @@
       "target": "professional_review.py",
       "message": "professional_review: PASS"
     }
-  ]
+  ],
+  "figure_qc": {
+    "ok": true,
+    "ink_ok": true,
+    "clip_clear": true,
+    "overlap_clear": "not_verified",
+    "summary": "machine figure-QC pass: all zh+en figures ink>=0.05 and edges not clipped; text-bbox overlap is post-hoc and not machine-verifiable",
+    "checks": {
+      "ai-ecosystem.en.png": {
+        "ink_ratio": 0.1369,
+        "width": 1800,
+        "height": 1200,
+        "ink_ok": true,
+        "edge_top": 0.0,
+        "edge_bot": 0.0,
+        "edge_l": 0.0,
+        "edge_r": 0.0068,
+        "clip_clear": true
+      },
+      "ai-ecosystem.png": {
+        "ink_ratio": 0.1362,
+        "width": 1800,
+        "height": 1200,
+        "ink_ok": true,
+        "edge_top": 0.0,
+        "edge_bot": 0.0,
+        "edge_l": 0.0,
+        "edge_r": 0.005,
+        "clip_clear": true
+      },
+      "key-areas.en.png": {
+        "ink_ratio": 0.3243,
+        "width": 1800,
+        "height": 1200,
+        "ink_ok": true,
+        "edge_top": 0.0,
+        "edge_bot": 0.0,
+        "edge_l": 0.0058,
+        "edge_r": 0.0472,
+        "clip_clear": true
+      },
+      "key-areas.png": {
+        "ink_ratio": 0.3227,
+        "width": 1800,
+        "height": 1200,
+        "ink_ok": true,
+        "edge_top": 0.0,
+        "edge_bot": 0.0,
+        "edge_l": 0.0,
+        "edge_r": 0.027,
+        "clip_clear": true
+      },
+      "land-use-structure.en.png": {
+        "ink_ratio": 0.203,
+        "width": 1800,
+        "height": 1200,
+        "ink_ok": true,
+        "edge_top": 0.0,
+        "edge_bot": 0.0,
+        "edge_l": 0.0373,
+        "edge_r": 0.0093,
+        "clip_clear": true
+      },
+      "land-use-structure.png": {
+        "ink_ratio": 0.2035,
+        "width": 1800,
+        "height": 1200,
+        "ink_ok": true,
+        "edge_top": 0.0,
+        "edge_bot": 0.0,
+        "edge_l": 0.0458,
+        "edge_r": 0.0,
+        "clip_clear": true
+      },
+      "logo-celljz.en.png": {
+        "ink_ratio": 0.1149,
+        "width": 1200,
+        "height": 480,
+        "ink_ok": true,
+        "edge_top": 0.0,
+        "edge_bot": 0.0,
+        "edge_l": 0.0,
+        "edge_r": 0.0,
+        "clip_clear": true
+      },
+      "logo-celljz.png": {
+        "ink_ratio": 0.116,
+        "width": 1200,
+        "height": 480,
+        "ink_ok": true,
+        "edge_top": 0.0,
+        "edge_bot": 0.0,
+        "edge_l": 0.0,
+        "edge_r": 0.0054,
+        "clip_clear": true
+      },
+      "metrics-evidence.en.png": {
+        "ink_ratio": 0.1816,
+        "width": 1800,
+        "height": 1200,
+        "ink_ok": true,
+        "edge_top": 0.0,
+        "edge_bot": 0.0014,
+        "edge_l": 0.0257,
+        "edge_r": 0.147,
+        "clip_clear": true
+      },
+      "metrics-evidence.png": {
+        "ink_ratio": 0.1807,
+        "width": 1800,
+        "height": 1200,
+        "ink_ok": true,
+        "edge_top": 0.0,
+        "edge_bot": 0.0,
+        "edge_l": 0.0352,
+        "edge_r": 0.1453,
+        "clip_clear": true
+      },
+      "mobility-bluegreen.en.png": {
+        "ink_ratio": 0.1543,
+        "width": 1447,
+        "height": 954,
+        "ink_ok": true,
+        "edge_top": 0.0,
+        "edge_bot": 0.0,
+        "edge_l": 0.0,
+        "edge_r": 0.0,
+        "clip_clear": true
+      },
+      "mobility-bluegreen.png": {
+        "ink_ratio": 0.1554,
+        "width": 1406,
+        "height": 954,
+        "ink_ok": true,
+        "edge_top": 0.0,
+        "edge_bot": 0.0,
+        "edge_l": 0.0,
+        "edge_r": 0.0,
+        "clip_clear": true
+      },
+      "site-overview.en.png": {
+        "ink_ratio": 0.1748,
+        "width": 1447,
+        "height": 954,
+        "ink_ok": true,
+        "edge_top": 0.0,
+        "edge_bot": 0.0,
+        "edge_l": 0.0,
+        "edge_r": 0.0,
+        "clip_clear": true
+      },
+      "site-overview.png": {
+        "ink_ratio": 0.1872,
+        "width": 1373,
+        "height": 954,
+        "ink_ok": true,
+        "edge_top": 0.0,
+        "edge_bot": 0.0,
+        "edge_l": 0.0,
+        "edge_r": 0.0,
+        "clip_clear": true
+      }
+    }
+  }
 }
