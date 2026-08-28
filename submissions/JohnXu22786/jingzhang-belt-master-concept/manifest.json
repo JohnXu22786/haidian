@@ -235,7 +235,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "0b194d37f17c6356b8364d109e2af41d5883f795a1c81dba967e996457de4d65"
+      "sha256": "5ba92224aeaba9f4b62e0659b4890989233dd656f92aa8aceeee26afd611842c"
     },
     {
       "path": "compliance_matrix.json",
