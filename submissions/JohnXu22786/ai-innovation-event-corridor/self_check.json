@@ -20,26 +20,18 @@
       ],
       "changed_files": [
         "submissions/JohnXu22786/ai-innovation-event-corridor/agent.json",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/ecosystem-atlas.en.png",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/ecosystem-atlas.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/ai-ecosystem-atlas.en.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/ai-ecosystem-atlas.png",
         "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/key-areas.en.png",
         "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/key-areas.png",
         "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/land-use-structure.en.png",
         "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/land-use-structure.png",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/logo-vi.en.png",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/logo-vi.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/logo-brand.en.png",
+        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/logo-brand.png",
         "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/metrics-evidence.en.png",
         "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/metrics-evidence.png",
         "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/mobility-bluegreen.en.png",
         "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/mobility-bluegreen.png",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/node-daily-event.en.png",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/node-daily-event.png",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/phasing.en.png",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/phasing.png",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/positioning-function-synergy.en.png",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/positioning-function-synergy.png",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/section-circulation.en.png",
-        "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/section-circulation.png",
         "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/site-overview.en.png",
         "submissions/JohnXu22786/ai-innovation-event-corridor/assets/figures/site-overview.png",
         "submissions/JohnXu22786/ai-innovation-event-corridor/assumptions.json",
@@ -77,7 +69,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/ai-innovation-event-corridor": "formal"
       },
-      "total_bytes": 14348788,
+      "total_bytes": 8850362,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -115,51 +107,15 @@
           "target_feature_id": "KEY-DAZH",
           "expected": null,
           "actual": null
-        },
-        {
-          "check_id": "METRIC_RECALC_DRIFT",
-          "severity": "minor",
-          "target_file": "metrics.json",
-          "message": "site_area_sqm is within the legacy tolerance but drifts beyond ordinary reporting precision; reconcile before publication.",
-          "target_feature_id": null,
-          "expected": 11412825.385554,
-          "actual": 11410000.0
-        },
-        {
-          "check_id": "METRIC_RECALC_DRIFT",
-          "severity": "minor",
-          "target_file": "metrics.json",
-          "message": "green_space_area_sqm is within the legacy tolerance but drifts beyond ordinary reporting precision; reconcile before publication.",
-          "target_feature_id": null,
-          "expected": 1393756.158692,
-          "actual": 1390000.0
-        },
-        {
-          "check_id": "METRIC_RECALC_DRIFT",
-          "severity": "minor",
-          "target_file": "metrics.json",
-          "message": "public_space_area_sqm is within the legacy tolerance but drifts beyond ordinary reporting precision; reconcile before publication.",
-          "target_feature_id": null,
-          "expected": 36150.0,
-          "actual": 36000.0
-        },
-        {
-          "check_id": "METRIC_RECALC_DRIFT",
-          "severity": "minor",
-          "target_file": "metrics.json",
-          "message": "building_footprint_area_sqm is within the legacy tolerance but drifts beyond ordinary reporting precision; reconcile before publication.",
-          "target_feature_id": null,
-          "expected": 111600.0,
-          "actual": 112000.0
         }
       ],
       "metrics": {
         "site_area_sqm": 11412825.386,
-        "green_space_area_sqm": 1393756.159,
-        "public_space_area_sqm": 36150.0,
+        "green_space_area_sqm": 1328450.0,
+        "public_space_area_sqm": 51350.0,
         "building_footprint_area_sqm": 111600.0,
-        "green_ratio": 0.122122,
-        "public_space_ratio": 0.003167
+        "green_ratio": 0.1164,
+        "public_space_ratio": 0.004499
       }
     },
     "stderr": ""
@@ -171,9 +127,9 @@
       "ok": true,
       "issues": [],
       "metrics_seen": {
-        "site_area_sqm": 11410000.0,
-        "green_ratio": 0.12,
-        "public_space_ratio": 0.003
+        "site_area_sqm": 11412825.386,
+        "green_ratio": 0.1164,
+        "public_space_ratio": 0.004499
       }
     },
     "stderr": ""
@@ -187,7 +143,7 @@
       "summary": {
         "standard_matrix_items": 5,
         "design_depth_items": 15,
-        "known_metric_refs_required": 18,
+        "known_metric_refs_required": 17,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
@@ -195,7 +151,7 @@
           "standard": 0,
           "depth": 0,
           "data": 1,
-          "metric": 5
+          "metric": 2
         }
       }
     },
@@ -204,11 +160,7 @@
   "spatial_issue_ids": [
     "KEY_AREA_PROVISIONAL",
     "KEY_AREA_PROVISIONAL",
-    "KEY_AREA_PROVISIONAL",
-    "METRIC_RECALC_DRIFT",
-    "METRIC_RECALC_DRIFT",
-    "METRIC_RECALC_DRIFT",
-    "METRIC_RECALC_DRIFT"
+    "KEY_AREA_PROVISIONAL"
   ],
   "visual_issue_ids": [],
   "professional_issue_ids": [],
@@ -247,91 +199,5 @@
       "target": "professional_review.py",
       "message": "professional_review: PASS"
     }
-  ],
-  "figure_qc": {
-    "ok": true,
-    "ink_ok": true,
-    "clip_clear": true,
-    "overlap_clear": "not_verified",
-    "summary": "ink+edge-clip machine check only; text-overlap not machine-verified post-hoc (figure generation text-bbox checks recorded in changelog)",
-    "figures": {
-      "ecosystem-atlas.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1472,
-        "edge_clip_ratio": 0.0097,
-        "edge_clip_clear": true
-      },
-      "key-areas.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1422,
-        "edge_clip_ratio": 0.0097,
-        "edge_clip_clear": true
-      },
-      "land-use-structure.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.213,
-        "edge_clip_ratio": 0.0097,
-        "edge_clip_clear": true
-      },
-      "logo-vi.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.0883,
-        "edge_clip_ratio": 0.0058,
-        "edge_clip_clear": true
-      },
-      "metrics-evidence.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.0903,
-        "edge_clip_ratio": 0.0097,
-        "edge_clip_clear": true
-      },
-      "mobility-bluegreen.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.0658,
-        "edge_clip_ratio": 0.0097,
-        "edge_clip_clear": true
-      },
-      "node-daily-event.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.2768,
-        "edge_clip_ratio": 0.0097,
-        "edge_clip_clear": true
-      },
-      "phasing.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.0874,
-        "edge_clip_ratio": 0.0097,
-        "edge_clip_clear": true
-      },
-      "positioning-function-synergy.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.143,
-        "edge_clip_ratio": 0.0097,
-        "edge_clip_clear": true
-      },
-      "section-circulation.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.0946,
-        "edge_clip_ratio": 0.0097,
-        "edge_clip_clear": true
-      },
-      "site-overview.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.0784,
-        "edge_clip_ratio": 0.0097,
-        "edge_clip_clear": true
-      }
-    }
-  }
+  ]
 }

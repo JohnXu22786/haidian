@@ -20,15 +20,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -36,8 +39,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -56,7 +59,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "以「京张AI接力带（RELAY·JZ）」把全球AI创新活动体系与长期运营组织为创新带活动承载样本：一条绿带、让年度大会与日常运营接力；对应章节给出场景卡索引 12 张、测试验证场景 3 项与开发者社区机制。"
+   "evidence_summary_zh": "以「京张AI接力带（RELAY·JZ）」组织全球AI创新活动体系与长期运营，依托中关村科技服务翼与小月河场景赋能翼构建世界级创新生态。"
   },
   {
    "requirement_id": "1.3.2",
@@ -76,15 +79,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -92,8 +98,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -112,7 +118,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "重点区域定位与AI创新活动带对应：京张论坛广场、代码坞与回路长廊的概念级空间叙事，含日常/会期双态转换与模块化可逆设施。"
+   "evidence_summary_zh": "重点区域详细设计聚焦京张论坛广场、代码坞、回路长廊三大核心活动节点，实现一带三台空间赋能。"
   },
   {
    "requirement_id": "1.3.3",
@@ -132,15 +138,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -148,8 +157,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -168,7 +177,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "概念愿景：京张AI接力带——从「办活动」走向「经营城市创新生态」，五类人才画像与全龄、无障碍、适老、儿童友好语言覆盖公共利益。"
+   "evidence_summary_zh": "总体设计以遗留绿带为骨架，通过日常/会期双态转换，从办活动走向经营城市创新生态。"
   },
   {
    "requirement_id": "1.4.1",
@@ -188,15 +197,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -204,8 +216,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -224,7 +236,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "严格按任务书文本口径划分三层范围（统筹研究约43.6 k㎡/总体设计约11.4 k㎡/重点区域约368.4公顷），边界为 provisional，待官方几何发布后复算。"
+   "evidence_summary_zh": "严格按任务书官方文本口径划分统筹研究(43.6km²)、总体设计(11.41km²)、重点区域(368.4ha)三层范围，provisional边界待官方发布后复算。"
   },
   {
    "requirement_id": "1.4.2",
@@ -244,15 +256,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -260,8 +275,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -280,7 +295,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "统筹研究聚焦「产业与未来城市」：活动带与沿线科创片区、高校及国际化住区的协同关系判断，八要素六主体生态图谱（概念级）。"
+   "evidence_summary_zh": "统筹研究聚焦产业与未来城市，严格对接中关村科技服务翼与小月河场景赋能翼，补充南北向区域协同接口。"
   },
   {
    "requirement_id": "1.4.3",
@@ -300,15 +315,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -316,8 +334,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -336,7 +354,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "总体设计以遗留绿带为骨架、日常/会期双态转换为核心理念，以控规深度方法校核用地兼容与活动设施落位导则；周边语境为公开信息示意。"
+   "evidence_summary_zh": "总体设计依托绿带骨架开展控规深度城市设计，校核单一口径用地结构（绿地率≈11.64%、公共空间率≈0.45%）。"
   },
   {
    "requirement_id": "1.5.1.1",
@@ -356,23 +374,26 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "重点区域",
     "总览地图"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -391,7 +412,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "节点一：京张论坛广场——以老站台、站牌等铁路意象为母题的开放广场，设可收纳式看台与户外主舞台，含「论坛排期」「同传」场景卡。"
+   "evidence_summary_zh": "节点一：京张论坛广场——老站台母题的开放广场，设收纳式看台与主舞台，承载年度大会开闭幕与公共演讲。"
   },
   {
    "requirement_id": "1.5.1.2",
@@ -411,23 +432,26 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "重点区域",
     "总览地图"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -446,7 +470,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "节点二：代码坞——日间共享工位与工作坊、夜间黑客马拉松与共创基地（模块化拆装）；节点三：回路长廊——线性路演走廊（可变换展位与微型剧场）。"
+   "evidence_summary_zh": "节点二：代码坞（开发者营地与黑客马拉松）；节点三：回路长廊（线性路演走廊与开源市集，练赛展投闭环）。"
   },
   {
    "requirement_id": "1.5.2.1",
@@ -466,23 +490,26 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "AI 场景",
     "核心指标"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -501,7 +528,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "五类人才画像（开发者青年/国际参会者/高校师生/企业团队/居民游客）与五类AI+场景，遵循「仅匿名聚合、关键决策人工复核、禁止过度监控」三句式边界。"
+   "evidence_summary_zh": "五类AI+场景（排期聚合、多语同传、代码陪跑、热力调度、无障碍指引），全部匿名聚合+人工复核，禁止过度监控。"
   },
   {
    "requirement_id": "1.5.2.2",
@@ -521,15 +548,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -537,8 +567,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -557,7 +587,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "留改拆并举：优先保留遗址绿带、历史价值站房与工业构筑物，改造低效厂房与园区建筑，拆除仅限个案论证的零星危旧建筑；面积单一口径、取整展示、官方数据发布后复算。"
+   "evidence_summary_zh": "留改拆并举：优先保留遗址绿带与工业构筑，更新低效建筑，零星危房微改造，单一口径总和严格100%。"
   },
   {
    "requirement_id": "1.5.2.3",
@@ -577,15 +607,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -593,8 +626,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -613,7 +646,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "交通慢行优先：绿带连续慢行轴贯通沿线节点，大型活动交通以轨道交通＋接驳为主，散场分时分区疏导；市政按日常＋会期两档负荷校核。"
+   "evidence_summary_zh": "约10.15km慢行主轴贯通，大型活动以轨道交通+接驳为主，分时分区疏导，降低小汽车依赖。"
   },
   {
    "requirement_id": "1.5.2.4",
@@ -633,15 +666,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -649,8 +685,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -669,7 +705,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "「京张论坛广场—代码坞—回路长廊」沿绿带连续开敞序列：广场、草坪与站台式场地按需切换；公共空间组件库与「京张荣誉」展示体系（概念）。"
+   "evidence_summary_zh": "构建绿带为轴、节点为珠的蓝绿公共空间体系，广场/草坪/站台按需切换，模块化可逆搭建。"
   },
   {
    "requirement_id": "1.5.2.5",
@@ -689,15 +725,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -705,8 +744,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -725,7 +764,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "风貌延续京张铁路工业记忆语汇（道钉、轨枕、信号与机车符号）且克制使用；图件统一指北针、比例尺、图例与 provisional 双语文戳。"
+   "evidence_summary_zh": "克制延续京张铁路道钉、轨枕、信号与机车工业记忆语汇，识别度高且不喧哗。"
   },
   {
    "requirement_id": "1.5.3.required",
@@ -745,18 +784,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
+    "site_area_sqm",
     "green_ratio",
-    "scenario_card_count",
-    "land_use_zone_count",
-    "road_network_length_m"
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -764,8 +803,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -784,7 +823,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "更新项目清单按「骨架—节点—配套」三类滚动更新，配套活动临时审批简化、弹性业态准入、多元主体参与运营等政策建议（概念，依法论证）。"
+   "evidence_summary_zh": "更新项目按骨架—节点—配套三类推进，配套活动审批简化、弹性准入与多元运营政策建议。"
   },
   {
    "requirement_id": "1.5.3.1",
@@ -804,18 +843,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
+    "site_area_sqm",
     "green_ratio",
-    "scenario_card_count",
-    "land_use_zone_count",
-    "road_network_length_m"
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -823,8 +862,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -843,7 +882,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "分期实施：近期1-3年贯通绿带+三节点+年度活动启动（试点：代码坞），中期3-5年节点周边功能更新+轨道接驳强化，远期5-10年沿线片区整体联动；分期实施与长期运营矩阵见正文。"
+   "evidence_summary_zh": "分期实施：近期1-3年贯通绿带与建三大节点，中期3-5年功能更新与接驳强化，远期5-10年片区联动。"
   },
   {
    "requirement_id": "1.5.3.2",
@@ -863,15 +902,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -879,8 +921,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -899,7 +941,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "目标—指标—校验概念指标体系（活动承载力/慢行可达性/绿带连续性/临时设施复用率/社区参与度）；面积复算以官方文本口径为底，官方数据到位后复算并标注复算版本。"
+   "evidence_summary_zh": "单一口径指标体系：绿地率≈11.64%、公共空间率≈0.45%、慢行路径10.15km，官方数据发布后整体复算。"
   },
   {
    "requirement_id": "1.5.3.3",
@@ -919,15 +961,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -935,8 +980,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -955,7 +1000,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "合规矩阵覆盖公告、任务书与法规参照（用地、文保、消防、会展安全、隐私与无障碍等）；未知项如实标注待核；标准矩阵与设计深度矩阵见对应 JSON。"
+   "evidence_summary_zh": "合规矩阵严格对照上位规划、历史保护、生态安全与数据治理法规，保持结论开放。"
   },
   {
    "requirement_id": "agent.1",
@@ -976,18 +1021,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
+    "site_area_sqm",
     "green_ratio",
-    "scenario_card_count",
-    "land_use_zone_count",
-    "road_network_length_m"
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -995,8 +1040,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -1015,7 +1060,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "一带总体概念：京张AI接力带——三大定位—五大功能—三区两翼协同回路图、名称体系（RELAY·JZ）与品牌视觉识别方向（logo-vi 图件）；三区两翼协同回路与区域协同接口见「三层范围工作框架」节。"
+   "evidence_summary_zh": "一带总体概念：京张AI接力带——全球AI创新活动体系与长期运营的空间总体统筹。"
   },
   {
    "requirement_id": "agent.2",
@@ -1036,18 +1081,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
+    "site_area_sqm",
     "green_ratio",
-    "scenario_card_count",
-    "land_use_zone_count",
-    "road_network_length_m"
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -1055,8 +1100,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -1075,7 +1120,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "三节点支撑大会、开发与路演全链条表达；AI创新生态图谱（土地/空间/产业/资金/人才/算力/数据/场景八要素×开发者/高校/企业/投资/开源社区/居民六主体）；六项国际对标案例逐一登记来源。"
+   "evidence_summary_zh": "京张论坛广场、代码坞与回路长廊三节点，支撑大会、开发与路演全链条活动表达。"
   },
   {
    "requirement_id": "agent.3",
@@ -1095,18 +1140,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
+    "site_area_sqm",
     "green_ratio",
-    "scenario_card_count",
-    "land_use_zone_count",
-    "road_network_length_m"
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -1114,8 +1159,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -1134,7 +1179,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "五类AI+场景以12张场景卡落地为可评审运营索引，配套3项测试验证场景及测试协议（模型评测/数据质量/误差分群/运行监测），全部数据匿名聚合+人工复核。"
+   "evidence_summary_zh": "五类AI+场景遵循匿名聚合与人工复核，设立严格数据安全与隐私边界。"
   },
   {
    "requirement_id": "agent.4",
@@ -1155,18 +1200,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
+    "site_area_sqm",
     "green_ratio",
-    "scenario_card_count",
-    "land_use_zone_count",
-    "road_network_length_m"
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -1174,8 +1219,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -1194,7 +1239,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "活动带公共空间与三处创新节点：京张论坛广场、代码坞、回路长廊，含人工服务兜底；公共空间组件库（通用/活动/服务/强制性组件）与「京张荣誉」展示体系。"
+   "evidence_summary_zh": "三大核心活动节点与沿线公共空间配置标准化可迁移服务设施与人工值守兜底。"
   },
   {
    "requirement_id": "agent.5",
@@ -1215,18 +1260,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
+    "site_area_sqm",
     "green_ratio",
-    "scenario_card_count",
-    "land_use_zone_count",
-    "road_network_length_m"
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -1234,8 +1279,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -1254,7 +1299,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "百年京张接力叙事与「铁路接力—活动接力—社群接力」文化表达；文化导视与双语国际传播主张、双语术语表见 proposal.en.md 附录。"
+   "evidence_summary_zh": "百年京张铁路接力、活动内容接力与开发者社群接力的文化表达。"
   },
   {
    "requirement_id": "agent.6",
@@ -1274,18 +1319,18 @@
     "geometry/phasing.geojson"
    ],
    "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
+    "site_area_sqm",
     "green_ratio",
-    "scenario_card_count",
-    "land_use_zone_count",
-    "road_network_length_m"
+    "public_space_ratio",
+    "road_network_length_m",
+    "landmark_count",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
-    "drawings/a0-boards.pdf"
+    "drawings/a0-boards.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "drawings/a0-boards.en.pdf"
    ],
    "visual_sections": [
     "总览地图",
@@ -1293,8 +1338,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-ANNOUNCEMENT",
-    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -1313,7 +1358,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "年度活动体系：AI开发者大会、开源共创周、京张创新节（3大品牌）+月度社区活动；开发者社区自治（公约·议事·积分·公示·备案）、场景开放流程（预约—备案—测试—复盘）、招引转化漏斗与分期运营矩阵。"
+   "evidence_summary_zh": "年度活动体系以AI开发者大会、开源共创周、京张创新节三大品牌为核心。"
   }
  ]
 }
