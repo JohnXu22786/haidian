@@ -308,7 +308,7 @@
     {
       "source_id": "PACKAGE-GEOMETRY",
       "title": "本方案 geometry 层(provisional 概念设计)",
-      "publisher": "JohnXu22786 / dsh-haidian-agent",
+      "publisher": "JohnXu22786 / haidian-agent-codex-direct",
       "source_kind": "agent_generated_design",
       "url": "geometry/",
       "published_date": "2026-08-24",
@@ -318,7 +318,7 @@
       "timeliness_level": "T0",
       "public_access_status": "cleared_for_repo",
       "license_summary": "Original AI-generated design geometry, free for repository display.",
-      "review_status": "self_reviewed",
+      "review_status": "provenance_closed",
       "usable_for_formal": "provisional_only",
       "allowed_uses": [
         "design intent visualization",
@@ -334,10 +334,163 @@
       ],
       "notes_zh": "参与方自产设计几何，标注 provisional。",
       "provenance": {
-        "generator": "deepseek-v4-flash via DeepSeek Harness + deterministic build script",
-        "generation_method": "concept prompting + geometry program",
-        "limitations": "low confidence conceptual envelopes"
+        "author": "JohnXu22786",
+        "created_at": "2026-08-24T03:58:00Z",
+        "last_modified": "2026-08-31",
+        "tool": "Codex direct editorial repair with deterministic local scripts and reportlab/PIL output generation",
+        "basemap": "none; repository provisional geometry only",
+        "inherited_external_geometry": false,
+        "human_edits": "content, labels, layouts and generated figures edited for this revision",
+        "license": "original package design; COMMUNITY-DISPLAY-ONLY",
+        "limitations": "not a survey, statutory boundary, engineering drawing or third-party asset license"
       }
+    },
+    {
+      "source_id": "GLOBAL-CASE-G01",
+      "title": "SXSW",
+      "publisher": "SXSW",
+      "source_kind": "official_public_homepage",
+      "url": "https://sxsw.com/",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public official or organizer homepage used only as a mechanism reference; no assets are copied.",
+      "review_status": "reference_only",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism comparison in proposal"
+      ],
+      "prohibited_uses": [
+        "claim of cooperation, endorsement or local applicability",
+        "copying logo, images, code or text"
+      ],
+      "non_portability": "治理、商业结构、规模、版权不同，不可直接移植",
+      "case_id": "G01"
+    },
+    {
+      "source_id": "GLOBAL-CASE-G02",
+      "title": "Dutch Design Week",
+      "publisher": "Dutch Design Week",
+      "source_kind": "official_public_homepage",
+      "url": "https://ddw.nl/en",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public official or organizer homepage used only as a mechanism reference; no assets are copied.",
+      "review_status": "reference_only",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism comparison in proposal"
+      ],
+      "prohibited_uses": [
+        "claim of cooperation, endorsement or local applicability",
+        "copying logo, images, code or text"
+      ],
+      "non_portability": "城市尺度、许可和文化机构网络不同，不可直接移植",
+      "case_id": "G02"
+    },
+    {
+      "source_id": "GLOBAL-CASE-G03",
+      "title": "MWC Barcelona",
+      "publisher": "MWC Barcelona",
+      "source_kind": "official_public_homepage",
+      "url": "https://www.mwcbarcelona.com/",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public official or organizer homepage used only as a mechanism reference; no assets are copied.",
+      "review_status": "reference_only",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism comparison in proposal"
+      ],
+      "prohibited_uses": [
+        "claim of cooperation, endorsement or local applicability",
+        "copying logo, images, code or text"
+      ],
+      "non_portability": "主办方、会展基础设施和商业模式不同，不可直接移植",
+      "case_id": "G03"
+    },
+    {
+      "source_id": "GLOBAL-CASE-G04",
+      "title": "Ars Electronica Festival",
+      "publisher": "Ars Electronica Festival",
+      "source_kind": "official_public_homepage",
+      "url": "https://ars.electronica.art/festival/en/",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public official or organizer homepage used only as a mechanism reference; no assets are copied.",
+      "review_status": "reference_only",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism comparison in proposal"
+      ],
+      "prohibited_uses": [
+        "claim of cooperation, endorsement or local applicability",
+        "copying logo, images, code or text"
+      ],
+      "non_portability": "机构品牌、内容权利和文化土壤不同，不可直接移植",
+      "case_id": "G04"
+    },
+    {
+      "source_id": "GLOBAL-CASE-G05",
+      "title": "MUTEK",
+      "publisher": "MUTEK",
+      "source_kind": "official_public_homepage",
+      "url": "https://mutek.org/en",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public official or organizer homepage used only as a mechanism reference; no assets are copied.",
+      "review_status": "reference_only",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism comparison in proposal"
+      ],
+      "prohibited_uses": [
+        "claim of cooperation, endorsement or local applicability",
+        "copying logo, images, code or text"
+      ],
+      "non_portability": "版权、声学、节庆网络和受众结构不同，不可直接移植",
+      "case_id": "G05"
+    },
+    {
+      "source_id": "HISTORY-NARRATIVE-CHAIN",
+      "title": "Jingzhang to AI cultural narrative chain",
+      "publisher": "JohnXu22786",
+      "source_kind": "concept_narrative",
+      "url": null,
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "markdown",
+      "authority_level": "A3",
+      "timeliness_level": "T1",
+      "public_access_status": "package_generated",
+      "license_summary": "Original concept chain; each carrier and symbol requires independent rights/heritage verification.",
+      "review_status": "provisional",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "concept narrative and translation draft"
+      ],
+      "prohibited_uses": [
+        "claim of heritage status or official brand approval"
+      ]
     }
   ]
 }

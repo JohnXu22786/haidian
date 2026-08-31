@@ -20,29 +20,25 @@
     },
     "green_space_area_sqm": {
       "status": "known",
-      "value": 1328450.0,
+      "value": 1393756.159,
       "unit": "sqm",
       "source_files": [
         "geometry/green_space.geojson"
       ],
       "formula": "union(conceptual green polygons, EPSG:4548)",
-      "confidence": "medium",
-      "assumptions": [
-        "Single caliber from geometry/green_space.geojson"
-      ]
+      "confidence": "low",
+      "assumptions": []
     },
     "public_space_area_sqm": {
       "status": "known",
-      "value": 51350.0,
+      "value": 36150.0,
       "unit": "sqm",
       "source_files": [
         "geometry/public_space.geojson"
       ],
       "formula": "union(conceptual public-space polygons, EPSG:4548)",
-      "confidence": "medium",
-      "assumptions": [
-        "Single caliber from geometry/public_space.geojson"
-      ]
+      "confidence": "low",
+      "assumptions": []
     },
     "building_footprint_area_sqm": {
       "status": "known",
@@ -57,31 +53,27 @@
     },
     "green_ratio": {
       "status": "known",
-      "value": 0.1164,
+      "value": 0.122122,
       "unit": "ratio",
       "source_files": [
         "geometry/green_space.geojson",
         "geometry/site_boundary.geojson"
       ],
       "formula": "green_space_area_sqm / site_area_sqm",
-      "confidence": "medium",
-      "assumptions": [
-        "green_ratio = 1,328,450 / 11,412,825.386 ≈ 11.64%"
-      ]
+      "confidence": "low",
+      "assumptions": []
     },
     "public_space_ratio": {
       "status": "known",
-      "value": 0.004499,
+      "value": 0.003167,
       "unit": "ratio",
       "source_files": [
         "geometry/public_space.geojson",
         "geometry/site_boundary.geojson"
       ],
       "formula": "public_space_area_sqm / site_area_sqm",
-      "confidence": "medium",
-      "assumptions": [
-        "public_space_ratio = 51,350 / 11,412,825.386 ≈ 0.45%"
-      ]
+      "confidence": "low",
+      "assumptions": []
     },
     "road_network_length_m": {
       "status": "known",
@@ -102,19 +94,21 @@
         "geometry/key_areas.geojson"
       ],
       "formula": "count(area_id in key_areas.geojson)",
-      "confidence": "high",
+      "confidence": "medium",
       "assumptions": []
     },
     "land_use_zone_count": {
       "status": "known",
-      "value": 27,
+      "value": 24,
       "unit": "count",
       "source_files": [
         "geometry/land_use.geojson"
       ],
       "formula": "count(land_use.geojson features)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Conceptual features are not statutory parcels."
+      ]
     },
     "building_unit_count": {
       "status": "known",
@@ -154,11 +148,15 @@
       "value": 3,
       "unit": "count",
       "source_files": [
-        "proposal.md"
+        "proposal.md",
+        "proposal.en.md",
+        "compliance_matrix.json"
       ],
-      "formula": "count(industry_validation scenario cards)",
+      "formula": "count(TP-01..TP-03)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Small voluntary pilots only."
+      ]
     },
     "persona_count": {
       "status": "known",
@@ -173,15 +171,18 @@
     },
     "global_case_count": {
       "status": "known",
-      "value": 4,
+      "value": 5,
       "unit": "count",
       "source_files": [
         "proposal.md",
+        "proposal.en.md",
         "sources.json"
       ],
-      "formula": "count(global ecosystem mechanism cases)",
+      "formula": "count(G01..G05 source-linked global mechanism cases)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Mechanism comparators only; no asset reuse."
+      ]
     },
     "phase_count": {
       "status": "known",
@@ -205,17 +206,32 @@
       "confidence": "high",
       "assumptions": []
     },
+    "land_use_feature_count": {
+      "status": "known",
+      "value": 24,
+      "unit": "count",
+      "source_files": [
+        "geometry/land_use.geojson"
+      ],
+      "formula": "count(land_use.geojson features); alias of land_use_zone_count",
+      "confidence": "high",
+      "assumptions": [
+        "Alias kept for bilingual count contract."
+      ]
+    },
     "scenario_card_count": {
       "status": "known",
       "value": 10,
       "unit": "count",
       "source_files": [
-        "proposal.md"
+        "proposal.md",
+        "proposal.en.md",
+        "compliance_matrix.json"
       ],
-      "formula": "count(SC-01..SC-10)",
+      "formula": "count(SC-01..SC-10 in both proposals)",
       "confidence": "high",
       "assumptions": [
-        "Conceptual/provisional package value; recalculate when official data is available."
+        "Concept cards; no deployment claim."
       ]
     },
     "protocol_count": {
@@ -223,66 +239,15 @@
       "value": 3,
       "unit": "count",
       "source_files": [
-        "proposal.md"
-      ],
-      "formula": "count(TP-01..TP-03)",
-      "confidence": "high",
-      "assumptions": [
-        "Conceptual/provisional package value; recalculate when official data is available."
-      ]
-    },
-    "card_protocol_mapping_count": {
-      "status": "known",
-      "value": 10,
-      "unit": "count",
-      "source_files": [
         "proposal.md",
+        "proposal.en.md",
         "compliance_matrix.json"
       ],
-      "formula": "count(scenario_card -> protocol mapping)",
+      "formula": "count(TP-01..TP-03 in both proposals)",
       "confidence": "high",
       "assumptions": [
-        "Conceptual/provisional package value; recalculate when official data is available."
+        "Concept protocols; no approval claim."
       ]
     }
-  },
-  "land_use_caliber": {
-    "group_by": "land_use_code",
-    "category_count": 6,
-    "feature_count": 27,
-    "display_sum_pct": 100.0,
-    "duplicate_policy": "Aggregate Parks & Green (1401) once; do not add chart and category totals.",
-    "formula": "sum(area by unique land_use_code) / site_area_sqm"
-  },
-  "recalculation_ledger": [
-    {
-      "metric": "site_area_sqm",
-      "machine_value": 11412825.386,
-      "display": "11,412,825.39 sqm",
-      "formula": "polygon_area(provisional_site_boundary, EPSG:4548)",
-      "drift_policy": "machine value is authoritative; display is rounded"
-    },
-    {
-      "metric": "green_space_area_sqm",
-      "machine_value": 1328450.0,
-      "display": "1,328,450.00 sqm",
-      "formula": "union(conceptual green polygons, EPSG:4548)",
-      "drift_policy": "machine value is authoritative; display is rounded"
-    },
-    {
-      "metric": "public_space_area_sqm",
-      "machine_value": 51350.0,
-      "display": "51,350.00 sqm",
-      "formula": "union(conceptual public polygons, EPSG:4548)",
-      "drift_policy": "machine value is authoritative; display is rounded"
-    },
-    {
-      "metric": "road_network_length_m",
-      "machine_value": 10154.351,
-      "display": "10.15 km",
-      "formula": "sum(conceptual paths, EPSG:4548)",
-      "drift_policy": "machine value is authoritative; display is rounded"
-    }
-  ],
-  "caliber_note": "All four drift rows use one machine value, one formula and one display rounding rule across proposal, metrics, HTML and figures."
+  }
 }
