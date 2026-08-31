@@ -1360,5 +1360,80 @@
    ],
    "evidence_summary_zh": "年度活动体系以AI开发者大会、开源共创周、京张创新节三大品牌为核心。"
   }
- ]
+ ],
+ "delivery_index": {
+  "agent.1": {
+   "sections": [
+    "三层范围工作框架",
+    "总体设计范围城市更新与控规深度城市设计",
+    "更新项目清单、实施政策与分期计划"
+   ],
+   "figures": [
+    "assets/figures/site-overview.png"
+   ]
+  },
+  "agent.2": {
+   "sections": [
+    "AI 创新生态、人才画像与 AI+ 场景",
+    "重点区域详细设计"
+   ],
+   "figures": [
+    "assets/figures/ai-ecosystem-atlas.png"
+   ]
+  },
+  "agent.3": {
+   "sections": [
+    "AI 创新生态、人才画像与 AI+ 场景",
+    "指标体系、面积复算与合规矩阵"
+   ],
+   "anchors": [
+    "SC-01..SC-10",
+    "TP-01..TP-03"
+   ]
+  },
+  "agent.4": {
+   "sections": [
+    "重点区域详细设计",
+    "蓝绿空间、公共空间与城市风貌"
+   ],
+   "figures": [
+    "assets/figures/key-areas.png",
+    "assets/figures/mobility-bluegreen.png"
+   ]
+  },
+  "agent.5": {
+   "sections": [
+    "设计依据与资料清单",
+    "风险、版权与合规说明"
+   ],
+   "files": [
+    "copyright_statement.md",
+    "assets/figures/logo-brand.png"
+   ]
+  },
+  "agent.6": {
+   "sections": [
+    "更新项目清单、实施政策与分期计划"
+   ],
+   "files": [
+    "implementation ledger in proposal.md",
+    "visual/index.html"
+   ]
+  }
+ },
+ "caliber_controls": {
+  "formal_two_wings": [
+   "中关村科技服务翼",
+   "小月河场景赋能翼"
+  ],
+  "regional_interfaces": [
+   "未来科学城",
+   "怀柔科学城",
+   "北京经开区",
+   "京津冀"
+  ],
+  "land_use_grouping": "unique land_use_code",
+  "display_sum_pct": 100.0,
+  "provisional_boundary": true
+ }
 }

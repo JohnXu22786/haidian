@@ -204,6 +204,85 @@
       "formula": "count(annual event system)",
       "confidence": "high",
       "assumptions": []
+    },
+    "scenario_card_count": {
+      "status": "known",
+      "value": 10,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(SC-01..SC-10)",
+      "confidence": "high",
+      "assumptions": [
+        "Conceptual/provisional package value; recalculate when official data is available."
+      ]
+    },
+    "protocol_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(TP-01..TP-03)",
+      "confidence": "high",
+      "assumptions": [
+        "Conceptual/provisional package value; recalculate when official data is available."
+      ]
+    },
+    "card_protocol_mapping_count": {
+      "status": "known",
+      "value": 10,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "compliance_matrix.json"
+      ],
+      "formula": "count(scenario_card -> protocol mapping)",
+      "confidence": "high",
+      "assumptions": [
+        "Conceptual/provisional package value; recalculate when official data is available."
+      ]
     }
-  }
+  },
+  "land_use_caliber": {
+    "group_by": "land_use_code",
+    "category_count": 6,
+    "feature_count": 27,
+    "display_sum_pct": 100.0,
+    "duplicate_policy": "Aggregate Parks & Green (1401) once; do not add chart and category totals.",
+    "formula": "sum(area by unique land_use_code) / site_area_sqm"
+  },
+  "recalculation_ledger": [
+    {
+      "metric": "site_area_sqm",
+      "machine_value": 11412825.386,
+      "display": "11,412,825.39 sqm",
+      "formula": "polygon_area(provisional_site_boundary, EPSG:4548)",
+      "drift_policy": "machine value is authoritative; display is rounded"
+    },
+    {
+      "metric": "green_space_area_sqm",
+      "machine_value": 1328450.0,
+      "display": "1,328,450.00 sqm",
+      "formula": "union(conceptual green polygons, EPSG:4548)",
+      "drift_policy": "machine value is authoritative; display is rounded"
+    },
+    {
+      "metric": "public_space_area_sqm",
+      "machine_value": 51350.0,
+      "display": "51,350.00 sqm",
+      "formula": "union(conceptual public polygons, EPSG:4548)",
+      "drift_policy": "machine value is authoritative; display is rounded"
+    },
+    {
+      "metric": "road_network_length_m",
+      "machine_value": 10154.351,
+      "display": "10.15 km",
+      "formula": "sum(conceptual paths, EPSG:4548)",
+      "drift_policy": "machine value is authoritative; display is rounded"
+    }
+  ],
+  "caliber_note": "All four drift rows use one machine value, one formula and one display rounding rule across proposal, metrics, HTML and figures."
 }
