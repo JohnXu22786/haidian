@@ -24,8 +24,8 @@
     },
     {
       "assumption_id": "A-DESIGN-001",
-      "statement_zh": "元胞坊、智纹台与生长庭是三个原创概念节点，分别服务任务书三区及两翼接口；其形态、运营主体和落位均为概念建议，不构成建设承诺。",
-      "statement_en": "Cellular Block, Smart-Pattern Terrace and Growing Court are three original concept nodes mapped to the taskbook areas and wing interfaces; form, operators and locations are not construction commitments.",
+      "statement_zh": "元胞坊、智纹台与生长庭三节点均为原创概念建议，模块化可逆，不构成建设承诺。",
+      "statement_en": "All node facilities are original reversible conceptual proposals, not construction commitments.",
       "category": "design_proposal",
       "status": "concept"
     },
@@ -42,34 +42,6 @@
       "statement_en": "The event system and phasing are design suggestions, not confirmed government or investment commitments.",
       "category": "operation",
       "status": "concept"
-    },
-    {
-      "assumption_id": "A-TASKBOOK-001",
-      "statement_zh": "任务书三区两翼的正式名称、节点映射和 agent.1-agent.6 对照以任务书文本为准；原创节点名不得替代地理框架。",
-      "statement_en": "The taskbook Three Areas, Two Wings and agent.1-agent.6 crosswalk is authoritative for naming; original node names do not replace the geography.",
-      "category": "taskbook_mapping",
-      "status": "accepted_limitation"
-    },
-    {
-      "assumption_id": "A-BASELINE-001",
-      "statement_zh": "T0 样本、窗口、责任人与现场许可尚未具备；TP-01 至 TP-03 和 P1/P2 的数值是 participant-proposed、provisional、待专业论证阈值，不是已测结果。",
-      "statement_en": "T0 samples, windows, owners and field permissions are not yet available; TP-01 to TP-03 and P1/P2 numbers are participant-proposed, provisional thresholds pending professional argument, not measured results.",
-      "category": "baseline_gap",
-      "status": "accepted_limitation"
-    },
-    {
-      "assumption_id": "A-DIAGNOSIS-001",
-      "statement_zh": "工业遗存、社区割裂、设施老化、仓储闲置等未有逐项现场证据，统一降级为待验证设计假设/概念情景；升级前需 source_id、日期、空间范围和许可记录。",
-      "statement_en": "Industrial heritage, community severance, aging facilities and vacant warehouses lack itemized field evidence and remain verification-pending design assumptions/concept scenarios until a source, date, spatial scope and permission record are added.",
-      "category": "evidence_gap",
-      "status": "accepted_limitation"
-    },
-    {
-      "assumption_id": "A-CASE-RIGHTS-001",
-      "statement_zh": "八个案例为文字机制参照，不嵌入第三方图片；案例条目已登记 URL、日期字段与允许/禁止用途，但 review_status 仍需人工核验，usable_for_formal=no。",
-      "statement_en": "The eight cases are text-only mechanism references with no third-party images embedded; URLs, date fields and allowed/prohibited uses are registered, but review_status still requires human verification and usable_for_formal=no.",
-      "category": "case_rights",
-      "status": "accepted_limitation"
     }
   ]
 }

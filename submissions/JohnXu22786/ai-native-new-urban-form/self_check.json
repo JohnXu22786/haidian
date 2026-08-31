@@ -10,7 +10,8 @@
       "ok": true,
       "errors": [],
       "warnings": [
-        "submissions/JohnXu22786/ai-native-new-urban-form/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
+        "submissions/JohnXu22786/ai-native-new-urban-form/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
+        "submissions/JohnXu22786/ai-native-new-urban-form/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible"
       ],
       "proposal_files": [
         "submissions/JohnXu22786/ai-native-new-urban-form/proposal.md"
@@ -59,21 +60,13 @@
         "submissions/JohnXu22786/ai-native-new-urban-form/self_check.json",
         "submissions/JohnXu22786/ai-native-new-urban-form/sources.json",
         "submissions/JohnXu22786/ai-native-new-urban-form/standard_matrix.json",
-        "submissions/JohnXu22786/ai-native-new-urban-form/visual/assets/previews/fig-key-areas-en.png",
-        "submissions/JohnXu22786/ai-native-new-urban-form/visual/assets/previews/fig-key-areas-zh.png",
-        "submissions/JohnXu22786/ai-native-new-urban-form/visual/assets/previews/fig-metrics-evidence-en.png",
-        "submissions/JohnXu22786/ai-native-new-urban-form/visual/assets/previews/fig-metrics-evidence-zh.png",
-        "submissions/JohnXu22786/ai-native-new-urban-form/visual/assets/previews/fig-mobility-bluegreen-en.png",
-        "submissions/JohnXu22786/ai-native-new-urban-form/visual/assets/previews/fig-mobility-bluegreen-zh.png",
-        "submissions/JohnXu22786/ai-native-new-urban-form/visual/assets/previews/fig-site-overview-en.png",
-        "submissions/JohnXu22786/ai-native-new-urban-form/visual/assets/previews/fig-site-overview-zh.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/visual/index.en.html",
         "submissions/JohnXu22786/ai-native-new-urban-form/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/JohnXu22786/ai-native-new-urban-form": "formal"
       },
-      "total_bytes": 7554854,
+      "total_bytes": 2998831,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -131,15 +124,11 @@
       "ok": true,
       "issues": [],
       "metrics_seen": {
-        "scenario_card_count": 10.0,
-        "common_test_protocol_count": 3.0,
-        "mapping_count": 18.0,
-        "land_use_feature_count": 27.0,
-        "land_use_green_ratio": 0.273034,
-        "green_ratio": 0.110044,
-        "public_space_ratio": 0.003167,
         "site_area_sqm": 11412825.386,
-        "scenario_node_count": 8.0
+        "green_ratio": 0.110044,
+        "land_use_feature_count": 27.0,
+        "public_space_ratio": 0.003167,
+        "persona_count": 5.0
       }
     },
     "stderr": ""
@@ -153,15 +142,15 @@
       "summary": {
         "standard_matrix_items": 5,
         "design_depth_items": 15,
-        "known_metric_refs_required": 25,
+        "known_metric_refs_required": 18,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 3,
-          "standard": 0,
-          "depth": 0,
-          "data": 1,
-          "metric": 8
+          "source": 8,
+          "standard": 3,
+          "depth": 9,
+          "data": 7,
+          "metric": 10
         }
       }
     },
@@ -178,7 +167,9 @@
   "can_enter_formal_review": true,
   "package_type": "professional_design_package",
   "review_status": "formal-review-ready",
-  "next_actions": [],
+  "next_actions": [
+    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-native-new-urban-form/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible"
+  ],
   "schema_version": "0.1.0",
   "checks": [
     {

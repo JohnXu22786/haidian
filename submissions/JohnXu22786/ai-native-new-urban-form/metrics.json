@@ -59,13 +59,9 @@
         "geometry/green_space.geojson",
         "geometry/site_boundary.geojson"
       ],
-      "formula": "area(union(ecological green overlay polygons)) / area(site_boundary)",
+      "formula": "green_space_area_sqm / site_area_sqm",
       "confidence": "low",
-      "assumptions": [
-        "A-BOUNDARY-001"
-      ],
-      "display": "0.110044 = 11.0044%; ecological overlay, not land-use category",
-      "recompute_trigger": "Recompute after official green-space and boundary verification."
+      "assumptions": []
     },
     "public_space_ratio": {
       "status": "known",
@@ -103,14 +99,27 @@
     },
     "land_use_zone_count": {
       "status": "known",
-      "value": 24,
+      "value": 27,
       "unit": "count",
       "source_files": [
         "geometry/land_use.geojson"
       ],
-      "formula": "count(land_use.geojson features)",
+      "formula": "count(geometry/land_use.geojson.features); compatibility alias for land_use_feature_count",
       "confidence": "high",
       "assumptions": []
+    },
+    "land_use_feature_count": {
+      "status": "known",
+      "value": 27,
+      "unit": "count",
+      "source_files": [
+        "geometry/land_use.geojson"
+      ],
+      "formula": "count(geometry/land_use.geojson.features)",
+      "confidence": "high",
+      "assumptions": [
+        "Provisional concept features, not statutory parcel count."
+      ]
     },
     "building_unit_count": {
       "status": "known",
@@ -141,27 +150,20 @@
       "source_files": [
         "geometry/public_space.geojson"
       ],
-      "formula": "count(3 ai_landmark features + 5 scenario_node features)",
+      "formula": "count(public_space scenario nodes + landmarks)",
       "confidence": "high",
-      "assumptions": [
-        "A-DATA-001"
-      ],
-      "display": "8 geometric locations; not independent scenario cards"
+      "assumptions": []
     },
     "industry_test_scenario_count": {
       "status": "known",
       "value": 3,
       "unit": "count",
       "source_files": [
-        "proposal.md",
-        "proposal.en.md"
+        "proposal.md"
       ],
-      "formula": "legacy alias of common_test_protocol_count; count(TP-01,TP-02,TP-03)",
+      "formula": "count(industry_validation scenario cards)",
       "confidence": "high",
-      "assumptions": [
-        "A-DATA-001"
-      ],
-      "display": "legacy alias of 3 common test protocols; not a scenario-card count"
+      "assumptions": []
     },
     "persona_count": {
       "status": "known",
@@ -176,19 +178,15 @@
     },
     "global_case_count": {
       "status": "known",
-      "value": 8,
+      "value": 4,
       "unit": "count",
       "source_files": [
         "proposal.md",
-        "proposal.en.md",
         "sources.json"
       ],
-      "formula": "count(CASE-* case records)",
-      "confidence": "medium",
-      "assumptions": [
-        "A-CASE-RIGHTS-001"
-      ],
-      "display": "8 text-only case references; formal reuse pending"
+      "formula": "count(global ecosystem mechanism cases)",
+      "confidence": "high",
+      "assumptions": []
     },
     "phase_count": {
       "status": "known",
@@ -211,128 +209,6 @@
       "formula": "count(annual event system)",
       "confidence": "high",
       "assumptions": []
-    },
-    "land_use_feature_count": {
-      "status": "known",
-      "value": 27,
-      "unit": "count",
-      "source_files": [
-        "geometry/land_use.geojson"
-      ],
-      "formula": "count(land_use.geojson features)",
-      "confidence": "high",
-      "assumptions": [
-        "A-BOUNDARY-001"
-      ],
-      "display": "27 provisional land-use features",
-      "recompute_trigger": "Recount after official classification and boundary release."
-    },
-    "land_use_union_area_sqm": {
-      "status": "known",
-      "value": 11412825.386,
-      "unit": "sqm",
-      "source_files": [
-        "geometry/land_use.geojson",
-        "geometry/site_boundary.geojson"
-      ],
-      "formula": "area(union(all land-use features, EPSG:4548))",
-      "confidence": "low",
-      "assumptions": [
-        "A-BOUNDARY-001"
-      ],
-      "display": "11,412,825.386 m2 provisional",
-      "recompute_trigger": "Recompute after official land-use and boundary verification."
-    },
-    "land_use_green_ratio": {
-      "status": "known",
-      "value": 0.273034,
-      "unit": "ratio",
-      "source_files": [
-        "geometry/land_use.geojson",
-        "geometry/site_boundary.geojson"
-      ],
-      "formula": "area(union(land_use_code=1401)) / area(site_boundary)",
-      "confidence": "low",
-      "assumptions": [
-        "A-BOUNDARY-001"
-      ],
-      "display": "0.273034 = 27.3034%; land-use category caliber",
-      "recompute_trigger": "Recompute after official classification and boundary release."
-    },
-    "design_node_count": {
-      "status": "known",
-      "value": 3,
-      "unit": "count",
-      "source_files": [
-        "geometry/key_areas.geojson",
-        "geometry/public_space.geojson"
-      ],
-      "formula": "count(N1,N2,N3 original design nodes)",
-      "confidence": "high",
-      "assumptions": [
-        "A-DESIGN-001"
-      ],
-      "display": "3 original spatial prototypes"
-    },
-    "scenario_card_count": {
-      "status": "known",
-      "value": 10,
-      "unit": "count",
-      "source_files": [
-        "proposal.md",
-        "proposal.en.md"
-      ],
-      "formula": "count(S01-S10 independent scenario cards)",
-      "confidence": "high",
-      "assumptions": [
-        "A-DATA-001"
-      ],
-      "display": "10 independent cards"
-    },
-    "common_test_protocol_count": {
-      "status": "known",
-      "value": 3,
-      "unit": "count",
-      "source_files": [
-        "proposal.md",
-        "proposal.en.md"
-      ],
-      "formula": "count(TP-01,TP-02,TP-03 common protocols)",
-      "confidence": "high",
-      "assumptions": [
-        "A-BASELINE-001"
-      ],
-      "display": "3 common protocols; participant-proposed thresholds"
-    },
-    "mapping_count": {
-      "status": "known",
-      "value": 18,
-      "unit": "count",
-      "source_files": [
-        "proposal.md",
-        "proposal.en.md"
-      ],
-      "formula": "count(card-to-protocol links across S01-S10)",
-      "confidence": "high",
-      "assumptions": [
-        "A-BASELINE-001"
-      ],
-      "display": "18 scenario-to-protocol links"
-    },
-    "scenario_protocol_mapping_count": {
-      "status": "known",
-      "value": 18,
-      "unit": "count",
-      "source_files": [
-        "proposal.md",
-        "proposal.en.md"
-      ],
-      "formula": "alias of mapping_count",
-      "confidence": "high",
-      "assumptions": [
-        "A-BASELINE-001"
-      ],
-      "display": "18 links"
     }
   }
 }

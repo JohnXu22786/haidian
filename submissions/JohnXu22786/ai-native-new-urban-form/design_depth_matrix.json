@@ -8,38 +8,33 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "proposal.md §§1-12",
-        "proposal.en.md §§1-12",
-        "§2 taskbook crosswalk",
-        "§4-5 scenario/protocol contract"
+        "设计依据与资料清单"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a3-booklet.en.pdf",
-        "drawings/a0-boards.pdf",
-        "drawings/a0-boards.en.pdf"
+        "drawings/a0-boards.pdf"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/roads.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
         "site_area_sqm",
-        "land_use_feature_count",
-        "land_use_green_ratio",
         "green_ratio",
         "public_space_ratio",
-        "design_node_count",
+        "landmark_count",
         "scenario_node_count",
-        "scenario_card_count",
-        "common_test_protocol_count",
-        "mapping_count",
-        "global_case_count"
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -49,15 +44,7 @@
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
         "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
-        "CASE-INT-HIGH-LINE",
-        "CASE-INT-SEOULLO-7017",
-        "CASE-INT-PROMENADE-PLANTEE",
-        "CASE-INT-CHICAGO-606",
-        "CASE-CN-SHOUGANG-PARK",
-        "CASE-CN-WEST-BUND",
-        "CASE-CN-DASHA-RIVER",
-        "CASE-CN-MENGZHUIWAN"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -65,42 +52,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001",
-        "A-TASKBOOK-001",
-        "A-BASELINE-001",
-        "A-DIAGNOSIS-001",
-        "A-CASE-RIGHTS-001"
+        "A-EVENT-001"
       ],
       "self_check_ids": [
-        "DETERMINISTIC_VALIDATION",
-        "SPATIAL_REVIEW",
-        "VISUAL_PACKAGING",
-        "PROFESSIONAL_EVIDENCE"
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "双语正文、节点 crosswalk、27 要素用地、十卡三协议、双语图件和权利/风险边界共同提供证据；阈值与现状诊断保持 participant-proposed、provisional 或待核验。",
-      "taskbook_area_refs": [
-        "AI原点社区",
-        "众智园AI自主创新加速区",
-        "大钟寺AI产业集聚区"
-      ],
-      "taskbook_wing_refs": [
-        "中关村科技服务翼",
-        "小月河场景赋能翼"
-      ],
-      "node_refs": [
-        "N1",
-        "N2",
-        "N3"
-      ],
-      "agent_refs": [
-        "agent.1",
-        "agent.2",
-        "agent.3",
-        "agent.4",
-        "agent.5",
-        "agent.6"
-      ],
-      "evidence_summary_en": "Evidence combines the bilingual narrative, node crosswalk, 27-feature land-use layer, ten cards, three protocols, bilingual figures and rights/risk boundary; thresholds and existing-condition diagnoses remain participant-proposed, provisional or verification pending."
+      "evidence_summary_zh": "E-G1: site_boundary and design-basis section; provisional data gaps and source register",
+      "evidence_anchors": [
+        "E-G1: site_boundary and design-basis section; provisional data gaps and source register"
+      ]
     },
     {
       "item_id": "three_level_scope_framework",
@@ -109,38 +72,33 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "proposal.md §§1-12",
-        "proposal.en.md §§1-12",
-        "§2 taskbook crosswalk",
-        "§4-5 scenario/protocol contract"
+        "三层范围工作框架"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a3-booklet.en.pdf",
-        "drawings/a0-boards.pdf",
-        "drawings/a0-boards.en.pdf"
+        "drawings/a0-boards.pdf"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/roads.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
         "site_area_sqm",
-        "land_use_feature_count",
-        "land_use_green_ratio",
         "green_ratio",
         "public_space_ratio",
-        "design_node_count",
+        "landmark_count",
         "scenario_node_count",
-        "scenario_card_count",
-        "common_test_protocol_count",
-        "mapping_count",
-        "global_case_count"
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -150,15 +108,7 @@
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
         "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
-        "CASE-INT-HIGH-LINE",
-        "CASE-INT-SEOULLO-7017",
-        "CASE-INT-PROMENADE-PLANTEE",
-        "CASE-INT-CHICAGO-606",
-        "CASE-CN-SHOUGANG-PARK",
-        "CASE-CN-WEST-BUND",
-        "CASE-CN-DASHA-RIVER",
-        "CASE-CN-MENGZHUIWAN"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -166,42 +116,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001",
-        "A-TASKBOOK-001",
-        "A-BASELINE-001",
-        "A-DIAGNOSIS-001",
-        "A-CASE-RIGHTS-001"
+        "A-EVENT-001"
       ],
       "self_check_ids": [
-        "DETERMINISTIC_VALIDATION",
-        "SPATIAL_REVIEW",
-        "VISUAL_PACKAGING",
-        "PROFESSIONAL_EVIDENCE"
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "双语正文、节点 crosswalk、27 要素用地、十卡三协议、双语图件和权利/风险边界共同提供证据；阈值与现状诊断保持 participant-proposed、provisional 或待核验。",
-      "taskbook_area_refs": [
-        "AI原点社区",
-        "众智园AI自主创新加速区",
-        "大钟寺AI产业集聚区"
-      ],
-      "taskbook_wing_refs": [
-        "中关村科技服务翼",
-        "小月河场景赋能翼"
-      ],
-      "node_refs": [
-        "N1",
-        "N2",
-        "N3"
-      ],
-      "agent_refs": [
-        "agent.1",
-        "agent.2",
-        "agent.3",
-        "agent.4",
-        "agent.5",
-        "agent.6"
-      ],
-      "evidence_summary_en": "Evidence combines the bilingual narrative, node crosswalk, 27-feature land-use layer, ten cards, three protocols, bilingual figures and rights/risk boundary; thresholds and existing-condition diagnoses remain participant-proposed, provisional or verification pending."
+      "evidence_summary_zh": "E-A1: three-level scope table and site-overview regional diagram",
+      "evidence_anchors": [
+        "E-A1: three-level scope table and site-overview regional diagram"
+      ]
     },
     {
       "item_id": "overall_spatial_structure",
@@ -210,38 +136,33 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "proposal.md §§1-12",
-        "proposal.en.md §§1-12",
-        "§2 taskbook crosswalk",
-        "§4-5 scenario/protocol contract"
+        "总体设计范围城市更新与控规深度城市设计"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a3-booklet.en.pdf",
-        "drawings/a0-boards.pdf",
-        "drawings/a0-boards.en.pdf"
+        "drawings/a0-boards.pdf"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/roads.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
         "site_area_sqm",
-        "land_use_feature_count",
-        "land_use_green_ratio",
         "green_ratio",
         "public_space_ratio",
-        "design_node_count",
+        "landmark_count",
         "scenario_node_count",
-        "scenario_card_count",
-        "common_test_protocol_count",
-        "mapping_count",
-        "global_case_count"
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -251,15 +172,7 @@
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
         "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
-        "CASE-INT-HIGH-LINE",
-        "CASE-INT-SEOULLO-7017",
-        "CASE-INT-PROMENADE-PLANTEE",
-        "CASE-INT-CHICAGO-606",
-        "CASE-CN-SHOUGANG-PARK",
-        "CASE-CN-WEST-BUND",
-        "CASE-CN-DASHA-RIVER",
-        "CASE-CN-MENGZHUIWAN"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -267,42 +180,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001",
-        "A-TASKBOOK-001",
-        "A-BASELINE-001",
-        "A-DIAGNOSIS-001",
-        "A-CASE-RIGHTS-001"
+        "A-EVENT-001"
       ],
       "self_check_ids": [
-        "DETERMINISTIC_VALIDATION",
-        "SPATIAL_REVIEW",
-        "VISUAL_PACKAGING",
-        "PROFESSIONAL_EVIDENCE"
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "双语正文、节点 crosswalk、27 要素用地、十卡三协议、双语图件和权利/风险边界共同提供证据；阈值与现状诊断保持 participant-proposed、provisional 或待核验。",
-      "taskbook_area_refs": [
-        "AI原点社区",
-        "众智园AI自主创新加速区",
-        "大钟寺AI产业集聚区"
-      ],
-      "taskbook_wing_refs": [
-        "中关村科技服务翼",
-        "小月河场景赋能翼"
-      ],
-      "node_refs": [
-        "N1",
-        "N2",
-        "N3"
-      ],
-      "agent_refs": [
-        "agent.1",
-        "agent.2",
-        "agent.3",
-        "agent.4",
-        "agent.5",
-        "agent.6"
-      ],
-      "evidence_summary_en": "Evidence combines the bilingual narrative, node crosswalk, 27-feature land-use layer, ten cards, three protocols, bilingual figures and rights/risk boundary; thresholds and existing-condition diagnoses remain participant-proposed, provisional or verification pending."
+      "evidence_summary_zh": "E-A2: Cell Neighborhood-Smart Weave-Growth Courtyard spatial grammar and key-area geometry",
+      "evidence_anchors": [
+        "E-A2: Cell Neighborhood-Smart Weave-Growth Courtyard spatial grammar and key-area geometry"
+      ]
     },
     {
       "item_id": "land_use_layout",
@@ -311,38 +200,33 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "proposal.md §§1-12",
-        "proposal.en.md §§1-12",
-        "§2 taskbook crosswalk",
-        "§4-5 scenario/protocol contract"
+        "用地、建筑规模与拆改留方案"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a3-booklet.en.pdf",
-        "drawings/a0-boards.pdf",
-        "drawings/a0-boards.en.pdf"
+        "drawings/a0-boards.pdf"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/roads.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
         "site_area_sqm",
-        "land_use_feature_count",
-        "land_use_green_ratio",
         "green_ratio",
         "public_space_ratio",
-        "design_node_count",
+        "landmark_count",
         "scenario_node_count",
-        "scenario_card_count",
-        "common_test_protocol_count",
-        "mapping_count",
-        "global_case_count"
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -352,15 +236,7 @@
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
         "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
-        "CASE-INT-HIGH-LINE",
-        "CASE-INT-SEOULLO-7017",
-        "CASE-INT-PROMENADE-PLANTEE",
-        "CASE-INT-CHICAGO-606",
-        "CASE-CN-SHOUGANG-PARK",
-        "CASE-CN-WEST-BUND",
-        "CASE-CN-DASHA-RIVER",
-        "CASE-CN-MENGZHUIWAN"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -368,42 +244,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001",
-        "A-TASKBOOK-001",
-        "A-BASELINE-001",
-        "A-DIAGNOSIS-001",
-        "A-CASE-RIGHTS-001"
+        "A-EVENT-001"
       ],
       "self_check_ids": [
-        "DETERMINISTIC_VALIDATION",
-        "SPATIAL_REVIEW",
-        "VISUAL_PACKAGING",
-        "PROFESSIONAL_EVIDENCE"
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "双语正文、节点 crosswalk、27 要素用地、十卡三协议、双语图件和权利/风险边界共同提供证据；阈值与现状诊断保持 participant-proposed、provisional 或待核验。",
-      "taskbook_area_refs": [
-        "AI原点社区",
-        "众智园AI自主创新加速区",
-        "大钟寺AI产业集聚区"
-      ],
-      "taskbook_wing_refs": [
-        "中关村科技服务翼",
-        "小月河场景赋能翼"
-      ],
-      "node_refs": [
-        "N1",
-        "N2",
-        "N3"
-      ],
-      "agent_refs": [
-        "agent.1",
-        "agent.2",
-        "agent.3",
-        "agent.4",
-        "agent.5",
-        "agent.6"
-      ],
-      "evidence_summary_en": "Evidence combines the bilingual narrative, node crosswalk, 27-feature land-use layer, ten cards, three protocols, bilingual figures and rights/risk boundary; thresholds and existing-condition diagnoses remain participant-proposed, provisional or verification pending."
+      "evidence_summary_zh": "E-G2: 27 GeoJSON features, land_use_feature_count and bilingual outputs",
+      "evidence_anchors": [
+        "E-G2: 27 GeoJSON features, land_use_feature_count and bilingual outputs"
+      ]
     },
     {
       "item_id": "development_intensity_controls",
@@ -412,38 +264,33 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "proposal.md §§1-12",
-        "proposal.en.md §§1-12",
-        "§2 taskbook crosswalk",
-        "§4-5 scenario/protocol contract"
+        "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a3-booklet.en.pdf",
-        "drawings/a0-boards.pdf",
-        "drawings/a0-boards.en.pdf"
+        "drawings/a0-boards.pdf"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/roads.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
         "site_area_sqm",
-        "land_use_feature_count",
-        "land_use_green_ratio",
         "green_ratio",
         "public_space_ratio",
-        "design_node_count",
+        "landmark_count",
         "scenario_node_count",
-        "scenario_card_count",
-        "common_test_protocol_count",
-        "mapping_count",
-        "global_case_count"
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -453,15 +300,7 @@
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
         "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
-        "CASE-INT-HIGH-LINE",
-        "CASE-INT-SEOULLO-7017",
-        "CASE-INT-PROMENADE-PLANTEE",
-        "CASE-INT-CHICAGO-606",
-        "CASE-CN-SHOUGANG-PARK",
-        "CASE-CN-WEST-BUND",
-        "CASE-CN-DASHA-RIVER",
-        "CASE-CN-MENGZHUIWAN"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -469,42 +308,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001",
-        "A-TASKBOOK-001",
-        "A-BASELINE-001",
-        "A-DIAGNOSIS-001",
-        "A-CASE-RIGHTS-001"
+        "A-EVENT-001"
       ],
       "self_check_ids": [
-        "DETERMINISTIC_VALIDATION",
-        "SPATIAL_REVIEW",
-        "VISUAL_PACKAGING",
-        "PROFESSIONAL_EVIDENCE"
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "双语正文、节点 crosswalk、27 要素用地、十卡三协议、双语图件和权利/风险边界共同提供证据；阈值与现状诊断保持 participant-proposed、provisional 或待核验。",
-      "taskbook_area_refs": [
-        "AI原点社区",
-        "众智园AI自主创新加速区",
-        "大钟寺AI产业集聚区"
-      ],
-      "taskbook_wing_refs": [
-        "中关村科技服务翼",
-        "小月河场景赋能翼"
-      ],
-      "node_refs": [
-        "N1",
-        "N2",
-        "N3"
-      ],
-      "agent_refs": [
-        "agent.1",
-        "agent.2",
-        "agent.3",
-        "agent.4",
-        "agent.5",
-        "agent.6"
-      ],
-      "evidence_summary_en": "Evidence combines the bilingual narrative, node crosswalk, 27-feature land-use layer, ten cards, three protocols, bilingual figures and rights/risk boundary; thresholds and existing-condition diagnoses remain participant-proposed, provisional or verification pending."
+      "evidence_summary_zh": "E-G4: retain-adapt-remove rules and non-statutory boundary",
+      "evidence_anchors": [
+        "E-G4: retain-adapt-remove rules and non-statutory boundary"
+      ]
     },
     {
       "item_id": "height_massing_character",
@@ -513,38 +328,33 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "proposal.md §§1-12",
-        "proposal.en.md §§1-12",
-        "§2 taskbook crosswalk",
-        "§4-5 scenario/protocol contract"
+        "蓝绿空间、公共空间与城市风貌"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a3-booklet.en.pdf",
-        "drawings/a0-boards.pdf",
-        "drawings/a0-boards.en.pdf"
+        "drawings/a0-boards.pdf"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/roads.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
         "site_area_sqm",
-        "land_use_feature_count",
-        "land_use_green_ratio",
         "green_ratio",
         "public_space_ratio",
-        "design_node_count",
+        "landmark_count",
         "scenario_node_count",
-        "scenario_card_count",
-        "common_test_protocol_count",
-        "mapping_count",
-        "global_case_count"
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -554,15 +364,7 @@
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
         "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
-        "CASE-INT-HIGH-LINE",
-        "CASE-INT-SEOULLO-7017",
-        "CASE-INT-PROMENADE-PLANTEE",
-        "CASE-INT-CHICAGO-606",
-        "CASE-CN-SHOUGANG-PARK",
-        "CASE-CN-WEST-BUND",
-        "CASE-CN-DASHA-RIVER",
-        "CASE-CN-MENGZHUIWAN"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -570,42 +372,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001",
-        "A-TASKBOOK-001",
-        "A-BASELINE-001",
-        "A-DIAGNOSIS-001",
-        "A-CASE-RIGHTS-001"
+        "A-EVENT-001"
       ],
       "self_check_ids": [
-        "DETERMINISTIC_VALIDATION",
-        "SPATIAL_REVIEW",
-        "VISUAL_PACKAGING",
-        "PROFESSIONAL_EVIDENCE"
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "双语正文、节点 crosswalk、27 要素用地、十卡三协议、双语图件和权利/风险边界共同提供证据；阈值与现状诊断保持 participant-proposed、provisional 或待核验。",
-      "taskbook_area_refs": [
-        "AI原点社区",
-        "众智园AI自主创新加速区",
-        "大钟寺AI产业集聚区"
-      ],
-      "taskbook_wing_refs": [
-        "中关村科技服务翼",
-        "小月河场景赋能翼"
-      ],
-      "node_refs": [
-        "N1",
-        "N2",
-        "N3"
-      ],
-      "agent_refs": [
-        "agent.1",
-        "agent.2",
-        "agent.3",
-        "agent.4",
-        "agent.5",
-        "agent.6"
-      ],
-      "evidence_summary_en": "Evidence combines the bilingual narrative, node crosswalk, 27-feature land-use layer, ten cards, three protocols, bilingual figures and rights/risk boundary; thresholds and existing-condition diagnoses remain participant-proposed, provisional or verification pending."
+      "evidence_summary_zh": "E-A5: CELL-JZ VI colors, min size, hierarchy and prohibited uses",
+      "evidence_anchors": [
+        "E-A5: CELL-JZ VI colors, min size, hierarchy and prohibited uses"
+      ]
     },
     {
       "item_id": "retain_renovate_demolish",
@@ -614,38 +392,33 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "proposal.md §§1-12",
-        "proposal.en.md §§1-12",
-        "§2 taskbook crosswalk",
-        "§4-5 scenario/protocol contract"
+        "用地、建筑规模与拆改留方案"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a3-booklet.en.pdf",
-        "drawings/a0-boards.pdf",
-        "drawings/a0-boards.en.pdf"
+        "drawings/a0-boards.pdf"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/roads.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
         "site_area_sqm",
-        "land_use_feature_count",
-        "land_use_green_ratio",
         "green_ratio",
         "public_space_ratio",
-        "design_node_count",
+        "landmark_count",
         "scenario_node_count",
-        "scenario_card_count",
-        "common_test_protocol_count",
-        "mapping_count",
-        "global_case_count"
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -655,15 +428,7 @@
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
         "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
-        "CASE-INT-HIGH-LINE",
-        "CASE-INT-SEOULLO-7017",
-        "CASE-INT-PROMENADE-PLANTEE",
-        "CASE-INT-CHICAGO-606",
-        "CASE-CN-SHOUGANG-PARK",
-        "CASE-CN-WEST-BUND",
-        "CASE-CN-DASHA-RIVER",
-        "CASE-CN-MENGZHUIWAN"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -671,42 +436,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001",
-        "A-TASKBOOK-001",
-        "A-BASELINE-001",
-        "A-DIAGNOSIS-001",
-        "A-CASE-RIGHTS-001"
+        "A-EVENT-001"
       ],
       "self_check_ids": [
-        "DETERMINISTIC_VALIDATION",
-        "SPATIAL_REVIEW",
-        "VISUAL_PACKAGING",
-        "PROFESSIONAL_EVIDENCE"
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "双语正文、节点 crosswalk、27 要素用地、十卡三协议、双语图件和权利/风险边界共同提供证据；阈值与现状诊断保持 participant-proposed、provisional 或待核验。",
-      "taskbook_area_refs": [
-        "AI原点社区",
-        "众智园AI自主创新加速区",
-        "大钟寺AI产业集聚区"
-      ],
-      "taskbook_wing_refs": [
-        "中关村科技服务翼",
-        "小月河场景赋能翼"
-      ],
-      "node_refs": [
-        "N1",
-        "N2",
-        "N3"
-      ],
-      "agent_refs": [
-        "agent.1",
-        "agent.2",
-        "agent.3",
-        "agent.4",
-        "agent.5",
-        "agent.6"
-      ],
-      "evidence_summary_en": "Evidence combines the bilingual narrative, node crosswalk, 27-feature land-use layer, ten cards, three protocols, bilingual figures and rights/risk boundary; thresholds and existing-condition diagnoses remain participant-proposed, provisional or verification pending."
+      "evidence_summary_zh": "E-G4: retain/adapt/remove policy with authority review",
+      "evidence_anchors": [
+        "E-G4: retain/adapt/remove policy with authority review"
+      ]
     },
     {
       "item_id": "traffic_rail_slow_parking",
@@ -715,38 +456,33 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "proposal.md §§1-12",
-        "proposal.en.md §§1-12",
-        "§2 taskbook crosswalk",
-        "§4-5 scenario/protocol contract"
+        "交通、轨道、市政与公共服务设施"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a3-booklet.en.pdf",
-        "drawings/a0-boards.pdf",
-        "drawings/a0-boards.en.pdf"
+        "drawings/a0-boards.pdf"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/roads.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
         "site_area_sqm",
-        "land_use_feature_count",
-        "land_use_green_ratio",
         "green_ratio",
         "public_space_ratio",
-        "design_node_count",
+        "landmark_count",
         "scenario_node_count",
-        "scenario_card_count",
-        "common_test_protocol_count",
-        "mapping_count",
-        "global_case_count"
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -756,15 +492,7 @@
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
         "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
-        "CASE-INT-HIGH-LINE",
-        "CASE-INT-SEOULLO-7017",
-        "CASE-INT-PROMENADE-PLANTEE",
-        "CASE-INT-CHICAGO-606",
-        "CASE-CN-SHOUGANG-PARK",
-        "CASE-CN-WEST-BUND",
-        "CASE-CN-DASHA-RIVER",
-        "CASE-CN-MENGZHUIWAN"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -772,42 +500,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001",
-        "A-TASKBOOK-001",
-        "A-BASELINE-001",
-        "A-DIAGNOSIS-001",
-        "A-CASE-RIGHTS-001"
+        "A-EVENT-001"
       ],
       "self_check_ids": [
-        "DETERMINISTIC_VALIDATION",
-        "SPATIAL_REVIEW",
-        "VISUAL_PACKAGING",
-        "PROFESSIONAL_EVIDENCE"
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "双语正文、节点 crosswalk、27 要素用地、十卡三协议、双语图件和权利/风险边界共同提供证据；阈值与现状诊断保持 participant-proposed、provisional 或待核验。",
-      "taskbook_area_refs": [
-        "AI原点社区",
-        "众智园AI自主创新加速区",
-        "大钟寺AI产业集聚区"
-      ],
-      "taskbook_wing_refs": [
-        "中关村科技服务翼",
-        "小月河场景赋能翼"
-      ],
-      "node_refs": [
-        "N1",
-        "N2",
-        "N3"
-      ],
-      "agent_refs": [
-        "agent.1",
-        "agent.2",
-        "agent.3",
-        "agent.4",
-        "agent.5",
-        "agent.6"
-      ],
-      "evidence_summary_en": "Evidence combines the bilingual narrative, node crosswalk, 27-feature land-use layer, ten cards, three protocols, bilingual figures and rights/risk boundary; thresholds and existing-condition diagnoses remain participant-proposed, provisional or verification pending."
+      "evidence_summary_zh": "E-G3: slow axis, rail-shuttle-walk rule and mobility figure",
+      "evidence_anchors": [
+        "E-G3: slow axis, rail-shuttle-walk rule and mobility figure"
+      ]
     },
     {
       "item_id": "municipal_new_infrastructure",
@@ -816,38 +520,33 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "proposal.md §§1-12",
-        "proposal.en.md §§1-12",
-        "§2 taskbook crosswalk",
-        "§4-5 scenario/protocol contract"
+        "交通、轨道、市政与公共服务设施"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a3-booklet.en.pdf",
-        "drawings/a0-boards.pdf",
-        "drawings/a0-boards.en.pdf"
+        "drawings/a0-boards.pdf"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/roads.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
         "site_area_sqm",
-        "land_use_feature_count",
-        "land_use_green_ratio",
         "green_ratio",
         "public_space_ratio",
-        "design_node_count",
+        "landmark_count",
         "scenario_node_count",
-        "scenario_card_count",
-        "common_test_protocol_count",
-        "mapping_count",
-        "global_case_count"
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -857,15 +556,7 @@
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
         "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
-        "CASE-INT-HIGH-LINE",
-        "CASE-INT-SEOULLO-7017",
-        "CASE-INT-PROMENADE-PLANTEE",
-        "CASE-INT-CHICAGO-606",
-        "CASE-CN-SHOUGANG-PARK",
-        "CASE-CN-WEST-BUND",
-        "CASE-CN-DASHA-RIVER",
-        "CASE-CN-MENGZHUIWAN"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -873,42 +564,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001",
-        "A-TASKBOOK-001",
-        "A-BASELINE-001",
-        "A-DIAGNOSIS-001",
-        "A-CASE-RIGHTS-001"
+        "A-EVENT-001"
       ],
       "self_check_ids": [
-        "DETERMINISTIC_VALIDATION",
-        "SPATIAL_REVIEW",
-        "VISUAL_PACKAGING",
-        "PROFESSIONAL_EVIDENCE"
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "双语正文、节点 crosswalk、27 要素用地、十卡三协议、双语图件和权利/风险边界共同提供证据；阈值与现状诊断保持 participant-proposed、provisional 或待核验。",
-      "taskbook_area_refs": [
-        "AI原点社区",
-        "众智园AI自主创新加速区",
-        "大钟寺AI产业集聚区"
-      ],
-      "taskbook_wing_refs": [
-        "中关村科技服务翼",
-        "小月河场景赋能翼"
-      ],
-      "node_refs": [
-        "N1",
-        "N2",
-        "N3"
-      ],
-      "agent_refs": [
-        "agent.1",
-        "agent.2",
-        "agent.3",
-        "agent.4",
-        "agent.5",
-        "agent.6"
-      ],
-      "evidence_summary_en": "Evidence combines the bilingual narrative, node crosswalk, 27-feature land-use layer, ten cards, three protocols, bilingual figures and rights/risk boundary; thresholds and existing-condition diagnoses remain participant-proposed, provisional or verification pending."
+      "evidence_summary_zh": "E-A4: eight-element ecosystem map with compute/data/energy exits",
+      "evidence_anchors": [
+        "E-A4: eight-element ecosystem map with compute/data/energy exits"
+      ]
     },
     {
       "item_id": "blue_green_public_space",
@@ -917,38 +584,33 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "proposal.md §§1-12",
-        "proposal.en.md §§1-12",
-        "§2 taskbook crosswalk",
-        "§4-5 scenario/protocol contract"
+        "蓝绿空间、公共空间与城市风貌"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a3-booklet.en.pdf",
-        "drawings/a0-boards.pdf",
-        "drawings/a0-boards.en.pdf"
+        "drawings/a0-boards.pdf"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/roads.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
         "site_area_sqm",
-        "land_use_feature_count",
-        "land_use_green_ratio",
         "green_ratio",
         "public_space_ratio",
-        "design_node_count",
+        "landmark_count",
         "scenario_node_count",
-        "scenario_card_count",
-        "common_test_protocol_count",
-        "mapping_count",
-        "global_case_count"
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -958,15 +620,7 @@
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
         "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
-        "CASE-INT-HIGH-LINE",
-        "CASE-INT-SEOULLO-7017",
-        "CASE-INT-PROMENADE-PLANTEE",
-        "CASE-INT-CHICAGO-606",
-        "CASE-CN-SHOUGANG-PARK",
-        "CASE-CN-WEST-BUND",
-        "CASE-CN-DASHA-RIVER",
-        "CASE-CN-MENGZHUIWAN"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -974,42 +628,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001",
-        "A-TASKBOOK-001",
-        "A-BASELINE-001",
-        "A-DIAGNOSIS-001",
-        "A-CASE-RIGHTS-001"
+        "A-EVENT-001"
       ],
       "self_check_ids": [
-        "DETERMINISTIC_VALIDATION",
-        "SPATIAL_REVIEW",
-        "VISUAL_PACKAGING",
-        "PROFESSIONAL_EVIDENCE"
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "双语正文、节点 crosswalk、27 要素用地、十卡三协议、双语图件和权利/风险边界共同提供证据；阈值与现状诊断保持 participant-proposed、provisional 或待核验。",
-      "taskbook_area_refs": [
-        "AI原点社区",
-        "众智园AI自主创新加速区",
-        "大钟寺AI产业集聚区"
-      ],
-      "taskbook_wing_refs": [
-        "中关村科技服务翼",
-        "小月河场景赋能翼"
-      ],
-      "node_refs": [
-        "N1",
-        "N2",
-        "N3"
-      ],
-      "agent_refs": [
-        "agent.1",
-        "agent.2",
-        "agent.3",
-        "agent.4",
-        "agent.5",
-        "agent.6"
-      ],
-      "evidence_summary_en": "Evidence combines the bilingual narrative, node crosswalk, 27-feature land-use layer, ten cards, three protocols, bilingual figures and rights/risk boundary; thresholds and existing-condition diagnoses remain participant-proposed, provisional or verification pending."
+      "evidence_summary_zh": "E-A3: P01-P05 component library, L1-L3 landmarks and human fallback",
+      "evidence_anchors": [
+        "E-A3: P01-P05 component library, L1-L3 landmarks and human fallback"
+      ]
     },
     {
       "item_id": "three_key_area_detailed_design",
@@ -1018,38 +648,33 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "proposal.md §§1-12",
-        "proposal.en.md §§1-12",
-        "§2 taskbook crosswalk",
-        "§4-5 scenario/protocol contract"
+        "重点区域详细设计"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a3-booklet.en.pdf",
-        "drawings/a0-boards.pdf",
-        "drawings/a0-boards.en.pdf"
+        "drawings/a0-boards.pdf"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/roads.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
         "site_area_sqm",
-        "land_use_feature_count",
-        "land_use_green_ratio",
         "green_ratio",
         "public_space_ratio",
-        "design_node_count",
+        "landmark_count",
         "scenario_node_count",
-        "scenario_card_count",
-        "common_test_protocol_count",
-        "mapping_count",
-        "global_case_count"
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -1059,15 +684,7 @@
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
         "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
-        "CASE-INT-HIGH-LINE",
-        "CASE-INT-SEOULLO-7017",
-        "CASE-INT-PROMENADE-PLANTEE",
-        "CASE-INT-CHICAGO-606",
-        "CASE-CN-SHOUGANG-PARK",
-        "CASE-CN-WEST-BUND",
-        "CASE-CN-DASHA-RIVER",
-        "CASE-CN-MENGZHUIWAN"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -1075,42 +692,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001",
-        "A-TASKBOOK-001",
-        "A-BASELINE-001",
-        "A-DIAGNOSIS-001",
-        "A-CASE-RIGHTS-001"
+        "A-EVENT-001"
       ],
       "self_check_ids": [
-        "DETERMINISTIC_VALIDATION",
-        "SPATIAL_REVIEW",
-        "VISUAL_PACKAGING",
-        "PROFESSIONAL_EVIDENCE"
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "双语正文、节点 crosswalk、27 要素用地、十卡三协议、双语图件和权利/风险边界共同提供证据；阈值与现状诊断保持 participant-proposed、provisional 或待核验。",
-      "taskbook_area_refs": [
-        "AI原点社区",
-        "众智园AI自主创新加速区",
-        "大钟寺AI产业集聚区"
-      ],
-      "taskbook_wing_refs": [
-        "中关村科技服务翼",
-        "小月河场景赋能翼"
-      ],
-      "node_refs": [
-        "N1",
-        "N2",
-        "N3"
-      ],
-      "agent_refs": [
-        "agent.1",
-        "agent.2",
-        "agent.3",
-        "agent.4",
-        "agent.5",
-        "agent.6"
-      ],
-      "evidence_summary_en": "Evidence combines the bilingual narrative, node crosswalk, 27-feature land-use layer, ten cards, three protocols, bilingual figures and rights/risk boundary; thresholds and existing-condition diagnoses remain participant-proposed, provisional or verification pending."
+      "evidence_summary_zh": "E-A2/E-A3: key-area geometry, landmark catalogue and component table",
+      "evidence_anchors": [
+        "E-A2/E-A3: key-area geometry, landmark catalogue and component table"
+      ]
     },
     {
       "item_id": "renewal_project_list",
@@ -1119,38 +712,33 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "proposal.md §§1-12",
-        "proposal.en.md §§1-12",
-        "§2 taskbook crosswalk",
-        "§4-5 scenario/protocol contract"
+        "更新项目清单、实施政策与分期计划"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a3-booklet.en.pdf",
-        "drawings/a0-boards.pdf",
-        "drawings/a0-boards.en.pdf"
+        "drawings/a0-boards.pdf"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/roads.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
         "site_area_sqm",
-        "land_use_feature_count",
-        "land_use_green_ratio",
         "green_ratio",
         "public_space_ratio",
-        "design_node_count",
+        "landmark_count",
         "scenario_node_count",
-        "scenario_card_count",
-        "common_test_protocol_count",
-        "mapping_count",
-        "global_case_count"
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -1160,15 +748,7 @@
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
         "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
-        "CASE-INT-HIGH-LINE",
-        "CASE-INT-SEOULLO-7017",
-        "CASE-INT-PROMENADE-PLANTEE",
-        "CASE-INT-CHICAGO-606",
-        "CASE-CN-SHOUGANG-PARK",
-        "CASE-CN-WEST-BUND",
-        "CASE-CN-DASHA-RIVER",
-        "CASE-CN-MENGZHUIWAN"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -1176,42 +756,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001",
-        "A-TASKBOOK-001",
-        "A-BASELINE-001",
-        "A-DIAGNOSIS-001",
-        "A-CASE-RIGHTS-001"
+        "A-EVENT-001"
       ],
       "self_check_ids": [
-        "DETERMINISTIC_VALIDATION",
-        "SPATIAL_REVIEW",
-        "VISUAL_PACKAGING",
-        "PROFESSIONAL_EVIDENCE"
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "双语正文、节点 crosswalk、27 要素用地、十卡三协议、双语图件和权利/风险边界共同提供证据；阈值与现状诊断保持 participant-proposed、provisional 或待核验。",
-      "taskbook_area_refs": [
-        "AI原点社区",
-        "众智园AI自主创新加速区",
-        "大钟寺AI产业集聚区"
-      ],
-      "taskbook_wing_refs": [
-        "中关村科技服务翼",
-        "小月河场景赋能翼"
-      ],
-      "node_refs": [
-        "N1",
-        "N2",
-        "N3"
-      ],
-      "agent_refs": [
-        "agent.1",
-        "agent.2",
-        "agent.3",
-        "agent.4",
-        "agent.5",
-        "agent.6"
-      ],
-      "evidence_summary_en": "Evidence combines the bilingual narrative, node crosswalk, 27-feature land-use layer, ten cards, three protocols, bilingual figures and rights/risk boundary; thresholds and existing-condition diagnoses remain participant-proposed, provisional or verification pending."
+      "evidence_summary_zh": "E-A6: three phase delivery table and four renewal project types",
+      "evidence_anchors": [
+        "E-A6: three phase delivery table and four renewal project types"
+      ]
     },
     {
       "item_id": "phasing_implementation",
@@ -1220,38 +776,33 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "proposal.md §§1-12",
-        "proposal.en.md §§1-12",
-        "§2 taskbook crosswalk",
-        "§4-5 scenario/protocol contract"
+        "更新项目清单、实施政策与分期计划"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a3-booklet.en.pdf",
-        "drawings/a0-boards.pdf",
-        "drawings/a0-boards.en.pdf"
+        "drawings/a0-boards.pdf"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/roads.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
         "site_area_sqm",
-        "land_use_feature_count",
-        "land_use_green_ratio",
         "green_ratio",
         "public_space_ratio",
-        "design_node_count",
+        "landmark_count",
         "scenario_node_count",
-        "scenario_card_count",
-        "common_test_protocol_count",
-        "mapping_count",
-        "global_case_count"
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -1261,15 +812,7 @@
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
         "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
-        "CASE-INT-HIGH-LINE",
-        "CASE-INT-SEOULLO-7017",
-        "CASE-INT-PROMENADE-PLANTEE",
-        "CASE-INT-CHICAGO-606",
-        "CASE-CN-SHOUGANG-PARK",
-        "CASE-CN-WEST-BUND",
-        "CASE-CN-DASHA-RIVER",
-        "CASE-CN-MENGZHUIWAN"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -1277,42 +820,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001",
-        "A-TASKBOOK-001",
-        "A-BASELINE-001",
-        "A-DIAGNOSIS-001",
-        "A-CASE-RIGHTS-001"
+        "A-EVENT-001"
       ],
       "self_check_ids": [
-        "DETERMINISTIC_VALIDATION",
-        "SPATIAL_REVIEW",
-        "VISUAL_PACKAGING",
-        "PROFESSIONAL_EVIDENCE"
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "双语正文、节点 crosswalk、27 要素用地、十卡三协议、双语图件和权利/风险边界共同提供证据；阈值与现状诊断保持 participant-proposed、provisional 或待核验。",
-      "taskbook_area_refs": [
-        "AI原点社区",
-        "众智园AI自主创新加速区",
-        "大钟寺AI产业集聚区"
-      ],
-      "taskbook_wing_refs": [
-        "中关村科技服务翼",
-        "小月河场景赋能翼"
-      ],
-      "node_refs": [
-        "N1",
-        "N2",
-        "N3"
-      ],
-      "agent_refs": [
-        "agent.1",
-        "agent.2",
-        "agent.3",
-        "agent.4",
-        "agent.5",
-        "agent.6"
-      ],
-      "evidence_summary_en": "Evidence combines the bilingual narrative, node crosswalk, 27-feature land-use layer, ten cards, three protocols, bilingual figures and rights/risk boundary; thresholds and existing-condition diagnoses remain participant-proposed, provisional or verification pending."
+      "evidence_summary_zh": "E-O1/O5: three phases, scenario opening and stop/hand-off",
+      "evidence_anchors": [
+        "E-O1/O5: three phases, scenario opening and stop/hand-off"
+      ]
     },
     {
       "item_id": "metrics_recalculation",
@@ -1321,38 +840,33 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "proposal.md §§1-12",
-        "proposal.en.md §§1-12",
-        "§2 taskbook crosswalk",
-        "§4-5 scenario/protocol contract"
+        "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a3-booklet.en.pdf",
-        "drawings/a0-boards.pdf",
-        "drawings/a0-boards.en.pdf"
+        "drawings/a0-boards.pdf"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/roads.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
         "site_area_sqm",
-        "land_use_feature_count",
-        "land_use_green_ratio",
         "green_ratio",
         "public_space_ratio",
-        "design_node_count",
+        "landmark_count",
         "scenario_node_count",
-        "scenario_card_count",
-        "common_test_protocol_count",
-        "mapping_count",
-        "global_case_count"
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -1362,15 +876,7 @@
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
         "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
-        "CASE-INT-HIGH-LINE",
-        "CASE-INT-SEOULLO-7017",
-        "CASE-INT-PROMENADE-PLANTEE",
-        "CASE-INT-CHICAGO-606",
-        "CASE-CN-SHOUGANG-PARK",
-        "CASE-CN-WEST-BUND",
-        "CASE-CN-DASHA-RIVER",
-        "CASE-CN-MENGZHUIWAN"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -1378,42 +884,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001",
-        "A-TASKBOOK-001",
-        "A-BASELINE-001",
-        "A-DIAGNOSIS-001",
-        "A-CASE-RIGHTS-001"
+        "A-EVENT-001"
       ],
       "self_check_ids": [
-        "DETERMINISTIC_VALIDATION",
-        "SPATIAL_REVIEW",
-        "VISUAL_PACKAGING",
-        "PROFESSIONAL_EVIDENCE"
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "双语正文、节点 crosswalk、27 要素用地、十卡三协议、双语图件和权利/风险边界共同提供证据；阈值与现状诊断保持 participant-proposed、provisional 或待核验。",
-      "taskbook_area_refs": [
-        "AI原点社区",
-        "众智园AI自主创新加速区",
-        "大钟寺AI产业集聚区"
-      ],
-      "taskbook_wing_refs": [
-        "中关村科技服务翼",
-        "小月河场景赋能翼"
-      ],
-      "node_refs": [
-        "N1",
-        "N2",
-        "N3"
-      ],
-      "agent_refs": [
-        "agent.1",
-        "agent.2",
-        "agent.3",
-        "agent.4",
-        "agent.5",
-        "agent.6"
-      ],
-      "evidence_summary_en": "Evidence combines the bilingual narrative, node crosswalk, 27-feature land-use layer, ten cards, three protocols, bilingual figures and rights/risk boundary; thresholds and existing-condition diagnoses remain participant-proposed, provisional or verification pending."
+      "evidence_summary_zh": "E-G2/E-G3: metrics.json formulas and bilingual metric evidence",
+      "evidence_anchors": [
+        "E-G2/E-G3: metrics.json formulas and bilingual metric evidence"
+      ]
     },
     {
       "item_id": "risk_missing_data",
@@ -1422,38 +904,33 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "proposal.md §§1-12",
-        "proposal.en.md §§1-12",
-        "§2 taskbook crosswalk",
-        "§4-5 scenario/protocol contract"
+        "风险、版权与合规说明"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a3-booklet.en.pdf",
-        "drawings/a0-boards.pdf",
-        "drawings/a0-boards.en.pdf"
+        "drawings/a0-boards.pdf"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/roads.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
         "site_area_sqm",
-        "land_use_feature_count",
-        "land_use_green_ratio",
         "green_ratio",
         "public_space_ratio",
-        "design_node_count",
+        "landmark_count",
         "scenario_node_count",
-        "scenario_card_count",
-        "common_test_protocol_count",
-        "mapping_count",
-        "global_case_count"
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -1463,15 +940,7 @@
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
         "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
-        "CASE-INT-HIGH-LINE",
-        "CASE-INT-SEOULLO-7017",
-        "CASE-INT-PROMENADE-PLANTEE",
-        "CASE-INT-CHICAGO-606",
-        "CASE-CN-SHOUGANG-PARK",
-        "CASE-CN-WEST-BUND",
-        "CASE-CN-DASHA-RIVER",
-        "CASE-CN-MENGZHUIWAN"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -1479,42 +948,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001",
-        "A-TASKBOOK-001",
-        "A-BASELINE-001",
-        "A-DIAGNOSIS-001",
-        "A-CASE-RIGHTS-001"
+        "A-EVENT-001"
       ],
       "self_check_ids": [
-        "DETERMINISTIC_VALIDATION",
-        "SPATIAL_REVIEW",
-        "VISUAL_PACKAGING",
-        "PROFESSIONAL_EVIDENCE"
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "双语正文、节点 crosswalk、27 要素用地、十卡三协议、双语图件和权利/风险边界共同提供证据；阈值与现状诊断保持 participant-proposed、provisional 或待核验。",
-      "taskbook_area_refs": [
-        "AI原点社区",
-        "众智园AI自主创新加速区",
-        "大钟寺AI产业集聚区"
-      ],
-      "taskbook_wing_refs": [
-        "中关村科技服务翼",
-        "小月河场景赋能翼"
-      ],
-      "node_refs": [
-        "N1",
-        "N2",
-        "N3"
-      ],
-      "agent_refs": [
-        "agent.1",
-        "agent.2",
-        "agent.3",
-        "agent.4",
-        "agent.5",
-        "agent.6"
-      ],
-      "evidence_summary_en": "Evidence combines the bilingual narrative, node crosswalk, 27-feature land-use layer, ten cards, three protocols, bilingual figures and rights/risk boundary; thresholds and existing-condition diagnoses remain participant-proposed, provisional or verification pending."
+      "evidence_summary_zh": "E-Q1: risk.json, copyright statement, source provenance and self-check",
+      "evidence_anchors": [
+        "E-Q1: risk.json, copyright statement, source provenance and self-check"
+      ]
     }
   ]
 }

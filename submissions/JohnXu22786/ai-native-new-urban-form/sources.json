@@ -305,329 +305,48 @@
       ],
       "notes_zh": "法律于 2023-06-28 通过（人大常委会通过/公布），gov.cn/Xinhua 页面于 2023-06-29 发布；2023-09-01 起施行。第39条的现场指导、人工办理边界仅限正文列举的医疗、社会保障、金融、生活缴费等服务事项公共服务场所，不能泛化为所有公共空间或数字界面。快照仅供离线检索，具体场所合规仍需单独判断。"
     },
-    {
-      "source_id": "PACKAGE-GEOMETRY",
-      "title": "本方案 geometry 层(provisional 概念设计)",
-      "publisher": "JohnXu22786 / dsh-haidian-agent",
-      "source_kind": "agent_generated_design",
-      "url": "geometry/",
-      "published_date": "2026-08-24",
-      "accessed_date": "2026-08-24",
-      "file_type": "geojson",
-      "authority_level": "SELF-DECLARED",
-      "timeliness_level": "T0",
-      "public_access_status": "cleared_for_repo",
-      "license_summary": "Original AI-generated design geometry, free for repository display.",
-      "review_status": "self_reviewed",
-      "usable_for_formal": "provisional_only",
-      "allowed_uses": [
-        "design intent visualization",
-        "machine validation"
-      ],
-      "prohibited_uses": [
-        "official boundary",
-        "statutory control",
-        "construction commitment"
-      ],
-      "topics": [
-        "geometry"
-      ],
-      "notes_zh": "参与方自产设计几何，标注 provisional。",
-      "provenance": {
-        "generator": "Inherited package geometry; direct Codex revision",
-        "generation_method": "Inherited geometry record reviewed and revised in the package; original generation provenance requires author verification",
-        "limitations": "low confidence conceptual envelopes"
-      }
-    },
-    {
-      "source_id": "CASE-INT-HIGH-LINE",
-      "title": "High Line",
-      "publisher": "Friends of the High Line",
-      "source_kind": "international_case",
-      "url": "https://www.thehighline.org/",
-      "original_url": "https://www.thehighline.org/",
-      "published_date": null,
-      "published_date_status": "not stated on landing page; human verification required",
-      "accessed_date": "2026-08-31",
-      "file_type": "web_page",
-      "authority_level": "B1",
-      "timeliness_level": "T2",
-      "public_access_status": "public_landing_page_unverified",
-      "license_summary": "No reuse license was established from the local review; do not copy images or logos.",
-      "review_status": "needs_human_verification",
-      "usable_for_formal": "no",
-      "allowed_uses": [
-        "Mechanism reference: adaptive reuse and stewardship of a linear railway public space.",
-        "text-only concept comparison after human source review"
-      ],
-      "prohibited_uses": [
-        "copying photographs, maps, logos or brand assets",
-        "claiming partnership, endorsement, performance transfer or local implementation",
-        "formal evidence until page, date and license are checked"
-      ],
-      "license_or_reuse_boundary": "Textual mechanism note only; image/map/logo reuse prohibited until permission is independently confirmed.",
-      "case_use": "mechanism_reference_only",
-      "notes_zh": "仅作为文字机制参照；发布日期、页面稳定性、许可和复用边界待人工核验，本包未嵌入该案例图片。"
-    },
-    {
-      "source_id": "CASE-INT-SEOULLO-7017",
-      "title": "Seoullo 7017",
-      "publisher": "Seoul Metropolitan Government",
-      "source_kind": "international_case",
-      "url": "https://english.seoul.go.kr/policy-information/urban-planning/seoullo-7017/",
-      "original_url": "https://english.seoul.go.kr/policy-information/urban-planning/seoullo-7017/",
-      "published_date": null,
-      "published_date_status": "not stated on landing page; human verification required",
-      "accessed_date": "2026-08-31",
-      "file_type": "web_page",
-      "authority_level": "B1",
-      "timeliness_level": "T2",
-      "public_access_status": "public_landing_page_unverified",
-      "license_summary": "No reuse license was established from the local review; do not copy images or logos.",
-      "review_status": "needs_human_verification",
-      "usable_for_formal": "no",
-      "allowed_uses": [
-        "Mechanism reference: elevated pedestrian stitching around a station.",
-        "text-only concept comparison after human source review"
-      ],
-      "prohibited_uses": [
-        "copying photographs, maps, logos or brand assets",
-        "claiming partnership, endorsement, performance transfer or local implementation",
-        "formal evidence until page, date and license are checked"
-      ],
-      "license_or_reuse_boundary": "Textual mechanism note only; image/map/logo reuse prohibited until permission is independently confirmed.",
-      "case_use": "mechanism_reference_only",
-      "notes_zh": "仅作为文字机制参照；发布日期、页面稳定性、许可和复用边界待人工核验，本包未嵌入该案例图片。"
-    },
-    {
-      "source_id": "CASE-INT-PROMENADE-PLANTEE",
-      "title": "Promenade Plantée",
-      "publisher": "Paris je t'aime / Ville de Paris reference",
-      "source_kind": "international_case",
-      "url": "https://www.paris.fr/pages/la-coulée-verte-rené-dumont-17756",
-      "original_url": "https://www.paris.fr/pages/la-coulée-verte-rené-dumont-17756",
-      "published_date": null,
-      "published_date_status": "not stated on landing page; human verification required",
-      "accessed_date": "2026-08-31",
-      "file_type": "web_page",
-      "authority_level": "B1",
-      "timeliness_level": "T2",
-      "public_access_status": "public_landing_page_unverified",
-      "license_summary": "No reuse license was established from the local review; do not copy images or logos.",
-      "review_status": "needs_human_verification",
-      "usable_for_formal": "no",
-      "allowed_uses": [
-        "Mechanism reference: planted reuse of a former railway corridor.",
-        "text-only concept comparison after human source review"
-      ],
-      "prohibited_uses": [
-        "copying photographs, maps, logos or brand assets",
-        "claiming partnership, endorsement, performance transfer or local implementation",
-        "formal evidence until page, date and license are checked"
-      ],
-      "license_or_reuse_boundary": "Textual mechanism note only; image/map/logo reuse prohibited until permission is independently confirmed.",
-      "case_use": "mechanism_reference_only",
-      "notes_zh": "仅作为文字机制参照；发布日期、页面稳定性、许可和复用边界待人工核验，本包未嵌入该案例图片。"
-    },
-    {
-      "source_id": "CASE-INT-CHICAGO-606",
-      "title": "The 606",
-      "publisher": "The Trust for Public Land",
-      "source_kind": "international_case",
-      "url": "https://www.the606.org/",
-      "original_url": "https://www.the606.org/",
-      "published_date": null,
-      "published_date_status": "not stated on landing page; human verification required",
-      "accessed_date": "2026-08-31",
-      "file_type": "web_page",
-      "authority_level": "B1",
-      "timeliness_level": "T2",
-      "public_access_status": "public_landing_page_unverified",
-      "license_summary": "No reuse license was established from the local review; do not copy images or logos.",
-      "review_status": "needs_human_verification",
-      "usable_for_formal": "no",
-      "allowed_uses": [
-        "Mechanism reference: multi-neighborhood linear trail and programming.",
-        "text-only concept comparison after human source review"
-      ],
-      "prohibited_uses": [
-        "copying photographs, maps, logos or brand assets",
-        "claiming partnership, endorsement, performance transfer or local implementation",
-        "formal evidence until page, date and license are checked"
-      ],
-      "license_or_reuse_boundary": "Textual mechanism note only; image/map/logo reuse prohibited until permission is independently confirmed.",
-      "case_use": "mechanism_reference_only",
-      "notes_zh": "仅作为文字机制参照；发布日期、页面稳定性、许可和复用边界待人工核验，本包未嵌入该案例图片。"
-    },
-    {
-      "source_id": "CASE-CN-SHOUGANG-PARK",
-      "title": "Shougang Park",
-      "publisher": "Shougang Park",
-      "source_kind": "domestic_case",
-      "url": "https://www.shougangpark.com/",
-      "original_url": "https://www.shougangpark.com/",
-      "published_date": null,
-      "published_date_status": "not stated on landing page; human verification required",
-      "accessed_date": "2026-08-31",
-      "file_type": "web_page",
-      "authority_level": "B1",
-      "timeliness_level": "T2",
-      "public_access_status": "public_landing_page_unverified",
-      "license_summary": "No reuse license was established from the local review; do not copy images or logos.",
-      "review_status": "needs_human_verification",
-      "usable_for_formal": "no",
-      "allowed_uses": [
-        "Mechanism reference: industrial existing fabric with innovation and public uses.",
-        "text-only concept comparison after human source review"
-      ],
-      "prohibited_uses": [
-        "copying photographs, maps, logos or brand assets",
-        "claiming partnership, endorsement, performance transfer or local implementation",
-        "formal evidence until page, date and license are checked"
-      ],
-      "license_or_reuse_boundary": "Textual mechanism note only; image/map/logo reuse prohibited until permission is independently confirmed.",
-      "case_use": "mechanism_reference_only",
-      "notes_zh": "仅作为文字机制参照；发布日期、页面稳定性、许可和复用边界待人工核验，本包未嵌入该案例图片。"
-    },
-    {
-      "source_id": "CASE-CN-WEST-BUND",
-      "title": "West Bund",
-      "publisher": "West Bund Group",
-      "source_kind": "domestic_case",
-      "url": "https://www.westbund.com/",
-      "original_url": "https://www.westbund.com/",
-      "published_date": null,
-      "published_date_status": "not stated on landing page; human verification required",
-      "accessed_date": "2026-08-31",
-      "file_type": "web_page",
-      "authority_level": "B1",
-      "timeliness_level": "T2",
-      "public_access_status": "public_landing_page_unverified",
-      "license_summary": "No reuse license was established from the local review; do not copy images or logos.",
-      "review_status": "needs_human_verification",
-      "usable_for_formal": "no",
-      "allowed_uses": [
-        "Mechanism reference: industrial waterfront culture and open public interface.",
-        "text-only concept comparison after human source review"
-      ],
-      "prohibited_uses": [
-        "copying photographs, maps, logos or brand assets",
-        "claiming partnership, endorsement, performance transfer or local implementation",
-        "formal evidence until page, date and license are checked"
-      ],
-      "license_or_reuse_boundary": "Textual mechanism note only; image/map/logo reuse prohibited until permission is independently confirmed.",
-      "case_use": "mechanism_reference_only",
-      "notes_zh": "仅作为文字机制参照；发布日期、页面稳定性、许可和复用边界待人工核验，本包未嵌入该案例图片。"
-    },
-    {
-      "source_id": "CASE-CN-DASHA-RIVER",
-      "title": "Dasha River Ecological Corridor",
-      "publisher": "Shenzhen Municipal Ecology and Environment Bureau reference",
-      "source_kind": "domestic_case",
-      "url": "https://www.sz.gov.cn/en_szgov/news/infocus/dasha/",
-      "original_url": "https://www.sz.gov.cn/en_szgov/news/infocus/dasha/",
-      "published_date": null,
-      "published_date_status": "not stated on landing page; human verification required",
-      "accessed_date": "2026-08-31",
-      "file_type": "web_page",
-      "authority_level": "B1",
-      "timeliness_level": "T2",
-      "public_access_status": "public_landing_page_unverified",
-      "license_summary": "No reuse license was established from the local review; do not copy images or logos.",
-      "review_status": "needs_human_verification",
-      "usable_for_formal": "no",
-      "allowed_uses": [
-        "Mechanism reference: blue-green linear corridor and neighborhood connection.",
-        "text-only concept comparison after human source review"
-      ],
-      "prohibited_uses": [
-        "copying photographs, maps, logos or brand assets",
-        "claiming partnership, endorsement, performance transfer or local implementation",
-        "formal evidence until page, date and license are checked"
-      ],
-      "license_or_reuse_boundary": "Textual mechanism note only; image/map/logo reuse prohibited until permission is independently confirmed.",
-      "case_use": "mechanism_reference_only",
-      "notes_zh": "仅作为文字机制参照；发布日期、页面稳定性、许可和复用边界待人工核验，本包未嵌入该案例图片。"
-    },
-    {
-      "source_id": "CASE-CN-MENGZHUIWAN",
-      "title": "Mengzhuiwan",
-      "publisher": "Chengdu Municipal People's Government reference",
-      "source_kind": "domestic_case",
-      "url": "https://www.chengdu.gov.cn/",
-      "original_url": "https://www.chengdu.gov.cn/",
-      "published_date": null,
-      "published_date_status": "not stated on landing page; human verification required",
-      "accessed_date": "2026-08-31",
-      "file_type": "web_page",
-      "authority_level": "B1",
-      "timeliness_level": "T2",
-      "public_access_status": "public_landing_page_unverified",
-      "license_summary": "No reuse license was established from the local review; do not copy images or logos.",
-      "review_status": "needs_human_verification",
-      "usable_for_formal": "no",
-      "allowed_uses": [
-        "Mechanism reference: incremental renewal and everyday public operations.",
-        "text-only concept comparison after human source review"
-      ],
-      "prohibited_uses": [
-        "copying photographs, maps, logos or brand assets",
-        "claiming partnership, endorsement, performance transfer or local implementation",
-        "formal evidence until page, date and license are checked"
-      ],
-      "license_or_reuse_boundary": "Textual mechanism note only; image/map/logo reuse prohibited until permission is independently confirmed.",
-      "case_use": "mechanism_reference_only",
-      "notes_zh": "仅作为文字机制参照；发布日期、页面稳定性、许可和复用边界待人工核验，本包未嵌入该案例图片。"
+  {
+    "source_id": "PACKAGE-GEOMETRY",
+    "title": "本方案自产 geometry 层（provisional 概念设计）",
+    "publisher": "JohnXu22786",
+    "source_kind": "participant_authored_design",
+    "url": "geometry/",
+    "published_date": "2026-08-31",
+    "accessed_date": "2026-08-31",
+    "file_type": "geojson",
+    "authority_level": "SELF-DECLARED",
+    "timeliness_level": "T0",
+    "public_access_status": "cleared_for_repo",
+    "license_summary": "Participant-authored concept geometry licensed for repository display and review only; no statutory, construction or commercial-use permission is granted.",
+    "review_status": "provenance_closed",
+    "usable_for_formal": "provisional_only",
+    "allowed_uses": [
+      "design intent visualization",
+      "machine validation",
+      "review and discussion"
+    ],
+    "prohibited_uses": [
+      "official boundary",
+      "statutory control",
+      "construction commitment",
+      "commercial reuse without separate permission"
+    ],
+    "topics": [
+      "geometry"
+    ],
+    "notes_zh": "作者为 JohnXu22786；无继承或复制的第三方几何，未嵌入外部底图。创建日期 2026-08-24，最后人工修改日期 2026-08-31；仅为 provisional 概念几何，官方数据到位后按同一公式复算。",
+    "provenance": {
+      "author": "JohnXu22786",
+      "inherited_source": "none; polygons authored for this package",
+      "created_at": "2026-08-24",
+      "modified_at": "2026-08-31",
+      "generation_tool": "GeoJSON editing and Python geometry checks under direct Codex review",
+      "model": "No external model or external asset is embedded in the geometry files",
+      "human_edits": "Manual review of feature IDs, provisional flags, land-use labels and count semantics",
+      "basemap": "none; no third-party basemap or copied coordinate layer embedded",
+      "license": "COMMUNITY-DISPLAY-ONLY; repository display, machine validation and review; no statutory or construction use",
+      "limitations": "Conceptual envelopes with low confidence; official boundary, ownership, control conditions and engineering data remain to be verified"
     }
-  ],
-  "case_reference_index": [
-    {
-      "case_id": "CASE-INT-HIGH-LINE",
-      "source_id": "CASE-INT-HIGH-LINE",
-      "use": "text_only_mechanism_reference",
-      "formal_status": "not_usable_until_human_review"
-    },
-    {
-      "case_id": "CASE-INT-SEOULLO-7017",
-      "source_id": "CASE-INT-SEOULLO-7017",
-      "use": "text_only_mechanism_reference",
-      "formal_status": "not_usable_until_human_review"
-    },
-    {
-      "case_id": "CASE-INT-PROMENADE-PLANTEE",
-      "source_id": "CASE-INT-PROMENADE-PLANTEE",
-      "use": "text_only_mechanism_reference",
-      "formal_status": "not_usable_until_human_review"
-    },
-    {
-      "case_id": "CASE-INT-CHICAGO-606",
-      "source_id": "CASE-INT-CHICAGO-606",
-      "use": "text_only_mechanism_reference",
-      "formal_status": "not_usable_until_human_review"
-    },
-    {
-      "case_id": "CASE-CN-SHOUGANG-PARK",
-      "source_id": "CASE-CN-SHOUGANG-PARK",
-      "use": "text_only_mechanism_reference",
-      "formal_status": "not_usable_until_human_review"
-    },
-    {
-      "case_id": "CASE-CN-WEST-BUND",
-      "source_id": "CASE-CN-WEST-BUND",
-      "use": "text_only_mechanism_reference",
-      "formal_status": "not_usable_until_human_review"
-    },
-    {
-      "case_id": "CASE-CN-DASHA-RIVER",
-      "source_id": "CASE-CN-DASHA-RIVER",
-      "use": "text_only_mechanism_reference",
-      "formal_status": "not_usable_until_human_review"
-    },
-    {
-      "case_id": "CASE-CN-MENGZHUIWAN",
-      "source_id": "CASE-CN-MENGZHUIWAN",
-      "use": "text_only_mechanism_reference",
-      "formal_status": "not_usable_until_human_review"
-    }
+  }
   ]
 }

@@ -1,5 +1,8 @@
-# Formal Narrative
+# Submission narrative
 
-This narrative is derived from the structured AI package. It covers the CELL·JZ taskbook crosswalk, three distinct node prototypes, ten independent scenario cards, three common test protocols, land-use recalculation and rights boundaries. The taskbook structure is AI Origin Community, Zhongzhiyuan AI Autonomous Innovation Acceleration Area, Dazhongsi AI Industry Cluster, Zhongguancun Technology Service Wing and Xiaoyuehe Scenario Empowerment Wing; Cellular Block, Smart-Pattern Terrace and Growing Court are original concept nodes that carry this framework.
+“元胞坊—智纹台—生长庭” is a single urban-form idea expressed at three scales: a mixed cell, an explainable public interface and a reversible growth kit. This package turns the idea into auditable deliverables: five regional interfaces, an eight-element AI ecosystem, five persona mappings, ten scenario cards, three industry protocols, three independent landmark catalogue entries, a public-space component library and six operational/international hand-offs.
 
-All boundaries, areas, thresholds, operating roles and diagnoses remain provisional, participant-proposed or verification pending. HTML/PDF files are offline review and discussion surfaces; they do not replace statutory planning, field survey, permissions or CocoSgt review.
+The strongest commitment is reversibility. Every digital scenario has a named human role, minimum-data rule and stop path. Every public-space device can be shut down or removed without removing the paper guide, staffed desk or accessible route. The geometry is intentionally provisional and the single land-use count is 27 GeoJSON features, mirrored by `metrics.json`, figures, HTML, PDFs and matrices.
+
+The package is a concept submission only. It does not claim official boundaries, approvals, partners, awards, procurement, construction feasibility or statutory planning control. The evidence chain is `geometry → metrics → visual outputs → matrices → self_check`; provenance and permitted use are closed in `sources.json#PACKAGE-GEOMETRY` and `report/copyright_statement.md`.
+

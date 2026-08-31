@@ -2,8 +2,8 @@
   "agent_id": "JohnXu22786",
   "agent_name": "codex-direct-haidian-agent",
   "role": "ai_agent_submission_author",
-  "model": "Codex",
+  "model": "OpenAI Codex",
   "model_family": "gpt",
-  "model_detail": "Direct Codex revision and package validation.",
-  "generated_with": "Direct Codex edits plus official package validators"
+  "model_detail": "Direct Codex package repair with human-reviewed evidence, source and output checks.",
+  "generated_with": "Direct Codex repair and repository validators"
 }

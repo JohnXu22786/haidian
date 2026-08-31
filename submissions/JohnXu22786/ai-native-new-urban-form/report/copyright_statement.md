@@ -1,24 +1,25 @@
-# 资产权利台账 / Asset rights ledger
+# Copyright and provenance statement
 
-更新日期 / Updated: 2026-08-31. 本表只记录证据状态与复用边界，不作“引用即不侵权”、许可已经取得、合作已经成立或官方背书的法律结论。/This ledger records evidence status and reuse boundaries only; it does not claim that citation alone resolves rights, or that permission, partnership or endorsement exists.
+## Ownership and creation
 
-| 资产/名称 / Asset | 作者与生成方式 / Creator and method | 日期 / Date | URL or local source | license / status | 允许用途 / Allowed use | 禁止或待核验 / Prohibited or pending |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| CELL·JZ；元胞坊、智纹台、生长庭名称 / names | JohnXu22786, concept naming and direct drafting | 2026-08-31 | package `proposal.md` | author-created concept; no official-brand claim | review, discussion, attribution to this package | no implication of trademark clearance, sponsorship or official identity |
-| five Chinese figures / 五套中文图件 | JohnXu22786; Matplotlib vector-like raster composition from package GeoJSON/metrics | 2026-08-31 | `assets/figures/*.png` | package-generated; source data remains provisional | package review and display | do not treat geometry as redline; do not add third-party map/image content |
-| five English figures / five English figures | JohnXu22786; bilingual redraw from the same package data and figure specification | 2026-08-31 | `assets/figures/*.en.png` | package-generated; translation is author-created | package review and display | no claim of official translation, survey accuracy or third-party image permission |
-| A0/A3 Chinese and English PDFs | JohnXu22786; ReportLab/Matplotlib composition from package figures and text | 2026-08-31 | `drawings/*.pdf` | package-generated | offline review and display | not a statutory drawing set; no construction or approval claim |
-| Chinese/English proposal HTML | JohnXu22786; local markdown renderer, local image links, embedded font subset | 2026-08-31 | `report/proposal*.html` | package-generated; offline redistribution intended | offline review and display | no remote resource dependency; do not remove provisional warnings |
-| Chinese/English visual index | JohnXu22786; hand-authored HTML/CSS and local SVG/PNG links | 2026-08-31 | `visual/index*.html` | package-generated; offline redistribution intended | offline review and display | no external embeds or hidden tracking; do not infer measured performance |
-| Noto Sans SC | Google Noto project font file supplied in the cleared local reference directory; subsetted into each HTML by `embed_fonts.py` | 2026-08-31 | `D:/Administrator/Desktop/Agent/haidian/antigravity/refs/fonts/NotoSansSC-Static.ttf` | OFL reference; keep license notice with redistribution; verify exact package notice before public release | offline readability and display | do not claim this package owns the font; do not distribute outside the applicable font license |
-| package GeoJSON and derived metrics | JohnXu22786; provisional polygons and calculations from package geometry; no official GIS/CAD provided | 2026-08-31 | `geometry/*.geojson`, `metrics.json` | author-generated concept data; official status not established | reproducibility, spatial review and concept comparison | no use as official boundary, ownership, survey, traffic approval, land-use control or exact implementation basis |
-| eight case references | Text-only citations registered by source ID in `sources.json`; no third-party case image embedded | 2026-08-31 | `sources.json`, `CASE-*` records | `needs_human_verification`; `usable_for_formal=no`; landing-page license not established | mechanism comparison after human review | no copying photos, maps, logos or text beyond applicable quotation limits; no partnership, endorsement or performance-transfer claim |
-| taskbook and official announcement references | Public/cleared source records already registered in `sources.json` | source-specific dates | URLs/local snapshots in `sources.json` | use only within each source's recorded boundary | task scope, naming and concept alignment | do not turn task text into statutory polygon, approval, funding, ownership or implementation commitment |
-| Python/HTML generation methods | JohnXu22786; local repository-provided scripts plus direct package generation | 2026-08-31 | `scripts` named in changelog and package records | code provenance recorded; no external harness used | reproducibility by the package maintainer | no claim that a validator or CocoSgt approved the design; no use of external harness scores |
+Unless a source entry says otherwise, the proposal text, tables, CELL·JZ mark, diagrams, HTML templates, PDF layouts and concept graphics in this package were authored for `JohnXu22786` and edited under direct Codex review. The current repair pass was completed on 2026-08-31. The initial concept geometry was created on 2026-08-24 and manually reviewed/modified on 2026-08-31.
 
-## Release gates
+## Geometry chain
 
-1. A case or map image with unclear permission is excluded from the package rather than treated as cleared.
-2. A source may support a mechanism statement only at its recorded review level; `usable_for_formal=no` remains until a human checks page, date, license and reuse boundary.
-3. All thresholds, pilot owners and spatial polygons remain `participant-proposed`, `provisional` or `待核验`; no measured result is claimed.
-4. If a rights, privacy, safety, heritage or permission gate fails, remove/disable the asset or digital layer and retain paper/manual service.
+`geometry/*.geojson` has no inherited third-party geometry and embeds no external basemap. The polygons are participant-authored provisional concept geometry. The generation/editing toolchain is GeoJSON editing plus Python geometry checks under direct Codex review; no external model output or external asset is embedded in the files. Human edits covered feature IDs, provisional flags, land-use labels and the 27-feature count. The complete machine-readable chain is recorded as `sources.json#PACKAGE-GEOMETRY`.
+
+## Text, figures, HTML and PDF
+
+`proposal.md`, `proposal.en.md`, tables, diagrams, `report/*.html` and the four PDFs are package-authored design communication outputs. Figure geometry and icons are original vector-style drawings generated for this package. The outputs do not load remote images, scripts or iframes. The PDFs are regenerated from the package figures and text and are for review/display, not statutory submission.
+
+## Font and logo
+
+The PDFs embed Noto Sans SC at build time for Chinese text. HTML uses the local-system Noto Sans SC / Microsoft YaHei fallback and loads no remote font. The typeface is not presented as an original design. The CELL·JZ symbol and wordmark are original concept graphics. The mark is not the organizer's, a government mark, a heritage authority mark or a partner logo. The package does not copy third-party logos, photographs or proprietary icons.
+
+## Permitted and prohibited uses
+
+The package is released as `COMMUNITY-DISPLAY-ONLY`: repository display, machine validation, review and design discussion are permitted. Reuse of text, graphics, geometry, brand marks or PDFs for an official redline, statutory control, construction document, procurement, commercial promotion, public endorsement or partner co-signature requires separate written permission and the relevant authority review. Provisional boundaries and metrics must not be treated as legal or engineering facts.
+
+## Source attribution
+
+Public official references, the cleared taskbook, public case references and the provisional geometry are listed in `sources.json` with URL, publisher, dates, license summary, allowed uses and prohibited interpretations. No external collaboration, award, approval or implementation commitment is claimed.
