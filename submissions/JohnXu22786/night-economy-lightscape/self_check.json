@@ -89,7 +89,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/night-economy-lightscape": "formal"
       },
-      "total_bytes": 15849476,
+      "total_bytes": 13365216,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -163,7 +163,7 @@
       "summary": {
         "standard_matrix_items": 5,
         "design_depth_items": 15,
-        "known_metric_refs_required": 25,
+        "known_metric_refs_required": 27,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
@@ -171,7 +171,7 @@
           "standard": 0,
           "depth": 0,
           "data": 1,
-          "metric": 5
+          "metric": 6
         }
       }
     },
@@ -219,84 +219,5 @@
       "target": "professional_review.py",
       "message": "professional_review: PASS"
     }
-  ],
-  "figure_qc": {
-    "ok": true,
-    "ink_ok": true,
-    "clip_clear": true,
-    "overlap_clear": "not_verified",
-    "summary": "ink+edge-clip machine check only; text-overlap not machine-verified post-hoc (figure generation text-bbox checks recorded in changelog)",
-    "figures": {
-      "ai-ecosystem.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1204,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "brand-vi.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.2088,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "key-areas.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.26,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "land-use-structure.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1642,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "landmarks-night-nodes.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.3231,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "logo.png": {
-        "width": 600,
-        "height": 450,
-        "ink": 0.0628,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "metrics-evidence.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1189,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "mobility-bluegreen.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1579,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "regional-cooperation.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1529,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "site-overview.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1589,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      }
-    }
-  }
+  ]
 }

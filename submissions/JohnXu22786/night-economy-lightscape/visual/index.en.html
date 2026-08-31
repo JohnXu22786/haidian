@@ -61,7 +61,7 @@ th { background:#eef2f7; }
 
 <section id="land-use">
 <h2>Land-Use Zones</h2>
-<p>Single land-use caliber (national standard public subset; aggregation rule = class area / site area; full recomputation after official release). Note the distinction from green_ratio (approx. 11.0%) in metrics: "Park &amp; green 1401" here is the land-use-class caliber.</p>
+<p>Single land-use caliber (national standard public subset; sum projected areas by the same land_use_code in geometry/land_use.geojson / geometry/site_boundary.geojson area, EPSG:4548; full recomputation after official release). Code 1401 park/green land = 27.30345% (displayed approx. 27.3%); all 27 features fall into seven codes totaling 100.0%, with no residual “other 4.6%” bucket. Note the distinction from green_ratio (approx. 11.0%) in metrics: “Park &amp; green 1401” here is the land-use-class caliber.</p>
 <img src="../assets/figures/land-use-structure.en.png" alt="Land-use structure">
 </section>
 

@@ -66,8 +66,8 @@
     },
     {
       "assumption_id": "A-LANDUSE-001",
-      "statement_zh": "本包用地分类使用唯一口径（国标公开子集，聚合规则＝类目面积÷场地面积）；green_ratio 为绿线概念绿地率口径，二者分层不同、互不替代；官方用地数据发布后整体复算。",
-      "statement_en": "Single land-use caliber used package-wide; green_ratio uses the greenline layer caliber; all recomputed after official release.",
+      "statement_zh": "本包用地分类使用唯一口径（国标公开子集，聚合规则＝同一 land_use_code 的概念地块面积之和÷场地面积）；1401 公园绿地为 27.30345%（展示约 27.3%），27 个区块归入 7 类且合计 100.0%，无‘其他4.6%’残差；green_ratio 仍为绿线概念绿地率口径，二者分层不同、互不替代；官方用地数据发布后整体复算。",
+      "statement_en": "This package uses one land-use caliber: sum projected parcel areas by the same land_use_code divided by site area. Park/green code 1401 is 27.30345% (displayed as approx. 27.3%); all 27 features fall into seven codes totaling 100.0%, with no residual 'other 4.6%' bucket. green_ratio remains the separate greenline-layer caliber; all are recomputed after official data release.",
       "category": "land_use_caliber",
       "status": "accepted_limitation"
     },

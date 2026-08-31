@@ -1,5 +1,10 @@
 # 方案迭代记录
 
+## v2.2 - 2026-08-31 （定向响应 CocoSgt review 5049241992，保持 Draft）
+
+- 用地口径统一：按 `geometry/land_use.geojson` 的同一 `land_use_code` 在 EPSG:4548 下聚合；27 个区块归入 7 类且合计 100.0%，移除误导性的“1401=22.7%＋其他4.6%”表述，新增 `land_use_1401_area_sqm` 与 `land_use_1401_ratio`（1401=3,116,095.041 sqm / 11,412,825.386 sqm = 27.30345%，展示约 27.3%）。同步 proposal 中英、metrics、assumptions、design-depth matrix、HTML 与双语用地结构图说明。
+- A3/A0 图纸进入重排：首页标题改为独立安全区，信息卡下移并避免标题与右上框相交；中英页均保留一亮/一演/一市、夜间公共利益、AI 人工复核与可停用治理、48 小时撤收和 7 日公示边界。
+
 ## v0.1.0 - 2026-08-24
 
 - Initial assembly (concept package) for night-economy-lightscape.

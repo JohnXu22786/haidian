@@ -65,7 +65,7 @@ th { background:#eef2f7; }
 
 <section id="land-use">
 <h2>用地分区</h2>
-<p>唯一用地口径（国标公开子集，聚合规则＝类目面积÷场地面积；官方数据发布后整体复算）。注意与 metrics 中 green_ratio（约 11.0%）的绿线口径区别：图中「公园绿地 1401」为用地分类口径。</p>
+<p>唯一用地口径（国标公开子集，按同一 land_use_code 汇总 geometry/land_use.geojson 并除以 geometry/site_boundary.geojson 场地面积，EPSG:4548；官方数据发布后整体复算）。1401 公园绿地＝27.30345%（展示约27.3%）；27个区块归入7类且合计100.0%，无“其他4.6%”残差。注意与 metrics 中 green_ratio（约11.0%）的绿线口径区别：图中「公园绿地 1401」为用地分类口径。</p>
 <img src="../assets/figures/land-use-structure.png" alt="用地结构图">
 </section>
 
