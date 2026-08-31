@@ -1,243 +1,198 @@
 ---
-title: "CELLULAR AI CITY - A New Urban Form Adapted to AI New Quality Productivity (Concept)"
+title: "CELL·JZ: AI-Native Urban Form for the Jingzhang Belt (Concept)"
 author_github: "JohnXu22786"
 language: "en"
-bilingual_contract_version: 1
-translation_of: proposal.md
+translation_of: "proposal.md"
 proposal_format_version: "2"
+bilingual_contract_version: "1"
 license: "COMMUNITY-DISPLAY-ONLY"
-summary: "CELL·JZ — Cellular AI City, a concept for a new urban form adapted to AI new quality productivity along the centennial Jingzhang AI innovation belt. The Cellular Block is the basic unit of an AI-native mixed-use block (living, R&D, incubation and services interlock within one street block). AI-native infrastructure: shared, building-integrated compute/energy/data facilities (concept-level, no engineering figures). Physical-virtual public spaces: physical space fused with digital twin, AR wayfinding and anonymized sensing in an artistic way; responsive streets and modular reversible growth. Three nodes: Cellular Block (Yuan-Bao-Fang, AI-native mixed-use basic unit), Smart-Pattern Terrace (Zhi-Wen-Tai, physical-virtual public space), Growing Court (Sheng-Zhang-Ting, modular reversible growth block). Five AI+ scenarios: city running digital twin AI, urban-form performance AI assessment, infrastructure load AI prediction, anonymized space-use sensing AI, public feedback AI aggregation. Anonymized aggregation only, key decisions human-reviewed, no over-surveillance. Stage project-level implementation matrix with RACI, preconditions, stop conditions and maintenance mechanisms. All figures are concept suggestions on a provisional boundary; recompute when official data is published."
+summary: "CELL·JZ keeps the Cellular Block, Hybrid Reality Platform and Reversible Growing Court as three spatial prototypes mapped to the taskbook Three Areas and Two Wings. Ten independent AI scenario cards use three common test protocols; every threshold is participant-proposed, provisional and pending professional argument."
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
-iteration: "v2.0"
+iteration: "v3.0-review-3879"
 ---
 
-> This text is a concept suggestion, not a final planning or engineering decision. It does not provide FAR, building height, demolition/retention conclusions, or engineering feasibility conclusions. It does not distort historical facts; all citations use public sources and do not fabricate official data.
-> Prior rights and use boundary of the brand: the master name "Cellular AI City / CELL·JZ", node names "Cellular Block / Smart-Pattern Terrace / Growing Court" and annual event brands "Urban-Form Open Day / Smart-Pattern Art Week / Cellular Block Market" are internal working codenames. No official trademark search or registration has been completed at concept stage; do not use externally, register, or sub-license until clearance is obtained.
+# CELL·JZ: AI-Native Urban Form for the Jingzhang Belt (Concept)
 
-## Master name suggestion
+## Design Basis and Source List
 
-Master name suggestion: "Cellular AI City" (concept codename CELL·JZ). "Cellular" is a cell metaphor that expresses an urban organisation whose basic unit is a cellular block, growing and evolving. CELL·JZ is an internal concept codename (JZ from the pinyin initials of the Jingzhang historical line name) and is not an official name. Alternative master names: "Woven-Belt Smart City", "Vein-Smart-Pattern Belt", "City of Co-Sequence". These are all original concept names; they contain no real institutional names or registered trademarks. Any later use requires a separate clearance check.
+This proposal keeps the core idea of a **Cellular Block, Hybrid Reality Platform and Reversible Growing Court**, using **CELL·JZ** as the concept system name. It is not a statutory plan, construction commitment, official endorsement or validated operating result. All boundaries, areas, scenario thresholds and operating parties are marked `provisional`, `participant-proposed` or `verification pending`.[source:DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509] [source:DATA-SRC-AGENT-TASKBOOK-20260518]
 
-## Design basis and reference list
+![Spatial index of the Three Areas, Two Wings and N1-N3](assets/figures/site-overview.en.png)
+![Distinct plans and sections for N1 Cellular Block, N2 Smart-Pattern Terrace and N3 Growing Court](assets/figures/key-areas.en.png)
+![27 land-use features and green-space recalculation](assets/figures/land-use-structure.en.png)
+![Road, railway, station, walking and blue-green relationships](assets/figures/mobility-bluegreen.en.png)
+![Ten scenario cards, three protocols and evidence boundaries](assets/figures/metrics-evidence.en.png)
 
-The references in the materials list are concept working basis only; this package has not acquired the listed data. All data actually used by this package is in sources.json. Items not obtained are honestly noted in the Risk and Missing Data section.
+All figures are author-drawn concept diagrams. Roads, railway, stations, nodes and boundaries retain provisional status and do not replace official GIS, planning redlines or engineering drawings.
 
-This section is organised according to the public taskbook technical items (including 1.3.2 "Build a new urban form adapted to AI new quality productivity"). Materials list: public background of the centennial Jingzhang AI innovation belt (along the original Jingzhang railway line and heritage park, connecting Zhongguancun, Wudaokou, Xueyuanlu, Shangdi, Qinghe and other sub-areas), public historical documents on the Jingzhang railway, public national spatial planning and urban design standards, public international case materials. Unverified data is not used; all citations mark sources.
+## Three-Level Scope Framework
 
-**Three-tier scope working framework (official text caliber, per announcement 1.3)**: Coordinated research area ~43.6 sq km (whole-area coordinated research), overall design area ~11.4 sq km (regulatory-detailed urban design), key detailed design area ~368.4 ha (detailed concept design, three nodes). This package's sub-scope is an internal subset of the overall design area and the three key areas. All sub-scope items rely on the provisional boundary ([source:DATA-SRC-PROVISIONAL-BOUNDARIES]) and must not be escalated to an official redline.
+The taskbook geography uses the five names below. CELL·JZ is a proposal system name and does not replace the taskbook names; the three nodes are design carriers and are not administrative-area names.
 
-> **Evidence anchors**: [source:DATA-SRC-OFFICIAL-ANNOUNCEMENT], [source:DATA-SRC-AGENT-TASKBOOK] (organizer announcement and taskbook as text-caliber basis).
+| Taskbook structure | Official label | Proposal role |
+| :--- | :--- | :--- |
+| Area 1 | AI Origin Community | Living experiments, public participation and low-barrier AI services |
+| Area 2 | Zhongzhiyuan AI Autonomous Innovation Acceleration Area | Innovation incubation, mixed research and prototyping |
+| Area 3 | Dazhongsi AI Industry Cluster | Industry translation, display, business and consumption interface |
+| Wing 1 | Zhongguancun Technology Service Wing | Technology services, R&amp;D incubation and translation interface |
+| Wing 2 | Xiaoyuehe Scenario Empowerment Wing | Everyday scenarios, green public space and experience feedback |
 
-## Three-tier scope working framework
+The three scales follow the taskbook: Coordinated Study Scope about 43.6 km²; Overall Design Scope about 11.4 km²; and Key Areas about 368.4 ha. The provisional polygon in this package recalculates to 11,412,825.386 m². Roads, railway, stations and place names are relational locators only, not redlines, property evidence or approved traffic organization.[metric:site_area_sqm] [data:PACKAGE-GEOMETRY]
 
-The three tiers cascade: coordinated research output (new-form and along-belt coordination judgement) constrains the overall design; overall design calibrates the cellular block layout, physical-virtual structure and time-series growth, then settles into the node detailed design. Each tier retains machine-readable evidence anchors corresponding to the taskbook section, facilitating review and cross-reference.
+## Coordinated Research Area: Industry and Future City Research
 
-A three-tier "coordinated research - overall design - key detailed design" working framework is established. Coordinated research area: industry, universities, international residential and the innovation-belt whole-area coordination study. Overall design area: regulatory-detailed urban design, organising the cellular block and the physical-virtual structure. Key areas: detailed concept design around the three nodes Cellular Block, Smart-Pattern Terrace and Growing Court. The three tiers converge layer by layer, share a common calibre, and reserve elastic interfaces for statutory planning alignment.
+At the coordinated scale, the Centennial Jingzhang Culture Belt, Urban AI Living Experience Belt and AI Integrated Innovation Belt are research propositions. Innovation resources, talent services, cultural narrative and public interest are connected as mechanisms only; regional partners, investments, policies and targets remain pending verification and are not written as commitments.[source:DATA-SRC-AGENT-TASKBOOK-20260518]
 
-**Three-zones-two-wings and regional coordination loop**: this package uses "three zones, two wings" as the concept coordination framework - the "three zones" are the three new-urban-form experimental areas (the three nodes), and the "two wings" are the South Wing for university-R&D spillover (connecting the Future Science City and Huairou Science City university and national key laboratory system) and the North Wing for international and industry-city integration (connecting the Beijing Economic-Technological Development Area, Beijing City Sub-Center and Latitude Community industry and international residence). Regional coordination loops with Future Science City, Huairou Science City, BDA, Latitude Community and the Beijing-Tianjin-Hebei region: knowledge spillover loop (university - node - incubation), industry bearing loop (node - BDA - BTH), public service loop (node - Future Science City - Huairou Science City), international communication loop (node - Latitude Community - BTH international gateway). The coordination mechanism is built from "covenant deliberation - point mutual-recognition - public disclosure" three-layer interfaces; the node layer only carries concept coordination interfaces and does not constitute any modification to the city-cluster plan or upper-level plan.
+The design intent at this scale is to turn the taskbook’s three positioning themes and five functional roles into a discussable flow of resources: the Zhongguancun Technology Service Wing organizes research, incubation and translation; the Xiaoyuehe Scenario Empowerment Wing receives resident experience, public-space use and feedback; and the AI Origin Community, Zhongzhiyuan AI Autonomous Innovation Acceleration Area and Dazhongsi AI Industry Cluster operate as different service contexts rather than three isolated projects. The current geometry supplies only an approximately 11.4 km² provisional site polygon and cannot infer the statutory boundary of the 43.6 km² coordinated study scope. The 27 land-use features, `site_area_sqm`, `green_ratio` and `public_space_ratio` in metrics support package recalculation only; they do not establish industrial scale or public investment. Official coordinates, partners, supply-chain data, talent demand and policy funding are not supplied, so this layer remains a research hypothesis and interface list until planning, industry, community and public-service parties add source, date, spatial scope and permission records.[source:DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509] [data:PACKAGE-GEOMETRY] [metric:site_area_sqm]
 
-> **Evidence anchors**: [source:DATA-SRC-AGENT-TASKBOOK] (three-tier scope division based on the taskbook official text).
+## Overall Design Area: Urban Renewal and Regulatory-Depth Urban Design
 
-## Coordinated research area: industry and future-city research
+At the overall scale, the 11.4 km² provisional design scope is translated into a reviewable structure of task areas, wing interfaces, node carriers and operating responsibility. This package makes no FAR, height, road-redline, retain/modify/demolish or engineering conclusion; recalculate after official controls arrive.[data:PACKAGE-GEOMETRY] [metric:site_area_sqm]
 
-Industry and city research identifies the "adaptation" effect of the new urban form: using cellular blocks to orderly organise the functional needs of along-belt universities, science-innovation sub-areas and international residential into a two-way reachable new-form unit, forming a "form belt - science-innovation sub-area - residence" three-level linkage structure. Future-city research only makes directional predictions and does not constitute a commitment to land use or investment.
+The purpose of the overall design is not to settle an unapproved form, but to place the three scales, Three Areas and Two Wings, three nodes, six agent tasks and ten scenario cards on one traceable work surface. Spatial relations are carried by GeoJSON; metrics by `metrics.json`; and scenarios, protocols, owners and exit conditions by the narrative and `risk.json`. Site, roads, railway and stations indicate relationships only; they do not create conclusions about density, road sections, rail protection, fire safety, municipal capacity or ownership. The current site union of 11,412,825.386 m² is calculated from a provisional polygon; 27.3034% is the park-green land-use category, while 11.0044% is a separate ecological overlay and the two cannot be added. Official GIS/CAD, controls, road redlines, green/blue lines, rail protection, heritage, fire, utility, ownership and operating permissions are data gaps. Medium- and long-term actions therefore remain conditional gates that can proceed only after review.[data:PACKAGE-GEOMETRY] [metric:land_use_green_ratio] [metric:green_ratio]
 
-The coordinated research area focuses on the new urban form and the coordination with along-belt universities, science-innovation sub-areas and international residential. It studies how university R&D spillover and the interlock of industry, research and residence are organised, the logic of innovation chains in science-innovation sub-areas, and the service and scenario needs of international residence; it identifies the innovation belt's potential as a "people - industry - space" coupling axis. This tier does not pre-set development intensity conclusions; it only proposes coordination direction, issue list and concept scenarios as input to the overall design.
+## Key Detailed Design Areas
 
-> **Evidence anchors**: [source:DATA-SRC-PROVISIONAL-BOUNDARIES] (boundary is provisional; research area is for concept illustration only).
+### Three Areas and Two Wings — three nodes — agent.1-agent.6
 
-## Overall design area: urban renewal and regulatory-detailed urban design
+This is the package-wide crosswalk. The same node IDs and task-area labels are used in the prose, GeoJSON, figures, HTML and matrices.
 
-The overall design emphasises "green-belt as the backbone of the new urban form": relying on the Jingzhang railway heritage park green belt to organise the cellular block layout and the physical-virtual structure; cellular units grow reversibly; streets respond by time of day. It emphasises renewal rather than new construction, giving priority to using stock space to embed form units. For regulatory indicators it only gives calibration suggestions, no pre-set numerical conclusions.
+| Node ID / original node | Primary task area | Wing interface | Spatial, scenario and operating role | Main agents |
+| :--- | :--- | :--- | :--- | :--- |
+| N1 Cellular Block | Zhongzhiyuan AI Autonomous Innovation Acceleration Area | Zhongguancun Technology Service Wing | Mixed research, incubation and community services; jointly reviewed by innovation-park operations and community services, parties pending verification | agent.1, agent.2, agent.3 |
+| N2 Smart-Pattern Terrace | AI Origin Community | Xiaoyuehe Scenario Empowerment Wing | Public platform for residents, students and visitors; light digital layer uses aggregate prompts only and a staffed fallback | agent.1, agent.3, agent.4, agent.5 |
+| N3 Growing Court | Dazhongsi AI Industry Cluster | Zhongguancun Technology Service Wing ↔ Xiaoyuehe Scenario Empowerment Wing | Existing-base setting for removable display, business and consumption modules; reviewed in tiers by industry, venue and public representatives | agent.1, agent.2, agent.4, agent.6 |
 
-The overall design area takes the Jingzhang green belt as the backbone and proposes the new urban form overall concept: organising the cellular block basic layout along the belt, forming a "green-belt linkage, cellular block interlock, physical-virtual overlay" structure. The physical layer carries mixed functions such as residence, R&D, incubation and services; the digital layer overlays digital twin and sensing information, forming a physical-virtual fused urban operation framework. This section only gives form concept and structural logic, not FAR or building height conclusions; the relationship to the statutory plan is described in the compliance matrix.
+The three nodes are conceptual locations. `geometry/key_areas.geojson` carries `N1`, `N2`, `N3`, `task_area_en`, `wing_interface_en`, `agent_refs` and evidence fields. The polygons are provisional and cannot replace official GIS/CAD.[data:PACKAGE-GEOMETRY]
 
-**Land-use structure calibre and recompute rule (key)**: the ratios shown in the "land-use structure (conceptual structural ratio)" figure use the "conceptual structural ratio" as a caliber; the denominator is the "rough carrying surface within the overall design area" (the conceptual set of cellular unit carrying surfaces along and radiating from the green belt, not the upper-level or statutory planning land area), and the aggregation is "conceptual carrying-surface union", used only for form-structure illustration. The metrics.json `green_ratio~0.11` belongs to a different caliber: "green-space area / overall-design-area geometric area", with a different denominator and aggregation. The two ratios are named separately and not reused for each other. All specific areas, ratios, green ratio, public service ratio will be in the recompute version after official GIS/CAD geometry arrives; a "full recompute + version v2.x" process is triggered when official data is released.
+### Core form: three genuinely different spatial prototypes
 
-![Overall design overview (provisional geometry)](assets/figures/site-overview.png)
+### N1 Cellular Block: interlocked mixed functions
 
-![Land-use structure (conceptual structural ratio, provisional)](assets/figures/land-use-structure.png)
+The Cellular Block is not a single park box. Housing support, research desks, incubation meetings, shared equipment and ground-floor community services interlock as small cells in one block. It serves research and prototyping by day while retaining community use in the evening. Compute, energy and data interfaces are directional concepts, not engineering capacities. Reversible components attach to existing interfaces first; failure returns to manual booking and paper wayfinding.
 
-> **Evidence anchors**: [source:DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING], [source:DATA-SRC-PROVISIONAL-BOUNDARIES].
+### N2 Smart-Pattern Terrace: public space with a light digital layer
 
-## Key area detailed design
+The Smart-Pattern Terrace starts with continuous seating, shade, accessible stopping surfaces and legible paper wayfinding. A switchable layer adds booking prompts, environmental prompts and aggregate flow displays. It does not identify people or retain individual trajectories. If the digital layer is disabled, the terrace still works through a staffed desk, notice board and visible on-site guidance.
 
-Facility siting for the three nodes is a concept-level placement and must be relocated after planning, cultural-heritage protection and competent-authority evaluation and professional review. The green-belt links and slow-traffic corridors between nodes form a complete form axis. Detailed plan and section are expressed in the booklet and geometry layer.
+### N3 Growing Court: existing base with reversible modules
 
-Three original nodes are selected. "Cellular Block" (Yuan-Bao-Fang): an AI-native basic unit that interlocks residence, R&D, incubation and services in one block, organising functions nearby and balancing static and dynamic uses. "Smart-Pattern Terrace" (Zhi-Wen-Tai): a physical-virtual public space, organising public experience through digital twin, AR wayfinding and the artistic expression of anonymized sensing. "Growing Court" (Sheng-Zhang-Ting): a modular reversible growth block, using reversible modules to organise buildings and facilities, growing in phases as needed and revertible. The three nodes jointly verify that the new urban form is perceivable, operable and sustainably iterated.
+The Growing Court retains an identifiable existing building or site base and adds bolt-connected, removable canopies, movable display tables and light service cabinets over time. Modules can be moved, reduced or removed. This is not a demolition or engineering conclusion. Industry display, business meetings and everyday consumption switch by time period.
 
-This package responds to the three positioning lines (centennial Jingzhang cultural belt, urban AI living experience belt, AI-fused innovation belt) and the five functions (full-stack AI independent innovation system, world-class AI innovation ecosystem, AI+ scenario empowerment new paradigm, intelligent AI vibrant city, global AI governance voice) along the space-form and future-city direction, as a form-experiment carrier for the "intelligent AI vibrant city" cellular unit (concept mapping).
+The three plan/section treatments are visible in `assets/figures/key-areas.png` and `assets/figures/key-areas.en.png`: N1 shows interlocked mixed use, N2 shows a public base plus light digital layer, and N3 shows an existing base plus removable modules rather than one repeated template.
 
-**Node landing depth (concept)**:
+## AI Innovation Ecosystem, User Personas and AI+ Scenarios
 
-| Node | Current-issue (concept) | Siting basis | Key constraints | Pilot minimum unit | Acceptance indicator (concept) |
-|---|---|---|---|---|---|
-| Cellular Block | Industrial-heritage and community fragmentation along the green belt; single function | Green-belt stop + university spillover + international residence | Heritage retention; community-memory continuity | One cellular unit (~0.8-1.2 ha, provisional) | Mixed-use index, reversible-module share, slow-traffic coverage |
-| Smart-Pattern Terrace | Lack of identity in public space; physical-virtual disconnect | Green-belt core node + rail interchange + cultural display | Heritage sightlines, viewing system, cityscape coordination | One terrace plaza (~0.5-0.8 ha, provisional) | Public-space share, AR-wayfinding use rate, on-site help coverage |
-| Growing Court | Existing building functions ossified; iteration cost high | Rail stop + science-innovation sub-area + pilot enterprises | Existing ownership, operational safety, reversible restoration | A group of reversible modules (10-20, provisional) | Reversible-module ratio, operation-iteration frequency, exit-recovery rate |
+The package separates the counts: **10 independent scenario cards, 3 common test protocols and 18 scenario-to-protocol links**. `design_node_count=3` means the three original spatial nodes; `scenario_node_count=8` means the 3 landmarks plus 5 relational scenario locations in GeoJSON. Neither is the scenario-card count.[metric:scenario_card_count] [metric:common_test_protocol_count] [metric:mapping_count]
 
-**Three-node + global-case ecosystem map** ([data:PACKAGE-GEOMETRY] + see appendix international case table):
+| Card | Node / task area | Independent scenario and spatial type | Applicable protocol(s) |
+| :--- | :--- | :--- | :--- |
+| S01 | N1 / Zhongzhiyuan Area | Shared prototype table; mixed research block | TP-01, TP-03 |
+| S02 | N1 / Zhongzhiyuan Area | Incubation meeting pod; adaptable shared room | TP-01 |
+| S03 | N1 / Zhongguancun Wing | Technology-service matching table; public ground interface | TP-02, TP-03 |
+| S04 | N2 / AI Origin Community | Accessible walking prompt; public route | TP-02 |
+| S05 | N2 / AI Origin Community | Community assembly and event scheduling; open platform | TP-01, TP-02 |
+| S06 | N2 / Xiaoyuehe Wing | Outdoor comfort prompt; shaded stopping surface | TP-02, TP-03 |
+| S07 | N2 / AI Origin Community | Paper plus digital wayfinding; entry node | TP-03 |
+| S08 | N3 / Dazhongsi Cluster | Existing-base display cabinet; industry interface | TP-01, TP-03 |
+| S09 | N3 / Dazhongsi Cluster | Business/consumption time switch; reversible service module | TP-01, TP-02, TP-03 |
+| S10 | N3 / Two-Wing Interface | Facility inspection and human ticket; street/court edge | TP-02, TP-03 |
 
-![Three-node index and design task map](assets/figures/key-areas.png)
+Each card uses anonymous aggregates, public fields or authorized summary fields only. No face, biometric or individual-trajectory collection is proposed. AI outputs are prompts only; safety, accessibility, content publication and resource decisions receive human review. Users can choose the manual/paper route and switch off the digital layer.
 
-![AI innovation ecosystem map (global cases + local node mapping)](assets/figures/ai-ecosystem.png)
+## Metrics, Area Recalculation and Compliance Matrix
 
-> **Evidence anchors**: [data:PACKAGE-GEOMETRY] (three-node illustration polygons from geometry/key_areas.geojson).
+The three protocols and two near-term pilots bind scenarios, data, owners, thresholds and failure exits to <code>metrics.json</code>, <code>assumptions.json</code>, <code>risk.json</code> and the compliance matrix. Participant-proposed values are not measured results.
 
-## AI innovation ecosystem, talent portraits and AI+ scenarios
+### Three common test protocols and two near-term pilots
 
-The city running digital twin AI, urban-form performance AI assessment, and infrastructure load AI prediction are the main scenarios, each configured with a human-review fallback. Anonymized space-use sensing AI and public feedback AI aggregation are supporting scenarios. Only anonymized aggregated data is processed; key decisions are human-reviewed (double insurance); no over-surveillance is allowed.
+The following are reproducible concept-level protocols. Every number is `participant-proposed`, `provisional` and **pending professional argument**; none is a measured or validated result and none is official. A T0 baseline must be collected by the owner under the same definition. If sample or permission conditions fail, the pilot cannot claim passage.
 
-Five AI+ scenarios are proposed around the AI innovation ecosystem: city running digital twin AI, supporting operationstatus presentation; urban-form performance AI assessment, assisting scheme comparison; infrastructure load AI prediction, serving shared facilities; anonymized space-use sensing AI, sensing public-space vitality; public feedback AI aggregation, gathering resident suggestions. All scenarios follow the principles of anonymized aggregation and human review; they only serve public governance and experience improvement; over-surveillance and individual tracking are forbidden.
+| Protocol | Baseline / sample / window | Formula and numeric threshold | Data source and owner | Acceptance / failure exit |
+| :--- | :--- | :--- | :--- | :--- |
+| TP-01 Slow movement and arrival | T0 median arrival time on the same route; ≥30 anonymous accompanied trials including ≥6 wheelchair/stroller trials; 2 weekdays + 1 weekend, morning and evening windows | `improvement=(baseline-median_test)/baseline`; proposed pass ≥10%, with no priority-group P95 worsening >5% | Manual timing sheets and route logs; mobility and accessibility lead, to be assigned | Two windows below 10% or P95 worsening closes AI advice, restores human guidance and triggers review |
+| TP-02 Public space and access | T0 paper-wayfinding task completion; ≥60 person-trials including at least 20 older, mobility-limited or low-digital-literacy participants; 3 comparable sessions | `completion_rate=completed_tasks/valid_tasks`; proposed pass ≥85%, misleading rate ≤5% | De-identified task logs, observation and paper feedback; public-realm/accessibility lead, to be assigned | Completion <85%, misleading rate >5% or any safety event disables digital prompts and keeps paper plus staff service |
+| TP-03 Tickets and human fallback | T0 median response time for existing facility tickets; ≥30 anonymous simulated or authorized real tickets; 14 consecutive days | `timely_close=closed_within_24h/valid_tickets`; proposed pass ≥90%, false-alert rate ≤10% | Authorized ticket ledger and human-review log; venue operations lead, pending verification | Two days below 90%, false alerts >10% or failed handover stops automatic assignment and switches to manual logging |
 
-**Five talent portraits (substantively equivalent to `persona_count=5` in metrics.json, 5 talent classes)**:
+### Near-term pilot P1: N1 Cellular Block shared prototype table (S01)
 
-1. Science-innovation practitioners - AI R&D engineers, entrepreneurs and incubator operators, who need production-research-living mixed-interlock space and nearby communication places.
-2. University faculty, students and researchers - relying on along-belt universities, they need living, research support and academic-exchange scenes near the lab.
-3. International talents and families - facing international residence, they need bilingual signage, diverse services and a high-quality slow-traffic environment.
-4. Long-term residents and community elders - they need retained community memory, accessible public services and everyday public space.
-5. Visitors and digital nomads - they need AR wayfinding, markets and activity experiences to feel the physical-virtual fused urban public life.
+`baseline`: before the pilot, record the median booking-response time for two weekdays and one weekend, with at least 30 valid bookings; `window`: 14 consecutive days summarized daily; `formula`: `(T0_median - pilot_median) / T0_median`; `participant-proposed` acceptance is ≥10% response-time improvement, cancellation/mismatch ≤5% and 100% response to manual takeover requests. Data comes from authorized booking logs and paper registration, without individual profiling. The owner is the innovation-park operations lead plus community-services lead, both pending verification. Any authorization, fact, privacy or queue-safety failure disables matching prompts and returns to manual scheduling and paper registration.
 
-**AI scenario domains cover six domains - space, governance, industry, public services, culture, transport**: AI space (cellular block and physical-virtual structure), AI governance (form assessment and time-responsive rules), AI industry (mixed function and reversible growth supply), AI public services (accessible physical-virtual guidance), AI culture (smart-pattern installations and open day), AI transport (time-responsive streets and route guidance), each domain with a human-review fallback.
+### Near-term pilot P2: N2 Smart-Pattern Terrace dual-channel wayfinding (S04/S07)
 
-**AI technical protocol stack (avoiding over-surveillance)**: model evaluation (build a public evaluation set and regression test threshold), data quality (source labelling, missing-rate and anomaly-rate indicators, drift monitoring), error stratification (false-positive and false-negative rates stratified by group, time of day, spatial granularity), runtime monitoring (online drift alerting, false-positive rate alerting threshold, human-review sampling ratio >= 5%), emergency stop (anomaly triggers immediate stop + review process), minimum necessary (only collect governance-essential fields, can be turned off with one click), edge-side processing priority (terminal de-identification + aggregation upload), human-review fallback (key decisions must be confirmed by humans before implementation), auditable records (operation log retained >= 6 months, traceable and tamper-evident).
+`baseline`: T0 paper-map success rate and P95 time for the same accessible-route task; `sample`: at least 60 person-trials, with at least 20 older, mobility-limited or low-digital-literacy participants; `window`: 3 field sessions, covering both weekday and weekend; `formula`: `completion_rate=successes/valid_tasks`, `p95_change=(pilot_P95-baseline_P95)/baseline_P95`; `participant-proposed` acceptance is ≥85% completion, P95 not worsening by >5% and 100% response to human help. Data comes from anonymous task records, paper returns and observation. The owner is the public-realm/accessibility lead, to be assigned. If a threshold fails, guidance misleads or staff cannot take over, digital prompts go offline and paper maps, the staffed desk and visible help signs remain.
 
-> **Evidence anchors**: [source:DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES] (reference for AI-generated content governance wording).
+## Land Use, Building Scale and Retain/Modify/Demolish Strategy
 
-## Land, building scale and demolition/retention scheme
+`geometry/land_use.geojson` contains **27 features**. Its six land-use unions cover the provisional site polygon, totaling 11,412,825.386 m². Under the formal land-use category caliber, park green land is 3,116,095.041 m² / site area = **27.3034%**; this replaces the undefined “30%” concept percentage.[metric:land_use_feature_count] [metric:land_use_green_ratio]
 
-Demolition/retention follows the principle of "retain, modify, demolish" in parallel: retention-first, preserving the heritage park texture and railway historical remains, converting existing building functions to R&D, incubation and community services, demolition only for individual-case-justified local slow-traffic clearance buildings. All areas are concept-level; recompute when official data is released.
+The `geometry/green_space.geojson` ecological overlay is 1,255,908.493 m² / site area = **11.0044%**. It is not a land-use category and is not added to 27.3034%. The public-space overlay is 36,150 m² / site area = 0.3167%. All are provisional structural calculations and will be recomputed after official boundary, ownership and classification data arrive; the same labels appear in metrics, figures, HTML and PDFs.[metric:green_ratio] [metric:public_space_ratio]
 
-The "retain-modify-demolish in parallel" concept caliber is adopted: on the premise of preserving historical value and community structure, based on current-state assessment and public consultation, accurately transform inefficient space, and carefully handle the local parts that truly need to be cleared. No demolition range or scale is pre-set at the concept stage; only the assessment dimensions and classification caliber (retain, modify, demolish and compound cases) are established. Specific conclusions are left to the project initiation stage per the statutory procedure, avoiding pre-judgement.
+## Transport, Rail, Municipal and Public-Service Facilities
 
-> **Evidence anchors**: [source:DATA-SRC-MNR-LAND-USE-CLASSIFICATION] (land-use classification names reference the current national standard).
+The railway heritage line, roads, rail stations and walking network shown in `site-overview` and `mobility-bluegreen` are relational clues: railway/stations explain continuity and interchange direction, roads explain slow movement and service access, and spatial types explain node function. They are not surveys, traffic approvals or engineering redlines. Paper wayfinding, a staffed desk and manual tickets remain public-service fallbacks when the digital layer fails.
 
-## Transport, rail, municipal and public service facilities
+The implementation intent here is a sequence of “relational clue — field verification — human service”, not treating a diagram line as a transport or municipal design. The walking chain must verify pedestrian continuity, accessible gradients, crossing safety, night lighting, railway and rail-protection boundaries and public-service access on site. Stations are interchange prompts only; names and locations still require cross-checking against dated public sources. The three participant-proposed protocol thresholds can test service experience but cannot replace transport engineering, fire, rail, utility or accessibility review. Roads, railway, stations and public-space layers use the same provisional site as a relational base; if the official boundary changes, route coverage, public-space ratio and node connections must be recalculated and the discrepancy recorded in figures and matrices. If a digital prompt fails, misleads or triggers a safety event, stop automated advice and use paper maps, visible help signs, a staffed desk and manual tickets. This is the minimum service boundary for people with different digital access, limited mobility and temporary visitor needs.[data:PACKAGE-GEOMETRY] [metric:public_space_ratio] [source:DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES]
 
-Transport is organised around slow-traffic priority: a continuous slow-traffic axis along the green belt connects Cellular Block, Smart-Pattern Terrace and Growing Court; street sections respond to activity needs by time of day (morning market, festival, daily mode), connecting along-belt universities, parks and rail stops (with walking and cycling as the main interchange modes); festival transport relies on rail transit plus shuttles, with phased-zoned evacuation to reduce car dependence. Municipal facilities follow shared and intensive principles; compute, energy and data facilities are building-integrated as a concept, prioritising existing facility conditions. Public services provide accessible and multilingual services, community services and learning spaces; AI decisions all have a human-review fallback.
+## Blue-Green Space, Public Space and Urban Character
 
-Transport follows slow-traffic priority: the green-belt continuous slow-traffic axis connects all nodes, links rail stops and bus interchanges, forming an "rail as backbone, slow traffic as everyday" travel structure, encouraging short-distance walking within blocks. Municipal infrastructure follows shared and intensive direction; energy, compute and data facilities are embedded in blocks and building-integrated. Public service facilities are configured at block level and innovation-belt level. No engineering figures are pre-set at the concept stage.
+Public-space expression across the three nodes prioritizes accessible stopping, blue-green continuity, paper wayfinding and reversible fixtures; diagnostic language can become an existing-condition claim only after itemized evidence is obtained.
 
-> **Evidence anchors**: [source:DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES] (reference for municipal and slow-traffic design wording).
+The blue-green and public-space intent is a public base that can be occupied, recognized and reverted: N2 Smart-Pattern Terrace prioritizes shade, seating, accessible stopping, paper wayfinding and a switchable light digital layer; N3 Growing Court limits intrusion into the existing setting through a retained base and removable modules; N1 Cellular Block checks public access where shared prototyping, community services and research interfaces meet. The current 1,255,908.493 m² / site union = 11.0044% is only the `green_space` overlay, and 36,150 m² / site union = 0.3167% is only the `public_space` overlay; neither is a statutory green ratio, open-space ratio or design-compliance result. Vegetation, drainage, thermal comfort, accessibility, lighting, heritage and ownership records have not been itemized. At T0, professionals must resurvey them under one boundary, classification and date and leave uncertainties in `assumptions` and `risk`. If a continuous safe route or human service cannot be provided, the digital layer and reversible fixtures cannot pass the next gate; paper and human routes must be restored first.[metric:green_ratio] [metric:public_space_ratio] [source:DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES]
 
-## Blue-green space, public space and cityscape
+### Three-node diagnosis and evidence boundary
 
-Build a "green-belt as axis, node parks as beads" blue-green public-space system: the heritage park green belt as the blue-green backbone strings along-belt small-green spaces and open spaces, forming a continuous ecological and public-space system. Physical-virtual installations and parks are integrated in a light, transparent and reversible way, not blocking heritage and green-belt sightlines. Wayfinding and interpretation systems are unified and restrained. The cityscape continues the Jingzhang railway industrial-memory vocabulary and dialogues with the AI new-born atmosphere; overall cityscape guidance is restrained and unified, avoiding symbol piling and sloganeering.
+“Industrial heritage”, “community severance”, “aging facilities” and “vacant warehouses” do not have itemized site surveys, protection registers or ownership archives in this package. Unless supported by the announcement or taskbook, they are written only as **verification-pending design assumptions / concept scenarios**, not existing conditions. A T0 review by planning, heritage, transport, ownership and community representatives must add a `source_id`, date, spatial scope and permitted survey record before any item can be upgraded. The figures use “existing base”, “relational severance” and “facility renewal need” as design language, not as proven facts.
 
-Build a blue-green public-space system with the Jingzhang green belt as the main axis, connecting belt green spaces, block courtyards and open places, integrating ecological elements. Public space emphasises the authentic presentation of historical remains and the overlay of everyday scenes. The cityscape adheres to restraint and unity: with the weaving-coordination principle, restraining decoration, unifying materials and colour logic, so that the historical linear form, green-belt texture and cellular blocks form a recognisable overall image.
+## Update Projects, Implementation Policy and Phasing Plan
 
-![Slow-traffic and blue-green space analysis](assets/figures/mobility-bluegreen.png)
+| Agent | Deliverable and package evidence |
+| :--- | :--- |
+| agent.1 | Belt concept, Three Areas and Two Wings crosswalk, three nodes and working scales; `proposal.md §§1-3`, `site-overview`, `key-areas` |
+| agent.2 | AI-native spatial/infrastructure interfaces and N1 pilot; `proposal.md §§4-6`, `metrics.json`, `land-use-structure` |
+| agent.3 | Ten cards, three protocols, aggregate-only processing and human fallback; `proposal.md §§4-5`, `metrics-evidence`, HTML/visual |
+| agent.4 | N2 public space, N3 reversible modules and inclusive routes; `proposal.md §§3,5`, `key-areas`, `mobility-bluegreen` |
+| agent.5 | Jingzhang heritage, Zhongguancun service and AI-culture bilingual narrative; `proposal.md §§7,9`, `sources.json`, English deliverables |
+| agent.6 | Phasing, events, operating responsibility, exit and human takeover; `proposal.md §8`, `risk.json`, matrices |
 
-> **Evidence anchors**: [source:DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES] (reference for blue-green space organisation).
+Near term (1–3 years) is limited to reversible, low-load, human-takeover-ready P1/P2 pilots. Medium term (3–5 years) depends on official boundary, ownership, transport, fire, heritage and data-permission checks. Long term (5–10 years) depends on those checks and pilot results. Every phase has stop, rollback, paper replacement and human service entry points.[source:DATA-SRC-AGENT-TASKBOOK-20260518] [data:PACKAGE-GEOMETRY] [metric:common_test_protocol_count]
 
-## Brand identity and visual system
+### Eight case references: mechanism comparison with traceable source IDs
 
-**Logo and visual system**: "Cellular AI City / CELL·JZ" adopts the "cellular unit + green-belt linkage" graphic grammar - three offset interlocking rounded squares symbolise the cellular unit's mixed interlock; the horizontal extended thin line belt symbolises the Jingzhang green-belt backbone; dots and broken lines hint at AI nodes and sensing paths. The primary palette is a restrained three-colour combination of "graphite black + Jingzhang rust red + smart-pattern cyan"; the event sub-brands (Urban-Form Open Day, Smart-Pattern Art Week, Cellular Block Market) extend with the primary Logo derived colour blocks. The Logo is hand-drawn by this package and labelled as original and rights-to-be-checked ([source:DATA-SRC-AGENT-TASKBOOK] taskbook brand requirements are the basis for this package's concept response, not a trademark-review conclusion).
+Eight international and domestic cases are individually registered in `sources.json`. The case table uses no third-party images with unconfirmed reuse rights; all package figures are author-drawn concept diagrams. Each case currently has `review_status=needs_human_verification` and `usable_for_formal=no`; a human must verify the page, publication date, license and reuse boundary before formal use.
 
-![Logo visual system (self-drawn original)](assets/figures/logo-celljz.png)
+| Case | source_id | Transferable mechanism |
+| :--- | :--- | :--- |
+| New York High Line | CASE-INT-HIGH-LINE | Linear heritage public space and phased operations |
+| Seoul Seoullo 7017 | CASE-INT-SEOULLO-7017 | Station-side pedestrian stitching and elevated public layer |
+| Paris Promenade Plantée | CASE-INT-PROMENADE-PLANTEE | Railway walking continuity and planted overlap |
+| Chicago 606 | CASE-INT-CHICAGO-606 | Multi-community connection and activity operations |
+| Beijing Shougang Park | CASE-CN-SHOUGANG-PARK | Existing industry translated into innovation and public space |
+| Shanghai West Bund | CASE-CN-WEST-BUND | Industrial waterfront, culture and public interface |
+| Shenzhen Dasha River Ecological Corridor | CASE-CN-DASHA-RIVER | Linear blue-green corridor and community connection |
+| Chengdu Mengzhuiwan | CASE-CN-MENGZHUIWAN | Small-scale incremental renewal and everyday operations |
 
-**International communication copy (concept excerpt)**: master slogan "CELL·JZ - A new urban form adapted to AI new quality productivity, along the centennial Jingzhang AI innovation belt."; secondary slogan "Living, R&D, incubation and services interlock in one block. The heritage green belt is the spine. Streets respond to the hour. Modules grow, then revert. AI senses, but never identifies. People review every key decision."; communication points: reversible, perceivable, participatory, auditable, replayable.
+Cases do not prove CELL·JZ technical or policy feasibility and do not imply partnership, permission, performance transfer or investment commitment.
 
-**Public-space component library and honour display**: nodes and the green belt are configured with a reversible public-space component library (modular seating, liftable signage, movable art installations, roll-up sunshade). Components follow the "light-transparent-reversible" principle, facilitating cultural display and honour presentation. The honour display presents in three ways: an annual honour wall, a node honour staircase, and a community volunteer honour day. All contents are carried by replaceable light modules, avoiding fixed decoration and piling.
+## Risk, Rights and Compliance Statement
 
-**Developer community and conversion mechanism**: facing AI developers, entrepreneurs, designers and community co-builders, set up the "Cellular Developer Community" - offline uses "Smart-Pattern Terrace" as a public salon base; online uses an open data sandbox (de-identified form-assessment and space-use anonymous data), an open-source component library (standard interface files for reversible public-space components) and a public technical evaluation list (baseline models and error indicators for AI scenarios) as entry points. The conversion mechanism uses the flow "apply - review - disclose - pilot operation - point adoption - long-term cooperation". The annual pilot quota, exit conditions and point rules are all open to the community.
+The full ledger is `report/copyright_statement.md`. It covers the proposal name/logo, font, pictures/maps, data, code and generation method, date, URL, license, allowed/prohibited use and verification-pending fields. `CELL·JZ`, Cellular Block, Smart-Pattern Terrace and Growing Court are original concept names; CELL·JZ is not claimed as an official brand. Figures are drawn by the author with local Noto Sans SC and Matplotlib/ReportLab. Cases are text-only mechanism references; no third-party case image is embedded.[source:DATA-SRC-AGENT-TASKBOOK-20260518] [data:PACKAGE-GEOMETRY]
 
-> **Evidence anchors**: [source:DATA-SRC-AGENT-TASKBOOK] (brand and operation requirements as taskbook item response basis).
+The boundary language describes evidence status and reuse boundaries; it does not claim that citation alone resolves rights. Any source, ownership, permission, privacy, heritage, fire, transport or data condition that is not verified must stay out of implementation publicity. A rights or safety failure removes the asset or service and keeps the manual alternative.
 
-## Renewal project list, implementation policy and phasing plan
+### Bilingual delivery and QA contract
 
-The four project lists (form-unit pilot / slow-traffic linkage / physical-virtual facility embedding / form assessment platform) are concept lists; scale and investment estimates are advisory. Policy suggestions (mixed-function access and coordination, multi-actor co-build, opinion review mechanism) must be demonstrated per laws and regulations, and do not constitute a government or operator commitment.
+Chinese and English narratives, five core figure pairs, A0, A3, report HTML and visual HTML use the same IDs, node names, metrics, warnings and evidence anchors. The English package contains no Chinese residual text; all four HTML pages embed a redistributable Noto Sans SC subset and use no network dependency. Release QA checks:
 
-Renewal projects are organised as "pilot node - backbone works - network weaving". Implementation policy focuses on mixed-function access, anonymized data usage covenant, and phased supply elasticity: government coordination, enterprise operation participation, university and research institution evaluation, community co-build and co-governance, with volunteers and professional teams participating in assessment.
-
-**Project-level implementation matrix (concept-level, not an approval / investment / implementation commitment)**:
-
-| Project | Phase | Lead / collaborators | Preconditions | Dependencies | Cost tier | Risk | Deliverable | Pilot exit condition | Maintenance mechanism |
-|---|---|---|---|---|---|---|---|---|---|
-| Cellular Block pilot unit | Near 1-3y | Lead: urban planning & design panel; collab: local sub-district, platform company, university research, community reps | Land ownership pre-check, community informed consent, pilot filing | Slow-traffic backbone section 1 complete | Low-mid (tiered by scale) | Community acceptance, operationramp-up | Unit design pack + pilot report | Pilot unit revertible and public opinion closed | Community co-governance + annual review |
-| Green-belt slow-traffic linkage | Near 1-3y | Lead: municipal & transport panel; collab: parks, sub-district, operator | Green-belt ownership pre-check, slow-traffic section consensus | Cellular Block pilot unit interface section | Low-mid | Along-belt coordination, construction disturbance | Slow-traffic section + completion report | Disturbance complaints closed and accessibility acceptance | Street patrol + complaint response |
-| Smart-Pattern Terrace physical-virtual facility | Mid 3-5y | Lead: public art & culture-tourism panel; collab: tech enterprise, community | Public-space ownership, AR device compliance | Slow-traffic linkage + Cellular Block pilot | Mid | Device maintenance, content update | Smart-pattern installation + pilot record | Content offline controllable, installation removable | Annual content update + installation maintenance |
-| Growing Court reversible module | Mid 3-5y | Lead: urban construction & design panel; collab: contractor, enterprise | Land and structure safety assessment | Smart-Pattern Terrace operation, community feedback | Mid | Recovery cost, operation return | Module sample + recovery record | Modules revertible and not damaging existing buildings | 3-year module rotation + recovery fund |
-| Form assessment platform | Far 5-10y | Lead: data & governance panel; collab: university, independent consultants | Data-governance three-line (anonymized aggregation / key-decision human review / no over-surveillance) in place | Public-space node data | Mid-high | Model bias, over-surveillance | Platform spec + evaluation set | False-positive alert + human-review closed loop | Monthly disclosure + quarterly audit |
-| Whole-form network | Far 5-10y | Lead: operation & communication panel; collab: all stakeholders | Stable operation of all above | All | High | Coordination complexity | Annual operation report | Each sub-project can be paused independently | Long-term funding pool + long-term cooperation agreements |
-
-**Stop / exit conditions (common to all pilot projects)**: (1) any key precondition not met and not supplemented within the assessment window → suspend and disclose; (2) any safety, compliance or major public-opinion incident → immediate stop and start the review process; (3) two consecutive assessment cycles below expectation → withdraw the pilot and disclose withdrawal reasons to the community; (4) the pilot causes irreversible impact on the surroundings → immediate stop and start the recovery plan; (5) any of the above must be confirmed by human review before execution, with auditable records.
-
-**Long-term operation funding / cooperation pathway (concept)**: multi-actor cooperation - government guiding fund (start-up phase), enterprise naming and sponsorship (operation phase), university and research joint lab (innovation phase), community and volunteers (co-build phase), developer community and open data cooperation (spillover phase). Specific amounts, ratios and mechanisms are to be determined per the statutory procedure at the formal project initiation stage.
-
-**Phasing plan**: Near 1-3y launch Cellular Block pilot and green-belt linkage; Mid 3-5y advance Smart-Pattern Terrace, Growing Court and backbone completion; Far 5-10y achieve the innovation-belt whole-form shape.
-
-**Annual event brands (Urban-Form Open Day / Smart-Pattern Art Week / Cellular Block Market)**:
-
-| Annual event brand | Frequency | Host | Co-host | Public participation | Feedback channel | Funding source (concept) | Evaluation indicator |
-|---|---|---|---|---|---|---|---|
-| Urban-Form Open Day | 1/year | Lead: government + operator | University, enterprise, community | On-site visit + online live + deliberation collection | On-site mailbox + online form | Government guidance + enterprise naming | Participation count, suggestion adoption rate |
-| Smart-Pattern Art Week | 1/year | Lead: public art institution | Tech enterprise, community, school | Installation exhibit + workshop + public review | On-site feedback + review channel | Public art fund + sponsorship | Exhibit count, media coverage, satisfaction |
-| Cellular Block Market | 4/year | Lead: community + operator | Entrepreneurs, volunteers, designers | Stallholder recruitment + public vote + deliberation salon | Stallholder mailbox + residents' council | Market revenue + community fund | Stall count, visitor count, deliberation closure rate |
-
-> **Evidence anchors**: [source:DATA-SRC-AGENT-TASKBOOK] (phasing and implementation items correspond to taskbook requirements).
-
-## Indicator system, area recompute and compliance matrix
-
-Five concept indicator systems - mixed-function index, slow-traffic penetration, physical-virtual facility coverage, public participation count, form reversibility - enter metrics.json. Area recompute is based on the official text caliber; a full recompute and version tag are performed after official data arrives, marking the recompute version.
-
-The indicator system is proposed according to directional principles: vitality (functional mix, use duration), resilience (reversible growth, facility redundancy), sharing (facility accessibility, data openness), low-carbon (intensive energy use), as a standing framework for evaluation and iteration. Area recompute establishes the procedure "current-state inventory - scheme layout - statutory calibration". The compliance matrix item-by-item checks alignment with upper-level and special plans. This section only lists the framework and procedure, without giving specific indicator values and area conclusions.
-
-![Core indicator evidence](assets/figures/metrics-evidence.png)
-
-> **Evidence anchors**: [metric:green_ratio], [metric:public_space_ratio], [source:PACKAGE-GEOMETRY].
-
-## Risk, copyright and compliance statement
-
-This package is a concept research design; it does not constitute an administrative approval basis, nor FAR, building height, demolition/retention or engineering feasibility conclusions. Risks have been honestly registered in risk.json across four dimensions - the interface between cellular blocks and urban transport organisation, the boundary of physical-virtual sensing and public data, the technical maturity of digital twin and form assessment, and the new form's public acceptance (response principles: anonymized aggregation, minimum necessary, human review, source labelling and opinion channel). Cited public materials have all been sourced and marked with acquisition time; graphics, names and text are original or public-domain materials. Coincidental similarity with existing marks is not intended. The new-form expression does not distort historical facts; portraits, trademarks, papers, images and other copyrighted material are not used without authorisation. Before formal implementation, multi-department joint review, cultural-heritage protection and safety assessment must be completed.
-
-**Data governance and inclusion mechanism**: (1) aggregation threshold - the single-point collection amount below the threshold is not counted; cross-point aggregation is required for analysis; (2) retention period - the original data retention period does not exceed the shortest period necessary for governance; auto-delete on expiry; (3) access control - role-based authorisation, operation log auditable; (4) human review - key decisions must be confirmed by humans before implementation; (5) correction and deletion - the public can apply for access, correction and deletion; (6) complaints and reports - online and offline multi-channel reception, regular follow-up; (7) emergency stop - anomaly triggers immediate stop + review + disclosure; (8) non-smart-phone alternative channels - on-site service window, hotline, community volunteer home service in parallel; (9) on-site help - on-site staffing at nodes + multilingual service + accessibility assistance; (10) accessibility testing - all digital interfaces and public-space components complete accessibility testing before launch, annual retest.
-
-This package is a concept suggestion draft, not a planning conclusion, engineering feasibility conclusion or demolition/retention scheme, and does not pre-set FAR or building height. The creative names in the text (Cellular Block, Smart-Pattern Terrace, Growing Court, etc.) are original concepts of this package and do not point to any real institutional trademarks. The historical narrative follows the public historical facts of the Jingzhang railway, without distortion. The anonymized sensing scenario follows the principles of anonymized aggregation and human review; personal information processing is based on laws, regulations and public data contracts.
-
-**Prior rights and use boundary of the brand**: the master name "Cellular AI City / CELL·JZ", node names "Cellular Block / Smart-Pattern Terrace / Growing Court" and annual event brands are internal working codenames. No official trademark search or registration has been completed at concept stage; do not use externally, register, or sub-license until clearance is obtained. (See the Asset rights ledger section in report/narrative.md.)
-
-> **Evidence anchors**: [source:DATA-SRC-OFFICIAL-ANNOUNCEMENT] (collection rules as the basis for ownership and compliance wording).
+- figure titles, node names, task-area names, counts, ratios, thresholds and provisional warnings are item-by-item equivalent;
+- `proposal.en.md` and `proposal.en.html` contain no Chinese residual text, tofu boxes, unresolved template tokens, broken words or overflow;
+- PDFs are parseable, A0/A3 margins are safe, and figures have no overlap, crop, crowding or unreadably small body text;
+- manifest, matrices, sources/rights ledger, `self_check.json` and actual file inventory agree;
+- the four local gates test package form and structure only; they do not replace CocoSgt review or field/statutory validation.
 
 ## References
 
-The references are based on officially released versions, archived by public/internal classification with acquisition time: public materials on the Jingzhang railway history and heritage park (including the public historical caliber of Zhan Tianyou and the Jingzhang railway), public materials on Zhongguancun innovation culture, public caliber of Beijing's overall urban planning and district planning, public cases of mixed-use blocks and new urban forms at home and abroad, site survey records and self-drawn analysis sketches (collected by this project). This package's sources.json only contains verifiable entries; no official data or link is fabricated.
+Task scope and names follow `DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509` and `DATA-SRC-AGENT-TASKBOOK-20260518`. Professional method references are `DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES`, `DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING` and `DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311`. Each case uses its own `CASE-*` source ID; a single aggregate case label is not a substitute for traceability.
 
-**International / domestic case source ledger (8 verifiable cases)**:
-
-| Case | City / Country | Type | Start year | Key source / publisher | URL | Published | Accessed | Reusable mechanism | Citation boundary |
-|---|---|---|---|---|---|---|---|---|---|
-| HafenCity | Hamburg, DE | Waterfront renewal / mixed use | 2000 | HafenCity Hamburg GmbH (set up by city government) | https://www.hafencity.com/en/home.html | ongoing from 2000 | 2026-08 | Mixed function, public participation | Form-structure reference; do not copy local policy |
-| King's Cross | London, UK | Railway heritage renewal / public space | 2007 | Argent LLP public materials; UK GOV Planning Inspectorate | https://www.argent.london/kings-cross | ongoing from 2007 | 2026-08 | Industrial heritage + public-space stitching | Operation-logic reference; do not copy private business terms |
-| Hammarby Sjöstad | Stockholm, SE | Sustainability indicator system / waterfront | 1995 | Stockholm City official page | https://international.stockholm.se/governance/international-cooperation/hammarby-model/ | ongoing from 1995 | 2026-08 | Sustainability indicators + public participation | Indicator-system reference; do not copy Nordic policy |
-| Kashiwa-no-ha | Chiba, JP | University town + smart energy | 2002 | Kashiwa-no-ha smart city official page | https://www.kashiwanoha-smartcity.com/ | ongoing from 2002 | 2026-08 | Industry-academy-research + energy intensification | Industry-academy-research + energy reference; do not copy private enterprise |
-| Punggol Digital District | Singapore | Digital district / intensive infrastructure | 2018 | JTC Singapore official page | https://www.jtc.gov.sg/about-jtc/our-developments/punggol-digital-district | ongoing from 2018 | 2026-08 | Digital district + intensive facilities | Digital district reference; do not copy government-led mechanism |
-| Xiongan New Area | Hebei, CN | Digital twin / smart infrastructure | 2017 | State Council / Xiongan official website | http://www.xiongan.gov.cn/ | ongoing from 2017 | 2026-08 | Digital twin + synchronous construction | Concept-level reference; do not copy policy positioning |
-| Shougang Park | Beijing, CN | Industrial heritage renewal / public space | 2016 | Shougang Group / Beijing Municipal Government | http://www.shougang.com.cn/ | ongoing from 2016 | 2026-08 | Industrial heritage + public space | Same-city context cross-reference; do not copy |
-| Xuhui Riverside | Shanghai, CN | Industrial heritage + cultural innovation + public space | 2008 | Shanghai Xuhui District public page | http://www.xuhui.gov.cn/ | ongoing from 2008 | 2026-08 | Industrial heritage + culture + public space | Waterfront renewal reference; do not copy |
-
-**AI scenario cards (10 cards, 5 categories expanded into 10 independent scenario cards)**:
-
-| Scenario card | Location | Target group | Operation mechanism (concept) | Data and compliance boundary | Test protocol |
-|---|---|---|---|---|---|
-| "Cellular Gate" time-responsive street | Cellular Block | Residents, youth | Time-reservation, rotation permission | Anonymized aggregation, human review | Error stratification + false-positive monitoring |
-| "Smart-Pattern Screen" physical-virtual wayfinding | Smart-Pattern Terrace | Tourists, students | Reservation experience, annual update | Edge-side processing, no over-surveillance | End-to-end latency + UX baseline |
-| "Growing Module" reversible growth application | Growing Court | Practitioners, entrepreneurs | Apply - review - disclose, point adoption | Aggregation only, human review | Module recovery rate + pilot exit rate |
-| "Companion" accessible physical-virtual guidance | Three nodes + green belt | Elders and people with disabilities | Volunteer staffing, human fallback | Authorisation explicit, one-click off | On-site help coverage + accessibility regression test |
-| "Pulse Map" anonymized sensing presentation | Public-space nodes | Operator, white-collar | Monthly disclosure, deliberation | Aggregation density, no individual tracking | False-positive / false-negative stratification + sampled human review |
-| "Twin" city running digital twin | Overall design area | Government + operator | Quarterly assessment + disclosure | Governance-essential fields + one-click off | Model evaluation set + drift monitoring |
-| "Form Comparison" performance AI assessment | Overall design area | Design panel | Monthly assessment + public score | Anonymized voting + human review | Baseline model comparison + error stratification |
-| "Load Forecast" infrastructure AI | Overall design area | Municipal + operator | Weekly forecast + quarterly calibration | Minimum necessary + edge-side | Error stratification + emergency stop test |
-| "Feedback Aggregation" public opinion AI | Three nodes | Residents + deliberation reps | Monthly disclosure + deliberation response | De-identified aggregation + non-traceable | False-positive alert + quarterly audit |
-| "Honour Display" community and developer honour | Smart-Pattern Terrace + online | Residents + developers | Nominate + disclose + annual disclosure | Publicly checkable, tamper-evident | Disclosure completeness + appeal accessibility |
-
-**AI industry test protocols (3 universal protocols)**:
-
-| Test protocol | Test target | Key indicator | Sampling ratio | Trigger condition | Review mechanism | Public scope |
-|---|---|---|---|---|---|---|
-| Model evaluation regression | Verify scenario-card model stability on new data | Accuracy, F1, drift | >= 5% | Drift > threshold | Quarterly review + disclosure | Public evaluation set |
-| Data quality audit | Verify input data completeness, anomaly rate | Missing rate, anomaly rate, source-compliance rate | Full audit | Anomaly > threshold | Monthly audit + disclosure | Data-governance disclosure |
-| Runtime monitoring and false-positive stratification | Verify error distribution across group / time / spatial granularity | False-positive rate, false-negative rate, granularity stratification | >= 5% | False-positive rate > threshold | Immediate alert + human review | Governance panel + quarterly disclosure |
-
-> **Evidence anchors**: [source:DATA-SRC-OFFICIAL-ANNOUNCEMENT] (the first item in this list is the organizer public materials package); case sources see sources.json.
+These sources serve different evidence duties: the announcement and taskbook support the project scope, task names, three positioning themes, five functions, Three Areas and Two Wings and agent.1-agent.6 requirements; professional references define planning, accessibility, land-use and evidence-expression boundaries; provisional geometry supports package recalculation only; and CASE-* records are mechanism references, not formal facts at present. Each source’s publication date, access date, review status, formal usability, allowed/prohibited uses and reuse boundary is recorded in `sources.json`. Unconfirmed case dates and permissions are not written as verified. Any new fact, image, map, model or dataset must first receive a source ID, date, spatial scope, generation method and rights fields before entering the narrative, figures, HTML or PDFs.[source:DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509] [source:DATA-SRC-AGENT-TASKBOOK-20260518] [data:PACKAGE-GEOMETRY]

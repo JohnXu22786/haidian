@@ -20,14 +20,10 @@
       ],
       "changed_files": [
         "submissions/JohnXu22786/ai-native-new-urban-form/agent.json",
-        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/ai-ecosystem.en.png",
-        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/ai-ecosystem.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/key-areas.en.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/key-areas.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/land-use-structure.en.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/land-use-structure.png",
-        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/logo-celljz.en.png",
-        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/logo-celljz.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/metrics-evidence.en.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/metrics-evidence.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/mobility-bluegreen.en.png",
@@ -40,10 +36,8 @@
         "submissions/JohnXu22786/ai-native-new-urban-form/design_depth_matrix.json",
         "submissions/JohnXu22786/ai-native-new-urban-form/drawings/a0-boards.en.pdf",
         "submissions/JohnXu22786/ai-native-new-urban-form/drawings/a0-boards.pdf",
-        "submissions/JohnXu22786/ai-native-new-urban-form/drawings/a0-boards.zh.pdf",
         "submissions/JohnXu22786/ai-native-new-urban-form/drawings/a3-booklet.en.pdf",
         "submissions/JohnXu22786/ai-native-new-urban-form/drawings/a3-booklet.pdf",
-        "submissions/JohnXu22786/ai-native-new-urban-form/drawings/a3-booklet.zh.pdf",
         "submissions/JohnXu22786/ai-native-new-urban-form/geometry/buildings.geojson",
         "submissions/JohnXu22786/ai-native-new-urban-form/geometry/constraints.geojson",
         "submissions/JohnXu22786/ai-native-new-urban-form/geometry/green_space.geojson",
@@ -65,13 +59,21 @@
         "submissions/JohnXu22786/ai-native-new-urban-form/self_check.json",
         "submissions/JohnXu22786/ai-native-new-urban-form/sources.json",
         "submissions/JohnXu22786/ai-native-new-urban-form/standard_matrix.json",
+        "submissions/JohnXu22786/ai-native-new-urban-form/visual/assets/previews/fig-key-areas-en.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/visual/assets/previews/fig-key-areas-zh.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/visual/assets/previews/fig-metrics-evidence-en.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/visual/assets/previews/fig-metrics-evidence-zh.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/visual/assets/previews/fig-mobility-bluegreen-en.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/visual/assets/previews/fig-mobility-bluegreen-zh.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/visual/assets/previews/fig-site-overview-en.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/visual/assets/previews/fig-site-overview-zh.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/visual/index.en.html",
         "submissions/JohnXu22786/ai-native-new-urban-form/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/JohnXu22786/ai-native-new-urban-form": "formal"
       },
-      "total_bytes": 4958324,
+      "total_bytes": 7554854,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -129,16 +131,15 @@
       "ok": true,
       "issues": [],
       "metrics_seen": {
-        "site_area_sqm": 11412825.0,
-        "green_ratio": 0.11,
-        "public_space_ratio": 0.003,
-        "key_area_count": 3.0,
-        "scenario_node_count": 10.0,
-        "industry_test_scenario_count": 10.0,
-        "persona_count": 5.0,
-        "global_case_count": 8.0,
-        "phase_count": 3.0,
-        "annual_program_count": 3.0
+        "scenario_card_count": 10.0,
+        "common_test_protocol_count": 3.0,
+        "mapping_count": 18.0,
+        "land_use_feature_count": 27.0,
+        "land_use_green_ratio": 0.273034,
+        "green_ratio": 0.110044,
+        "public_space_ratio": 0.003167,
+        "site_area_sqm": 11412825.386,
+        "scenario_node_count": 8.0
       }
     },
     "stderr": ""
@@ -152,15 +153,15 @@
       "summary": {
         "standard_matrix_items": 5,
         "design_depth_items": 15,
-        "known_metric_refs_required": 17,
+        "known_metric_refs_required": 25,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 8,
+          "source": 3,
           "standard": 0,
           "depth": 0,
           "data": 1,
-          "metric": 2
+          "metric": 8
         }
       }
     },
@@ -208,168 +209,5 @@
       "target": "professional_review.py",
       "message": "professional_review: PASS"
     }
-  ],
-  "figure_qc": {
-    "ok": true,
-    "ink_ok": true,
-    "clip_clear": true,
-    "overlap_clear": "not_verified",
-    "summary": "machine figure-QC pass: all zh+en figures ink>=0.05 and edges not clipped; text-bbox overlap is post-hoc and not machine-verifiable",
-    "checks": {
-      "ai-ecosystem.en.png": {
-        "ink_ratio": 0.1369,
-        "width": 1800,
-        "height": 1200,
-        "ink_ok": true,
-        "edge_top": 0.0,
-        "edge_bot": 0.0,
-        "edge_l": 0.0,
-        "edge_r": 0.0068,
-        "clip_clear": true
-      },
-      "ai-ecosystem.png": {
-        "ink_ratio": 0.1362,
-        "width": 1800,
-        "height": 1200,
-        "ink_ok": true,
-        "edge_top": 0.0,
-        "edge_bot": 0.0,
-        "edge_l": 0.0,
-        "edge_r": 0.005,
-        "clip_clear": true
-      },
-      "key-areas.en.png": {
-        "ink_ratio": 0.3243,
-        "width": 1800,
-        "height": 1200,
-        "ink_ok": true,
-        "edge_top": 0.0,
-        "edge_bot": 0.0,
-        "edge_l": 0.0058,
-        "edge_r": 0.0472,
-        "clip_clear": true
-      },
-      "key-areas.png": {
-        "ink_ratio": 0.3227,
-        "width": 1800,
-        "height": 1200,
-        "ink_ok": true,
-        "edge_top": 0.0,
-        "edge_bot": 0.0,
-        "edge_l": 0.0,
-        "edge_r": 0.027,
-        "clip_clear": true
-      },
-      "land-use-structure.en.png": {
-        "ink_ratio": 0.203,
-        "width": 1800,
-        "height": 1200,
-        "ink_ok": true,
-        "edge_top": 0.0,
-        "edge_bot": 0.0,
-        "edge_l": 0.0373,
-        "edge_r": 0.0093,
-        "clip_clear": true
-      },
-      "land-use-structure.png": {
-        "ink_ratio": 0.2035,
-        "width": 1800,
-        "height": 1200,
-        "ink_ok": true,
-        "edge_top": 0.0,
-        "edge_bot": 0.0,
-        "edge_l": 0.0458,
-        "edge_r": 0.0,
-        "clip_clear": true
-      },
-      "logo-celljz.en.png": {
-        "ink_ratio": 0.1149,
-        "width": 1200,
-        "height": 480,
-        "ink_ok": true,
-        "edge_top": 0.0,
-        "edge_bot": 0.0,
-        "edge_l": 0.0,
-        "edge_r": 0.0,
-        "clip_clear": true
-      },
-      "logo-celljz.png": {
-        "ink_ratio": 0.116,
-        "width": 1200,
-        "height": 480,
-        "ink_ok": true,
-        "edge_top": 0.0,
-        "edge_bot": 0.0,
-        "edge_l": 0.0,
-        "edge_r": 0.0054,
-        "clip_clear": true
-      },
-      "metrics-evidence.en.png": {
-        "ink_ratio": 0.1816,
-        "width": 1800,
-        "height": 1200,
-        "ink_ok": true,
-        "edge_top": 0.0,
-        "edge_bot": 0.0014,
-        "edge_l": 0.0257,
-        "edge_r": 0.147,
-        "clip_clear": true
-      },
-      "metrics-evidence.png": {
-        "ink_ratio": 0.1807,
-        "width": 1800,
-        "height": 1200,
-        "ink_ok": true,
-        "edge_top": 0.0,
-        "edge_bot": 0.0,
-        "edge_l": 0.0352,
-        "edge_r": 0.1453,
-        "clip_clear": true
-      },
-      "mobility-bluegreen.en.png": {
-        "ink_ratio": 0.1543,
-        "width": 1447,
-        "height": 954,
-        "ink_ok": true,
-        "edge_top": 0.0,
-        "edge_bot": 0.0,
-        "edge_l": 0.0,
-        "edge_r": 0.0,
-        "clip_clear": true
-      },
-      "mobility-bluegreen.png": {
-        "ink_ratio": 0.1554,
-        "width": 1406,
-        "height": 954,
-        "ink_ok": true,
-        "edge_top": 0.0,
-        "edge_bot": 0.0,
-        "edge_l": 0.0,
-        "edge_r": 0.0,
-        "clip_clear": true
-      },
-      "site-overview.en.png": {
-        "ink_ratio": 0.1748,
-        "width": 1447,
-        "height": 954,
-        "ink_ok": true,
-        "edge_top": 0.0,
-        "edge_bot": 0.0,
-        "edge_l": 0.0,
-        "edge_r": 0.0,
-        "clip_clear": true
-      },
-      "site-overview.png": {
-        "ink_ratio": 0.1872,
-        "width": 1373,
-        "height": 954,
-        "ink_ok": true,
-        "edge_top": 0.0,
-        "edge_bot": 0.0,
-        "edge_l": 0.0,
-        "edge_r": 0.0,
-        "clip_clear": true
-      }
-    }
-  }
+  ]
 }
