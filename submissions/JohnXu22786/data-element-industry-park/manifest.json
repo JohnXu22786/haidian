@@ -16,7 +16,7 @@
     "model_detail": "opencode non-interactive run, session ses_fcd5267b0ffe6fgrOl36lfW6mI; generation-only prompting. Package assembly, validation and PR opened by a Hermes orchestrator subagent on behalf of JohnXu22786.",
     "generated_with": "scripts/scaffold_ai_submission.py + deterministic build_package.py + gen_oc_pkg.py"
   },
-  "generated_at": "2026-08-24T06:00:00Z",
+  "generated_at": "2026-09-01T07:03:16Z",
   "files": [
     {
       "path": "manifest.json",
@@ -62,7 +62,7 @@
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "dde298a94286eec68ec61cb3d9da30452278b3c4539ab12cf98214e5f7743ba5"
+      "sha256": "6ffcba4dbfff9c7b4454bd7d756e0580f5926527cbb449567b3307acc091bb65"
     },
     {
       "path": "assumptions.json",
@@ -87,14 +87,14 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "8e0107681d38aecded18ac2f402f6e1982effa73a8ac120fbe9918a43c6b6fb8"
+      "sha256": "4abea179c49a76b07d63cc690f882b0ee1114248e5e8dd704f36075f4ba18bf0"
     },
     {
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "5af8ec96b0063a028cc7fded14d8047066b207e34171193bc868c1251955a127"
+      "sha256": "9f9976dcc5211fbbe285d630eb68ab4d1e75742841bd487823e3c339e936d332"
     },
     {
       "path": "geometry/buildings.geojson",
@@ -179,14 +179,14 @@
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "314ec7bcb4bcd5701eae18fd7db35a0992520f1efc2b57d2caccc7410c115181",
+      "sha256": "31da2f963423528aaec73e7459717d227486de8656d5f14ce6f853252af8fd42",
       "language": "zh"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "4855cf268ee0990abbe31d5ffcf26c16456b2226bef778726b5f335ba6c8fcba"
+      "sha256": "63c5bfc79b8027eaef9cfe662fe9be9f399cadafd64ed0c4c1721e16cccaf42c"
     },
     {
       "path": "sources.json",
@@ -204,7 +204,7 @@
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
-      "sha256": "314ec7bcb4bcd5701eae18fd7db35a0992520f1efc2b57d2caccc7410c115181",
+      "sha256": "31da2f963423528aaec73e7459717d227486de8656d5f14ce6f853252af8fd42",
       "language": "zh"
     },
     {
@@ -213,7 +213,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/site-overview.png",
-      "sha256": "230d57feb7d8dca97965129f5af6c6df0c61432e5b2bb498127faa358517be55"
+      "sha256": "37234ccb8f8ee96f771783e902fe0408e00dfe07c68703c7cd8328b333030f18"
     },
     {
       "path": "assets/figures/land-use-structure.en.png",
@@ -298,7 +298,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "7b0154db4b485d7b8eda279a6c2018a060422aa40868ded38238c7f5ae7055d8"
+      "sha256": "7361cb322e2741c81502da4cf3db85e1c462df63b35d71aa6ab1a8110d8742d9"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -306,7 +306,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "353349d6cd981fb23e7c42353414b28b090ea53acb7f27886d823ee108aa44cc"
+      "sha256": "97aea7e7fa9f4a0901e5a6d611df36359a02e27a75ed904a7a2a898f3d41ac49"
     },
     {
       "path": "proposal.en.md",
@@ -322,7 +322,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "9f982dd453e3b4ea2d68927e36856ba467c3bfa53facf91aeae80384a89d24d9"
+      "sha256": "c0ebc152ef31c4f4987ccce5bc21788ebc42a93b7464ccab825c6b23ad836123"
     },
     {
       "path": "visual/index.en.html",
@@ -330,7 +330,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "9f982dd453e3b4ea2d68927e36856ba467c3bfa53facf91aeae80384a89d24d9"
+      "sha256": "c0ebc152ef31c4f4987ccce5bc21788ebc42a93b7464ccab825c6b23ad836123"
     },
     {
       "path": "risk.json",

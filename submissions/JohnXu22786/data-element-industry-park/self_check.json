@@ -11,6 +11,7 @@
       "errors": [],
       "warnings": [
         "submissions/JohnXu22786/data-element-industry-park/proposal.md: 可能涉及非公开或敏感资料; maintainer review required",
+        "submissions/JohnXu22786/data-element-industry-park/self_check.json: formal submission has blocking failed self-check `DETERMINISTIC_VALIDATION`; pending self-check replacement",
         "submissions/JohnXu22786/data-element-industry-park/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
       ],
       "proposal_files": [
@@ -72,7 +73,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/data-element-industry-park": "formal"
       },
-      "total_bytes": 8474482,
+      "total_bytes": 11204337,
       "maintainer_bypass": false
     },
     "stderr": ""
