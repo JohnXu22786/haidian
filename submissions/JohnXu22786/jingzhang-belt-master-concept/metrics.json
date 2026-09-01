@@ -184,7 +184,7 @@
     },
     "global_case_count": {
       "status": "known",
-      "value": 4,
+      "value": 7,
       "unit": "count",
       "source_files": [
         "proposal.md",

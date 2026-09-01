@@ -111,4 +111,59 @@ This concept does not constitute an administrative approval basis, statutory pla
 
 ## References
 
+## Regional interfaces and research assumptions
+
+Cross-region relationships below are research hypotheses, not confirmed partnerships. Exchange is limited to public references, anonymized aggregates, methods and review findings; no private person-level data is required.
+
+| Partner area | Exchange | Spatial interface | Operating interface | Suggested responsibility | Uncertainty |
+| --- | --- | --- | --- | --- | --- |
+| Beiwei Community | resident issues, public comments, accessibility observations | community entry to Green-Link Ring; no new road redline | monthly forum, anonymous summary, human follow-up | community forum + operator | hypothesis; consent and boundary pending |
+| Future Science City | open test methods, scenario needs, reusable components | online method exchange and node display, no inferred rail/road works | quarterly case exchange and failure review | test organizer + professionals | hypothesis; venue/data not confirmed |
+| Huairou Science City | ethics templates and evaluation methods | public display and remote collaboration only | annual open day and safety review | research collaborators + human review group | hypothesis; no authorization evidence |
+| E-Town | industry problem cards, test outputs, talent needs | Overview Hub display interface, no relocation claim | lead registration, human screening, review | industry service + operator | hypothesis; no investment or output promise |
+| Beijing-Tianjin-Hebei | portable scenario cards, bilingual knowledge | online open platform and cultural narrative, no cross-city engineering line | annual regional open call and public review | communication + knowledge-base team | hypothesis; cooperation pending |
+
+## Human-readable belt map and node enlargements
+
+`assets/figures/regional-coordination.png` is the belt-level study map: a grey dashed provisional boundary, north/middle/south nodes, existing road and rail interfaces, green links, public-service entries and a “to verify” constraints legend. `assets/figures/node-zooms.png` enlarges Green-Link Ring, Weave-Core Court and Overview Hub. It does not draw new road redlines, rail alignments or engineering works; all locations are non-statutory reference relationships pending official GIS/CAD, heritage, transport, municipal and ownership inputs.
+
+## Agent 2: eight-factor mechanism and seven global cases
+
+The seven cases are comparisons, not endorsements or copy targets: G01 SXSW, G02 Dutch Design Week, G03 MWC Barcelona, G04 Ars Electronica, G05 Amsterdam AI Register (public algorithm accountability), G06 Helsinki AI Register (transparent city AI use cases), and G07 Montreal Mila (research–talent–industry network). `sources.json` records each source, transferable mechanism, non-portable condition and Jingzhang node. The eight-factor mechanism connects land, space, industry, funding, talent, compute, data and scenarios: provisional land classes; reversible spatial nodes; problem cards; resource-type registration without funding promises; contributor community; compute service type without capacity claims; public/anonymized data; and baseline—limited pilot—human review—public retrospective. `assets/figures/ecosystem-eight-factors.png` is the corresponding mechanism map.
+
+## Agent 3: ten independent scenario cards and three test protocols
+
+| Card | Space / user | Data boundary and model task | Output / responsibility / review | Threshold, failure and exit |
+| --- | --- | --- | --- | --- |
+| S01 registration flow | Green-Link / residents, visitors | anonymous time counts; routing suggestion | queue prompt / operator / human confirm | anomaly→manual flow control; unauthorized use stops |
+| S02 multilingual wayfinding | three nodes / visitors, deaf users | public text; translation and plain-language rewrite | bilingual card / guide / spot check | terminology error→withdraw and rewrite |
+| S03 code co-creation | Weave-Core / developers, students | volunteered code and license; risk class | test report / test lead / security review | unclear rights→isolate, do not publish |
+| S04 problem clinic | Overview Hub / firms, youth | de-identified problem cards; topic match | resource list / industry service / referral | low confidence→human reassignment |
+| S05 contribution exhibit | Loop Gallery / contributors, public | public credit and consent; summary draft | exhibit card / curator / rights review | unclear rights→no display |
+| S06 density notice | public entry / elders, carers | anonymous density level; trend notice | paper/screen prompt / steward / patrol | anomaly→human patrol; refusal exits |
+| S07 memory route | heritage park / children, tourists | public history; age-graded narration | guide route / cultural guide / fact check | conflict→remove pending review |
+| S08 blue-green check | green link / volunteers, maintenance | public observation form; issue class | work-order draft / maintenance lead / acceptance | unauthorized capture→delete and stop |
+| S09 talent conversion | Code Dock / schools, firms | voluntary tags; no person scoring | opportunity list / community admin /本人 confirm | mismatch→human withdrawal |
+| S10 regional open platform | online / regional participants | public cases and de-identified results | knowledge card / curator / annual review | missing source→do not archive |
+
+T01 code safety: license/dependency scan → risk list → test lead review → isolate high risk and exit. T02 accessible multilingual navigation: public text/manual labels → bilingual card → accessibility review → withdraw on misleading output or complaint threshold. T03 industry problem to scenario: de-identified card → test task and stop conditions → service lead plus human panel sign-off → stop without authorization, explainability or beneficiary. None requires a vendor or claims approved operation.
+
+## Agents 4–6: landmarks, culture and long-term operation
+
+The three landmarks are Jingzhang Forum Plaza (L01), Code Dock (L02) and Loop Gallery (L03): civic forum, developer co-creation and railway-memory/contribution display. They are reversible concepts that do not alter heritage fabric, green/blue lines or third-party property. The honor system uses voluntary credit, provenance card, version number, human curation and annual withdrawal review. The component library includes removable signs, paper task cards, staffed accessibility signs, reversible displays, low-brightness night markers and paper/desk complaint alternatives.
+
+The developer loop is register—covenant—working group—code/scenario contribution—human review—public retrospective—contribution memory. Scenario opening is application, data-boundary review, limited pilot, human sign-off, public feedback and annual notice. International attraction-to-retention is public cases → bilingual problem card → human matching → short test → compliance review → contributor follow-up. Resources are facilitator, test lead, accessibility specialist, data-protection adviser and curator; cost is stated only as staff hours, translation, printing and reversible-display maintenance, never as a fabricated budget. Annual review reports participation, complaints, exits, accessibility repairs and knowledge assets.
+
+## All-age and non-digital journeys
+
+Older adults use a paper map, staffed desk and rest points without a phone. Children and carers use age-graded paper cards and guided routes without identity collection. People with mobility, hearing, visual or cognitive disabilities receive route alternatives, human assistance, large print, captions/text service, tactile cues, one-step instructions and confirmation by a companion. Every scenario keeps paper booking, in-person queueing, staffed complaints, phone/desk referral and a switch-off for automated suggestions. These are concept service designs, not completed compliance findings; specialists must verify them later.
+
+## Rights boundary and concept data flow
+
+`京章智轴 / MASTER·JZ` is a concept name requiring trademark search. The package uses a local font or system fallback; figures are authored for this package, while external base maps, historical material and cases are recorded with source, license, use and credit in `sources.json`. Data flow is voluntary/public material → minimization and de-identification → local rule/model suggestion → human review → anonymous notice → complaint/withdrawal → annual deletion or archive. No identification, automatic penalty or uninterruptible decision is allowed. Provisional areas, ratios and lengths are rounded in the main visual; machine files retain recomputable values and every metric group states provisional, non-redline and recompute-after-official-data.
+
+## Canonical phasing and bilingual audit
+
+The single phase version is `PHASE-1.0`: near term 1–3 years, Green-Link Ring and north-factor pilot; middle term 3–5 years, Weave-Core Court and major connection study; long term 5–10 years, Overview Hub, belt-wide open platform and annual governance review. Proposal, matrices, phasing layer, HTML and A0/A3 use this same order; any earlier “near-term Overview Hub” summary is obsolete. The bilingual audit covers positioning, five functions, node order, ten cards, T01–T03, metrics, provisional warnings, roles and exit conditions; `translation_of` does not replace item-by-item review.
+
 See \`sources.json\` for the package source register and access dates. Public references include Jingzhang railway history and heritage materials, Beijing planning summaries, urban design guidance, and public international linear-park and innovation-district cases. Official versions prevail when later data supersedes the concept evidence.

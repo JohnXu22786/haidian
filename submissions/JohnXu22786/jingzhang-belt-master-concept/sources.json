@@ -338,6 +338,103 @@
         "generation_method": "concept prompting + geometry program",
         "limitations": "low confidence conceptual envelopes"
       }
+    },
+    {
+      "source_id": "DATA-CASE-AMSTERDAM-AI-REGISTER",
+      "title": "Amsterdam AI Register — public algorithm accountability",
+      "publisher": "Amsterdam AI Register",
+      "source_kind": "public_web",
+      "url": "https://algoritmeregister.amsterdam.nl/en/",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "primary",
+      "timeliness_level": "current_at_access",
+      "public_access_status": "public",
+      "license_summary": "Public webpage; verify reuse terms before reproducing content.",
+      "review_status": "background_only",
+      "usable_for_formal": false,
+      "allowed_uses": [
+        "case comparison",
+        "mechanism research",
+        "attributed reference"
+      ],
+      "prohibited_uses": [
+        "endorsement",
+        "copying brand or institutional claims",
+        "fabricating partnership"
+      ],
+      "topics": [
+        "AI governance",
+        "algorithm transparency"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅作公开机制案例；制度、责任主体和数据环境不可直接移植到京张。"
+    },
+    {
+      "source_id": "DATA-CASE-HELSINKI-AI-REGISTER",
+      "title": "Helsinki AI Register — transparent city AI use cases",
+      "publisher": "Helsinki AI Register",
+      "source_kind": "public_web",
+      "url": "https://ai.hel.fi/en/ai-register/",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "primary",
+      "timeliness_level": "current_at_access",
+      "public_access_status": "public",
+      "license_summary": "Public webpage; verify reuse terms before reproducing content.",
+      "review_status": "background_only",
+      "usable_for_formal": false,
+      "allowed_uses": [
+        "case comparison",
+        "mechanism research",
+        "attributed reference"
+      ],
+      "prohibited_uses": [
+        "endorsement",
+        "copying brand or institutional claims",
+        "fabricating partnership"
+      ],
+      "topics": [
+        "AI governance",
+        "city services"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅作公开机制案例；法律、语言和城市服务体系不可直接移植。"
+    },
+    {
+      "source_id": "DATA-CASE-MILA",
+      "title": "Mila — research, talent and industry network",
+      "publisher": "Mila",
+      "source_kind": "public_web",
+      "url": "https://mila.quebec/en/about/about-mila",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "primary",
+      "timeliness_level": "current_at_access",
+      "public_access_status": "public",
+      "license_summary": "Public webpage; verify reuse terms before reproducing content.",
+      "review_status": "background_only",
+      "usable_for_formal": false,
+      "allowed_uses": [
+        "case comparison",
+        "mechanism research",
+        "attributed reference"
+      ],
+      "prohibited_uses": [
+        "endorsement",
+        "copying brand or institutional claims",
+        "fabricating partnership"
+      ],
+      "topics": [
+        "AI ecosystem",
+        "talent",
+        "research-industry"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅作公开机制案例；机构、资助和人才制度不可直接移植。"
     }
   ]
 }

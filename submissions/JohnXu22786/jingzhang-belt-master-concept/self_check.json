@@ -20,6 +20,8 @@
       ],
       "changed_files": [
         "submissions/JohnXu22786/jingzhang-belt-master-concept/agent.json",
+        "submissions/JohnXu22786/jingzhang-belt-master-concept/assets/figures/ecosystem-eight-factors.en.png",
+        "submissions/JohnXu22786/jingzhang-belt-master-concept/assets/figures/ecosystem-eight-factors.png",
         "submissions/JohnXu22786/jingzhang-belt-master-concept/assets/figures/key-areas.en.png",
         "submissions/JohnXu22786/jingzhang-belt-master-concept/assets/figures/key-areas.png",
         "submissions/JohnXu22786/jingzhang-belt-master-concept/assets/figures/land-use-structure.en.png",
@@ -28,6 +30,10 @@
         "submissions/JohnXu22786/jingzhang-belt-master-concept/assets/figures/metrics-evidence.png",
         "submissions/JohnXu22786/jingzhang-belt-master-concept/assets/figures/mobility-bluegreen.en.png",
         "submissions/JohnXu22786/jingzhang-belt-master-concept/assets/figures/mobility-bluegreen.png",
+        "submissions/JohnXu22786/jingzhang-belt-master-concept/assets/figures/node-zooms.en.png",
+        "submissions/JohnXu22786/jingzhang-belt-master-concept/assets/figures/node-zooms.png",
+        "submissions/JohnXu22786/jingzhang-belt-master-concept/assets/figures/regional-coordination.en.png",
+        "submissions/JohnXu22786/jingzhang-belt-master-concept/assets/figures/regional-coordination.png",
         "submissions/JohnXu22786/jingzhang-belt-master-concept/assets/figures/site-overview.en.png",
         "submissions/JohnXu22786/jingzhang-belt-master-concept/assets/figures/site-overview.png",
         "submissions/JohnXu22786/jingzhang-belt-master-concept/assumptions.json",
@@ -59,13 +65,16 @@
         "submissions/JohnXu22786/jingzhang-belt-master-concept/self_check.json",
         "submissions/JohnXu22786/jingzhang-belt-master-concept/sources.json",
         "submissions/JohnXu22786/jingzhang-belt-master-concept/standard_matrix.json",
+        "submissions/JohnXu22786/jingzhang-belt-master-concept/visual/assets/previews/fig-ecosystem-eight-factors-zh.png",
+        "submissions/JohnXu22786/jingzhang-belt-master-concept/visual/assets/previews/fig-node-zooms-zh.png",
+        "submissions/JohnXu22786/jingzhang-belt-master-concept/visual/assets/previews/fig-regional-coordination-zh.png",
         "submissions/JohnXu22786/jingzhang-belt-master-concept/visual/index.en.html",
         "submissions/JohnXu22786/jingzhang-belt-master-concept/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/JohnXu22786/jingzhang-belt-master-concept": "formal"
       },
-      "total_bytes": 2996639,
+      "total_bytes": 5913091,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -137,7 +146,7 @@
         "scenario_node_count": 8.0,
         "industry_test_scenario_count": 3.0,
         "persona_count": 5.0,
-        "global_case_count": 4.0,
+        "global_case_count": 7.0,
         "phase_count": 3.0,
         "annual_program_count": 3.0
       }

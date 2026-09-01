@@ -1352,6 +1352,374 @@
       "node_sequence_contract": "唯一序列为北→中→南：绿链环（KEY-ZHON/PS-LM00）—织核庭（KEY-BEIJ/PS-LM01）—总览枢（KEY-DAZH/PS-LM02）；概念交叉引用，不是法定设施指定。",
       "implementation_evidence": "已在正文、HTML、A0/A3、visual 与矩阵中同步功能映射、节点序列和可实施证据；每个试点给出基线、目标阈值、责任角色、人工复核和退出条件。",
       "role_and_exit_evidence": "见 proposal.md 的可实施证据表：基线、目标阈值、责任角色、人工复核和退出条件。"
+    },
+    {
+      "requirement_id": "repair.regional-coordination",
+      "status": "addressed",
+      "evidence_summary_zh": "区域协同机制表与全带总图：proposal.md《区域协同接口与研究假设》及 assets/figures/regional-coordination.png，覆盖北纬社区、未来科学城、怀柔科学城、经开区、京津冀的交换要素、空间/运营接口、建议责任与研究假设。",
+      "title_zh": "repair.regional-coordination",
+      "mandatory": true,
+      "report_sections": [
+        "区域协同接口与研究假设",
+        "agent.2：八要素机制与全球案例",
+        "agent.3：十张独立场景卡与场景—空间—运营矩阵",
+        "agent.4—agent.6：空间、文化与长期运营实际交付",
+        "统一分期版本与双语核对"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio"
+      ],
+      "drawings": [
+        "drawings/a0-boards.pdf",
+        "drawings/a3-booklet.pdf"
+      ],
+      "visual_sections": [
+        "visual/index.html",
+        "visual/index.en.html"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "node_sequence_contract": "north-to-south: Green-Link Ring, Weave-Core Court, Overview Hub",
+      "implementation_evidence": "区域协同机制表与全带总图：proposal.md《区域协同接口与研究假设》及 assets/figures/regional-coordination.png，覆盖北纬社区、未来科学城、怀柔科学城、经开区、京津冀的交换要素、空间/运营接口、建议责任与研究假设。"
+    },
+    {
+      "requirement_id": "repair.agent2-eight-factors",
+      "status": "addressed",
+      "evidence_summary_zh": "proposal.md《agent.2：八要素机制与全球案例》及 assets/figures/ecosystem-eight-factors.png；7个案例在正文和 sources.json 中按来源、机制、不可移植条件、京张节点记录。",
+      "title_zh": "repair.agent2-eight-factors",
+      "mandatory": true,
+      "report_sections": [
+        "区域协同接口与研究假设",
+        "agent.2：八要素机制与全球案例",
+        "agent.3：十张独立场景卡与场景—空间—运营矩阵",
+        "agent.4—agent.6：空间、文化与长期运营实际交付",
+        "统一分期版本与双语核对"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio"
+      ],
+      "drawings": [
+        "drawings/a0-boards.pdf",
+        "drawings/a3-booklet.pdf"
+      ],
+      "visual_sections": [
+        "visual/index.html",
+        "visual/index.en.html"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "node_sequence_contract": "north-to-south: Green-Link Ring, Weave-Core Court, Overview Hub",
+      "implementation_evidence": "proposal.md《agent.2：八要素机制与全球案例》及 assets/figures/ecosystem-eight-factors.png；7个案例在正文和 sources.json 中按来源、机制、不可移植条件、京张节点记录。"
+    },
+    {
+      "requirement_id": "repair.agent3-cards",
+      "status": "addressed",
+      "evidence_summary_zh": "proposal.md《agent.3：十张独立场景卡》S01-S10与T01-T03；每卡包含数据边界、模型任务、输出、责任、人工复核、阈值、失败处理和退出条件。",
+      "title_zh": "repair.agent3-cards",
+      "mandatory": true,
+      "report_sections": [
+        "区域协同接口与研究假设",
+        "agent.2：八要素机制与全球案例",
+        "agent.3：十张独立场景卡与场景—空间—运营矩阵",
+        "agent.4—agent.6：空间、文化与长期运营实际交付",
+        "统一分期版本与双语核对"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio"
+      ],
+      "drawings": [
+        "drawings/a0-boards.pdf",
+        "drawings/a3-booklet.pdf"
+      ],
+      "visual_sections": [
+        "visual/index.html",
+        "visual/index.en.html"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "node_sequence_contract": "north-to-south: Green-Link Ring, Weave-Core Court, Overview Hub",
+      "implementation_evidence": "proposal.md《agent.3：十张独立场景卡》S01-S10与T01-T03；每卡包含数据边界、模型任务、输出、责任、人工复核、阈值、失败处理和退出条件。"
+    },
+    {
+      "requirement_id": "repair.agent4-6",
+      "status": "addressed",
+      "evidence_summary_zh": "proposal.md《agent.4—agent.6》：三处地标、荣誉展示、组件库、开发者社区、场景开放、国际招引—落地—留存转化、资源类别与年度复盘。",
+      "title_zh": "repair.agent4-6",
+      "mandatory": true,
+      "report_sections": [
+        "区域协同接口与研究假设",
+        "agent.2：八要素机制与全球案例",
+        "agent.3：十张独立场景卡与场景—空间—运营矩阵",
+        "agent.4—agent.6：空间、文化与长期运营实际交付",
+        "统一分期版本与双语核对"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio"
+      ],
+      "drawings": [
+        "drawings/a0-boards.pdf",
+        "drawings/a3-booklet.pdf"
+      ],
+      "visual_sections": [
+        "visual/index.html",
+        "visual/index.en.html"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "node_sequence_contract": "north-to-south: Green-Link Ring, Weave-Core Court, Overview Hub",
+      "implementation_evidence": "proposal.md《agent.4—agent.6》：三处地标、荣誉展示、组件库、开发者社区、场景开放、国际招引—落地—留存转化、资源类别与年度复盘。"
+    },
+    {
+      "requirement_id": "repair.accessibility",
+      "status": "addressed",
+      "evidence_summary_zh": "proposal.md《全龄与非数字替代旅程》：老人、儿童/照护者、行动/视听/认知障碍者及无智能终端旅程，纸质、人工、柜台、电话等替代。",
+      "title_zh": "repair.accessibility",
+      "mandatory": true,
+      "report_sections": [
+        "区域协同接口与研究假设",
+        "agent.2：八要素机制与全球案例",
+        "agent.3：十张独立场景卡与场景—空间—运营矩阵",
+        "agent.4—agent.6：空间、文化与长期运营实际交付",
+        "统一分期版本与双语核对"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio"
+      ],
+      "drawings": [
+        "drawings/a0-boards.pdf",
+        "drawings/a3-booklet.pdf"
+      ],
+      "visual_sections": [
+        "visual/index.html",
+        "visual/index.en.html"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "node_sequence_contract": "north-to-south: Green-Link Ring, Weave-Core Court, Overview Hub",
+      "implementation_evidence": "proposal.md《全龄与非数字替代旅程》：老人、儿童/照护者、行动/视听/认知障碍者及无智能终端旅程，纸质、人工、柜台、电话等替代。"
+    },
+    {
+      "requirement_id": "repair.phasing-audit",
+      "status": "addressed",
+      "evidence_summary_zh": "proposal.md《统一分期版本与双语核对》固定 PHASE-1.0；proposal、矩阵、phasing、HTML、A0/A3统一近期1—3年/中期3—5年/远期5—10年。",
+      "title_zh": "repair.phasing-audit",
+      "mandatory": true,
+      "report_sections": [
+        "区域协同接口与研究假设",
+        "agent.2：八要素机制与全球案例",
+        "agent.3：十张独立场景卡与场景—空间—运营矩阵",
+        "agent.4—agent.6：空间、文化与长期运营实际交付",
+        "统一分期版本与双语核对"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio"
+      ],
+      "drawings": [
+        "drawings/a0-boards.pdf",
+        "drawings/a3-booklet.pdf"
+      ],
+      "visual_sections": [
+        "visual/index.html",
+        "visual/index.en.html"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "node_sequence_contract": "north-to-south: Green-Link Ring, Weave-Core Court, Overview Hub",
+      "implementation_evidence": "proposal.md《统一分期版本与双语核对》固定 PHASE-1.0；proposal、矩阵、phasing、HTML、A0/A3统一近期1—3年/中期3—5年/远期5—10年。"
+    },
+    {
+      "requirement_id": "repair.rights-dataflow",
+      "status": "addressed",
+      "evidence_summary_zh": "proposal.md《权利边界与概念数据流》及 sources.json；名称、Logo、字体、图件、数据、代码的许可/署名/用途边界与匿名数据流明确。",
+      "title_zh": "repair.rights-dataflow",
+      "mandatory": true,
+      "report_sections": [
+        "区域协同接口与研究假设",
+        "agent.2：八要素机制与全球案例",
+        "agent.3：十张独立场景卡与场景—空间—运营矩阵",
+        "agent.4—agent.6：空间、文化与长期运营实际交付",
+        "统一分期版本与双语核对"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio"
+      ],
+      "drawings": [
+        "drawings/a0-boards.pdf",
+        "drawings/a3-booklet.pdf"
+      ],
+      "visual_sections": [
+        "visual/index.html",
+        "visual/index.en.html"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "node_sequence_contract": "north-to-south: Green-Link Ring, Weave-Core Court, Overview Hub",
+      "implementation_evidence": "proposal.md《权利边界与概念数据流》及 sources.json；名称、Logo、字体、图件、数据、代码的许可/署名/用途边界与匿名数据流明确。"
+    },
+    {
+      "requirement_id": "repair.maps",
+      "status": "addressed",
+      "evidence_summary_zh": "assets/figures/regional-coordination.png 与 node-zooms.png：全带道路/轨道/绿带/公共服务/约束图例及三节点放大，明确 provisional、非红线、待官方复核。",
+      "title_zh": "repair.maps",
+      "mandatory": true,
+      "report_sections": [
+        "区域协同接口与研究假设",
+        "agent.2：八要素机制与全球案例",
+        "agent.3：十张独立场景卡与场景—空间—运营矩阵",
+        "agent.4—agent.6：空间、文化与长期运营实际交付",
+        "统一分期版本与双语核对"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio"
+      ],
+      "drawings": [
+        "drawings/a0-boards.pdf",
+        "drawings/a3-booklet.pdf"
+      ],
+      "visual_sections": [
+        "visual/index.html",
+        "visual/index.en.html"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "node_sequence_contract": "north-to-south: Green-Link Ring, Weave-Core Court, Overview Hub",
+      "implementation_evidence": "assets/figures/regional-coordination.png 与 node-zooms.png：全带道路/轨道/绿带/公共服务/约束图例及三节点放大，明确 provisional、非红线、待官方复核。"
     }
   ]
 }
