@@ -42,6 +42,27 @@
       "statement_en": "The event system and phasing are design suggestions, not confirmed government or investment commitments.",
       "category": "operation",
       "status": "concept"
+    },
+    {
+      "assumption_id": "A-INCLUSION-001",
+      "statement_zh": "老年、残障、儿童照护、低数字与无设备旅程均提供人工/纸本/触觉/声音替代，不以设备使用作为服务前提。",
+      "statement_en": "Older, disabled, caregiver, low-digital and device-free journeys have staff, paper, tactile or audio alternatives.",
+      "category": "inclusion",
+      "status": "concept"
+    },
+    {
+      "assumption_id": "A-RIGHTS-001",
+      "statement_zh": "案例、史料、字体、地图、代码和AI输出逐项登记权利状态；reference-only 不等于再发布许可。",
+      "statement_en": "Cases, sources, fonts, maps, code and AI outputs are itemized; reference-only is not a redistribution license.",
+      "category": "rights",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-REGIONAL-001",
+      "statement_zh": "五地协同是待核的条件性接口，不代表现有合作、招商或政策承诺。",
+      "statement_en": "Regional synergy is a conditional interface pending verification, not an existing partnership or policy commitment.",
+      "category": "regional_synergy",
+      "status": "concept"
     }
   ]
 }

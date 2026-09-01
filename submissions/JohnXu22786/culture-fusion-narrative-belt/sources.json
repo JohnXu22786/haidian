@@ -40,7 +40,10 @@
         "data/processed/source_use_matrix.csv",
         "data/processed/missing_data_checklist.csv"
       ],
-      "notes_zh": "公告可作为 formal 任务依据，但其中的文字四至和面积值不能替代 official GIS/CAD polygon。"
+      "notes_zh": "公告可作为 formal 任务依据，但其中的文字四至和面积值不能替代 official GIS/CAD polygon。",
+      "accessed_at": "2026-09-01",
+      "license": "Reference only; verify reuse terms before publication",
+      "title_zh": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509"
     },
     {
       "source_id": "DATA-SRC-AGENT-TASKBOOK-20260518",
@@ -84,7 +87,10 @@
         "data/processed/source_use_matrix.csv",
         "data/processed/missing_data_checklist.csv"
       ],
-      "notes_zh": "该资料更贴近 AI agent 任务要求，可作为方案任务响应依据，但不是官方空间红线或控规条件。"
+      "notes_zh": "该资料更贴近 AI agent 任务要求，可作为方案任务响应依据，但不是官方空间红线或控规条件。",
+      "accessed_at": "2026-09-01",
+      "license": "Reference only; verify reuse terms before publication",
+      "title_zh": "DATA-SRC-AGENT-TASKBOOK-20260518"
     },
     {
       "source_id": "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
@@ -119,7 +125,10 @@
       "local_paths": [
         "brief/site-package/standards/references/mohurd-urban-design-measures.md"
       ],
-      "notes_zh": "可作为专业标准响应依据。"
+      "notes_zh": "可作为专业标准响应依据。",
+      "accessed_at": "2026-09-01",
+      "license": "Reference only; verify reuse terms before publication",
+      "title_zh": "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES"
     },
     {
       "source_id": "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
@@ -152,7 +161,10 @@
       "local_paths": [
         "brief/site-package/standards/references/mohurd-control-detailed-planning.md"
       ],
-      "notes_zh": "可要求 agent 区分已知控制与待补控制。"
+      "notes_zh": "可要求 agent 区分已知控制与待补控制。",
+      "accessed_at": "2026-09-01",
+      "license": "Reference only; verify reuse terms before publication",
+      "title_zh": "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING"
     },
     {
       "source_id": "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
@@ -184,7 +196,10 @@
       "local_paths": [
         "brief/site-package/standards/references/mnr-land-use-classification-guide.md"
       ],
-      "notes_zh": "可用于统一 land_use_code 语义。"
+      "notes_zh": "可用于统一 land_use_code 语义。",
+      "accessed_at": "2026-09-01",
+      "license": "Reference only; verify reuse terms before publication",
+      "title_zh": "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
     },
     {
       "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
@@ -232,7 +247,10 @@
         "data/processed/source_use_matrix.csv",
         "data/processed/missing_data_checklist.csv"
       ],
-      "notes_zh": "该 geometry 由维护者依据官方公告的文字四至、位置线索和约面积推定，并在 EPSG:4548 下校核；它提供三层范围和三处重点区的临时粗略 polygon，只能让 agent 先跑通生成、自检和展示，不得升级为 official boundary。2026-08-07 复核时，征集组织机构的资格预审文件下载仍受密码保护，公开渠道未找到可验证坐标系的精确红线。"
+      "notes_zh": "该 geometry 由维护者依据官方公告的文字四至、位置线索和约面积推定，并在 EPSG:4548 下校核；它提供三层范围和三处重点区的临时粗略 polygon，只能让 agent 先跑通生成、自检和展示，不得升级为 official boundary。2026-08-07 复核时，征集组织机构的资格预审文件下载仍受密码保护，公开渠道未找到可验证坐标系的精确红线。",
+      "accessed_at": "2026-09-01",
+      "license": "Reference only; verify reuse terms before publication",
+      "title_zh": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605"
     },
     {
       "source_id": "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
@@ -269,7 +287,10 @@
       "local_paths": [
         "brief/site-package/standards/references/generative-ai-interim-measures.md"
       ],
-      "notes_zh": "官方页面标注 2023-07-13 发布、2023-08-15 施行；第2条适用范围是向境内公众提供生成文本、图片、音频、视频等内容的生成式人工智能服务。第14条是违法内容与服务处置，不是一般用户退出权；第15条有投诉举报和及时处理要求，但没有法定数字响应期限；第17条安全评估、备案等表述仅针对具有舆论属性或社会动员能力的服务。快照仅供离线检索，正式引用仍以官方页面为准。"
+      "notes_zh": "官方页面标注 2023-07-13 发布、2023-08-15 施行；第2条适用范围是向境内公众提供生成文本、图片、音频、视频等内容的生成式人工智能服务。第14条是违法内容与服务处置，不是一般用户退出权；第15条有投诉举报和及时处理要求，但没有法定数字响应期限；第17条安全评估、备案等表述仅针对具有舆论属性或社会动员能力的服务。快照仅供离线检索，正式引用仍以官方页面为准。",
+      "accessed_at": "2026-09-01",
+      "license": "Reference only; verify reuse terms before publication",
+      "title_zh": "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES"
     },
     {
       "source_id": "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
@@ -303,12 +324,15 @@
       "local_paths": [
         "brief/site-package/standards/references/barrier-free-environment-law.md"
       ],
-      "notes_zh": "法律于 2023-06-28 通过（人大常委会通过/公布），gov.cn/Xinhua 页面于 2023-06-29 发布；2023-09-01 起施行。第39条的现场指导、人工办理边界仅限正文列举的医疗、社会保障、金融、生活缴费等服务事项公共服务场所，不能泛化为所有公共空间或数字界面。快照仅供离线检索，具体场所合规仍需单独判断。"
+      "notes_zh": "法律于 2023-06-28 通过（人大常委会通过/公布），gov.cn/Xinhua 页面于 2023-06-29 发布；2023-09-01 起施行。第39条的现场指导、人工办理边界仅限正文列举的医疗、社会保障、金融、生活缴费等服务事项公共服务场所，不能泛化为所有公共空间或数字界面。快照仅供离线检索，具体场所合规仍需单独判断。",
+      "accessed_at": "2026-09-01",
+      "license": "Reference only; verify reuse terms before publication",
+      "title_zh": "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
     },
     {
       "source_id": "PACKAGE-GEOMETRY",
       "title": "本方案 geometry 层(provisional 概念设计)",
-      "publisher": "JohnXu22786 / dsh-haidian-agent",
+      "publisher": "JohnXu22786 / this submission",
       "source_kind": "agent_generated_design",
       "url": "geometry/",
       "published_date": "2026-08-24",
@@ -317,7 +341,7 @@
       "authority_level": "SELF-DECLARED",
       "timeliness_level": "T0",
       "public_access_status": "cleared_for_repo",
-      "license_summary": "Original AI-generated design geometry, free for repository display.",
+      "license_summary": "Submission-authored provisional design geometry; display and review only under the package license.",
       "review_status": "self_reviewed",
       "usable_for_formal": "provisional_only",
       "allowed_uses": [
@@ -334,10 +358,143 @@
       ],
       "notes_zh": "参与方自产设计几何，标注 provisional。",
       "provenance": {
-        "generator": "deepseek-v4-flash via DeepSeek Harness + deterministic build script",
-        "generation_method": "concept prompting + geometry program",
-        "limitations": "low confidence conceptual envelopes"
-      }
+        "generator": "inherited package geometry; current staging repair reviewed the deterministic geometry inputs",
+        "generation_method": "concept design inputs and deterministic geometry build",
+        "limitations": "low confidence conceptual envelopes; original generation provenance is inherited and does not establish official data"
+      },
+      "accessed_at": "2026-09-01",
+      "license": "Reference only; verify reuse terms before publication",
+      "title_zh": "PACKAGE-GEOMETRY"
+    },
+    {
+      "source_id": "CASE-HIGHLINE",
+      "title_zh": "High Line 官方网站（机制参照）",
+      "title_en": "High Line (mechanism reference)",
+      "publisher": "Friends of the High Line",
+      "url": "https://www.thehighline.org/",
+      "accessed_at": "2026-09-01",
+      "license": "Reference-only; no asset reuse",
+      "intended_use": "linear heritage/public-space mechanism reference"
+    },
+    {
+      "source_id": "CASE-ZOLLVEREIN",
+      "title_zh": "Zollverein 官方网站（机制参照）",
+      "title_en": "Zollverein (mechanism reference)",
+      "publisher": "Zollverein Foundation",
+      "url": "https://www.zollverein.de/",
+      "accessed_at": "2026-09-01",
+      "license": "Reference-only; no asset reuse",
+      "intended_use": "industrial heritage/creative ecology mechanism reference"
+    },
+    {
+      "source_id": "CASE-KINGS-CROSS",
+      "title_zh": "King's Cross 官方网站（机制参照）",
+      "title_en": "King's Cross (mechanism reference)",
+      "publisher": "King's Cross",
+      "url": "https://www.kingscross.co.uk/",
+      "accessed_at": "2026-09-01",
+      "license": "Reference-only; no asset reuse",
+      "intended_use": "railway district/knowledge economy mechanism reference"
+    },
+    {
+      "source_id": "CASE-MAAch",
+      "title_zh": "万世桥 mAAch ecute 官方网站（机制参照）",
+      "title_en": "mAAch ecute Manseibashi (mechanism reference)",
+      "publisher": "JR East Cross Station",
+      "url": "https://www.maach-ecute.com/",
+      "accessed_at": "2026-09-01",
+      "license": "Reference-only; no asset reuse",
+      "intended_use": "station heritage/small-scale activation reference"
+    },
+    {
+      "source_id": "CASE-SHOUGANG",
+      "title_zh": "首钢园公开入口（机制参照）",
+      "title_en": "Shougang Park (mechanism reference)",
+      "publisher": "Shougang Park",
+      "url": "https://www.shougang.com.cn/",
+      "accessed_at": "2026-09-01",
+      "license": "Reference-only; no asset reuse",
+      "intended_use": "industrial heritage/new-use reference"
+    },
+    {
+      "source_id": "CASE-YANGPU",
+      "title_zh": "杨浦滨江公开入口（机制参照）",
+      "title_en": "Yangpu Riverside (mechanism reference)",
+      "publisher": "Shanghai Yangpu District",
+      "url": "https://www.yangpu.gov.cn/",
+      "accessed_at": "2026-09-01",
+      "license": "Reference-only; no asset reuse",
+      "intended_use": "continuous public-space/industrial heritage reference"
+    }
+  ],
+  "rights_ledger": [
+    {
+      "asset_scope": "proposal.md, proposal.en.md, report/narrative.md, report/copyright_statement.md and original concept wording",
+      "rights_holder": "JohnXu22786 / this submission",
+      "status": "submission-authored; review copy",
+      "license": "COMMUNITY-DISPLAY-ONLY",
+      "allowed_use": "review and community display within stated terms",
+      "restriction": "not a claim of official data, approval, partnership or third-party endorsement",
+      "local_paths": ["proposal.md", "proposal.en.md", "report/narrative.md", "report/copyright_statement.md"]
+    },
+    {
+      "asset_scope": "geometry/*.geojson and package-authored diagrams, figures and PDF boards",
+      "rights_holder": "JohnXu22786 / this submission",
+      "status": "submission-authored provisional design assets",
+      "license": "COMMUNITY-DISPLAY-ONLY",
+      "allowed_use": "concept review, machine checking and community display within stated terms",
+      "restriction": "not an official map, survey, redline, statutory control or construction commitment",
+      "local_paths": ["geometry/", "assets/figures/", "drawings/"]
+    },
+    {
+      "asset_scope": "report/*.html and visual/*.html presentation files",
+      "rights_holder": "JohnXu22786 / this submission",
+      "status": "submission-authored presentation assets",
+      "license": "COMMUNITY-DISPLAY-ONLY",
+      "allowed_use": "offline review and community display within stated terms",
+      "restriction": "embedded font subset and referenced source names do not grant rights to external page assets",
+      "local_paths": ["report/proposal.html", "report/proposal.en.html", "visual/index.html", "visual/index.en.html"]
+    },
+    {
+      "asset_scope": "Noto Sans SC font used in local raster, PDF and HTML rendering",
+      "rights_holder": "font publisher; local rendering environment",
+      "status": "rendering input; no standalone font package submitted",
+      "license": "verify publisher terms before redistribution",
+      "allowed_use": "local rendering and review only unless separately cleared",
+      "restriction": "HTML uses an embedded subset only and does not rely on a CDN"
+    },
+    {
+      "asset_scope": "public historical, planning, regulatory and accessibility source text",
+      "rights_holder": "respective publishers and public authorities",
+      "status": "source-led; historical interpretation pending specialist verification",
+      "license": "follow each source's terms; attribution required where reused",
+      "allowed_use": "research, boundary setting and cited concept framing",
+      "restriction": "source availability is not permission to reproduce protected text, images or page presentation"
+    },
+    {
+      "asset_scope": "provisional source geometry and any future map/base-layer material",
+      "rights_holder": "respective data publisher or provider; current package geometry is submission-authored",
+      "status": "current geometry is provisional; no external base-map asset is submitted",
+      "license": "reference-only until provider terms and official boundary are confirmed",
+      "allowed_use": "offline concept visualization and later recomputation",
+      "restriction": "do not publish as an official boundary or infer ownership, heritage protection or utility capacity"
+    },
+    {
+      "asset_scope": "six named case studies and their official links",
+      "rights_holder": "respective publishers",
+      "status": "reference-only mechanism comparison",
+      "license": "no third-party image, logo or brand-identity reuse",
+      "allowed_use": "attributed mechanism comparison using short factual descriptions",
+      "restriction": "do not imply endorsement, copy identity or claim unverified outcomes",
+      "source_ids": ["CASE-HIGHLINE", "CASE-ZOLLVEREIN", "CASE-KINGS-CROSS", "CASE-MAAch", "CASE-SHOUGANG", "CASE-YANGPU"]
+    },
+    {
+      "asset_scope": "AI-assisted draft text, generated visual outputs and future public submissions",
+      "rights_holder": "to be confirmed for each output and contributor",
+      "status": "pending human rights and provenance review",
+      "license": "do not publish externally until cleared",
+      "allowed_use": "internal concept review and controlled pilot preparation",
+      "restriction": "retain provenance, human review, appeal, correction and takedown records; no unidentified third-party asset is cleared"
     }
   ]
 }

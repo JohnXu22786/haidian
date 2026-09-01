@@ -154,26 +154,28 @@
     },
     "persona_count": {
       "status": "known",
-      "value": 5,
+      "value": 7,
       "unit": "count",
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(representative user groups)",
+      "formula": "count(representative user groups including access needs)",
       "confidence": "high",
       "assumptions": []
     },
     "global_case_count": {
       "status": "known",
-      "value": 4,
+      "value": 6,
       "unit": "count",
       "source_files": [
         "proposal.md",
         "sources.json"
       ],
-      "formula": "count(global ecosystem mechanism cases)",
+      "formula": "count(reference-only global mechanism cases)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Case names and links are mechanism references; no third-party asset is republished."
+      ]
     },
     "phase_count": {
       "status": "known",
@@ -193,7 +195,31 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(annual event system)",
+      "formula": "count(proposed annual program families)",
+      "confidence": "high",
+      "assumptions": [
+        "Suggested rhythms, not confirmed events."
+      ]
+    },
+    "scenario_card_count": {
+      "status": "known",
+      "value": 10,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(SC-01..SC-10 cards with input, space, human output, acceptance and exit)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "industry_test_protocol_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(TP-01..TP-03 protocols)",
       "confidence": "high",
       "assumptions": []
     }
