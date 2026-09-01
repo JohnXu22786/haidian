@@ -10,6 +10,7 @@
       "ok": true,
       "errors": [],
       "warnings": [
+        "submissions/JohnXu22786/night-economy-lightscape/self_check.json: formal submission has blocking failed self-check `DETERMINISTIC_VALIDATION`; pending self-check replacement",
         "submissions/JohnXu22786/night-economy-lightscape/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
       ],
       "proposal_files": [
@@ -89,7 +90,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/night-economy-lightscape": "formal"
       },
-      "total_bytes": 13365216,
+      "total_bytes": 17371583,
       "maintainer_bypass": false
     },
     "stderr": ""

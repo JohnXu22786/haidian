@@ -16,7 +16,7 @@
     "model_detail": "opencode non-interactive run; package assembly, validation and PR opened by a Hermes orchestrator subagent on behalf of JohnXu22786. Round-2 repair: bilingual v2 completion, offline font embedding, figure/redraw and substantive content completion for CocoSgt CHANGES_REQUESTED items.",
     "generated_with": "scripts/scaffold_ai_submission.py + deterministic build_package.py + gen_oc_pkg.py (round-2 repair regenerated figures/PDFs/HTML via matplotlib + render_proposal_html.py)"
   },
-  "generated_at": "2026-08-24T07:12:55Z",
+  "generated_at": "2026-09-01T07:31:19Z",
   "files": [
     {
       "path": "manifest.json",
@@ -65,7 +65,7 @@
       "required": false,
       "language": "en",
       "translation_of": "assets/figures/land-use-structure.png",
-      "sha256": "a6544b11aa0432403fe7d1a4ce187b234257bbd8d723bb94b2e3045e2fede5d7"
+      "sha256": "66ce577f6b0a4c6371f74f8996e7c5a79020a9d9a201d74393ef3826a732f208"
     },
     {
       "path": "assets/figures/land-use-structure.png",
@@ -87,14 +87,14 @@
       "required": false,
       "language": "en",
       "translation_of": "assets/figures/metrics-evidence.png",
-      "sha256": "171556a446c4248d31c0b1c6176dbf0640431f29afad05bc475d2d88d0d34c0a"
+      "sha256": "a5e2d7b6775ac344679bb3fd15a1190b8411b05aecf9cf1c0984fc912d89b5c2"
     },
     {
       "path": "assets/figures/metrics-evidence.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "b9ea4ef38c8adfdbcc2f464f99b98576715484b814dbd2ebde62cbb409d4ba85"
+      "sha256": "18e41dbe52ce0ad5adaee7460e8540fca0e1de74c11d7724c5d1a7e3ab605ac1"
     },
     {
       "path": "assets/figures/mobility-bluegreen.en.png",
@@ -171,14 +171,14 @@
       "required": false,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "aafd5836fc262ede99fc55af17b7ddd2a4385d834413bba026cbdf4f26dc9311"
+      "sha256": "1189361524782429f86d1b5c8bfefb1f9bd66fe81d9f17f461a0ff400d5469bb"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "9133f34d646f285b27aa77b50e668e797d150712c8e83ddcad77ba2e8cde8360"
+      "sha256": "2e41b6f0584a7f64dd0b9d8e841bf69c3f614bd9d6abc4e756af8ca1487e9790"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -186,14 +186,14 @@
       "required": false,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "29c8701c9e22aa91fa0e000a843d24b89a7437051fcb56fb69fa06dc27426d97"
+      "sha256": "3616e2da5fd71873cacc0c7c3b7ae1f790dc0990206e67198c12b3cdeb7c5a45"
     },
     {
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "41dc99b6fe7f4ba7714150fb146da03bb0fbc71943742a670baaadcd2a8f02a5"
+      "sha256": "478d8b9569e3796bf0b162152db0b2048c680eae0636203b0daf9f5cf845e915"
     },
     {
       "path": "geometry/buildings.geojson",
@@ -288,20 +288,20 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "71a9b700062dc2ac4780fb88c9b624c884dbfaf7475a1af97c17348f6b039bf6"
+      "sha256": "4a0ef8bae7b55e8a044cb8eac7a3569d0299cfb9aae4ad4cca495deeca9deff1"
     },
     {
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "6498795a87c4f73a55cb7c41cb2d9c37e970b225ae4a795a5cc2fcc88a7a07b0"
+      "sha256": "5f78870b8966e8f6d9b03d07e9fe6b7e95273d9e97b242c078741f92be6120e1"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "a24375d76f2856b12f6a453957122a2a4b4f84b0c0d3622fe71336c0287e7fec"
+      "sha256": "e363814c8dc32cbbe40cc791a48a9f72dcdc823fa7029e81aa72d667c62e47a4"
     },
     {
       "path": "sources.json",
@@ -321,14 +321,14 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "58e72cc42ef5fc02640d9ee097c081aaabd36ae925a5276220be6c5d48be6cf1"
+      "sha256": "e3aa913ec9fe4444240f9b23b8ba5e7b9bdb972142e757ed560cd9dd4c69d597"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "8798c256a9948abef413ea0bf2afd3dd0974ad952d42ca8ca465ac61b4f4f76d"
+      "sha256": "da5d40b1192c3ebd39b9097193d48389639fcf4d3ea4b9678fd8b4dec0467cad"
     },
     {
       "path": "assets/figures/ai-ecosystem.png",
