@@ -178,13 +178,14 @@
     },
     "global_case_count": {
       "status": "known",
-      "value": 4,
+      "value": 8,
       "unit": "count",
       "source_files": [
         "proposal.md",
+        "assets/figures/ecosystem-atlas.png",
         "sources.json"
       ],
-      "formula": "count(global ecosystem mechanism cases)",
+      "formula": "count(unique global mechanism case IDs C01-C08 with source IDs)",
       "confidence": "high",
       "assumptions": []
     },
@@ -209,6 +210,33 @@
       "formula": "count(annual event system)",
       "confidence": "high",
       "assumptions": []
+    },
+    "scenario_card_count": {
+      "status": "known",
+      "value": 10,
+      "unit": "cards",
+      "source_files": [
+        "proposal.md",
+        "assets/figures/scenario-cards.png"
+      ],
+      "formula": "count(S01-S10)",
+      "confidence": "medium",
+      "assumptions": [
+        "Concept test cards; not deployed systems."
+      ]
+    },
+    "scene_protocol_mapping_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "protocols",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(P01-P03)",
+      "confidence": "medium",
+      "assumptions": [
+        "Concept protocols pending authority and operator review."
+      ]
     }
   }
 }

@@ -42,6 +42,13 @@
       "statement_en": "The event system and phasing are design suggestions, not confirmed government or investment commitments.",
       "category": "operation",
       "status": "concept"
+    },
+    {
+      "assumption_id": "A-VISUAL-APPROX-001",
+      "title": "Public displays use rounded provisional values",
+      "status": "provisional",
+      "statement": "Human-readable figures and HTML use approximate area/ratio values; exact formulas remain in metrics.json and must be recalculated with official GIS.",
+      "exit_condition": "Official geometry and data are supplied."
     }
   ]
 }

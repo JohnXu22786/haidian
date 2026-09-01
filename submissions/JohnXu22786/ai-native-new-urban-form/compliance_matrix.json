@@ -6,7 +6,8 @@
       "title_zh": "构建世界级AI创新生态体系",
       "mandatory": true,
       "report_sections": [
-        "三层范围工作框架",
+        "统筹研究范围产业与未来城市研究",
+        "AI 创新生态、人才画像与 AI+ 场景",
         "指标体系、面积复算与合规矩阵"
       ],
       "geojson_layers": [
@@ -20,11 +21,10 @@
         "geometry/phasing.geojson"
       ],
       "metrics": [
-        "annual_program_count",
-        "building_footprint_area_sqm",
-        "building_unit_count",
         "global_case_count",
-        "green_ratio"
+        "scenario_card_count",
+        "scene_protocol_mapping_count",
+        "annual_program_count"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -32,6 +32,7 @@
       ],
       "visual_sections": [
         "总览地图",
+        "八要素生态图谱",
         "核心指标",
         "任务覆盖"
       ],
@@ -66,7 +67,9 @@
       "title_zh": "建设适配AI新质生产力的新型城市形态",
       "mandatory": true,
       "report_sections": [
-        "重点区域详细设计"
+        "总体设计范围城市更新与控规深度城市设计",
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -87,12 +90,16 @@
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
+        "drawings/a0-boards.pdf",
+        "assets/figures/east-west-seam.png",
+        "assets/figures/north-south-continuity.png",
+        "assets/figures/dazhongsi-commerce.png"
       ],
       "visual_sections": [
-        "总览地图",
-        "核心指标",
-        "任务覆盖"
+        "重点区域",
+        "东西缝合",
+        "南北贯通",
+        "大钟寺智能原生消费/商务"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -1341,6 +1348,123 @@
         "PROFESSIONAL_EVIDENCE"
       ],
       "evidence_summary_zh": "年度活动体系：新型城市形态开放日、智纹装置艺术周、元胞市集，辅以月度常规活动（概念）。"
+    },
+    {
+      "requirement_id": "AGENT-2-GLOBAL-CASES",
+      "title_zh": "agent.2 八个全球机制案例与八要素图谱",
+      "mandatory": true,
+      "report_sections": [
+        "统筹研究范围产业与未来城市研究"
+      ],
+      "metrics": [
+        "global_case_count"
+      ],
+      "drawings": [
+        "assets/figures/ecosystem-atlas.png",
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "八要素生态图谱"
+      ],
+      "source_ids": [
+        "SRC-GLOBAL-HIGHLINE",
+        "SRC-GLOBAL-SEOULLO",
+        "SRC-GLOBAL-FABCITY",
+        "SRC-GLOBAL-STATIONF",
+        "SRC-GLOBAL-AIVERIFY",
+        "SRC-GLOBAL-NIST-AI-RMF",
+        "SRC-GLOBAL-606",
+        "SRC-GLOBAL-ALGO-REGISTER"
+      ],
+      "evidence_summary_zh": "C01-C08均有机制、在地转译和不可推断边界。",
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ]
+    },
+    {
+      "requirement_id": "AGENT-4-SPECIALIZED-RESULTS",
+      "title_zh": "agent.4 三张专项成果图",
+      "mandatory": true,
+      "report_sections": [
+        "重点区域详细设计"
+      ],
+      "drawings": [
+        "assets/figures/east-west-seam.png",
+        "assets/figures/north-south-continuity.png",
+        "assets/figures/dazhongsi-commerce.png"
+      ],
+      "visual_sections": [
+        "东西缝合",
+        "南北贯通",
+        "大钟寺智能原生消费/商务"
+      ],
+      "evidence_summary_zh": "每张图均含空间类型、旅程、公共价值、运营责任、安全门槛和退出。",
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson"
+      ],
+      "metrics": [
+        "global_case_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ]
+    },
+    {
+      "requirement_id": "AGENT-5-CULTURE-SYSTEM",
+      "title_zh": "agent.5 三层文化系统与双语传播",
+      "mandatory": true,
+      "report_sections": [
+        "蓝绿空间、公共空间与城市风貌",
+        "风险、版权与合规说明"
+      ],
+      "drawings": [
+        "assets/figures/culture-system.png",
+        "assets/figures/logo-cell-jz.png"
+      ],
+      "visual_sections": [
+        "文化系统与标识边界"
+      ],
+      "evidence_summary_zh": "历史、中关村、AI新文化分层；文化标识与CELL·JZ Logo分开；记录权利状态。",
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson"
+      ],
+      "metrics": [
+        "global_case_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ]
     }
   ]
 }

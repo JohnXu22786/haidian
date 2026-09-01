@@ -305,48 +305,312 @@
       ],
       "notes_zh": "法律于 2023-06-28 通过（人大常委会通过/公布），gov.cn/Xinhua 页面于 2023-06-29 发布；2023-09-01 起施行。第39条的现场指导、人工办理边界仅限正文列举的医疗、社会保障、金融、生活缴费等服务事项公共服务场所，不能泛化为所有公共空间或数字界面。快照仅供离线检索，具体场所合规仍需单独判断。"
     },
-  {
-    "source_id": "PACKAGE-GEOMETRY",
-    "title": "本方案自产 geometry 层（provisional 概念设计）",
-    "publisher": "JohnXu22786",
-    "source_kind": "participant_authored_design",
-    "url": "geometry/",
-    "published_date": "2026-08-31",
-    "accessed_date": "2026-08-31",
-    "file_type": "geojson",
-    "authority_level": "SELF-DECLARED",
-    "timeliness_level": "T0",
-    "public_access_status": "cleared_for_repo",
-    "license_summary": "Participant-authored concept geometry licensed for repository display and review only; no statutory, construction or commercial-use permission is granted.",
-    "review_status": "provenance_closed",
-    "usable_for_formal": "provisional_only",
-    "allowed_uses": [
-      "design intent visualization",
-      "machine validation",
-      "review and discussion"
-    ],
-    "prohibited_uses": [
-      "official boundary",
-      "statutory control",
-      "construction commitment",
-      "commercial reuse without separate permission"
-    ],
-    "topics": [
-      "geometry"
-    ],
-    "notes_zh": "作者为 JohnXu22786；无继承或复制的第三方几何，未嵌入外部底图。创建日期 2026-08-24，最后人工修改日期 2026-08-31；仅为 provisional 概念几何，官方数据到位后按同一公式复算。",
-    "provenance": {
-      "author": "JohnXu22786",
-      "inherited_source": "none; polygons authored for this package",
-      "created_at": "2026-08-24",
-      "modified_at": "2026-08-31",
-      "generation_tool": "GeoJSON editing and Python geometry checks under direct Codex review",
-      "model": "No external model or external asset is embedded in the geometry files",
-      "human_edits": "Manual review of feature IDs, provisional flags, land-use labels and count semantics",
-      "basemap": "none; no third-party basemap or copied coordinate layer embedded",
-      "license": "COMMUNITY-DISPLAY-ONLY; repository display, machine validation and review; no statutory or construction use",
-      "limitations": "Conceptual envelopes with low confidence; official boundary, ownership, control conditions and engineering data remain to be verified"
+    {
+      "source_id": "PACKAGE-GEOMETRY",
+      "title": "本方案自产 geometry 层（provisional 概念设计）",
+      "publisher": "JohnXu22786",
+      "source_kind": "participant_authored_design",
+      "url": "geometry/",
+      "published_date": "2026-08-31",
+      "accessed_date": "2026-08-31",
+      "file_type": "geojson",
+      "authority_level": "SELF-DECLARED",
+      "timeliness_level": "T0",
+      "public_access_status": "cleared_for_repo",
+      "license_summary": "Participant-authored concept geometry licensed for repository display and review only; no statutory, construction or commercial-use permission is granted.",
+      "review_status": "provenance_closed",
+      "usable_for_formal": "provisional_only",
+      "allowed_uses": [
+        "design intent visualization",
+        "machine validation",
+        "review and discussion"
+      ],
+      "prohibited_uses": [
+        "official boundary",
+        "statutory control",
+        "construction commitment",
+        "commercial reuse without separate permission"
+      ],
+      "topics": [
+        "geometry"
+      ],
+      "notes_zh": "作者为 JohnXu22786；无继承或复制的第三方几何，未嵌入外部底图。创建日期 2026-08-24，最后人工修改日期 2026-08-31；仅为 provisional 概念几何，官方数据到位后按同一公式复算。",
+      "provenance": {
+        "author": "JohnXu22786",
+        "inherited_source": "none; polygons authored for this package",
+        "created_at": "2026-08-24",
+        "modified_at": "2026-08-31",
+        "generation_tool": "GeoJSON editing and Python geometry checks under direct Codex review",
+        "model": "No external model or external asset is embedded in the geometry files",
+        "human_edits": "Manual review of feature IDs, provisional flags, land-use labels and count semantics",
+        "basemap": "none; no third-party basemap or copied coordinate layer embedded",
+        "license": "COMMUNITY-DISPLAY-ONLY; repository display, machine validation and review; no statutory or construction use",
+        "limitations": "Conceptual envelopes with low confidence; official boundary, ownership, control conditions and engineering data remain to be verified"
+      }
+    },
+    {
+      "source_id": "SRC-GLOBAL-HIGHLINE",
+      "title": "The High Line",
+      "publisher": "Friends of the High Line",
+      "source_kind": "global_case_reference",
+      "url": "https://www.thehighline.org/",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public reference page; text mechanism comparison with attribution. No image, logo, dataset or brand reuse assumed.",
+      "review_status": "reference_only",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "mechanism comparison",
+        "attributed text reference",
+        "local translation with explicit boundary"
+      ],
+      "prohibited_uses": [
+        "partnership or endorsement claim",
+        "copying visual assets or branding",
+        "inferring local performance, approval or scale"
+      ],
+      "topics": [
+        "global_case",
+        "ecosystem",
+        "public_space",
+        "ai_governance"
+      ],
+      "notes_zh": "公开机制参考；不代表合作、授权、认证或本地绩效。"
+    },
+    {
+      "source_id": "SRC-GLOBAL-SEOULLO",
+      "title": "Seoullo 7017 Skygarden",
+      "publisher": "Seoul Metropolitan Government",
+      "source_kind": "global_case_reference",
+      "url": "https://english.seoul.go.kr/seoullo-7017-skygarden/",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public reference page; text mechanism comparison with attribution. No image, logo, dataset or brand reuse assumed.",
+      "review_status": "reference_only",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "mechanism comparison",
+        "attributed text reference",
+        "local translation with explicit boundary"
+      ],
+      "prohibited_uses": [
+        "partnership or endorsement claim",
+        "copying visual assets or branding",
+        "inferring local performance, approval or scale"
+      ],
+      "topics": [
+        "global_case",
+        "ecosystem",
+        "public_space",
+        "ai_governance"
+      ],
+      "notes_zh": "公开机制参考；不代表合作、授权、认证或本地绩效。"
+    },
+    {
+      "source_id": "SRC-GLOBAL-FABCITY",
+      "title": "Fab City Global Initiative",
+      "publisher": "Fab City Foundation",
+      "source_kind": "global_case_reference",
+      "url": "https://fab.city/",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public reference page; text mechanism comparison with attribution. No image, logo, dataset or brand reuse assumed.",
+      "review_status": "reference_only",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "mechanism comparison",
+        "attributed text reference",
+        "local translation with explicit boundary"
+      ],
+      "prohibited_uses": [
+        "partnership or endorsement claim",
+        "copying visual assets or branding",
+        "inferring local performance, approval or scale"
+      ],
+      "topics": [
+        "global_case",
+        "ecosystem",
+        "public_space",
+        "ai_governance"
+      ],
+      "notes_zh": "公开机制参考；不代表合作、授权、认证或本地绩效。"
+    },
+    {
+      "source_id": "SRC-GLOBAL-STATIONF",
+      "title": "Station F",
+      "publisher": "Station F",
+      "source_kind": "global_case_reference",
+      "url": "https://stationf.co/",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public reference page; text mechanism comparison with attribution. No image, logo, dataset or brand reuse assumed.",
+      "review_status": "reference_only",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "mechanism comparison",
+        "attributed text reference",
+        "local translation with explicit boundary"
+      ],
+      "prohibited_uses": [
+        "partnership or endorsement claim",
+        "copying visual assets or branding",
+        "inferring local performance, approval or scale"
+      ],
+      "topics": [
+        "global_case",
+        "ecosystem",
+        "public_space",
+        "ai_governance"
+      ],
+      "notes_zh": "公开机制参考；不代表合作、授权、认证或本地绩效。"
+    },
+    {
+      "source_id": "SRC-GLOBAL-AIVERIFY",
+      "title": "AI Verify Foundation",
+      "publisher": "AI Verify Foundation",
+      "source_kind": "global_case_reference",
+      "url": "https://aiverifyfoundation.sg/",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public reference page; text mechanism comparison with attribution. No image, logo, dataset or brand reuse assumed.",
+      "review_status": "reference_only",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "mechanism comparison",
+        "attributed text reference",
+        "local translation with explicit boundary"
+      ],
+      "prohibited_uses": [
+        "partnership or endorsement claim",
+        "copying visual assets or branding",
+        "inferring local performance, approval or scale"
+      ],
+      "topics": [
+        "global_case",
+        "ecosystem",
+        "public_space",
+        "ai_governance"
+      ],
+      "notes_zh": "公开机制参考；不代表合作、授权、认证或本地绩效。"
+    },
+    {
+      "source_id": "SRC-GLOBAL-NIST-AI-RMF",
+      "title": "AI Risk Management Framework",
+      "publisher": "National Institute of Standards and Technology",
+      "source_kind": "global_case_reference",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public reference page; text mechanism comparison with attribution. No image, logo, dataset or brand reuse assumed.",
+      "review_status": "reference_only",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "mechanism comparison",
+        "attributed text reference",
+        "local translation with explicit boundary"
+      ],
+      "prohibited_uses": [
+        "partnership or endorsement claim",
+        "copying visual assets or branding",
+        "inferring local performance, approval or scale"
+      ],
+      "topics": [
+        "global_case",
+        "ecosystem",
+        "public_space",
+        "ai_governance"
+      ],
+      "notes_zh": "公开机制参考；不代表合作、授权、认证或本地绩效。"
+    },
+    {
+      "source_id": "SRC-GLOBAL-606",
+      "title": "The 606",
+      "publisher": "606 Conservancy",
+      "source_kind": "global_case_reference",
+      "url": "https://www.the606.org/",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public reference page; text mechanism comparison with attribution. No image, logo, dataset or brand reuse assumed.",
+      "review_status": "reference_only",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "mechanism comparison",
+        "attributed text reference",
+        "local translation with explicit boundary"
+      ],
+      "prohibited_uses": [
+        "partnership or endorsement claim",
+        "copying visual assets or branding",
+        "inferring local performance, approval or scale"
+      ],
+      "topics": [
+        "global_case",
+        "ecosystem",
+        "public_space",
+        "ai_governance"
+      ],
+      "notes_zh": "公开机制参考；不代表合作、授权、认证或本地绩效。"
+    },
+    {
+      "source_id": "SRC-GLOBAL-ALGO-REGISTER",
+      "title": "Algorithm Register",
+      "publisher": "Dutch Government",
+      "source_kind": "global_case_reference",
+      "url": "https://algoritmes.overheid.nl/en",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public reference page; text mechanism comparison with attribution. No image, logo, dataset or brand reuse assumed.",
+      "review_status": "reference_only",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "mechanism comparison",
+        "attributed text reference",
+        "local translation with explicit boundary"
+      ],
+      "prohibited_uses": [
+        "partnership or endorsement claim",
+        "copying visual assets or branding",
+        "inferring local performance, approval or scale"
+      ],
+      "topics": [
+        "global_case",
+        "ecosystem",
+        "public_space",
+        "ai_governance"
+      ],
+      "notes_zh": "公开机制参考；不代表合作、授权、认证或本地绩效。"
     }
-  }
   ]
 }

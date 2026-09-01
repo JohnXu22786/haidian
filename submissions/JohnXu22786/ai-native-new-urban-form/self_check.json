@@ -10,8 +10,8 @@
       "ok": true,
       "errors": [],
       "warnings": [
-        "submissions/JohnXu22786/ai-native-new-urban-form/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
-        "submissions/JohnXu22786/ai-native-new-urban-form/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible"
+        "submissions/JohnXu22786/ai-native-new-urban-form/proposal.md: 可能涉及非公开或敏感资料; maintainer review required",
+        "submissions/JohnXu22786/ai-native-new-urban-form/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
       ],
       "proposal_files": [
         "submissions/JohnXu22786/ai-native-new-urban-form/proposal.md"
@@ -21,16 +21,32 @@
       ],
       "changed_files": [
         "submissions/JohnXu22786/ai-native-new-urban-form/agent.json",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/culture-system.en.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/culture-system.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/dazhongsi-commerce.en.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/dazhongsi-commerce.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/east-west-seam.en.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/east-west-seam.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/ecosystem-atlas.en.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/ecosystem-atlas.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/key-areas.en.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/key-areas.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/land-use-structure.en.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/land-use-structure.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/logo-cell-jz.en.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/logo-cell-jz.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/metrics-evidence.en.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/metrics-evidence.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/mobility-bluegreen.en.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/mobility-bluegreen.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/north-south-continuity.en.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/north-south-continuity.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/scenario-cards.en.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/scenario-cards.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/site-overview.en.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assets/figures/site-overview.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/previews/visual-index.en.png",
+        "submissions/JohnXu22786/ai-native-new-urban-form/assets/previews/visual-index.png",
         "submissions/JohnXu22786/ai-native-new-urban-form/assumptions.json",
         "submissions/JohnXu22786/ai-native-new-urban-form/changelog.md",
         "submissions/JohnXu22786/ai-native-new-urban-form/compliance_matrix.json",
@@ -66,7 +82,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/ai-native-new-urban-form": "formal"
       },
-      "total_bytes": 2998831,
+      "total_bytes": 10390100,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -126,9 +142,7 @@
       "metrics_seen": {
         "site_area_sqm": 11412825.386,
         "green_ratio": 0.110044,
-        "land_use_feature_count": 27.0,
-        "public_space_ratio": 0.003167,
-        "persona_count": 5.0
+        "public_space_ratio": 0.003167
       }
     },
     "stderr": ""
@@ -141,16 +155,16 @@
       "issues": [],
       "summary": {
         "standard_matrix_items": 5,
-        "design_depth_items": 15,
-        "known_metric_refs_required": 18,
+        "design_depth_items": 18,
+        "known_metric_refs_required": 20,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 8,
-          "standard": 3,
-          "depth": 9,
-          "data": 7,
-          "metric": 10
+          "source": 6,
+          "standard": 1,
+          "depth": 4,
+          "data": 0,
+          "metric": 2
         }
       }
     },
@@ -167,9 +181,7 @@
   "can_enter_formal_review": true,
   "package_type": "professional_design_package",
   "review_status": "formal-review-ready",
-  "next_actions": [
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-native-new-urban-form/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible"
-  ],
+  "next_actions": [],
   "schema_version": "0.1.0",
   "checks": [
     {
