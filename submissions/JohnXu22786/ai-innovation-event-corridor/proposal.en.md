@@ -296,6 +296,21 @@ No face, voiceprint, address, device identifier or unnecessary trajectory is col
 
 ## References and provenance
 
+## RELAY·JZ visual identity specification (concept)
+
+RELAY·JZ is the shared identity for the Jingzhang AI Innovation Event Corridor. It translates the continuity of the Jingzhang railway and the repeatable loop of AI pilots into a relay mark. The master mark is two equal-weight angular loop bands with 45-degree arrow terminals: the left loop represents history and public memory; the right loop represents open models and the innovation network. A short, non-overlapping horizontal connector creates the relay relationship. The locked wordmark is `RELAY·JZ`; the Chinese/English lockup is “京张AI创新活动带 / RELAY·JZ”, Chinese above English, left aligned. Suggested colors are Jingzhang blue `#155EEF`, loop cyan `#00A6A6`, and warm orange `#F79009`; these are conceptual values and require trademark, font and asset-rights verification before use.
+
+| Rule | Auditable requirement |
+| --- | --- |
+| Master lockup | Master mark + “京张AI创新活动带” + `RELAY·JZ`; horizontal lockup, wordmark gap 0.5H where H is mark height. |
+| Chinese/English | Full Chinese name and `RELAY·JZ` stay paired; English-only use keeps `RELAY·JZ` and may not invent a new place abbreviation. |
+| Mono/reverse | Mono uses 100% black or white only; use reverse on dark backgrounds; no gradients or mixed colors in mono. |
+| Clear space | Keep at least 1H on all sides; titles, partner marks and borders may not enter this zone. |
+| Minimum size | Main print lockup ≥24 mm wide and digital lockup ≥120 px; below that use the symbol without the wordmark. |
+| Prohibited use | No rotation, stretching, outline, shadow, altered loop junction, low contrast over photography, or partner mark inside the clear space. |
+
+Annual inheritance: use `RELAY·JZ / OPEN SEASON YYYY`; the year belongs to the event layer and never changes the master mark. L01 Jingzhang Forum, L02 Code Dock and L03 Loop Gallery inherit the master mark, clear space and blue/cyan/orange palette. Only one node descriptor may be added to the right; L01 may lead with blue, L02 cyan and L03 orange, but none may redraw the loops or invent a separate symbol. The homepage and `assets/figures/relay-identity.en.png` are representative execution samples, and the rule is checked across bilingual pages and annual/node combinations.
+
 References distinguish public authority, mechanism comparison, package-generated material and pending facts. sources.json records URL, access date, licence summary, permitted use and non-portability for public sources and G01-G05; [source:DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509], [source:DATA-SRC-AGENT-TASKBOOK-20260518] and [source:PACKAGE-GEOMETRY] anchor the main scope. No external logo, image, code or copy is reused. Heritage, ownership, transport, tree, budget, capacity and partner claims without evidence remain provisional and require a named verifier, date and replacement/delta action.
 
 sources.json records sources, license, access date, non-portability and PACKAGE-GEOMETRY provenance. G01-G05 are official public homepages used for mechanism reading only; no image, logo, code or copy is reused. The package embeds the declared Noto Sans SC font in PDF outputs and uses no network font in HTML.
