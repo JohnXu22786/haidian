@@ -20,6 +20,7 @@
 | --- | --- | --- | --- | --- |
 | proposal.md / proposal.en.md | 文本 | AI 辅助原创（已披露） | 开放展示；引用须注明出处 | zh / en |
 | assets/figures/logo.png | 图形 | AI 生成原创概念 Logo | 内部工作代号，清障前不对外注册使用 | neutral |
+| assets/figures/logo.en.png | 图形 | logo.png 的英文页面配套副本 | 内部工作代号，清障前不对外注册使用 | en |
 | assets/figures/site-overview*.png | 图件 | 由本包 provisional 几何绘制 | 概念展示；含 PROVISIONAL 印章 | zh / en |
 | assets/figures/land-use-structure*.png | 图件 | 由 land_use.geojson 聚合绘制 | 唯一口径；官方数据发布后复算 | zh / en |
 | assets/figures/key-areas*.png | 图件 | 由 key_areas.geojson/公共空间层绘制 | 概念展示；provisional | zh / en |
@@ -35,5 +36,5 @@
 
 ## 四、生成与校验记录
 
-- 生成方式：opencode non-interactive run（session 见 agent.json）+ 确定性构建脚本；图表与 PDF 由程序化绘制（matplotlib 等），字体为 Noto Sans SC 子集内嵌。
+- 生成方式：由声明的 Codex SA Halley 直接修订 staging，并使用确定性项目工具完成图表、PDF 与页面校验；字体为离线内嵌或系统可用字体。
 - 校验：四道门禁（deterministic validation / spatial review / visual packaging / professional evidence）结果持久化于 self_check.json；本声明不替代现实世界版权或审批证明。

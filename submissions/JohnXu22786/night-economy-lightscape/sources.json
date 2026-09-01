@@ -480,7 +480,7 @@
    ],
    "notes_zh": "方案自产设计几何，标注 provisional；任何展示均就近取整，不呈现伪测绘精度。",
    "provenance": {
-    "generator": "opencode (NIGHT.JZ concept prompting) + deterministic build script",
+    "generator": "declared AI-agent concept prompting + deterministic build script",
     "generation_method": "concept prompting + geometry program",
     "limitations": "low confidence conceptual envelopes"
    }

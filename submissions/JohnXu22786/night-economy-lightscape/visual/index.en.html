@@ -1,158 +1,138 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>NIGHT·JZ Night Light Loop - Night Economy & Lightscape Operation Belt (Concept) - Visual Overview</title>
-<style>@font-face{font-family:'Noto Sans SC Subset';src:url(data:font/woff;base64,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) format('woff');font-weight:normal;font-style:normal;font-display:block;}
-html,body,body *{font-family:'Noto Sans SC Subset','PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif !important;}
-:root { --ink:#172033; --muted:#667085; --line:#d7dee8; --paper:#ffffff; --bg:#f4f7fa; --accent:#245b8f; }
-* { box-sizing: border-box; }
-body { margin:0; font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif; color:var(--ink); background:var(--bg); line-height:1.7; }
-main { max-width:1100px; margin:0 auto; padding:34px 22px 60px; background:var(--paper); min-height:100vh; box-shadow:0 0 0 1px rgba(23,32,51,.06); }
-h1 { font-size:30px; line-height:1.25; margin:0 0 8px; }
-h2 { font-size:22px; margin:36px 0 12px; border-top:1px solid var(--line); padding-top:20px; }
-h3 { font-size:18px; margin:22px 0 8px; color:var(--accent); }
-p, li { font-size:15.5px; }
-.hero { border-bottom:3px solid var(--accent); padding-bottom:18px; margin-bottom:26px; }
-.meta { color:var(--muted); font-size:14px; }
-img { max-width:100%; height:auto; border:1px solid var(--line); border-radius:8px; }
-table { border-collapse:collapse; width:100%; font-size:14.5px; margin:12px 0 18px; }
-th, td { border:1px solid var(--line); padding:7px 10px; text-align:left; vertical-align:top; }
-th { background:#eef2f7; }
-.stamp { background:#fdf3f3; border:1px solid #c96; border-radius:8px; color:#8b2d2d; padding:10px 14px; font-size:14px; margin:18px 0; }
-.metric { display:inline-block; background:#eef7f0; border:1px solid #7fb58a; border-radius:8px; padding:8px 14px; margin:6px 8px 0 0; font-size:15px; }
-.translation-link a { color:var(--accent); font-weight:700; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NIGHT·JZ | English evidence visualisation</title>
+  <style>
+    :root{--ink:#17243a;--navy:#1d3a5f;--muted:#5d6a7e;--line:#d7e0ea;--pale:#f4f7fa;--gold:#f2b134;--green:#4f9e68;--violet:#5a4e79;--warning:#fff7ed;--warning-line:#e28b28}
+    *{box-sizing:border-box} body{margin:0;background:#eef2f6;color:var(--ink);font-family:Arial,"Segoe UI",sans-serif;line-height:1.52}
+    main{max-width:1220px;margin:0 auto;padding:28px 24px 72px} header{background:white;border:1px solid var(--line);border-radius:16px;padding:30px 34px;box-shadow:0 8px 24px rgba(29,58,95,.08)}
+    .brandline{display:flex;gap:22px;align-items:center}.brandline img{width:84px;height:58px;object-fit:contain;border:1px solid var(--line);border-radius:8px;background:#fff}.eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+    h1{font-size:32px;line-height:1.15;margin:5px 0 8px;color:var(--navy)} h2{font-size:22px;line-height:1.25;margin:0 0 12px;color:var(--navy)} h3{font-size:17px;margin:18px 0 7px;color:var(--navy)} p{margin:8px 0}.lede{font-size:17px;max-width:1000px}.small{font-size:13px;color:var(--muted)}
+    .notice{margin-top:18px;background:var(--warning);border:1px solid var(--warning-line);border-radius:9px;padding:12px 15px;color:#744016}.section{background:white;border:1px solid var(--line);border-radius:14px;padding:24px;margin-top:22px;box-shadow:0 5px 16px rgba(29,58,95,.05)}
+    .section-id{float:right;color:var(--muted);font-size:12px;letter-spacing:.12em}.grid{display:grid;gap:14px}.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}.grid.four{grid-template-columns:repeat(4,minmax(0,1fr))}
+    .card{background:var(--pale);border:1px solid var(--line);border-radius:10px;padding:14px}.card strong{color:var(--navy)}.tag{display:inline-block;border:1px solid #afc1d4;border-radius:999px;padding:2px 8px;margin:2px 3px 2px 0;font-size:12px;color:var(--navy);background:#fff}.metric{border-top:4px solid var(--navy);padding-top:10px}.metric.green{border-color:var(--green)}.metric.violet{border-color:var(--violet)}.metric .value{display:block;font-size:24px;font-weight:700;color:var(--navy);margin:4px 0}.metric .key{font-size:13px;color:var(--muted)}
+    figure{margin:16px 0 8px;border:1px solid var(--line);border-radius:10px;padding:10px;background:#fff}figure img{display:block;max-width:100%;height:auto;margin:auto;border-radius:5px}figcaption{font-size:12px;color:var(--muted);padding:8px 4px 0}.scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:13px;min-width:680px}th,td{border:1px solid var(--line);padding:8px 9px;text-align:left;vertical-align:top}th{background:#eaf1f7;color:var(--navy)}ul{margin:7px 0 7px 20px;padding:0}.rule{border-left:4px solid var(--gold);padding-left:12px}.footer-note{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;margin-top:18px}
+    @media(max-width:850px){main{padding:12px}.grid.two,.grid.three,.grid.four{grid-template-columns:1fr}h1{font-size:25px}.section{padding:17px}.brandline{align-items:flex-start}}
+  </style>
 </head>
 <body>
 <main>
-<section class="hero">
-<h1>NIGHT·JZ Night Light Loop: Night Economy &amp; Lightscape Operation Belt (Concept)</h1>
-<p class="meta">Author JohnXu22786 · agent-oc-haidian · 2026-08-24 · v2.0 · internal working codename (no external brand use or registration before trademark clearance)</p>
-<p class="translation-link"><a href="index.html">阅读中文版本</a></p>
-<div class="stamp">PROVISIONAL: all geometry and areas on this page are participant provisional model data (temporary concept boundary, not an official redline; recompute when official data is released); displayed values are rounded; machine-verifiable values are kept in data-value attributes and metrics.json.</div>
-</section>
+  <header>
+    <div class="brandline"><img src="../assets/figures/logo.en.png" alt="NIGHT JZ concept mark"><div><div class="eyebrow">English evidence visualisation | night-economy-lightscape</div><h1>NIGHT·JZ Night Light Loop: Night Economy &amp; Lightscape Operation Belt</h1><div class="small">Concept package for the Centennial Jingzhang AI Innovation Belt | translation of <code>visual/index.html</code> | offline page</div></div></div>
+    <p class="lede">Day belongs to innovation; night belongs to life. One Light, One Show and One Market turn a Jingzhang heritage-park route into a slow, governable and repeatable night interface. AI proposes, summarises and alerts; people decide permits, volume, publication and withdrawal.</p>
+    <div class="notice"><strong>Reading boundary.</strong> All geometry, areas, placements, cooperation interfaces, operation rules and brand names on this page are concept proposals. The boundary is provisional, not an official redline; no government, institutional, procurement, licensing, investment or engineering commitment is implied.</div>
+  </header>
 
-<section id="overview">
-<h2>Overall Map</h2>
-<p>One Loop, Three Nodes: the Night Loop organises a continuous night slow route along the Jingzhang heritage park belt and transit stops (concept locations), connecting Zhongzhiyuan, the AI Origin Community and Dazhongsi; lighting is tiered gateway - path - node - dark zone. All geometry comes from this package's geometry/*.geojson (provisional, EPSG:4548 plot).</p>
-<img src="../assets/figures/site-overview.en.png" alt="Overall design overview">
-</section>
+  <section class="section" id="scope"><span class="section-id">01 / SCOPE</span><h2>Three-tier scope and regional interfaces</h2>
+    <p>The official text supplies three textual-caliber tiers: coordinated research approx. 43.6 km², overall design approx. 11.4 km², and key detailed-design areas approx. 368.4 ha. This package is a night-economy sub-scope inside the overall design tier; its polygons are temporary concept geometry.</p>
+    <div class="grid three"><div class="card"><strong>Coordinated research</strong><br>Positioning, benchmark cases, AI night-scenario library and operation mechanism.</div><div class="card"><strong>Overall design</strong><br>One Loop, Three Nodes, lighting tiers and regulatory-planning-depth expression.</div><div class="card"><strong>Key areas</strong><br>Night Lounge, Night Stage and Night Market as relocatable prototypes.</div></div>
+    <figure><img src="../assets/figures/regional-cooperation.en.png" alt="Three-tier scope and five concept regional cooperation interfaces"><figcaption>Regional interfaces are future-facing concepts, pending verification. They do not represent existing arrangements.</figcaption></figure>
+    <div class="grid two"><div class="card"><strong>Five concept interfaces</strong><br>Beiwei Community - night-return slow routes; Future Science City - event and showcase linkage; Huairou Science City - science communication; ETDZ - smart-hardware and test-equipment direction; Beijing-Tianjin-Hebei - weekend night-traveller linkage.</div><div class="card"><strong>Recomputation rule</strong><br>When official boundaries and data are released, recompute all three tiers with the same projected-area rule; refit placements without treating provisional geometry as ownership, redline or engineering position.</div></div>
+  </section>
 
-<section id="three-scope">
-<h2>Three-Tier Scope</h2>
-<p>Official announcement text calibers: coordinated research scope approx. 43.6 km2; overall design scope approx. 11.4 km2; key detailed-design areas approx. 368.4 ha. This package's footprint is a night-economy concept (sub-scope) inside the overall design scope, carried by provisional concept geometry.</p>
-<table>
-<tr><th>Tier</th><th>Announcement text caliber</th><th>Role in this package</th><th>Status</th></tr>
-<tr><td>Coordinated research scope</td><td>approx. 43.6 km2</td><td>Night-economy positioning, scenario library, mechanisms, case method library</td><td>Text caliber only; no official polygon</td></tr>
-<tr><td>Overall design scope</td><td>approx. 11.4 km2</td><td>One Loop Three Nodes structure and regulatory-depth expression (sub-scope carrier)</td><td>Provisional geometry (approx. 1,141 ha)</td></tr>
-<tr><td>Key detailed-design areas</td><td>approx. 368.4 ha</td><td>Night Lounge / Night Stage / Night Market detailed concept design</td><td>Provisional geometry (3 key_area polygons)</td></tr>
-</table>
-</section>
+  <section class="section" id="brand"><span class="section-id">02 / BRAND</span><h2>Brand and visual identity</h2>
+    <p><strong>NIGHT·JZ</strong> is an internal working codename for Night Light Loop. The mark combines a restrained glow arc, three node dots and two rail lines: a visual grammar for the One Loop Three Nodes structure and Jingzhang railway memory.</p>
+    <div class="grid two"><div class="card"><strong>System</strong><br>One Light - Night Lounge; One Show - Night Stage; One Market - Night Market. The English board uses NIGHT·JZ and English node names only.</div><div class="card"><strong>Rights boundary</strong><br>No official trademark search or clearance is complete. No registration, licensing or commercial promotion is proposed; rename the system as a whole if prior rights conflict.</div></div>
+    <figure><img src="../assets/figures/brand-vi.en.png" alt="English brand and visual identity board for NIGHT JZ"><figcaption>Concept identity board; internal working codename pending rights clearance.</figcaption></figure>
+  </section>
 
-<section id="key-areas">
-<h2>Key Areas</h2>
-<p>Three key-area concept designs: Night Lounge (Zhongzhiyuan side, lighting-tier hub and night guidance), Night Stage (AI Origin Community side, time-scheduled soundscape performances), Night Market (Dazhongsi side, low-impact reversible stalls). Polygons come from geometry/key_areas.geojson and geometry/public_space.geojson.</p>
-<img src="../assets/figures/key-areas.en.png" alt="Three-node detailed design">
-<img src="../assets/figures/landmarks-night-nodes.en.png" alt="Landmarks, honors and component library">
-<p>Functional night nodes are explicitly differentiated from AI pilgrimage landmarks: three distinct landmark concepts (Origin Ring, Echo Commons, Future Eye - concept installations, no permanent structures) plus an honorary display system (open-source co-creation, community co-building, market reputation - non-cash, anonymised aggregates, opt-out) plus a reversible public-space component library (8 component types with spatial and operational mappings; no fixed construction remains after withdrawal).</p>
-</section>
+  <section class="section" id="benchmarks"><span class="section-id">03 / RESEARCH</span><h2>Benchmark library and eight-element mechanism</h2>
+    <p>The research layer borrows mechanisms, never scales, images or institutional commitments. Six night-economy cases and six global AI ecosystem cases are registered case-by-case in <code>sources.json</code>; public-channel “first” or “leading” language remains a verification task.</p>
+    <div class="grid two"><div class="card"><strong>Night-economy mechanism cases</strong><br>Shanghai Bund and Yuyuan night tours; Chengdu Jinjiang night cruise; Singapore Night Safari; Amsterdam night mayor; Shanghai Yuyuan Lantern Festival; Seoul night market brand.</div><div class="card"><strong>Global AI ecosystem cases</strong><br>Silicon Valley / Stanford Research Park; Shenzhen Nanshan; Singapore one-north; Hangzhou city-cloud practice; Boston Kendall Square; Tel Aviv start-up ecosystem.</div></div>
+    <div class="scroll"><table><thead><tr><th>Element</th><th>Concept mechanism</th><th>Placement</th><th>Recompute trigger</th></tr></thead><tbody>
+      <tr><td>Land</td><td>Stock-first, reversible use; no large new night-economy building.</td><td>Three districts along the Jingzhang green belt.</td><td>Official land data.</td></tr>
+      <tr><td>Space</td><td>One Loop, Three Nodes; day/night shared public space.</td><td>Zhongzhiyuan / AI Origin Community / Dazhongsi.</td><td>Official geometry.</td></tr>
+      <tr><td>Industry</td><td>Three bounded test protocols plus open scenario rules.</td><td>Dazhongsi - Xiaoyue River wing.</td><td>Pilot measurement.</td></tr>
+      <tr><td>Capital</td><td>Qualitative cost tiers; no investment promise.</td><td>Whole belt, concept tiers.</td><td>System definition.</td></tr>
+      <tr><td>Talent</td><td>Six personas, developer partner plan and honor display.</td><td>AI Origin Community - Zhongguancun wing.</td><td>Community pilot.</td></tr>
+      <tr><td>Compute</td><td>Light-touch, reversible machine-room interface; no capacity conclusion.</td><td>Zhongzhiyuan interface direction.</td><td>Demand estimate.</td></tr>
+      <tr><td>Data</td><td>Anonymised aggregation, annual disclosure, no individual tracking.</td><td>Belt-wide governance interfaces.</td><td>Monitoring setup.</td></tr>
+      <tr><td>Scenario</td><td>Ten AI cards with human review and measurable pass/fail.</td><td>Three nodes and route.</td><td>Pilot calibration.</td></tr>
+    </tbody></table></div>
+    <figure><img src="../assets/figures/ai-ecosystem.en.png" alt="Six global AI ecosystem cases and eight-element mechanism chain"><figcaption>Mechanisms are research hypotheses mapped into a provisional concept structure.</figcaption></figure>
+  </section>
 
-<section id="land-use">
-<h2>Land-Use Zones</h2>
-<p>Single land-use caliber (national standard public subset; sum projected areas by the same land_use_code in geometry/land_use.geojson / geometry/site_boundary.geojson area, EPSG:4548; full recomputation after official release). Code 1401 park/green land = 27.30345% (displayed approx. 27.3%); all 27 features fall into seven codes totaling 100.0%, with no residual “other 4.6%” bucket. Note the distinction from green_ratio (approx. 11.0%) in metrics: “Park &amp; green 1401” here is the land-use-class caliber.</p>
-<img src="../assets/figures/land-use-structure.en.png" alt="Land-use structure">
-</section>
+  <section class="section" id="overall"><span class="section-id">04 / STRUCTURE</span><h2>Overall structure: One Loop, Three Nodes</h2>
+    <p>The Night Loop follows the Jingzhang heritage park belt and transit interfaces as a calm, slow route. Lighting is tiered: brighter station gateways, medium guidance paths, low-brightness node and green zones, and reserved dark-sky-friendly areas. The design depth is expressed as problem - spatial object - indicator - data gap - recomputation path; FAR and building height remain unknown.</p>
+    <figure><img src="../assets/figures/site-overview.en.png" alt="Overall NIGHT JZ spatial overview with provisional geometry"><figcaption>Provisional geometry is a design-review layer, not a statutory boundary.</figcaption></figure>
+    <p class="rule">Stock-first renewal: use existing plazas, public interfaces and retainable buildings; use removable lighting, signage, seating, stage and stall components; no large new building or land-use change is introduced for the night economy.</p>
+  </section>
 
-<section id="mobility">
-<h2>Transport &amp; Slow Mobility</h2>
-<p>Integrated night-return slow lighting and safe routes: lighting tiered gateway - path - node - dark zone, one pole serving path lighting, night signage and help-point marking; last-train connection is a slow-guidance concept mechanism (not a schedule commitment); municipal facilities are reversible point components.</p>
-</section>
+  <section class="section" id="nodes"><span class="section-id">05 / KEY AREAS</span><h2>Key-area design: daily service before spectacle</h2>
+    <div class="grid three"><div class="card"><h3>Night Lounge</h3><strong>Zhongzhiyuan side</strong><p>Station-level lighting and information hub. The gateway transitions from bright to low-brightness zones; paper guides coexist with tiered screens and a luminous route map.</p></div><div class="card"><h3>Night Stage</h3><strong>AI Origin Community side</strong><p>Open performance and event ground with demountable stage components, time-based soundscape control, resident notice and an opinion channel.</p></div><div class="card"><h3>Night Market</h3><strong>Dazhongsi side</strong><p>Low-impact night market with removable stall kits, shared tables, published stall rules and reversible utility and waste interfaces.</p></div></div>
+    <figure><img src="../assets/figures/key-areas.en.png" alt="English three-node index and detailed concept design"><figcaption>Each node combines a service role, a public-space carrier and a reversible operating kit.</figcaption></figure>
+  </section>
 
-<section id="blue-green">
-<h2>Blue-Green &amp; Public Space</h2>
-<p>"Green belt as axis, node parks as beads"; dark-sky friendly low-brightness tiers and spill-light control around green and water edges, night lighting avoiding green core sensitive zones; the Night Loop shares seating, shade and accessible facilities with the daytime public-space network.</p>
-<img src="../assets/figures/mobility-bluegreen.en.png" alt="Slow mobility and blue-green analysis">
-</section>
+  <section class="section" id="landmarks"><span class="section-id">06 / LANDMARKS</span><h2>AI pilgrimage landmarks, honors and reversible components</h2>
+    <p>Functional night nodes deliver daily service; pilgrimage landmarks carry culture narrative and ritual interfaces. The distinction avoids turning a landmark into an operating burden. All landmark content is human-reviewed, uses no individual identification and can be replaced or withdrawn.</p>
+    <div class="grid three"><div class="card"><strong>Origin Ring</strong><br>Night Lounge: circular light axis and compute-display window; a “where I plug into AI” origin ritual.</div><div class="card"><strong>Echo Commons</strong><br>Night Stage: open-source contribution light wall and open-mic steps; a “everyone can write AI” co-creation ritual.</div><div class="card"><strong>Future Eye - Scenario Mirror</strong><br>Night Market: data-mirror screen and stall light matrix; the scenario itself becomes the exhibit.</div></div>
+    <figure><img src="../assets/figures/landmarks-night-nodes.en.png" alt="English functional nodes, pilgrimage landmarks, honor system and component library"><figcaption>Three differentiated landmark concepts, three honor categories and eight removable component types.</figcaption></figure>
+    <div class="grid two"><div class="card"><strong>Honor display</strong><br>Open-Source Co-creation Medal; Community Co-building Medal; Market Reputation Medal. Anonymous aggregates only; no cash, permit privilege or priority stall. Privacy events, escalated complaints or objections trigger removal and exit.</div><div class="card"><strong>Component library</strong><br>Tiered lighting; light-curtain gateways; reversible stage kit; stall kits; info-screen units; mobile seating and shared tables; reversible utility and waste points; signage and help-point frames. Each item has spatial mapping, owner, withdrawal checklist and reuse scenario.</div></div>
+  </section>
 
-<section id="buildings">
-<h2>Buildings</h2>
-<p>Concept building layer (geometry/buildings.geojson): 12 retain-first concept envelopes (approx. 11.2 ha), reversible and low-footprint; no large new buildings for the night economy; FAR, building height and similar official-condition indicators remain unknown.</p>
-</section>
+  <section class="section" id="scenarios"><span class="section-id">07 / AI+ SCENARIOS</span><h2>Personas, scenario cards and bounded industry tests</h2>
+    <p>Six personas describe night-service differences, not population inference. Every persona retains a non-digital equivalent path and can refuse or remove AI assistance. All scenario cards process anonymised aggregated data only; people keep approval, publication and withdrawal decisions.</p>
+    <div class="grid three"><div class="card"><strong>Night commuter</strong><br>Safe last-train walking, continuous lighting and clear guidance.</div><div class="card"><strong>Young resident</strong><br>Night socialising, shows, markets, booking and credits.</div><div class="card"><strong>Visitor / tourist</strong><br>Orientation, route narration and safety help.</div><div class="card"><strong>Market stallholder</strong><br>Time-slot matching, permits and credit summary.</div><div class="card"><strong>Elderly nearby resident</strong><br>Quiet rights, paper channels and advance notice.</div><div class="card"><strong>Night operation staff</strong><br>Inspection, work orders and decommissioning decisions.</div></div>
+    <div class="scroll"><table><thead><tr><th>Scenario cards (10)</th><th>Boundary and output</th><th>Human review / placement</th></tr></thead><tbody>
+      <tr><td>Energy optimisation; crowd-density sensing; night-return safety guidance</td><td>Dimming, guidance and safety suggestions only; no direct device control, individual identification or trajectory retention.</td><td>Operator or on-site staff confirm; Lounge, route and three nodes.</td></tr>
+      <tr><td>Night guidance; disclosure copy</td><td>Draft route narration and annual disclosure material; paper and human-edited equivalents remain.</td><td>Editors review; whole Loop, screens and online publication.</td></tr>
+      <tr><td>Stall matching; market credit</td><td>Candidate matching and anonymised credit summaries; permits and profiling are human decisions.</td><td>Operation staff review; Night Market.</td></tr>
+      <tr><td>Light-pollution monitoring</td><td>Brightness and spectrum anomaly alerts; no automatic downgrade or ecological conclusion.</td><td>Human review before disclosure; green-sensitive zones.</td></tr>
+      <tr><td>Event filing collaboration; maintenance work order</td><td>Draft checklists and inspection suggestions; filing, maintenance and withdrawal remain human decisions.</td><td>Operation staff or supervisors review; Stage and operation rooms.</td></tr>
+    </tbody></table></div>
+    <h3>Three industry test protocols</h3><div class="scroll"><table><thead><tr><th>Protocol</th><th>Sandbox boundary</th><th>Pass / fail and exit</th></tr></thead><tbody>
+      <tr><td>Crowd-density guidance</td><td>Lounge-to-route only; no residential extension; no individual identification.</td><td>Pass only after an eight-week concept calibration; privacy complaints or ineffective guidance stop and withdraw.</td></tr>
+      <tr><td>Stall matching and time permits</td><td>Dazhongsi removable kits; reversible utilities; no fixed construction.</td><td>Pass requires no escalated complaints; noise or waste exceedance revokes permits and withdraws kits.</td></tr>
+      <tr><td>Light-pollution and dark-sky validation</td><td>Concept luminaires at green edges; heritage and ecological cores untouched.</td><td>Pass requires four weeks of monitoring compliance; ecological or resident complaints trigger downgrade and recomputation.</td></tr>
+    </tbody></table></div>
+  </section>
 
-<section id="renewal">
-<h2>Renewal Projects</h2>
-<p>Three concept lists (not investment commitments): lighting &amp; environment (light-environment tier demonstration, night-return path lighting, light-pollution monitoring pilot, dark-sky zones); performance &amp; market (Night Stage reversible components, Night Market stall kits, guidance and filing templates); operation &amp; governance (time permits, service credits, annual disclosure, resident opinion channel). Phasing: near-term 1-3y / mid-term 3-5y / long-term 5-10y, each phase with evaluation and stop conditions; pilot and long-term operation follow a concept RACI, pre-admission conditions, monitoring baseline (unmeasured items marked "to be established") and stop-and-withdrawal procedure.</p>
-</section>
+  <section class="section" id="land"><span class="section-id">08 / LAND USE</span><h2>Land-use, building and renewal boundary</h2>
+    <p>The land-use figure uses one aggregation caliber: the seven <code>land_use_code</code> categories in <code>geometry/land_use.geojson</code> exhaust the concept layer. The 1401 park/green share is approx. 27.3%; the approx. 11.0% greenline ratio is a different layer and is not added to the land-use total.</p>
+    <figure><img src="../assets/figures/land-use-structure.en.png" alt="English seven-code land-use structure with one-caliber 100 percent total"><figcaption>Rounded display prevents provisional geometry from implying survey precision.</figcaption></figure>
+    <div class="grid three"><div class="card"><strong>Building scale</strong><br>Existing retainable envelopes are design carriers only. FAR, heights, capacity and engineering performance are not asserted.</div><div class="card"><strong>Retain - renovate - remove</strong><br>Retain first; renovate lightly; remove only reversible night components after a stop or withdrawal decision.</div><div class="card"><strong>Renewal sequence</strong><br>Lighting and environmental safety -> performance and market operations -> governance and annual disclosure.</div></div>
+  </section>
 
-<section id="ai-scenarios">
-<h2>AI Scenarios</h2>
-<p>Ten AI scenario cards (all concept settings; anonymised aggregation only, human review for key decisions, no individual-identifying tracking, every output can be stopped by humans):</p>
-<table>
-<tr><th>Scenario card</th><th>Input</th><th>Output &amp; boundary</th><th>Human review</th></tr>
-<tr><td>Night energy optimisation AI</td><td>Anonymised lighting-tier and time operation data</td><td>Dimming and on/off suggestions; no direct control, no energy conclusions</td><td>Operator confirms before execution</td></tr>
-<tr><td>Crowd-density sensing AI</td><td>Anonymised aggregated area counts</td><td>Density hints and guidance; no individual identification, no trajectory tracking</td><td>On-site staff verify</td></tr>
-<tr><td>Night guidance AI</td><td>Reviewed corpus</td><td>Draft route narration; paper guides remain equivalent</td><td>Editors approve before publishing</td></tr>
-<tr><td>Stall-matching AI</td><td>Stallholder applications and time/space info</td><td>Placement candidates; permits issued by humans</td><td>Operation staff review</td></tr>
-<tr><td>Light-pollution monitoring AI</td><td>Brightness and spectrum data</td><td>Anomaly alerts and annual-disclosure material</td><td>Human review before disclosure</td></tr>
-<tr><td>Night-return safety guidance AI</td><td>Anonymised lighting coverage and help-point status</td><td>Safe-route and help-point hints; no individual tracking</td><td>On-site staff verify</td></tr>
-<tr><td>Event filing collaboration AI</td><td>Event plan forms and venue proposals</td><td>Draft filing material and checklists; permits issued by humans</td><td>Operation staff review</td></tr>
-<tr><td>Market credit AI</td><td>Stallholder credit records and feedback (anonymised)</td><td>Credit summaries; no personal profiling</td><td>Operation staff verify</td></tr>
-<tr><td>Disclosure copy AI</td><td>Annual monitoring summary data</td><td>Draft disclosure text; indicator interpretation reviewed by humans</td><td>Human review before publication</td></tr>
-<tr><td>Maintenance workorder AI</td><td>Equipment status and inspection records</td><td>Inspection suggestions and decommissioning material; decisions by humans</td><td>Maintenance supervisor confirms</td></tr>
-</table>
-<p>Three industry test protocols (hypotheses, sandbox boundaries and exit conditions in the proposal): crowd-density guidance test (Lounge-route), stall-matching &amp; time-permit pilot (Night Market), light-pollution &amp; dark-sky zone validation (green edges).</p>
-</section>
+  <section class="section" id="mobility"><span class="section-id">09 / MOBILITY</span><h2>Transport, slow mobility and blue-green public space</h2>
+    <p>The route gives priority to walking, cycling, last-train arrival and clear help points. Transit interfaces are concept locations. Lighting tiers, soundscape controls, signage, seating and green-edge dark-sky sensitivity share one operating calendar and can be withdrawn independently.</p>
+    <figure><img src="../assets/figures/mobility-bluegreen.en.png" alt="English slow mobility and blue-green public-space concept"><figcaption>Shared day/night public-space carriers; no engineering capacity or traffic approval is claimed.</figcaption></figure>
+    <div class="grid two"><div class="card"><strong>Public experience</strong><br>Paper guides, tiered information screens, low-glare wayfinding, quiet transitions, seating and help-point frames are equivalent channels, not decorative extras.</div><div class="card"><strong>Operational guardrail</strong><br>Sound direction, volume cap, pre/post-event quiet windows, light-pollution review, waste checklist and 48-hour component withdrawal are concept controls pending baseline measurement.</div></div>
+  </section>
 
-<section id="ai-ecosystem">
-<h2>AI Innovation Ecosystem</h2>
-<p>Six global AI innovation ecosystems (Silicon Valley, Shenzhen, Singapore one-north, Hangzhou city-cloud brain, Boston Kendall Square, Tel Aviv - public-channel mechanism overviews, registered case-by-case in sources.json, mechanisms only) converge into an eight-element mechanism: land - space - industry - capital - talent - compute - data - scenario, mapped to the three districts and two wings; the local AI ecosystem architecture is self-checked in five layers (data/compute/model/scenario/governance), all concept, any layer stoppable.</p>
-<img src="../assets/figures/ai-ecosystem.en.png" alt="AI ecosystem benchmarks and eight-element mechanism">
-</section>
+  <section class="section" id="operation"><span class="section-id">10 / OPERATION</span><h2>Phasing, developer community and conversion pathway</h2>
+    <div class="grid three"><div class="card"><strong>Phase 1 - prove the interface</strong><br>Confirm geometry and rights; measure light, noise, walking, waste and privacy baseline; test paper-equivalent guidance.</div><div class="card"><strong>Phase 2 - bounded pilots</strong><br>Run Lounge-route guidance, Stage filing and Market matching in shadow mode, with human approvals and public feedback.</div><div class="card"><strong>Phase 3 - disclose and refit</strong><br>Publish annual light-environment and honor summaries; recompute geometry; stop, downgrade or renew components through a review gate.</div></div>
+    <div class="grid two"><div class="card"><strong>Developer community mechanism</strong><br>Partner plan; regular community rhythm; open, versioned assets with contribution boundaries; operation support and maintainer rotation. No membership, procurement or employment promise.</div><div class="card"><strong>Four-step non-committal pathway</strong><br>Experience participant -> co-creator -> pilot participant -> ecosystem partner. Each step requires consent, measured evidence and a reversible exit; none grants rights or priority.</div></div>
+    <div class="card"><strong>Annual programme, concept only:</strong> Night Market Season; Summer Open Stage; Winter Light Festival. Each uses event filing, quiet windows, light tiers, feedback and post-event disclosure.</div>
+  </section>
 
-<section id="core-metrics">
-<h2>Core Metrics</h2>
-<p>The three formal core visual metrics are recomputable from this package's geometry (EPSG:4548); displayed values are rounded; data-value attributes keep machine-verifiable values (consistent with metrics.json within 1 ppm).</p>
-<div>
-<span class="metric"><strong>site_area_sqm</strong> approx. 1,141 ha (approx. 11.4 km2)<span data-metric="site_area_sqm" data-value="11412825.386"></span></span>
-<span class="metric"><strong>green_ratio</strong> approx. 11.0% (concept greenline caliber)<span data-metric="green_ratio" data-value="0.110044"></span></span>
-<span class="metric"><strong>public_space_ratio</strong> approx. 0.45% (concept caliber)<span data-metric="public_space_ratio" data-value="0.004543"></span></span>
-</div>
-<img src="../assets/figures/metrics-evidence.en.png" alt="Core metrics evidence chart" data-asset-revision="2026-09-01-metrics-p0">
-</section>
+  <section class="section" id="metrics"><span class="section-id">11 / METRICS</span><h2>Formal metrics and recomputation evidence</h2>
+    <div class="grid three"><div class="card metric" data-metric="site_area_sqm" data-value="11412825.386"><span class="key">site_area_sqm</span><span class="value">approx. 1,141 ha</span>Provisional site-boundary polygon area in EPSG:4548; full value retained in <code>metrics.json</code>.</div><div class="card metric green" data-metric="green_ratio" data-value="0.110044"><span class="key">green_ratio</span><span class="value">approx. 11.0%</span>Concept greenline layer / site area; separate from the 1401 land-use share.</div><div class="card metric violet" data-metric="public_space_ratio" data-value="0.004543"><span class="key">public_space_ratio</span><span class="value">approx. 0.45%</span>Concept public-space union / site area; no public-facility capacity conclusion.</div></div>
+    <figure><img src="../assets/figures/metrics-evidence.en.png" alt="English evidence board for three formal metrics with rounded display"><figcaption>Machine values are intentionally confined to structured data and <code>data-value</code> attributes; displayed figures are rounded.</figcaption></figure>
+    <div class="grid four"><div class="card"><strong>Nodes</strong><br>9 scenario nodes</div><div class="card"><strong>Tests</strong><br>3 industry protocols</div><div class="card"><strong>Personas</strong><br>6 service personas</div><div class="card"><strong>Cases</strong><br>6 global AI ecosystems</div></div>
+  </section>
 
-<section id="coverage">
-<h2>Task Coverage</h2>
-<p>All 23 announcement requirements (1.3/1.4/1.5) and agent.1 - agent.6 are mapped item by item in compliance_matrix.json; standard matrix (5 responses) and design-depth matrix (15 urban-design items) are in the corresponding JSON files.</p>
-<ul>
-<li>agent.1 One-belt concept: NIGHT·JZ naming system and visual identity (logo/type/color/grammar/sub-brands)</li>
-<li>agent.2 AI full-stack ecosystem: lighting-show-market loop plus six benchmark cases registered with sources</li>
-<li>agent.3 AI+ scenario paradigm: ten scenario cards plus three industry test protocols (sandbox/exit boundaries) with human review and anonymised aggregation</li>
-<li>agent.4 AI public space and landmark nodes: three AI landmark nodes and six AI scenario nodes plus reversible components and human-service fallback</li>
-<li>agent.5 Culture narrative: Jingzhang railway memory and light narrative with restrained light art</li>
-<li>agent.6 Event system and long-term operation: annual programme table, concept RACI, pre-admission conditions, qualitative cost tiers, monitoring baseline, stop-and-withdrawal procedure</li>
-</ul>
-</section>
+  <section class="section" id="coverage"><span class="section-id">12 / COVERAGE</span><h2>Task coverage and governance checks</h2>
+    <div class="grid two"><div class="card"><strong>Agent coverage</strong><ul><li>Agent.1: name, mark, three themes, five functions, three districts, two wings.</li><li>Agent.2: six global ecosystem cases and eight-element mechanism chain.</li><li>Agent.3: ten scenario cards, six personas and three industry protocols.</li><li>Agent.4: three differentiated landmarks, honors and eight reversible components.</li><li>Agent.5: railway and AI culture narrative plus reusable English copy.</li><li>Agent.6: events, developer community, open rules and conversion pathway.</li></ul></div><div class="card"><strong>Human and privacy boundary</strong><ul><li>Anonymised aggregates only; no individual-identifying tracking.</li><li>AI outputs are suggestions or drafts; humans approve, publish, permit and withdraw.</li><li>Paper, staffed and quiet-channel equivalents remain available.</li><li>Privacy events, complaints, ecological signals or failed tests trigger stop, downgrade, withdrawal and recomputation.</li></ul></div></div>
+    <div class="notice"><strong>Not asserted:</strong> official redlines, land ownership, FAR, height, visitor numbers, revenue, stall counts, lighting energy, investment, procurement, approvals, trademark clearance or existing cooperation agreements.</div>
+  </section>
 
-<section id="self-check">
-<h2>Self-Check Status</h2>
-<p>The four gates (deterministic validation / spatial review / visual packaging / professional evidence) pass and are persisted in self_check.json (ok=true, formal-review-ready). Regional cooperation interfaces (Beiwei Community, Future Science City, Huairou Science City, ETDZ, Beijing-Tianjin-Hebei) are all concept/pending verification, implying no existing government or institutional commitments.</p>
-</section>
+  <section class="section" id="sources"><span class="section-id">13 / SOURCES</span><h2>Sources, assumptions and file map</h2>
+    <p>Textual-caliber scope and task requirements are anchored to the organiser announcement and task book. Public benchmark mechanisms are registered in <code>sources.json</code> with publisher, URL, publication/access dates, license or reuse boundary, and verification status. Provisional geometry is sourced from the package GeoJSON files and is explicitly non-official.</p>
+    <div class="grid two"><div class="card"><strong>Primary package files</strong><br><code>proposal.en.md</code> for the full English narrative; <code>metrics.json</code> for machine values; <code>geometry/*.geojson</code> for provisional layers; <code>manifest.json</code> for file roles and translations.</div><div class="card"><strong>Offline guarantee</strong><br>All images resolve to local relative paths. This page uses a system font stack, no remote scripts, no remote images and no runtime data fetch.</div></div>
+    <p class="footer-note">Assumption register includes provisional-boundary, brand-prior-rights, ecosystem-mechanism, honor, component, community, threshold and monitoring assumptions. Official data release is the recomputation trigger for all geometry-derived values.</p>
+  </section>
 
-<section id="sources">
-<h2>Sources</h2>
-<p>Full source registry in sources.json: announcement and task book (DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509, DATA-SRC-AGENT-TASKBOOK-20260518), public standards (regulatory-planning measures, urban design measures, land-use classification guide, interim measures on generative AI), provisional boundaries (DATA-SRC-PROVISIONAL-BOUNDARIES-20260605), six benchmark cases registered case-by-case (CASE-SRC-*, public-channel calibers pending independent verification), package geometry (PACKAGE-GEOMETRY) and brand policy (BRAND-PRIOR-RIGHTS-POLICY).</p>
-</section>
+  <section class="section" id="assumptions"><span class="section-id">14 / ASSUMPTIONS</span><h2>Assumptions and decision gates</h2>
+    <div class="grid three"><div class="card"><strong>Geometry gate</strong><br>All boundaries and placements are temporary concept geometry. Replace with official geometry, recompute areas and refit the route before any formal planning use.</div><div class="card"><strong>Evidence gate</strong><br>Public benchmark claims are mechanism references only. Independent verification remains open for wording that says first, leading or equivalent.</div><div class="card"><strong>Rights gate</strong><br>Brand names and marks remain internal working codenames until search and clearance. Existing rights, ownership and cooperation are not inferred.</div></div>
+    <p class="rule">The concept can be stopped as a whole or by layer. A privacy event, resident objection, ecological signal, failed test, unsafe sound/light condition or unusable data baseline triggers pause, downgrade, withdrawal and a documented recomputation path.</p>
+  </section>
 
-<section id="assumptions">
-<h2>Assumptions</h2>
-<p>Fifteen assumptions registered in assumptions.json: provisional boundary (A-BOUNDARY-001); statutory controls unknown (A-CONTROLS-001); no unverified visitor data (A-DATA-001); privacy anonymisation boundary (A-PRIVACY-001); human review of AI content (A-CONTENT-001); no lighting parameters promised (A-LIGHT-001); brand as internal working codename (A-BRAND-001); monitoring baselines to be established (A-MONITOR-001); regional cooperation as concept interfaces (A-COOP-001); single land-use caliber (A-LANDUSE-001); ecosystem benchmarks as mechanism borrowing (A-ECOSYS-001); honors non-cash and non-privileged (A-HONOR-001); component library as concept catalogue (A-COMPONENT-001); community and conversion pathway non-committal (A-COMMUNITY-001); thresholds pilot-calibrated (A-THRESHOLD-001).</p>
-</section>
-
-<footer>
-<p class="meta">This page displays participant provisional model data; it is not an official redline, survey accuracy, approval or government conclusion. © 2026 JohnXu22786 - COMMUNITY-DISPLAY-ONLY (see report/copyright_statement.md and the asset ledger).</p>
-</footer>
+  <section class="section" id="review"><span class="section-id">15 / REVIEW</span><h2>Self-check status</h2>
+    <div class="grid three"><div class="card"><strong>Deterministic</strong><br>Manifest, required files, structured metrics and language pairs are intended to be machine-checkable.</div><div class="card"><strong>Spatial</strong><br>GeoJSON layers, three nodes, two wings and provisional boundary cautions remain linked to the narrative.</div><div class="card"><strong>Visual</strong><br>English figures, HTML and A0/A3 drawings use matching names, rounded displays and separated footer badges.</div></div>
+    <p class="small">This page reports package evidence and project-check status; it is not a CocoSgt review, score or acceptance decision.</p>
+  </section>
 </main>
 </body>
 </html>

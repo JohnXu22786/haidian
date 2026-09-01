@@ -52,7 +52,7 @@ Brand naming system: primary Chinese name "Night Light Loop", English name NIGHT
 
 Visual identity direction (concept): the logo uses a "glow arc plus three dots" motif expressing the One Loop Three Nodes, with parallel rail lines continuing the Jingzhang railway industrial memory; standard type NIGHT·JZ / Night Light Loop; primary colors night blue, arc gold and moon white, with dark-sky violet as accent; the sub-brand system is One Light (Night Lounge), One Show (Night Stage), One Market (Night Market), corresponding to the annual programme system (Night Market Season, Summer Open Stage, Winter Light Festival - all concept). The logo, VI board and usage boundary are shown below.
 
-![Logo (concept, internal working codename)](assets/figures/logo.png)
+![Logo (concept, internal working codename)](assets/figures/logo.en.png)
 
 ![Brand & Visual Identity Board (concept)](assets/figures/brand-vi.en.png)
 

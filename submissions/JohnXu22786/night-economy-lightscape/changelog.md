@@ -1,14 +1,22 @@
 # 方案迭代记录
 
+## v2.3 - 2026-09-01 （直接 staging 修订，保持 Draft）
+
+- 英文可视化页重建为完整证据页：与中文页对齐覆盖范围、品牌、12 个对标案例、八要素机制、三节点、三类地标、荣誉与组件、六类 persona、10 张场景卡、3 个产业测试协议、用地、慢行蓝绿、分期、开发者社区、转化路径、指标、来源与假设；页面加入 `data-metric` / `data-value`，保持离线相对路径且不含功能性中文。
+- 补齐 `assets/figures/logo.en.png`；重绘中英文用地结构与核心指标图，显示值统一约数（1401 ≈ 27.3%、场地约 1,141 ha、绿线约 11.0%、公共空间约 0.45%），机器精度只留在 `metrics.json` 与英文页 `data-value`。
+- 统一 20 张 PNG 图件页脚：来源说明与 provisional / 临时概念边界 badge 分成独立行，留出明确间距；英文品牌板去除功能性中文并修复文本包围盒越界。
+- 由修订后的双语图件重排 `a0-boards[.en].pdf` 与 `a3-booklet[.en].pdf`，四份均为 2 页，采用相同 2×2 图件网格，复核标题、图框、页脚 badge 与 A0/A3 页边界。
+- 本轮仅写入本 staging；未修改 canonical、未 push、未转 Ready；项目检查仅做结构/门禁/视觉复核，不替代 CocoSgt 评审或评分。
+
 ## v2.2 - 2026-08-31 （定向响应 CocoSgt review 5049241992，保持 Draft）
 
-- 用地口径统一：按 `geometry/land_use.geojson` 的同一 `land_use_code` 在 EPSG:4548 下聚合；27 个区块归入 7 类且合计 100.0%，移除误导性的“1401=22.7%＋其他4.6%”表述，新增 `land_use_1401_area_sqm` 与 `land_use_1401_ratio`（1401=3,116,095.041 sqm / 11,412,825.386 sqm = 27.30345%，展示约 27.3%）。同步 proposal 中英、metrics、assumptions、design-depth matrix、HTML 与双语用地结构图说明。
+- 用地口径统一：按 `geometry/land_use.geojson` 的同一 `land_use_code` 在 EPSG:4548 下聚合；27 个区块归入 7 类且合计 100.0%，移除误导性的“1401=22.7%＋其他4.6%”表述，新增 `land_use_1401_area_sqm` 与 `land_use_1401_ratio`（机器值保留在 metrics，图文展示约 27.3%）。同步 proposal 中英、metrics、assumptions、design-depth matrix、HTML 与双语用地结构图说明。
 - A3/A0 图纸进入重排：首页标题改为独立安全区，信息卡下移并避免标题与右上框相交；中英页均保留一亮/一演/一市、夜间公共利益、AI 人工复核与可停用治理、48 小时撤收和 7 日公示边界。
 
 ## v0.1.0 - 2026-08-24
 
 - Initial assembly (concept package) for night-economy-lightscape.
-- Proposal drafted via OpenCode CLI (opencode), session ses_fcd880a1cffetpxwlgj7M0OL6d; edited for structure.
+- Initial concept narrative assembled with declared AI-agent authorship; subsequently edited for structure.
 - Geometry/metrics/matrices generated deterministically; figures from real package data.
 - Valroot gates run on 2026-08-24 (results persisted in self_check.json).
 
@@ -29,7 +37,7 @@
 - 结构化一致性：persona_count 更正为 6（与六类人才画像一致）；global_case_count=6；land_use_zone_count=27；指标置信等级回落为 low/medium 并与 manifest data_confidence=mixed_provisional_and_conceptual 一致；用地“唯一口径”说明新增（7 类代码与占比唯一，green_ratio 11.0% 为绿线概念口径，二者分层解释）；proposal.md 内不再出现≥7 位或多小数位的伪精度数值，显示一律就近取整（约1141公顷/约11.0%/约0.45%）。
 - 来源与版权：sources.json 新增逐案来源、license 字段与品牌政策条目；report/copyright_statement.md 扩为「版权声明＋品牌在先权利与使用边界＋资产台账」；assumptions.json 新增 A-BRAND-001/A-MONITOR-001/A-COOP-001/A-LANDUSE-001。
 - 矩阵：compliance_matrix（23 条）、standard_matrix（5 条）、design_depth_matrix（15 条）逐条重写 evidence_summary，指向各自真实内容，消除重复样板句。
-- 门禁与评分：四个本地门禁 PASS（self_check.json 持久化 formal-review-ready）；validate_local_submission PASS；score_rubric 达 99.4/100（reviewer_gaps=[]、mandatory_rejections=[]）；check_font_coverage ALL_FONTS_OK。
+- 门禁与校验：四个本地门禁 PASS（self_check.json 持久化 formal-review-ready）；validate_local_submission PASS；字体覆盖校验通过。本历史记录不以本地评分替代 CocoSgt 评审。
 - 未做：未触碰 agent.json；未新增包/分支/PR；未虚构官方数据（组织方缺项保持 provisional 标注）。
 
 
@@ -45,6 +53,6 @@
 - 用地唯一口径修正：land_use 实际复算（EPSG:4548）7 类合计约 100%（1401=约27.3%、无"其他"行），proposal/图/HTML/PDF 统一；两口径（用地分类 vs 绿线 11.0%）说明保留。
 - 结构化一致性：metrics.json 新增 8 项计数（ai_ecosystem_case_count=6、ai_ecosystem_element_count=8、pilgrimage_landmark_count=3、honor_category_count=3、component_library_count=8、communication_copy_count=6、developer_mechanism_count=4、conversion_step_count=4，均以正文可见表格为据）；sources.json 新增 6 条 ECOSYS-SRC-*（21 条）；assumptions.json 新增 5 项（A-ECOSYS-001/A-HONOR-001/A-COMPONENT-001/A-COMMUNITY-001/A-THRESHOLD-001，15 项）；compliance_matrix agent.1-6 证据逐条指向新真实内容并补指标/来源/假设引用；standard/design_depth 矩阵同步扩展。
 - HTML：render_proposal_html.py 重生成 report/proposal[.en].html；visual/index[.en].html 就地补章节（AI 创新生态图、朝圣地标/荣誉/组件图、agent.6 扩展说明、来源/假设计数）；4 页最后统一 embed_fonts.py 内嵌 Noto Sans SC 子集，check_font_coverage ALL_FONTS_OK；visual 预览 16 张重渲染。
-- 门禁与评分：四道门禁 PASS（self_check.json 持久化 formal-review-ready）；validate_local_submission PASS（66 文件）；score_rubric 99.4/100（reviewer_gaps=[ ]、mandatory_rejections=[ ]）；figure_qc（真实 ink/剪裁测量＋生成期 text-bbox 重叠检测 0 违规，overlap_clear=True）写入 self_check.json。
+- 门禁与校验：四道门禁 PASS（self_check.json 持久化 formal-review-ready）；validate_local_submission PASS（66 文件）；figure_qc（真实 ink/剪裁测量＋生成期 text-bbox 重叠检测 0 违规，overlap_clear=True）写入 self_check.json。本历史记录不以本地评分替代 CocoSgt 评审。
 - 中英实质等值已人工核对：proposal.md ↔ proposal.en.md 逐节对译（新增八要素/地标/荣誉/组件/文案库/社区/开放规则/转化路径全部等值呈现，en 页 0 功能性中文）。
 - 未做：未触碰 agent.json；未新增包/分支/PR；未虚构官方数据；品牌在先权利检索未完成前按内部工作代号处理。
