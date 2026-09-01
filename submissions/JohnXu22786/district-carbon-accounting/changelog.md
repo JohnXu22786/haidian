@@ -6,3 +6,9 @@
 - Proposal drafted via DeepSeek Harness (dsh-x), session unknown; edited for structure.
 - Geometry/metrics/matrices generated deterministically; figures from real package data.
 - Valroot gates run on 2026-08-24 (results persisted in self_check.json).
+
+## v1.0-codex-repair - 2026-08-29
+
+- Reworked the package against CocoSgt review 5003665801 (52/100, request-changes): explicit three positionings, five functions, three areas/two wings, regional interface loop and agent.1-agent.6 evidence.
+- Expanded the inventory to 12 scenario cards, 3 industry test protocols, 5 inclusive personas and 6 globally sourced AI-ecosystem mechanism cases; counts are synchronized in metrics.json.
+- Added an offline CJK-font figure/report rebuild, paired English outputs, area/ratio caveats, rights and data-governance boundaries. All official claims, geometry, partnerships and performance remain provisional or to_verify.

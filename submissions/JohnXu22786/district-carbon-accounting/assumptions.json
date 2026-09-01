@@ -10,21 +10,21 @@
     },
     {
       "assumption_id": "A-CONTROLS-001",
-      "statement_zh": "低碳绿色创新环境涉及的绿地蓝线、文物保护与建设控制条件未知，本方案不给出任何具体数值结论，仅保留概念口径的示意。",
+      "statement_zh": "低碳绿色创新环境涉及的绿地蓝线、文物保护、轨道与建设控制条件未知，本方案不给出任何工程或法定数值结论，仅保留概念口径示意。",
       "statement_en": "Statutory protection and control conditions are unknown; this proposal keeps concept-level indications only.",
       "category": "statutory_control",
       "status": "accepted_limitation"
     },
     {
       "assumption_id": "A-DATA-001",
-      "statement_zh": "碳核算与能耗口径仅作概念性公共数据服务方向建议，不替代官方统计，不涉及任何真实个体信息与实测数据。",
+      "statement_zh": "碳核算、能耗和绿电匹配口径仅作概念性公共数据服务方向建议，不替代官方统计，不涉及任何真实个体信息与实测数据；基线、排放因子与更新周期均待确认。",
       "statement_en": "Carbon accounting is a concept-level public data service suggestion, not official statistics or measured data.",
       "category": "data_boundary",
       "status": "accepted_limitation"
     },
     {
       "assumption_id": "A-DESIGN-001",
-      "statement_zh": "绿碳坊、碳智亭与绿能环三节点均为原创概念建议，模块化可逆，不构成建设承诺。",
+      "statement_zh": "绿碳坊、碳智亭与绿能环三节点均为原创概念建议，模块化可逆，不构成建设承诺；三节点位置与规模须由官方资料和专业审查重新确定。",
       "statement_en": "All node facilities are original reversible conceptual proposals, not construction commitments.",
       "category": "design_proposal",
       "status": "concept"

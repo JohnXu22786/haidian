@@ -165,14 +165,11 @@
     },
     "global_case_count": {
       "status": "known",
-      "value": 4,
+      "value": 6,
       "unit": "count",
-      "source_files": [
-        "proposal.md",
-        "sources.json"
-      ],
-      "formula": "count(global ecosystem mechanism cases)",
-      "confidence": "high",
+      "source_files": ["sources.json"],
+      "formula": "count(source_id with case_group == global_ai_ecosystem)",
+      "confidence": "medium",
       "assumptions": []
     },
     "phase_count": {
@@ -196,6 +193,24 @@
       "formula": "count(annual event system)",
       "confidence": "high",
       "assumptions": []
+    },
+    "scenario_card_count": {
+      "status": "known",
+      "value": 12,
+      "unit": "count",
+      "source_files": ["proposal.md"],
+      "formula": "count(S01-S12 concept scenario cards)",
+      "confidence": "high",
+      "assumptions": ["Concept inventory, not deployed services."]
+    },
+    "ai_test_protocol_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": ["proposal.md"],
+      "formula": "count(ITP-01 through ITP-03)",
+      "confidence": "high",
+      "assumptions": ["Concept test protocols require authority review before use."]
     }
   }
 }
