@@ -304,6 +304,305 @@
         "generation_method": "concept prompting + geometry program",
         "limitations": "low confidence conceptual envelopes"
       }
+    },
+    {
+      "id": "SRC-DATA-20",
+      "source_id": "SRC-DATA-20",
+      "title": "关于构建数据基础制度更好发挥数据要素作用的意见（数据二十条）",
+      "publisher": "Public source registry",
+      "url": "https://www.gov.cn/zhengce/2022-12/19/content_5732695.htm",
+      "published_date": "2022-12-19",
+      "source_kind": "official_public",
+      "authority_level": "A1",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "evidence_location": "Public page; mechanism or legal direction only.",
+      "license_or_reuse": "Cite public source; do not reproduce logos, images or text beyond fair citation; check publisher terms before reuse.",
+      "accessed_date": "2026-09-01",
+      "license_summary": "Public source; citation and mechanism comparison only; no affiliation, endorsement, logo or protected-content reuse permission is inferred.",
+      "allowed_uses": [
+        "citation of publicly stated mechanism direction",
+        "concept comparison with attribution"
+      ],
+      "prohibited_uses": [
+        "local partnership or endorsement claim",
+        "copying logos, page images or protected text",
+        "legal, policy or implementation conclusion"
+      ]
+    },
+    {
+      "id": "SRC-DATA-SECURITY-LAW",
+      "source_id": "SRC-DATA-SECURITY-LAW",
+      "title": "中华人民共和国数据安全法",
+      "publisher": "Public source registry",
+      "url": "https://www.gov.cn/xinwen/2021-06/11/content_5616913.htm",
+      "published_date": "2021-06-10",
+      "source_kind": "official_public",
+      "authority_level": "A1",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "evidence_location": "Public page; mechanism or legal direction only.",
+      "license_or_reuse": "Cite public source; do not reproduce logos, images or text beyond fair citation; check publisher terms before reuse.",
+      "accessed_date": "2026-09-01",
+      "license_summary": "Public source; citation and mechanism comparison only; no affiliation, endorsement, logo or protected-content reuse permission is inferred.",
+      "allowed_uses": [
+        "citation of publicly stated mechanism direction",
+        "concept comparison with attribution"
+      ],
+      "prohibited_uses": [
+        "local partnership or endorsement claim",
+        "copying logos, page images or protected text",
+        "legal, policy or implementation conclusion"
+      ]
+    },
+    {
+      "id": "SRC-PIPL",
+      "source_id": "SRC-PIPL",
+      "title": "中华人民共和国个人信息保护法",
+      "publisher": "Public source registry",
+      "url": "https://www.gov.cn/xinwen/2021-08/20/content_5632486.htm",
+      "published_date": "2021-08-20",
+      "source_kind": "official_public",
+      "authority_level": "A1",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "evidence_location": "Public page; mechanism or legal direction only.",
+      "license_or_reuse": "Cite public source; do not reproduce logos, images or text beyond fair citation; check publisher terms before reuse.",
+      "accessed_date": "2026-09-01",
+      "license_summary": "Public source; citation and mechanism comparison only; no affiliation, endorsement, logo or protected-content reuse permission is inferred.",
+      "allowed_uses": [
+        "citation of publicly stated mechanism direction",
+        "concept comparison with attribution"
+      ],
+      "prohibited_uses": [
+        "local partnership or endorsement claim",
+        "copying logos, page images or protected text",
+        "legal, policy or implementation conclusion"
+      ]
+    },
+    {
+      "id": "SRC-BJ-BIGDATA",
+      "source_id": "SRC-BJ-BIGDATA",
+      "title": "北京国际大数据交易所公开介绍",
+      "publisher": "Public source registry",
+      "url": "https://www.cbex.com.cn/",
+      "published_date": "unknown",
+      "source_kind": "public_organisational_page",
+      "authority_level": "B1",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "evidence_location": "Public page; mechanism or legal direction only.",
+      "license_or_reuse": "Cite public source; do not reproduce logos, images or text beyond fair citation; check publisher terms before reuse.",
+      "accessed_date": "2026-09-01",
+      "license_summary": "Public source; citation and mechanism comparison only; no affiliation, endorsement, logo or protected-content reuse permission is inferred.",
+      "allowed_uses": [
+        "citation of publicly stated mechanism direction",
+        "concept comparison with attribution"
+      ],
+      "prohibited_uses": [
+        "local partnership or endorsement claim",
+        "copying logos, page images or protected text",
+        "legal, policy or implementation conclusion"
+      ]
+    },
+    {
+      "id": "SRC-SH-DATA-EXCHANGE",
+      "source_id": "SRC-SH-DATA-EXCHANGE",
+      "title": "上海数据交易所公开介绍",
+      "publisher": "Public source registry",
+      "url": "https://www.chinadep.com/",
+      "published_date": "unknown",
+      "source_kind": "public_organisational_page",
+      "authority_level": "B1",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "evidence_location": "Public page; mechanism or legal direction only.",
+      "license_or_reuse": "Cite public source; do not reproduce logos, images or text beyond fair citation; check publisher terms before reuse.",
+      "accessed_date": "2026-09-01",
+      "license_summary": "Public source; citation and mechanism comparison only; no affiliation, endorsement, logo or protected-content reuse permission is inferred.",
+      "allowed_uses": [
+        "citation of publicly stated mechanism direction",
+        "concept comparison with attribution"
+      ],
+      "prohibited_uses": [
+        "local partnership or endorsement claim",
+        "copying logos, page images or protected text",
+        "legal, policy or implementation conclusion"
+      ]
+    },
+    {
+      "id": "SRC-GY-BIGDATA",
+      "source_id": "SRC-GY-BIGDATA",
+      "title": "贵阳大数据交易所公开介绍",
+      "publisher": "Public source registry",
+      "url": "https://www.gbdex.com/",
+      "published_date": "unknown",
+      "source_kind": "public_organisational_page",
+      "authority_level": "B1",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "evidence_location": "Public page; mechanism or legal direction only.",
+      "license_or_reuse": "Cite public source; do not reproduce logos, images or text beyond fair citation; check publisher terms before reuse.",
+      "accessed_date": "2026-09-01",
+      "license_summary": "Public source; citation and mechanism comparison only; no affiliation, endorsement, logo or protected-content reuse permission is inferred.",
+      "allowed_uses": [
+        "citation of publicly stated mechanism direction",
+        "concept comparison with attribution"
+      ],
+      "prohibited_uses": [
+        "local partnership or endorsement claim",
+        "copying logos, page images or protected text",
+        "legal, policy or implementation conclusion"
+      ]
+    },
+    {
+      "id": "SRC-EU-DATA-ACT",
+      "source_id": "SRC-EU-DATA-ACT",
+      "title": "European Commission: Data Act",
+      "publisher": "Public source registry",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/data-act",
+      "published_date": "unknown",
+      "source_kind": "official_public",
+      "authority_level": "A1",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "evidence_location": "Public page; mechanism or legal direction only.",
+      "license_or_reuse": "Cite public source; do not reproduce logos, images or text beyond fair citation; check publisher terms before reuse.",
+      "accessed_date": "2026-09-01",
+      "license_summary": "Public source; citation and mechanism comparison only; no affiliation, endorsement, logo or protected-content reuse permission is inferred.",
+      "allowed_uses": [
+        "citation of publicly stated mechanism direction",
+        "concept comparison with attribution"
+      ],
+      "prohibited_uses": [
+        "local partnership or endorsement claim",
+        "copying logos, page images or protected text",
+        "legal, policy or implementation conclusion"
+      ]
+    },
+    {
+      "source_id": "SRC-FABLAB",
+      "title": "Fab Lab Network public overview",
+      "publisher": "Fab Foundation",
+      "source_kind": "public_institutional_web",
+      "url": "https://fabfoundation.org/",
+      "published_date": "unknown",
+      "file_type": "web",
+      "authority_level": "medium",
+      "timeliness_level": "current_public_page",
+      "public_access_status": "public",
+      "review_status": "reviewed_for_concept_comparison",
+      "usable_for_formal": false,
+      "topics": [
+        "open making",
+        "knowledge sharing"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅借鉴开放式协作与知识共享机制，不使用其标识或宣称关联。",
+      "accessed_date": "2026-09-01",
+      "license_summary": "Public source; citation and mechanism comparison only; no affiliation, endorsement, logo or protected-content reuse permission is inferred.",
+      "allowed_uses": [
+        "citation of publicly stated mechanism direction",
+        "concept comparison with attribution"
+      ],
+      "prohibited_uses": [
+        "local partnership or endorsement claim",
+        "copying logos, page images or protected text",
+        "legal, policy or implementation conclusion"
+      ]
+    },
+    {
+      "source_id": "SRC-STATIONF",
+      "title": "Station F public overview",
+      "publisher": "Station F",
+      "source_kind": "public_institutional_web",
+      "url": "https://stationf.co/",
+      "published_date": "unknown",
+      "file_type": "web",
+      "authority_level": "medium",
+      "timeliness_level": "current_public_page",
+      "public_access_status": "public",
+      "review_status": "reviewed_for_concept_comparison",
+      "usable_for_formal": false,
+      "topics": [
+        "startup community",
+        "integrated services"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅比较创业社区服务集成方向，不宣称与本项目有关联。",
+      "accessed_date": "2026-09-01",
+      "license_summary": "Public source; citation and mechanism comparison only; no affiliation, endorsement, logo or protected-content reuse permission is inferred.",
+      "allowed_uses": [
+        "citation of publicly stated mechanism direction",
+        "concept comparison with attribution"
+      ],
+      "prohibited_uses": [
+        "local partnership or endorsement claim",
+        "copying logos, page images or protected text",
+        "legal, policy or implementation conclusion"
+      ]
+    },
+    {
+      "source_id": "SRC-AIVERIFY",
+      "title": "AI Verify Foundation public overview",
+      "publisher": "AI Verify Foundation",
+      "source_kind": "public_institutional_web",
+      "url": "https://aiverifyfoundation.sg/",
+      "published_date": "unknown",
+      "file_type": "web",
+      "authority_level": "medium",
+      "timeliness_level": "current_public_page",
+      "public_access_status": "public",
+      "review_status": "reviewed_for_concept_comparison",
+      "usable_for_formal": false,
+      "topics": [
+        "AI testing",
+        "AI governance"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅借鉴测试与治理清单方向，不宣称认证或合作。",
+      "accessed_date": "2026-09-01",
+      "license_summary": "Public source; citation and mechanism comparison only; no affiliation, endorsement, logo or protected-content reuse permission is inferred.",
+      "allowed_uses": [
+        "citation of publicly stated mechanism direction",
+        "concept comparison with attribution"
+      ],
+      "prohibited_uses": [
+        "local partnership or endorsement claim",
+        "copying logos, page images or protected text",
+        "legal, policy or implementation conclusion"
+      ]
+    },
+    {
+      "source_id": "SRC-NIST-AIRMF",
+      "title": "Artificial Intelligence Risk Management Framework",
+      "publisher": "National Institute of Standards and Technology",
+      "source_kind": "official_public_web",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "published_date": "unknown",
+      "file_type": "web",
+      "authority_level": "high",
+      "timeliness_level": "current_public_page",
+      "public_access_status": "public",
+      "review_status": "reviewed_for_concept_comparison",
+      "usable_for_formal": false,
+      "topics": [
+        "risk management",
+        "AI governance"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅转译为场景卡风险字段，不作合规认证。",
+      "accessed_date": "2026-09-01",
+      "license_summary": "Public source; citation and mechanism comparison only; no affiliation, endorsement, logo or protected-content reuse permission is inferred.",
+      "allowed_uses": [
+        "citation of publicly stated mechanism direction",
+        "concept comparison with attribution"
+      ],
+      "prohibited_uses": [
+        "local partnership or endorsement claim",
+        "copying logos, page images or protected text",
+        "legal, policy or implementation conclusion"
+      ]
     }
   ]
 }

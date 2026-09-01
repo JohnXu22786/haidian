@@ -61,7 +61,10 @@
       ],
       "formula": "green_space_area_sqm / site_area_sqm",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "A-BOUNDARY-001"
+      ],
+      "display": "0.110044 strict geometry ratio; provisional"
     },
     "public_space_ratio": {
       "status": "known",
@@ -73,7 +76,10 @@
       ],
       "formula": "public_space_area_sqm / site_area_sqm",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "A-BOUNDARY-001"
+      ],
+      "display": "0.003483 strict geometry ratio; provisional"
     },
     "road_network_length_m": {
       "status": "known",
@@ -137,7 +143,7 @@
       "source_files": [
         "geometry/public_space.geojson"
       ],
-      "formula": "count(public_space scenario nodes + landmarks)",
+      "formula": "count(5 public scenario nodes + 3 landmarks)",
       "confidence": "high",
       "assumptions": []
     },
@@ -146,32 +152,35 @@
       "value": 3,
       "unit": "count",
       "source_files": [
-        "proposal.md"
+        "proposal.md",
+        "proposal.en.md"
       ],
-      "formula": "count(industry_validation scenario cards)",
+      "formula": "count(S04-S06)",
       "confidence": "high",
       "assumptions": []
     },
     "persona_count": {
       "status": "known",
-      "value": 5,
+      "value": 8,
       "unit": "count",
       "source_files": [
-        "proposal.md"
+        "proposal.md",
+        "proposal.en.md"
       ],
-      "formula": "count(representative user groups)",
+      "formula": "count(eight service personas)",
       "confidence": "high",
       "assumptions": []
     },
     "global_case_count": {
       "status": "known",
-      "value": 4,
+      "value": 8,
       "unit": "count",
       "source_files": [
         "proposal.md",
+        "proposal.en.md",
         "sources.json"
       ],
-      "formula": "count(global ecosystem mechanism cases)",
+      "formula": "count(eight traceable mechanism cases)",
       "confidence": "high",
       "assumptions": []
     },
@@ -191,9 +200,22 @@
       "value": 3,
       "unit": "count",
       "source_files": [
-        "proposal.md"
+        "proposal.md",
+        "proposal.en.md"
       ],
-      "formula": "count(annual event system)",
+      "formula": "count(three concept annual programs)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "scenario_card_count": {
+      "status": "known",
+      "value": 10,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "proposal.en.md"
+      ],
+      "formula": "count(S01-S10)",
       "confidence": "high",
       "assumptions": []
     }
